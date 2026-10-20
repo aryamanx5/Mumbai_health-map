@@ -1,0 +1,14 @@
+{
+  "total_distinct_sites":402,
+  "total_facility_records":456,
+  "population_2011":12442373,
+  "sites_per_100k":3.2309,
+  "records_by_category":{
+    "uphc":211,
+    "dispensary":186,
+    "public_hospital":31,
+    "maternity_hospital":28
+  },
+  "wards":24,
+  "clusters":4
+}

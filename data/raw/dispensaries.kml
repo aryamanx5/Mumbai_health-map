@@ -1,0 +1,7131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+ <Document>
+  <name>
+   mumbai-dispensaries
+  </name>
+  <open>
+   1
+  </open>
+  <Schema id="J_mumbai_dispensaries_SSIISSS" name="mumbai_dispensaries">
+   <SimpleField name="Current_Na" type="string">
+    <displayName>
+     Current_Na
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Current_co" type="string">
+    <displayName>
+     Current_co
+    </displayName>
+   </SimpleField>
+   <SimpleField name="OBJECTID" type="int">
+    <displayName>
+     OBJECTID
+    </displayName>
+   </SimpleField>
+   <SimpleField name="OBJECTID_1" type="int">
+    <displayName>
+     OBJECTID_1
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Owner_Dept" type="string">
+    <displayName>
+     Owner_Dept
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Twitter_Handle" type="string">
+    <displayName>
+     Twitter_Handle
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Ward" type="string">
+    <displayName>
+     Ward
+    </displayName>
+   </SimpleField>
+  </Schema>
+  <Style id="mumbai_dispensaries_style">
+   <BalloonStyle>
+    <text>
+     &lt;table border="0"&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_dispensaries/Current_Na/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_dispensaries/Current_Na]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_dispensaries/Current_co/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_dispensaries/Current_co]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_dispensaries/OBJECTID/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_dispensaries/OBJECTID]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_dispensaries/OBJECTID_1/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_dispensaries/OBJECTID_1]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_dispensaries/Owner_Dept/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_dispensaries/Owner_Dept]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_dispensaries/Twitter_Handle/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_dispensaries/Twitter_Handle]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_dispensaries/Ward/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_dispensaries/Ward]&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+$[description]
+    </text>
+   </BalloonStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Colaba Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Colaba Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      1st Floor MCGM Bldg Lala Nigam Rd Mum-5
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      1
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      1
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.92,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Saboo Sidique Rd. Dispensary (Paltan Road)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Saboo Sidique Rd. Dispensary (Paltan Road)
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Rota Printing Press 2nd floor Camac Bridge Masjid -1
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      2
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      2
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.95,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Maruti Lane Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Maruti Lane Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Near Handloom House Maruti Lane , Fort
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      3
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      3
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.94,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Head Office Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Head Office Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Municipal Head Office 2nd Floor ,CST
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      4
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      4
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8344,18.9405,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Head Office Ayurvedic
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Head Office Ayurvedic
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Municipal Head Office 2nd Floor Annex Bldg Mumbai -1
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      5
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      5
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8344,18.9405,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    S B S Road. Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      S B S Road. Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      303 Chowksi Mension 1st floor SBS Rd Fort, Mumbai -1
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      6
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      6
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.93,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    SVP Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      SVP Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      259'SVP rd Disp, Municipal Urdu school,SVP rd Mumbai-09
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      7
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      7
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      B
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Walphakdi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Walphakdi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      BMC block A ground floor Mavji Rathod rd,Noorbaugh Mumbai-9
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      8
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      8
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      B
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Jail Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Jail Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      44,jail rd disp,20 kolsa mohalla ground floor pydhunie Mumbai-3
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      9
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      9
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      B
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.95,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Jail Road Unanai Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Jail Road Unanai Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      C/O 259'SVP rd Disp, Municipal Urdu school,SVP rd Mumbai-09
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      10
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      10
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      B
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kolsa Mohalla Unani Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kolsa Mohalla Unani Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      C/O 44, jail rd disp,20 kolsa mohalla,1st floor pydhunie Mumbai-3
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      11
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      11
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      B
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.95,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Ghoghari Mohalla Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Ghoghari Mohalla Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      47 Ghoghari Mohalla Mumbai 400003
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      12
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      12
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Panjrapole Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Panjrapole Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Panjarapol BMC Dispensary 1st Panjarapol Lane near C.P. Fank Mumbai 400004.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      13
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      13
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Thakurdwar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Thakurdwar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Babasaheb Jaykar Marg Ground Floor Thakurdwar Dispensary
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      14
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      14
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.95,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Chandanwadi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Chandanwadi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Chandanwadi Mun.Corporation Desp C Ward S.P Marg Chandanwadi Chirabazar Mumbai
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      15
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      15
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8265,18.9463,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Duncan Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Duncan Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      2nd Duncan Road 2nd Cross Lane
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      16
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      16
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Nana Chowk Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Nana Chowk Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      JSS Municipal School,Ground Floor,Near Frare bridge,Grant road(W),Mumbai 400007
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      17
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      17
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Bane Compound Dispensary(Tulshiwadi)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Bane Compound Dispensary(Tulshiwadi)
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Bane Compound,Sane Guruji marg, Tardeo mumbai-34
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      18
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      18
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81829999999999,18.9717,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    R. S. Nimkar Disp
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      R. S. Nimkar Disp
+     </SimpleData>
+     <SimpleData name="Current_co">
+      R S Nimkar Marg,Near Pratiksha Tower,Grant Road (E),Mumbai-400008
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      19
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      19
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    R. R.R. Marg Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      R. R.R. Marg Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      303 RRR Marg mun.dispensary,rrr marg, charni road(E), Mumbai-04
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      20
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      20
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.95,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Tardeo Flat Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Tardeo Flat Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      B-1 Tower,Dr.Babasaheb Ambedkar nagar,Mahalaxmi,Mumbai-400034
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      21
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      21
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Banganga Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Banganga Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Banganga kawale math Municipal school,Walkeshwar,Mumbai 400006
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      22
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      22
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.85169999999999,18.9615,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    N.M. Joshi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      N.M. Joshi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      N.M. Joshi Marg,Opp Byculla railway station Mumbai- 11
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      23
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      23
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    R.J. Compound Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      R.J. Compound Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Keshavrao Khade Marg ,Satrasta,Byculla Mumbai-11
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      24
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      24
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Souter Street Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Souter Street Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Meghraj Sethi Marg,opp Zula maidan Byculla Mumbai- 08
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      25
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      25
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Huzaria Street Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Huzaria Street Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Huzeria Street ,Nagpada ,Mumbai- 10
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      26
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      26
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Tadwadi Tank Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Tadwadi Tank Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Residency Tower,1st Floor,old Nesbit Road,dockyard Road Mumbai-10
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      27
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      27
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8399,18.9687,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Tank Square Garden Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Tank Square Garden Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Behind Mazgoan post Office,Mascerhance Road, Mazgoan,Mumbai- 10
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      28
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      28
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    D P Wadi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      D P Wadi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Kapreshwar Krupa,Chs.Umesh Salunkhe Marg Mumbai-  33
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      29
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      29
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    E S Patanwala Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      E S Patanwala Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      E.S. Patanwala Marg,Maratha Compound,Byculla Mumbai- 27
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      30
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      30
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Motishah  Lane Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Motishah  Lane Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Near B.I.T. chwal, Love Lane,Mumbai- 10
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      31
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      31
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Gaurabai Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Gaurabai Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Ozone Building  Nagpada Mumbai .
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      32
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      32
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Siddharth Nagar  Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Siddharth Nagar  Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      siddharth Nagar Porta Cabin, Kamathipura Mumbai- 8
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      33
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      33
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Nawab Tank Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Nawab Tank Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Porta Cabin, Chimanaji Ranoji Street, Dockyard East Mumbai- 10
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      34
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      34
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8441,18.9654,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Hakim Ajmal Khan Unani (Souter Street) Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Hakim Ajmal Khan Unani (Souter Street) Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Meghraj Sethi Marg,opp Zula maidan Byculla Mumbai- 08
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      35
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      35
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    F/S Parel Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      F/S Parel Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Room no.12,F/South ward offiice Bldg.Parel,Mumbai-12
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      36
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      36
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Gautam Ngr. Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Gautam Ngr. Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Dadasaheb Phalkr Road,Dadar(E),Mumbai-14
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      37
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      37
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Naigaon Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Naigaon Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      S.S.Wagh Marg,Naigaon Mumbai-14
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      38
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      38
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kidwai Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kidwai Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Rafiahmad Kidwai Road,Near Hari Masjid,Kidwainagar Wadal.Mumbai-31
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      39
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      39
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Sewree Cross Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Sewree Cross Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Opp.Old Post Office,Sewree Cross Rd.Disp.,Sewree Mumbai-15
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      40
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      40
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    A.D. Marg Dispensary (private Property)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      A.D. Marg Dispensary (private Property)
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Mulraj Bhavan,A.D.Marg,Sewree-15
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      41
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      41
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Ambewadi  Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Ambewadi  Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      G.D.Ambekar Marg,Near Pooja Hotel ,Kalachowy,Mumbai-33
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      42
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      42
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Abhuday Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Abhuday Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Bldg.no.12,Near N.M.K.School,Cottn Green ,Kalachowky
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      43
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      43
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Triveni Sadan Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Triveni Sadan Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Bldg.no.2,MahadevPalav Marg,Currey Road,Mumbai-12
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      44
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      44
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    L.B.S. Market Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      L.B.S. Market Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      LBS Municipal Market Dispensary Bld, 1st Floor L.N Road Beside Matunga Central Railway Station(E),Mumbai-19
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      45
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      45
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Wadala Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Wadala Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Madona Building Ground Floor Nathalal Parekh Marg Wadala 400031
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      46
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      46
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Korba Mithagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Korba Mithagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Korba Mithagar Dipensary,Barkat Ali Naka, OPP Wadala Police Station,Near Municipal Marathi School
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      47
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      47
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Pratiksha Nagar Transit Camp Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Pratiksha Nagar Transit Camp Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Pratiksha Nagar Municipal Dispensary, Room No 3,4,5, &amp; 6, Ground Floor,Mhada Building no T-1, Behind Transit Camp Post Office, Sion -22
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      48
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      48
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    New Transit Camp Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      New Transit Camp Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      C S NO.404/6, PLOT NO.104, OPP.NEW SIES COLLEGE, ROAD NO.29, SION EAST , MUMBAI 22.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      49
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      49
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Antop Hill Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Antop Hill Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Oppo Antop Hill Bus Depot,Shaikh Mistri Dargah, Road Antop Hill Mumbai 400037
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      50
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      50
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Rawli Camp Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Rawli Camp Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Raoli Camp MH UPHC, Sardar Nagar-4, Sion Koliwada, Mumbai-37
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      51
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      51
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Worli Koliwada Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Worli Koliwada Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Ground floor near worli bus depot near  police chowki Mumbai-25
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      52
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      52
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.85169999999999,18.9615,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Jijamata Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Jijamata Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      dispensary in container opp four season hospital Dr E Moses Road worli Mumbai-18
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      53
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      53
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    S.B. Marg Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      S.B. Marg Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      opp one India bull center BMC building Ground  floor near shikshak bhavan Elephiston Mumbai -13
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      54
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      54
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Ferguson Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Ferguson Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      160-A Hasan building ground floor N M Joshi marg lower parel Mumbai-13
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      55
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      55
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Maharashtra High School Compound  Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Maharashtra High School Compound  Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Municipal dispensary ground floor N M Joshi marg  Mumbai -13
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      56
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      56
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Beggars Home Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Beggars Home Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Dr King’s George V memorial bld Dr E Moses road  near famous studio Mahalaxmi Mumbai -11
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      57
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      57
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Prabhadevi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Prabhadevi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Paricharika niwas building ground floor old prabhadevi road opp Giayaman house Mumbai -13
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      58
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      58
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Welfare center Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Welfare center Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Ground floor shivalya building  Ganapat rao kadam marg Mumbai -13
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      59
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      59
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8227,18.9978,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Sasmira Marg Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Sasmira Marg Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Ground floor  sasmira marg behinsd worli labour camp Mumbai -25
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      60
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      60
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    BDD Chawl Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      BDD Chawl Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Building  no 45 ground floor N M Joshi marg  opp jambori Maidan worli
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      61
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      61
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Currey Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Currey Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      S B Pawar marg near Municipal Gardan Low leval north Mumbai -13
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      62
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      62
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Zandu Ayurvedic Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Zandu Ayurvedic Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      opp one India bull center BMC building Ground  floor near shikshak bhavan Elephiston Mumbai -13
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      63
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      63
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Prabhadevi Avurvedic Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Prabhadevi Avurvedic Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Dnyaneshwar apartment Ground floor veer savarkar marg Mumbai -25
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      64
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      64
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Bai Gulbai Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Bai Gulbai Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      St. Anthony Building, Groung floor ,Bhavani shankar road ,dadar west-28
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      65
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      65
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Shree Cinema Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Shree Cinema Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Welfare Center Building, Dilip Gupte,Road mahim-16
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      66
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      66
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Welkarwadi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Welkarwadi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Welkarwadi L.J.2nd Road BMC Building BMC Ground Floor Building no.4
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      67
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      67
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Shahu Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Shahu Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Building E-14,Ground Floor shahunagar BMC Building Mahim -17
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      68
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      68
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Matunga Labour Camp Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Matunga Labour Camp Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Matunga labour camp,in front of tata power,Dharavi
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      69
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      69
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Pilla Bunglow Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Pilla Bunglow Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Pilla Bunglow Mumcipal Dispensary sant Rohidas Road Dharravi-17
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      70
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      70
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Dharavi Main Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Dharavi Main Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Dharavi Main road muncipal Dispensary
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      71
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      71
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Transit Camp Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Transit Camp Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Transit camp dispensary,60ft road, Dharavi
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      72
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      72
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kumbharwada Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kumbharwada Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Ground Floor Rajiv Gandhi SRA Building 90 feet road kumbharwada dharavi- 17
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      73
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      73
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Prabhat Colony Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Prabhat Colony Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      74
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      74
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kolekalyan Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kolekalyan Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Shantinagar industrial estate, Near Hayat Hotel , Santacruz East Mumbai – 55.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      75
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      75
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Swami Vivekanand Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Swami Vivekanand Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Datta Mandir Road,Vakola,Santacruz-East
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      76
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      76
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kalina Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kalina Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Near Kalina Market, kalina kurla road,kalina,Santacruz east
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      77
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      77
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Bharat Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Bharat Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Windsor House, MCGM Library , Santacruz East
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      78
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      78
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kherwadi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kherwadi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      kherwadi Dispensary,Kherwadi, bandra 51
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      79
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      79
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Jawahar Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Jawahar Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Jawahar Nagar Dispensary,Golibar Road, Khar east
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      80
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      80
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Gurunanak Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Gurunanak Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Bandra Station, Near Bandra Dharmshala Road, Bandra West, Mumbai
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      81
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      81
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Ambedkar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Ambedkar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Dr. Ambedkar Road, Khar West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      82
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      82
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8377,19.0701,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Shastri Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Shastri Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      shastri nagar disp. Near shiv sena shakha, shastri nagar , Santakruz west
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      83
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      83
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Khar Danda Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Khar Danda Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Khar Danda Chavari galli, Khar west
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      84
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      84
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Old Khar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Old Khar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Khar TB Clinic, S. V. Rd, Khar West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      85
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      85
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Sambhaji Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Sambhaji Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Sahar Road, Opp. Nagar Soc., Andheri (E)  400069
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      86
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      86
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Gundavli Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Gundavli Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Ground Floor,MCGM K/E Ward office,Gundavli,gaothan, Azad Road, Andheri (E) 400069
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      87
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      87
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.85899999999999,19.1185,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Paranjape Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Paranjape Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Nehru Road, BMC Bldg., 1st Floor, Nehru Road, Vile Parle, Mumbai-400057
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      88
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      88
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Koldongari Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Koldongari Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Sahar Road, Opp. Garware Chowk, Koldongri, Andheri (E), 400069
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      89
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      89
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Natwar Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Natwar Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Road No.05,Shiljeet Apt., Natwar Nagar, Jogeshwari (E) 400060
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      90
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      90
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Marol Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Marol Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Near fish Market, Opp. Saifee Park, Church Road, Marol, Andheri (E) 400059
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      91
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      91
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Caves Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Caves Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Squartters Colony, Maternity home, Sanjay Gandhi Nagar, Jogeshwari (E), 400060
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      92
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      92
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Sundar Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Sundar Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Mahakali Caves Road, Andheri (E), 400093
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      93
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      93
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Hari Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Hari Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Shankarwadi, Pump House, Jogeshwari (E), 400093
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      94
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      94
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Sambhaji Nagar Ayurvedic Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Sambhaji Nagar Ayurvedic Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Shahaji Raje Road, Vile Parle(E), 400057
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      95
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      95
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8492,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Mangala Municipal Nursing Home Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Mangala Municipal Nursing Home Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Baman Daya Pada, Miletary Road, Andheri (E),400059
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      96
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      96
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8886,19.123,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    N.J.Wadia Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      N.J.Wadia Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      GAZDHAAR HALL, S.V ROAD, NEAR ANDHERI WEST RAILWAY STATION, ANDHERI WEST , MUMBAI-400058
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      97
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      97
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Oshiwara Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Oshiwara Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Link Plaza,in front of lashkria tower aadarsh nagar behram baugh jogeshwari west
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      98
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      98
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Parle Market Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Parle Market Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Amasaheb vartak bmc market compound sarojini road parla west mumbai 400056
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      99
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      99
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Versova Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Versova Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      yari road, near muncipal school, Andheri west Mumbai 61.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      100
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      100
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Juhu Jalan Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Juhu Jalan Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      N S Rd Number 13, Chand Society, MHADA Colony, Juhu, Mumbai, Maharashtra 400049
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      101
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      101
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Banana Leaf Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Banana Leaf Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Juhu versova link road andheri west mumbai 400053
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      102
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      102
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Millat Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Millat Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Millat nagar Muncipal Dispensary ,lokhandwala back road, near yamuna nagar, Andheri (west),
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      103
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      103
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Topiwala  Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Topiwala  Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Topiwala Maternity home, opp lords College, station Rd, Goregaon West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      104
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      104
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Chincholi Squatter's Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Chincholi Squatter's Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Chincholi Fatak, Goregoan East
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      105
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      105
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Sunder Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Sunder Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      BMC Bldg, Pawan Baug,Nr,saraf College, Malad west
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      106
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      106
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89619999999999,19.1246,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Choksy Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Choksy Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Marve Rd., In front of Nutan High School, Malad (W)
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      107
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      107
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Nemani Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Nemani Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Nr. Nemani High School, Nr. New Era Cinema. Opp. Petrol Pump, Malad (W)
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      108
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      108
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Malvani Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Malvani Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Malvani gate no.6, OPP. Holy Angel School, Malvani, Malad W
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      109
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      109
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Rathodi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Rathodi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Bali Residency Bldg., 1st Flr., Rathodi Bus Stop, behind Petrol Pump, Malad W
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      110
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      110
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Goshala Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Goshala Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Nr. Diamond Mkt., Goshala Rd., Malad E
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      111
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      111
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kurar Village Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kurar Village Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Siddique Comp., Nr. Ramesh Hotel, Daptari Rd., Kurar Village, Malad E
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      112
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      112
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Pathanwadi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Pathanwadi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Pathanwadi. Mun. Disp., Triveni Ngr., Nr. Suvidha Hsp., Malad E
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      113
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      113
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Riddhi Garden Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Riddhi Garden Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Nr. Riddhi Garden Tower, Wageshwari Temple, General A.K.Vaidhya Marg, Dindoshi, Malad E
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      114
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      114
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Valnai Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Valnai Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Valnai Mun. School, Opp. Orlem Church, Malad W
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      115
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      115
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.2,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Manori Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Manori Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Manori Village, Marve Rd., Malad W
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      116
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      116
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.79000000000001,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    School Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      School Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      K.D. Heights bldg no.3, Rani Sati Rd., Nr. Laxminarayan Temple, Malad E
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      117
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      117
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Akurli Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Akurli Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Akurli Municipal Dispensary Opp Farid Estate next to oxford International School gausiya chawk thakur village kandivali east mumbai 400101
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      118
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      118
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.2,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Hanuman Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Hanuman Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Sambhaji Nagar Complex near by Hanuman Mandir  Kandivali East 400101
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      119
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      119
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Shailaja Vijay Girkar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Shailaja Vijay Girkar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      shaileja vijay girkar municipal dispensary, dahanukarwadi, m g road, kandivali west
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      120
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      120
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8366,19.2073,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Charkop Sector 1  Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Charkop Sector 1  Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Charkop Sec-1 Muncipal Dispensary Sector-1 Charkop Near BMC School  Kandivali west
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      121
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      121
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Babrekar Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Babrekar Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Ganesh Nagar Babrekar Nagar Kandivali West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      122
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      122
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.2,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    New Centenary Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      New Centenary Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Ashiyana Building Nare usha mat home s modi road kandivali west 400067
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      123
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      123
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    M.H.B. Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      M.H.B. Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Old MHB Colony-MCGM,Borivali west,Mumbai 400091
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      124
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      124
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Gorai MHADA Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Gorai MHADA Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Gorai Mhada Part-1,near suvidya school,opposite plot no 112,Gorai,Borivali west Mumbai 400092
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      125
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      125
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Charkop Sector 5 Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Charkop Sector 5 Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Near Apna Bazar sector -5,charkop.Borivali west 400067
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      126
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      126
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.22,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kajupada Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kajupada Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Chougule nagar ,mourya building ,1 st floor ,Borivali east ,Mumbai -400066
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      127
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      127
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    K.K. Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      K.K. Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      at juction of s.v. and s.v.p rd,borivali west. BMC buliding.Mumbai 400092
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      128
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      128
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86660000000001,19.224,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Ekser Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Ekser Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Eksar Talepakhadi,opp Eksar talav,Borivali west Mumbai 400092
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      129
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      129
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Gorai Village Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Gorai Village Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Near Gorai cross,Gorai village ,Borivali west,Mumbai 400091
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      130
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      130
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.79000000000001,19.24,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Y R Tawde Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Y R Tawde Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Hari Shankar Joshi Road, Dahisar East
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      131
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      131
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.25,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Shastri Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Shastri Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Holy Cross Road, Navagaon, Dahisar West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      132
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      132
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.25,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    L T Road Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      L T Road Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      L T Road, Dahisar West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      133
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      133
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.25,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Anand Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Anand Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Manan Building, Anand Nagar, Dahisar West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      134
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      134
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.26,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Pramila Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Pramila Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Mhada Colony, Kandarpada, Dahisar West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      135
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      135
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8737,19.2605,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Bail Bazar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Bail Bazar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      C/O ANANDIBAI JOSHI MATERNITY HOME, KALE MARG ANDHERI KURLA ROAD NEAR POLIC CHOWKI BAIL BAZAR KURLA (WEST)  MUMBAI 400072
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      136
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      136
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Bibi Fatima Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Bibi Fatima Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      BELGRAMI ROAD NEAR LBS KURLA WEST
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      137
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      137
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.1192,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Buddha Colony Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Buddha Colony Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Buddha Colony kurla West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      138
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      138
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8798,19.0704,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Chandivali Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Chandivali Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      chandivali Dispensary,Sangharsh nagar
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      139
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      139
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90260000000001,19.1084,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kajupada Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kajupada Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Kajupada municipal dispensary, kajupada pipeline, near Ganesh maidan, kurla west, Mumbai 400072
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      140
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      140
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Nehru Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Nehru Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      MOTHER DAIRY ROAD, MOTHER DAIRY NEHRU NAGAR KURLA (E)
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      141
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      141
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Chunabhatti Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Chunabhatti Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      V N Purav marg chunabhatti mumbai 22
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      142
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      142
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88460000000001,19.1315,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Tilak Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Tilak Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      ROYAL GARGEN CHS, CTS NO 47, TILAK NAGAR (W) 400089
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      143
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      143
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Asalpha Village Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Asalpha Village Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      subash nagar Asalpha village pipeline
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      144
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      144
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Himalaya Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Himalaya Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Himalaya soc disp,near sabri bldg,NSS road Ghatkopar (w)
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      145
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      145
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Safed Pool Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Safed Pool Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Safed Pool ,Kurla West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      146
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      146
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Mohili Village Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Mohili Village Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Mohili Village,Kurla West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      147
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      147
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Christian Village Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Christian Village Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      CHRISTIAN VILLAGE DISPENSARY FATHER PETER PERIERA ROAD CHRISTIAN VILLAGE KURLA WEST
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      148
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      148
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Qureshi Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Qureshi Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Qureshi nagar,Kurla West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      149
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      149
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87730000000001,19.0599,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Nahar Amrit Shakti Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Nahar Amrit Shakti Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Nahar Amrit Shakti Dispensary
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      150
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      150
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Anik Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Anik Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      SURAKSHA SOCIETY. BLDG. NO.4, 1ST FLOOR, MHADA COLONY, VASHI NAKA, CHEMBUR-74
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      151
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      151
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90430000000001,19.0357,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Ayodhya Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Ayodhya Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      NEAR FISH MARKET, JAY BHAVANI MARG, VASHI NAKA, CHEMBUR-74.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      152
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      152
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Gawanpada Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Gawanpada Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      B.D.PATIL MARG, GAVANPADA,   MUMBAI-74
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      153
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      153
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Deonar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Deonar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      ROOM NO. 123, DEONAR SHOPPING CENTRE, DEONAR MUNICIPAL COLONY, GOVANDI (W)
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      154
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      154
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Maharashtra Nagar Dispensary (Cheetah)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Maharashtra Nagar Dispensary (Cheetah)
+     </SimpleData>
+     <SimpleData name="Current_co">
+      BLDG. NO. 18, 1st FLOOR, ROOM NO.101,102,115 &amp; 116. MAHARASHTRA NAGAR MANKHURD, MUMBAI-88.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      155
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      155
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kamla Raman Nagar Dispensary (Baiganwadi)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kamla Raman Nagar Dispensary (Baiganwadi)
+     </SimpleData>
+     <SimpleData name="Current_co">
+      BEHIND BHADRA HOSPITAL, ROAD TO DUMPING GROUND, MUMBAI-43, GOVANDI East
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      156
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      156
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Ram Manohar Lohiya (R B K Dispensary)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Ram Manohar Lohiya (R B K Dispensary)
+     </SimpleData>
+     <SimpleData name="Current_co">
+      CITY SURVEY NO. 4A/8/1 &amp; 4A/8/2, UNIVERSAL MAJESTIC BLDG. P.L.LOKHANDE MARG, CHEMBUR-400071
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      157
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      157
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    L. U. Gadkari Dispensary (Vashi Naka)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      L. U. Gadkari Dispensary (Vashi Naka)
+     </SimpleData>
+     <SimpleData name="Current_co">
+      R/1 BLDG. AMAN SOCIETY, NEAR DATTA MANDIR, VISHNU NAGAR, L.U.GADAKARI MARG, CHEMBUR, MUMBAI-74.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      158
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      158
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    New Baigan Wadi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      New Baigan Wadi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      PLOT NO.32, ROAD NO.8, RAFIQ NAGAR, NEAR SANJAY NAGAR &amp; 90FT. ROAD, GOVANDI, MUMBAI-43
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      159
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      159
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.9235,19.0589,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    A. B. Sathe Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      A. B. Sathe Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      R4, MMRDA BLDG, SATHE NAGAR, MANKHURD, MUMBAI 43
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      160
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      160
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Trombay Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Trombay Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      NEAR POST OFFICE, MAIN ROAD, TROMBAY
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      161
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      161
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Chembur Naka Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Chembur Naka Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      CHEMBUR NAKA DISPENSARY, BLDG NO. 2, GROUND FLOOR, CHEMBUR 71
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      162
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      162
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Chembur Colony Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Chembur Colony Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      CHEMBUR COLONY DISPENSARY, CHEMBUR 71
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      163
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      163
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Labour Camp Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Labour Camp Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      LABOUR CAMP DISPENSARY, P.L.LOKHANDE MARG, CHEMBUR-89.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      164
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      164
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.908,19.0614,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Lal Dongar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Lal Dongar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      LAL DONGAR DISPENSARY, OPP ALTAVISTA TOWAR, NEAR SURANA SETHIYA HOSPITAL, V.N. PURAN MARG, CHEMBUR 71
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      165
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      165
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Mahul SRA Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Mahul SRA Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      MAHUL SRA DISPENSARY, GROUND FLOOR, BLDG NO. 42, MHADA SRA COMPLEX, MAHUL 74
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      166
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      166
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Mahul Village Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Mahul Village Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      MAHUL DISPENSARY, NEAR FISH MARKET, MAHUL ROAD, CHEMBUR 74
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      167
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      167
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Sarvodaya Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Sarvodaya Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Sarvodaya Muncipal Dispensary, Khot lane Near Bata showroom , Jyoti Chemburs Ghatkopar w Mumbai  400086
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      168
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      168
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Park Site Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Park Site Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      PARKSITE MUNCIPAL UPHC ROAD NO 1 BEHIND   OLD JANKALYAN BANK VIKHROLI W 400079
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      169
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      169
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Parshi Wadi Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Parshi Wadi Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      parshiwad muncipal i disp,jai maharashtra  ganesh maidan,parshiwadi,ghatkopar west 4000086,
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      170
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      170
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Pant Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Pant Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      NEAR BMC SCHOOL NO 3, PANTNGAR
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      171
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      171
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Ramabai Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Ramabai Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      KDGM RAMABAI COLONY UPHC ,ON EASTERN EXPRESS HIGHWAY,NEAR SHAHID SAMARK,GHATKOPAR(East)-75..MCGM property
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      172
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      172
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Sainath Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Sainath Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Matoshree Ramabai Thakare Mat.Home Sainath nagar Rd Ganesh Maidan Ghatkopar W
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      173
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      173
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kirol Village Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kirol Village Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      near Vidyavihar(w)station,opp.BESTdepot
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      174
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      174
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Nath Pai Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Nath Pai Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Venus Appartment, ground floor, opp. Dr hedagewar gardan, vidhyabhavan marg, near 90 feet road, nath pai nagar, garodiya, ghatkoper east mumbai 400072
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      175
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      175
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.9058,19.073,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    M.V.R. Shinde Marg Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      M.V.R. Shinde Marg Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      M.V.R.Shinde Marg, Ishwarnagar MGCB Office, Bhandup West
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      176
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      176
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Shivaji Talav Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Shivaji Talav Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Kokan nagar, Ganga Vidyalay Primises near shivajitalao Bhandup
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      177
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      177
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Tirandaz Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Tirandaz Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Tirandaz Village, IIT Road, Powai Market
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      178
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      178
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.905,19.1196,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Nahur Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Nahur Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      MHADA colony shop no 3,4,5,Subhash Nagar,Bhandup
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      179
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      179
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88460000000001,19.1315,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Kanjur Village Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Kanjur Village Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Kanjur Gao Near Police station Kanjur East
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      180
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      180
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Tagor Nagar Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Tagor Nagar Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Suncity building IIT Market Gandhi Nagar
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      181
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      181
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Tulshet Pada Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Tulshet Pada Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Tulshetpada mun disp lake rd, Bhandup
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      182
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      182
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.9306,19.1627,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Tembhi Pada Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Tembhi Pada Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Tembhipada Mun.disp, Nardas nagar, Near Pach mandir, Bhandup (West)
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      183
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      183
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    PJK Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      PJK Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      M.G.Road, Panch Rasta, opp Kirtimahal Hotel, Mulund (w). Mum 80.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      184
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      184
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    DDU Marg Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      DDU Marg Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Din Dayal Upadhyay Marg, Opp Croma Shop, Checknaka, Mulund (w). Mum 80
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      185
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      185
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_dispensaries_style
+   </styleUrl>
+   <name>
+    Mulund Colony Dispensary
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_dispensaries_SSIISSS">
+     <SimpleData name="Current_Na">
+      Mulund Colony Dispensary
+     </SimpleData>
+     <SimpleData name="Current_co">
+      Zulelal Marg, Opp Jay Bharat School, Mulund colony , Mulund (w). Mum80.
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      186
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      186
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>

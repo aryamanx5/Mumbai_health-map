@@ -1,0 +1,5 @@
+cluster_label,dispensary_per_100k,uphc_per_100k,public_hospital_per_100k,maternity_hospital_per_100k
+1,1.2494,1.4601,0.1407,0.1824
+2,1.3118,1.8861,0.266,0.2271
+3,3.4437,1.8227,0.0,0.2653
+4,3.2741,1.6995,1.6799,-0.0

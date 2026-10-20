@@ -1,0 +1,18 @@
+{
+  "city_rate_per_100k": 3.231,
+  "pearson_population_vs_sites": 0.829,
+  "spearman_population_vs_rate": -0.572,
+  "wards_positive_gap": 14,
+  "rate_min_max_ratio": 2.74,
+  "figures": {
+    "category_totals": "01_category_totals.png",
+    "counts": "02_sites_by_ward.png",
+    "per_100k": "03_sites_per_100k.png",
+    "pop_per_facility": "04_population_per_site.png",
+    "mix": "05_category_mix_by_ward.png",
+    "heatmap": "06_rate_heatmap.png",
+    "scatter": "07_population_vs_facilities.png",
+    "gap": "08_population_facility_share_gap.png",
+    "map": "09_facility_map.png"
+  }
+}

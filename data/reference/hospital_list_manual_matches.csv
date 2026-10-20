@@ -1,0 +1,10 @@
+csv_row,csv_name,decision,facility_id,confidence,rationale
+67,BYL Nair Hospital,match,HOSP-003,high,"Same ward (E); 'BYL Nair' is the abbreviation of B. Y. L. Nair Charitable Hospital. Automatic matching picked the Nair Dental College (HOSP-002), a separate institution."
+68,JJ Hospital,match,HOSP-001,high,"Same ward (E); KML name 'Grant Med.College & J.J. Hospital'. Token matching fails because 'J.J.' splits into single letters."
+2,"Gokuldas Tejpal Hospital, Fort",match,HOSP-009,high,"Same ward (A); KML name 'G.T.Hospital' is the initialism of Gokuldas Tejpal."
+80,King Edward Memorial (KEM) Hospital,match,HOSP-004,high,"Same ward (F/S); KML name 'Seth G.S.Medical college &KEM Hospital'."
+81,GTB Hospital,match,HOSP-030,medium,"Same ward (F/S); KML 'Group Of T.B.Hospital' - GTB is read as Group of TB Hospitals. Abbreviation-based judgement."
+275,Jyotiba Phule General Hospital,match,HOSP-023,medium,"Same ward (S); KML 'KMJ Phule Mun.Gen.Hospital'. Automatic matching picked a maternity home with a similar name; the CSV row is a general hospital."
+207,Shatabdi Hospital,match,HOSP-021,medium,"Same ward (M/E); KML 'Pt. MMM Centenery Hospital' - 'Shatabdi' means centenary. Translation-based judgement."
+208,Maa Hospital,match_ward_conflict,HOSP-020,medium,"Name match 'MAA Mun.Gen.Hospital' but CSV lists ward M/E while the KML lists M/W. Recorded as a ward conflict; KML ward kept."
+265,KCS Bansali Maternity Home,match,MAT-017,low,"Same ward (R/C); KML 'Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home' - spelling variant of Bhansali. Initials differ (KCS vs K.C.L.)."

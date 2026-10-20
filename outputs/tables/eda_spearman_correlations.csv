@@ -1,0 +1,8 @@
+,dispensary_per_100k,uphc_per_100k,public_hospital_per_100k,maternity_hospital_per_100k,facilities_per_100k,population_2011,population_density_per_km2
+dispensary_per_100k,1.0,0.186,-0.186,-0.206,0.728,-0.519,0.549
+uphc_per_100k,0.186,1.0,0.222,0.293,0.579,-0.309,-0.143
+public_hospital_per_100k,-0.186,0.222,1.0,-0.187,0.129,-0.193,-0.481
+maternity_hospital_per_100k,-0.206,0.293,-0.187,1.0,0.037,0.307,-0.227
+facilities_per_100k,0.728,0.579,0.129,0.037,1.0,-0.572,0.048
+population_2011,-0.519,-0.309,-0.193,0.307,-0.572,1.0,-0.156
+population_density_per_km2,0.549,-0.143,-0.481,-0.227,0.048,-0.156,1.0

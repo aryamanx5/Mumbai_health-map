@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+ <Document>
+  <name>
+   mumbai-hospitals
+  </name>
+  <Schema id="J_mumbai_hospitals_SSISSSS" name="mumbai_hospitals">
+   <SimpleField name="ADDRESS" type="string">
+    <displayName>
+     ADDRESS
+    </displayName>
+   </SimpleField>
+   <SimpleField name="NAME_OF_HO" type="string">
+    <displayName>
+     NAME_OF_HO
+    </displayName>
+   </SimpleField>
+   <SimpleField name="OBJECTID_1" type="int">
+    <displayName>
+     OBJECTID_1
+    </displayName>
+   </SimpleField>
+   <SimpleField name="OWNER_DEPT" type="string">
+    <displayName>
+     OWNER_DEPT
+    </displayName>
+   </SimpleField>
+   <SimpleField name="TYPE" type="string">
+    <displayName>
+     TYPE
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Twitter_Handle" type="string">
+    <displayName>
+     Twitter_Handle
+    </displayName>
+   </SimpleField>
+   <SimpleField name="WARD" type="string">
+    <displayName>
+     WARD
+    </displayName>
+   </SimpleField>
+  </Schema>
+  <Style id="mumbai_hospitals_style">
+   <BalloonStyle>
+    <text>
+     &lt;table border="0"&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_hospitals/ADDRESS/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_hospitals/ADDRESS]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_hospitals/NAME_OF_HO/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_hospitals/NAME_OF_HO]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_hospitals/OBJECTID_1/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_hospitals/OBJECTID_1]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_hospitals/OWNER_DEPT/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_hospitals/OWNER_DEPT]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_hospitals/TYPE/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_hospitals/TYPE]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_hospitals/Twitter_Handle/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_hospitals/Twitter_Handle]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_hospitals/WARD/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_hospitals/WARD]&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+$[description]
+    </text>
+   </BalloonStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Grant Med.College &amp; J.J. Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      J.J.Marg Nagpada,Near Sandhurst Road station Mumbai-400008
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Grant Med.College &amp; J.J. Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      1
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Major Hospitals
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    NAIR HOSPITAL DENTAL COLLEGE
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Dr. Anandrao L. Nair Road, Mumbai Central, Mumbai – 400 008
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      NAIR HOSPITAL DENTAL COLLEGE
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      2
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Major Hospitals
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    B. Y. L. NAIR CHARITABLE HOSPITAL AND T. N. MEDICAL COLLEGE
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Dr. Anandrao L. Nair Road, Mumbai Central, Mumbai – 400 008.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      B. Y. L. NAIR CHARITABLE HOSPITAL AND T. N. MEDICAL COLLEGE
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      3
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Major Hospitals
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Seth G.S.Medical college &amp;KEM Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Acharya Donde Road,Parel,Mumbai-400012.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Seth G.S.Medical college &amp;KEM Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      4
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Major Hospitals
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    LOKMANYA TILAK MUNICIPAL GENERAL HOSPITAL AND MEDICAL COLLEGE
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Laxmibai Kelkar Road,Sion,Mumbai-400022.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      LOKMANYA TILAK MUNICIPAL GENERAL HOSPITAL AND MEDICAL COLLEGE
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      5
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Major Hospitals
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Hinduhrudaysamrat Balasaheb Thackeray Med.College &amp; Dr.R.N Cooper Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      JVPD Sceme,Gulmohor Road,Juhu,Vile Paele()W,Mumbai-400056
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Hinduhrudaysamrat Balasaheb Thackeray Med.College &amp; Dr.R.N Cooper Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      6
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Major Hospitals
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    St George Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      St.Georges Road,C.S.T.,Mumbai-400001
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      St George Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      7
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.94,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Cama Albless Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Mahapalika Marg,Dhobi Talao,Mumai-400001
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Cama Albless Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      8
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.94,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    G.T.Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      L.T.Road,Dhobi Talao,Near Crowford Market,Mumbai-400001.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      G.T.Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      9
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8336,18.9411,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    V.N Desai Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Golibar Road,Santacrus (E),Mumbai-400055
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      V.N Desai Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      10
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    K.B  Bhabha Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      R. K. Patkar Marg, Bandra(W),Mumbai-400050.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      K.B  Bhabha Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      11
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      HW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Siddharth Municipal General Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Shrirang Shabde Road, Opp.Motilala Nagar Post Office,Goregaon (W),Mumbai-400053
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Siddharth Municipal General Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      12
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.16,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    MW Desai Mun.Gen.Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Govind Nagar ,HB..P. Road,Malad (East),Mumbai-400097
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      MW Desai Mun.Gen.Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      13
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    S.K.Patil Mun.Gen.Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Daftari Road,Malad (E),Mumbai-400097.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      S.K.Patil Mun.Gen.Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      14
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Hinduhridaysamrat Balasaheb Thackeray Trauma Care Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Jogeshwari(E),Mumbai-400060.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Hinduhridaysamrat Balasaheb Thackeray Trauma Care Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      15
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Bharat ratna Babasaheb Ambedkar Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      S.V.Road Opp.Police Station, Kandivli (W),Mumbai-400067.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Bharat ratna Babasaheb Ambedkar Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      16
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Harilal Bhagwati Mun.Gen.Hosp
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      S.V.Patel Road,Borivali,Mumbau-400068.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Harilal Bhagwati Mun.Gen.Hosp
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      17
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.24,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Kasturba Cross Road Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Kasturba Cross Road No.2,Borivali (W),Mumbai-400066.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Kasturba Cross Road Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      18
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.24,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Kurla Bhabha Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Belgrami Road, Kurla (West), Mumbai - 400 070.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Kurla Bhabha Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      19
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    MAA Mun.Gen.Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Postal Colony Road,Chembur,Mumbai-400071
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      MAA Mun.Gen.Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      20
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Pt. MMM Centenery Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Waman Tukaram Patil Marg,Govandi (E),Mumbai-400088.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Pt. MMM Centenery Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      21
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Rajawadi Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      7,M.G.Road,Near Somaiya College, Ghatkopar (East), Mumbai – 400 077.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Rajawadi Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      22
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    KMJ Phule Mun.Gen.Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Kannamwar Nagar-2,Vikhroli(E),Mumbai-400083.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      KMJ Phule Mun.Gen.Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      23
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Sant Muktabai Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Barvenagar,Bhatwadi,Ghatkopar (W),Mumbai-400084
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Sant Muktabai Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      24
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    SVD Savarkar Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Mahatma Phule Road,Opp.C.D.Deshmukh Road Mulund(East).Mumbai-400081
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      SVD Savarkar Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      25
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95999999999999,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    M.T.Agarwal Mun.Gen.Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Near T Ward office,Mulund(W),Mumbai-400080.
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      M.T.Agarwal Mun.Gen.Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      26
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Peripheral Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Seth A.J.B.Municipal ENT Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      NearSiddarth College,Maharshi Dadhichi Marg,Fort,Mumbai-400001
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Seth A.J.B.Municipal ENT Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      27
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Special Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.93,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Municipal Eye Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Maulana Shaukat Ali Marg,,Opp.Durga Devi Udyan,Mumbai-400008
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Municipal Eye Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      28
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Special Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Kasturba Hospital (For Infectiou Diseases)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Opp.Central Jail,Sane Guruji Marg (Arthur Road),Mumbai-400011
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Kasturba Hospital (For Infectiou Diseases)
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      29
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Special Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Group Of T.B.Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Jerbai Wadia Road,Sewri,Mumbai-400015
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Group Of T.B.Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      30
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Special Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_hospitals_style
+   </styleUrl>
+   <name>
+    Acworth Leprosy Hospital
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_hospitals_SSISSSS">
+     <SimpleData name="ADDRESS">
+      Major Parmeswaran Marg,Wadala,Mumbai-400031
+     </SimpleData>
+     <SimpleData name="NAME_OF_HO">
+      Acworth Leprosy Hospital
+     </SimpleData>
+     <SimpleData name="OBJECTID_1">
+      31
+     </SimpleData>
+     <SimpleData name="OWNER_DEPT">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="TYPE">
+      Special Hospital
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="WARD">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8586,19.0197,0
+    </coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>

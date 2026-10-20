@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+ <Document>
+  <name>
+   mumbai-maternity-homes
+  </name>
+  <Schema id="J_mumbai_maternity_homes_SSISSS" name="mumbai_maternity_homes">
+   <SimpleField name="Address" type="string">
+    <displayName>
+     Address
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Name_of_Mat_Home" type="string">
+    <displayName>
+     Name_of_Mat_Home
+    </displayName>
+   </SimpleField>
+   <SimpleField name="OBJECTID" type="int">
+    <displayName>
+     OBJECTID
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Owner_Dept" type="string">
+    <displayName>
+     Owner_Dept
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Twitter_Handle" type="string">
+    <displayName>
+     Twitter_Handle
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Ward" type="string">
+    <displayName>
+     Ward
+    </displayName>
+   </SimpleField>
+  </Schema>
+  <Style id="mumbai_maternity_homes_style">
+   <BalloonStyle>
+    <text>
+     &lt;table border="0"&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_maternity_homes/Address/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_maternity_homes/Address]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_maternity_homes/Name_of_Mat_Home/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_maternity_homes/Name_of_Mat_Home]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_maternity_homes/OBJECTID/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_maternity_homes/OBJECTID]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_maternity_homes/Owner_Dept/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_maternity_homes/Owner_Dept]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_maternity_homes/Twitter_Handle/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_maternity_homes/Twitter_Handle]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_maternity_homes/Ward/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_maternity_homes/Ward]&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+$[description]
+    </text>
+   </BalloonStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Suryakant Vagal Maternity Home, Zaobawadi
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Suryakant Wagal Mun. Mat. Home, Zaobawadi, Thakurdwar, Girgaon  Mumbai – 02
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Suryakant Vagal Maternity Home, Zaobawadi
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      1
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.95,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Naigaon Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Mun. Mat. Home, Naigaon, Mumbai – 14.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Naigaon Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      2
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Raoli Camp Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Mun. Mat. Home, Rowli Camp, Mumbai – 22
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Raoli Camp Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      3
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Haji Mohammad Haji Sabu Siddik  Maternity Home, Prabhadevi
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Mohammad Haji Sabu Siddik Mun. Mat. Home, Swatryantveer Savarkar Road, Prabhadevi, Mumbai – 25
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Haji Mohammad Haji Sabu Siddik  Maternity Home, Prabhadevi
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      4
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Mahim Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Mun. Mat. Home, Lt. Dilip Gupte Marg, Mahim, Mumbai – 400 0016.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Mahim Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      5
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8402,19.0328,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Bal Gangadhar Kher Maternity Home, Kherwadi
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      B. G. Kherwadi Mun. Mat. Home, Kherwadi, Bandra (East), Mumbai – 52.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Bal Gangadhar Kher Maternity Home, Kherwadi
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      6
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Dr. V.N. Shirodkar Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Dr. V. N. Shirodkar Mun. Mat. Home, B-Paranjape Scheme, Hanuman Road, Vile-Parle (E), Mumbai – 54.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Dr. V.N. Shirodkar Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      7
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Squatters Colony Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Squatters Colony Mun. Mat. Home, Gumpha Road, Jogeshwari (East) Mumbai – 60
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Squatters Colony Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      8
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Mata Ramabai Ambedkar Maternity Home, Marol (Marol Maternity Home)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Marol Mun. Mat. Home, Marol-Maroshi, Andheri (East), Mumbai – 57.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Mata Ramabai Ambedkar Maternity Home, Marol (Marol Maternity Home)
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      9
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Oshiwara Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Oshiwara Mun. Mat. Home, Near Ajit Glass Factory, Oshiwara, Jogeshwari (West) Mumbai – 400102.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Oshiwara Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      10
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Topiwala Maternity Home Goregaon
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Topiwala Mun. Mat. Home, Station Road, Goregaon (West), Mumbai – 62.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Topiwala Maternity Home Goregaon
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      11
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.16,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Choksy Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Choksy Mun. Mat. Home, Marvey Road, Malad (West), Mumbai – 64.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Choksy Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      12
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Maulana Abul Kalam Azhad Malvani Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Malavani Mun. Mat. Home, Gate No.6, Malavani, Malad (West) Mumbai – 95
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Maulana Abul Kalam Azhad Malvani Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      13
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Savitribai Phule Mata Bal Hospital, Riddhi Garden
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Ridhi Garden Maternity Home, General Arunkumar Vaidya  Marg, Dindoshi , Goregaon ( E)
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Savitribai Phule Mata Bal Hospital, Riddhi Garden
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      14
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Akurli  Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Akurli Road Mun. Mat. Home, Kandivali (East), Mumbai – 101
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Akurli  Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      15
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.2,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Charkop Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Charkop Mun. Mat. Home, Kandivali (West), Mumbai – 97
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Charkop Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      16
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.22,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home, Borivali
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Smt. Bhansali Kesarbai Chhabildas Lallubhai Mun. Mat. Home, Borivali (West), Mumbai – 92.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home, Borivali
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      17
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Mother and Child Hospital, Magthane
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Mata Bal Rugnalay, Magathane, Borivali East Mumbai – 66
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Mother and Child Hospital, Magthane
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      18
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.22,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Maasaheb Meenatai Thackeray Maternity Home, Chunabhatti
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Maa Saheb Minatai Thakare Mun. Mat. Home, V. N. Purav Marg, Sion – Trombay Road, Chunabhatti Mumbai – 22
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Maasaheb Meenatai Thackeray Maternity Home, Chunabhatti
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      19
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88460000000001,19.1315,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Dr. Anandibai Joshi Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Bail Bazar, Kurla Andheri Rd. Kurla (W) Mumbai – 70
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Dr. Anandibai Joshi Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      20
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Shahaji Nagar Maternity Home Cheeta Camp
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Shajaji Nagar Mun. Mat. Home, Near Trombay Police Station, Cheeta Camp Mumbai – 88
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Shahaji Nagar Maternity Home Cheeta Camp
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      21
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Deonar Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      R-4 building, Mhada Colony, Annabhau Sathe Nagar, Near Shivam, Mankhurd Mumbai – 73.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Deonar Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      22
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Matoshri Ramabai Ambedkar Maternity Home, Chembur Naka
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Dr. Ramabai Ambedkar Mun. Mat. Home, Chembur Naka, Mumbai 71.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Matoshri Ramabai Ambedkar Maternity Home, Chembur Naka
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      23
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Matoshri Ramabai Thackeray  Maternity Home Ghatkopar
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Matoshree Ramabai Thakrey Mun. Mat. Home, Ganesh Maidan, Poddar Mill Compound, Ghatkopar (West), Mumbai - 86
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Matoshri Ramabai Thackeray  Maternity Home Ghatkopar
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      24
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Dr.Babasaheb Ambedkar Maternity Home, Tagore Nagar
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Dr. Babasaheb Ambedkar Mun. Mat. Home, Ground No.7, Tagore Nagar, Vikhroli (East) Mumbai – 83
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Dr.Babasaheb Ambedkar Maternity Home, Tagore Nagar
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      25
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Savitribai Jyotiba Phule Maternity Home, Bhandup
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Bhandup Mun. Mat. Home, Motichand Premises, Savitribai Phule Marg, LBS Road, Bhandup (W), Mumbai – 78.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Savitribai Jyotiba Phule Maternity Home, Bhandup
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      26
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Lal Bahadur Shastri Marg Mat. Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      Lal Bahadur Shastri Marg Mat. Home, Near S.G. International School, Besides Kockreja Complex, L.B.S. Road, Bhandup (W), Mumbai-78
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Lal Bahadur Shastri Marg Mat. Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      27
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_maternity_homes_style
+   </styleUrl>
+   <name>
+    Smt.Shyamkunwarbai Jatashankar Dosa Chanchani Mulund Maternity Home
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_maternity_homes_SSISSS">
+     <SimpleData name="Address">
+      S. J. D. C. Mun. Mat. Home, Paanch Rasta, Mulund (W), Mumbai – 80.
+     </SimpleData>
+     <SimpleData name="Name_of_Mat_Home">
+      Smt.Shyamkunwarbai Jatashankar Dosa Chanchani Mulund Maternity Home
+     </SimpleData>
+     <SimpleData name="OBJECTID">
+      28
+     </SimpleData>
+     <SimpleData name="Owner_Dept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>

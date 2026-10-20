@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mumbai Ward Healthcare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css?v=8">
+</head>
+<body>
+<div class="accent-bar"></div>
+<header class="topbar">
+  <div class="brand">
+    <a class="home" href="../">← Mumbai ward health study</a>
+    <h1>Ward dashboard</h1>
+    <p class="sub">Listed public facilities (MCGM layers, 2025) against Census 2011 population, with exploratory K-Means</p>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-page="overview" aria-selected="true">Overview</button>
+    <button role="tab" data-page="wards" aria-selected="false">Ward analysis</button>
+    <button role="tab" data-page="clusters" aria-selected="false">ML clusters</button>
+  </nav>
+</header>
+
+<main>
+  <div id="loading" class="loading">Loading pipeline outputs…</div>
+  <div id="error" class="error" hidden></div>
+
+  <!-- ===== Page 1: Overview ===== -->
+  <section id="page-overview" class="page" hidden>
+    <div class="kpis" id="kpis"></div>
+    <div class="grid two">
+      <article class="card">
+        <h2>Facility records by category</h2>
+        <p class="hint">Co-located services count once per category, so records (456) exceed distinct sites (402).</p>
+        <div class="chart" style="height:220px"><canvas id="chart-category"></canvas></div>
+        <h2 class="mt">What the data shows</h2>
+        <ul class="obs" id="observations"></ul>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <h2>Facilities and sites per 100k by ward</h2>
+          <div class="toggles" id="map-toggles"></div>
+        </div>
+        <div id="map-overview" class="map"></div>
+        <p class="hint">Click a ward for details. Most coordinates are rounded to about 1 km, so points are approximate.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Page 2: Ward analysis ===== -->
+  <section id="page-wards" class="page" hidden>
+    <div class="filters">
+      <label>Category
+        <select id="f-category">
+          <option value="all">All facilities (distinct sites)</option>
+          <option value="dispensary">Dispensary</option>
+          <option value="uphc">UPHC</option>
+          <option value="public_hospital">Public hospital</option>
+          <option value="maternity_hospital">Maternity home</option>
+        </select>
+      </label>
+      <label>Cluster
+        <select id="f-cluster"><option value="all">All clusters</option></select>
+      </label>
+      <span class="hint" id="filter-note"></span>
+    </div>
+    <div class="grid two">
+      <article class="card">
+        <h2 id="t-rate">Sites per 100,000 residents</h2>
+        <p class="hint">Dashed line = city-wide rate. Click a bar to open the ward.</p>
+        <div class="chart" id="wrap-rate"><canvas id="chart-rate"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Population share minus facility share</h2>
+        <p class="hint"><span class="sw red"></span> population share above facility share · <span class="sw blue"></span> below. A distribution indicator, not a measure of access.</p>
+        <div class="chart" id="wrap-gap"><canvas id="chart-gap"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Population vs. distinct sites</h2>
+        <p class="hint">Dashed line = city-wide rate; points below it have fewer sites than that rate implies. Colour = ML cluster: <span id="scatter-key"></span></p>
+        <div class="chart" style="height:380px"><canvas id="chart-scatter"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Residents per distinct site</h2>
+        <p class="hint">Undefined where a ward has no site in the selection.</p>
+        <div class="chart" id="wrap-pps"><canvas id="chart-pps"></canvas></div>
+      </article>
+    </div>
+    <article class="card">
+      <h2>Ward table</h2>
+      <div class="table-wrap"><table id="ward-table"></table></div>
+    </article>
+  </section>
+
+  <!-- ===== Page 3: ML clusters ===== -->
+  <section id="page-clusters" class="page" hidden>
+    <div class="note">
+      <strong>Exploratory model.</strong> K-Means (K = 4) on 24 wards using four category rates per 100k
+      (log1p, standardized). Clusters describe how similar the listed-facility mix is across wards, not whether access is
+      adequate. Mean silhouette 0.316. Results change with the feature set; see the model card.
+    </div>
+    <div class="cluster-cards" id="cluster-cards"></div>
+    <div class="grid two">
+      <article class="card">
+        <h2>Ward-to-cluster map</h2>
+        <div id="map-clusters" class="map"></div>
+      </article>
+      <article class="card">
+        <h2>Cluster profiles</h2>
+        <p class="hint">Cluster mean in standard deviations from the 24-ward mean. Hover for original-scale rates.</p>
+        <div class="chart" style="height:340px"><canvas id="chart-profile"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Choosing K: inertia (elbow)</h2>
+        <div class="chart" style="height:240px"><canvas id="chart-inertia"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Choosing K: silhouette and subsample stability</h2>
+        <div class="chart" style="height:240px"><canvas id="chart-silhouette"></canvas></div>
+        <p class="hint">K = 2 scores highest but only separates A and E and is unstable when wards are resampled. K = 4 is a documented judgement call.</p>
+      </article>
+    </div>
+    <article class="card">
+      <h2>Ward assignments</h2>
+      <div class="table-wrap"><table id="cluster-table"></table></div>
+    </article>
+  </section>
+</main>
+
+<!-- ===== Ward detail drawer ===== -->
+<aside id="drawer" class="drawer" aria-hidden="true">
+  <button class="close" id="drawer-close" aria-label="Close">×</button>
+  <div id="drawer-body"></div>
+</aside>
+<div id="scrim" class="scrim" hidden></div>
+
+<footer>
+  Sources: OpenCity / MCGM facility KMLs (Nov 2025) · OpenCity Mumbai Wards Map · Census of India 2011 (ward-wise).
+  Data come from <code>run_pipeline.py</code> outputs; re-run it and refresh to update. <a href="../">About this project</a> ·
+  <a href="../outputs/reports/final_report.pdf">Full report (PDF)</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js?v=11"></script>
+</body>
+</html>

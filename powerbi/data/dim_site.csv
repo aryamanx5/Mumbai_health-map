@@ -1,0 +1,403 @@
+site_id,ward_id,site_name,categories,n_records,longitude,latitude,is_dispensary,is_uphc,is_public_hospital,is_maternity_hospital,category_labels
+SITE-0001,A,Colaba Dispensary,dispensary;uphc,2,72.83,18.92,True,True,False,False,Dispensary; UPHC
+SITE-0002,A,Saboo Sidique Rd. Dispensary (Paltan Road),dispensary,1,72.84,18.95,True,False,False,False,Dispensary
+SITE-0003,A,Maruti Lane Dispensary,dispensary;uphc,2,72.83,18.94,True,True,False,False,Dispensary; UPHC
+SITE-0004,A,Head Office Dispensary,dispensary,1,72.8344,18.9405,True,False,False,False,Dispensary
+SITE-0005,A,Head Office Ayurvedic,dispensary,1,72.8344,18.9405,True,False,False,False,Dispensary
+SITE-0006,A,S B S Road. Dispensary,dispensary,1,72.84,18.93,True,False,False,False,Dispensary
+SITE-0007,B,SVP Road Dispensary,dispensary,1,72.83,18.96,True,False,False,False,Dispensary
+SITE-0008,B,Walphakdi Dispensary,dispensary,1,72.84,18.96,True,False,False,False,Dispensary
+SITE-0009,B,Jail Road Dispensary,dispensary,1,72.83,18.95,True,False,False,False,Dispensary
+SITE-0010,B,Jail Road Unanai Dispensary,dispensary,1,72.83,18.96,True,False,False,False,Dispensary
+SITE-0011,B,Kolsa Mohalla Unani Dispensary,dispensary,1,72.83,18.95,True,False,False,False,Dispensary
+SITE-0012,C,Ghoghari Mohalla Dispensary,dispensary,1,72.83,18.96,True,False,False,False,Dispensary
+SITE-0013,C,Panjrapole Dispensary,dispensary;uphc,2,72.83,18.96,True,True,False,False,Dispensary; UPHC
+SITE-0014,C,Thakurdwar Dispensary,dispensary,1,72.82,18.95,True,False,False,False,Dispensary
+SITE-0015,C,Chandanwadi Dispensary,dispensary;uphc,2,72.8265,18.9463,True,True,False,False,Dispensary; UPHC
+SITE-0016,C,Duncan Road Dispensary,dispensary,1,72.83,18.96,True,False,False,False,Dispensary
+SITE-0017,D,Nana Chowk Dispensary,dispensary,1,72.81,18.96,True,False,False,False,Dispensary
+SITE-0018,D,Bane Compound Dispensary(Tulshiwadi),dispensary,1,72.8183,18.9717,True,False,False,False,Dispensary
+SITE-0019,D,R. S. Nimkar Disp,dispensary;uphc,2,72.82,18.97,True,True,False,False,Dispensary; UPHC
+SITE-0020,D,R. R.R. Marg Dispensary,dispensary,1,72.82,18.95,True,False,False,False,Dispensary
+SITE-0021,D,Tardeo Flat Dispensary,dispensary,1,72.82,18.98,True,False,False,False,Dispensary
+SITE-0022,D,Banganga Dispensary,dispensary,1,72.8517,18.9615,True,False,False,False,Dispensary
+SITE-0023,E,N.M. Joshi Dispensary,dispensary,1,72.83,18.98,True,False,False,False,Dispensary
+SITE-0024,E,R.J. Compound Dispensary,dispensary,1,72.83,18.98,True,False,False,False,Dispensary
+SITE-0025,E,Souter Street Dispensary,dispensary;uphc,2,72.83,18.97,True,True,False,False,Dispensary; UPHC
+SITE-0026,E,Huzaria Street Dispensary,dispensary,1,72.83,18.96,True,False,False,False,Dispensary
+SITE-0027,E,Tadwadi Tank Dispensary,dispensary,1,72.8399,18.9687,True,False,False,False,Dispensary
+SITE-0028,E,Tank Square Garden Dispensary,dispensary,1,72.84,18.97,True,False,False,False,Dispensary
+SITE-0029,E,D P Wadi Dispensary,dispensary,1,72.84,18.98,True,False,False,False,Dispensary
+SITE-0030,E,E S Patanwala Dispensary,dispensary,1,72.84,18.98,True,False,False,False,Dispensary
+SITE-0031,E,Motishah Lane Dispensary,dispensary,1,72.84,18.98,True,False,False,False,Dispensary
+SITE-0032,E,Gaurabai Dispensary,dispensary;uphc,2,72.83,18.97,True,True,False,False,Dispensary; UPHC
+SITE-0033,E,Siddharth Nagar Dispensary,dispensary,1,72.83,18.96,True,False,False,False,Dispensary
+SITE-0034,E,Nawab Tank Dispensary,dispensary,1,72.8441,18.9654,True,False,False,False,Dispensary
+SITE-0035,E,Hakim Ajmal Khan Unani (Souter Street) Dispensary,dispensary,1,72.83,18.97,True,False,False,False,Dispensary
+SITE-0036,F/S,F/S Parel Dispensary,dispensary,1,72.84,19.01,True,False,False,False,Dispensary
+SITE-0037,F/S,Gautam Ngr. Dispensary,dispensary,1,72.84,19.01,True,False,False,False,Dispensary
+SITE-0038,F/S,Naigaon Dispensary,dispensary;maternity_hospital,2,72.85,19.01,True,False,False,True,Dispensary; Maternity home
+SITE-0039,F/S,Kidwai Nagar Dispensary,dispensary;uphc,2,72.85,19.01,True,True,False,False,Dispensary; UPHC
+SITE-0040,F/S,Sewree Cross Road Dispensary,dispensary,1,72.85,19.0,True,False,False,False,Dispensary
+SITE-0041,F/S,A.D. Marg Dispensary (private Property),dispensary,1,72.85,19.0,True,False,False,False,Dispensary
+SITE-0042,F/S,Ambewadi Dispensary,dispensary,1,72.84,18.99,True,False,False,False,Dispensary
+SITE-0043,F/S,Abhuday Nagar Dispensary,dispensary,1,72.85,18.99,True,False,False,False,Dispensary
+SITE-0044,F/S,Triveni Sadan Dispensary,dispensary,1,72.83,18.99,True,False,False,False,Dispensary
+SITE-0045,F/N,L.B.S. Market Dispensary,dispensary,1,72.85,19.03,True,False,False,False,Dispensary
+SITE-0046,F/N,Wadala Dispensary,dispensary;uphc,2,72.86,19.02,True,True,False,False,Dispensary; UPHC
+SITE-0047,F/N,Korba Mithagar Dispensary,dispensary;uphc,2,72.86,19.02,True,True,False,False,Dispensary; UPHC
+SITE-0048,F/N,Pratiksha Nagar Transit Camp Dispensary,dispensary,1,72.87,19.04,True,False,False,False,Dispensary
+SITE-0049,F/N,New Transit Camp Dispensary,dispensary;uphc,2,72.86,19.03,True,True,False,False,Dispensary; UPHC
+SITE-0050,F/N,Antop Hill Dispensary,dispensary;uphc,2,72.87,19.03,True,True,False,False,Dispensary; UPHC
+SITE-0051,F/N,Rawli Camp Dispensary,dispensary,1,72.87,19.04,True,False,False,False,Dispensary
+SITE-0052,G/S,Worli Koliwada Dispensary,dispensary;uphc,2,72.8517,18.9615,True,True,False,False,Dispensary; UPHC
+SITE-0053,G/S,Jijamata Nagar Dispensary,dispensary;uphc,2,72.82,18.99,True,True,False,False,Dispensary; UPHC
+SITE-0054,G/S,S.B. Marg Dispensary,dispensary,1,72.83,19.0,True,False,False,False,Dispensary
+SITE-0055,G/S,Ferguson Road Dispensary,dispensary,1,72.83,19.0,True,False,False,False,Dispensary
+SITE-0056,G/S,Maharashtra High School Compound Dispensary,dispensary,1,72.83,19.0,True,False,False,False,Dispensary
+SITE-0057,G/S,Beggars Home Dispensary,dispensary,1,72.82,18.99,True,False,False,False,Dispensary
+SITE-0058,G/S,Prabhadevi Dispensary,dispensary,1,72.83,19.02,True,False,False,False,Dispensary
+SITE-0059,G/S,Welfare center Dispensary,dispensary,1,72.8227,18.9978,True,False,False,False,Dispensary
+SITE-0060,G/S,Sasmira Marg Dispensary,dispensary,1,72.82,19.01,True,False,False,False,Dispensary
+SITE-0061,G/S,BDD Chawl Dispensary,dispensary;uphc,2,72.82,19.0,True,True,False,False,Dispensary; UPHC
+SITE-0062,G/S,Currey Road Dispensary,dispensary,1,72.83,18.99,True,False,False,False,Dispensary
+SITE-0063,G/S,Zandu Ayurvedic Dispensary,dispensary,1,72.83,19.01,True,False,False,False,Dispensary
+SITE-0064,G/S,Prabhadevi Avurvedic Dispensary,dispensary,1,72.83,19.02,True,False,False,False,Dispensary
+SITE-0065,G/N,Bai Gulbai Dispensary,dispensary;uphc,2,72.84,19.02,True,True,False,False,Dispensary; UPHC
+SITE-0066,G/N,Shree Cinema Dispensary,dispensary,1,72.84,19.03,True,False,False,False,Dispensary
+SITE-0067,G/N,Welkarwadi Dispensary,dispensary;uphc,2,72.84,19.04,True,True,False,False,Dispensary; UPHC
+SITE-0068,G/N,Shahu Nagar Dispensary,dispensary,1,72.85,19.04,True,False,False,False,Dispensary
+SITE-0069,G/N,Matunga Labour Camp Dispensary,dispensary,1,72.85,19.03,True,False,False,False,Dispensary
+SITE-0070,G/N,Pilla Bunglow Dispensary,dispensary,1,72.86,19.05,True,False,False,False,Dispensary
+SITE-0071,G/N,Dharavi Main Road Dispensary,dispensary,1,72.85,19.04,True,False,False,False,Dispensary
+SITE-0072,G/N,Transit Camp Dispensary,dispensary,1,72.86,19.04,True,False,False,False,Dispensary
+SITE-0073,G/N,Kumbharwada Dispensary,dispensary;uphc,2,72.85,19.04,True,True,False,False,Dispensary; UPHC
+SITE-0074,H/E,Prabhat Colony Dispensary,dispensary,1,72.84,19.09,True,False,False,False,Dispensary
+SITE-0075,H/E,Kolekalyan Dispensary,dispensary,1,72.85,19.07,True,False,False,False,Dispensary
+SITE-0076,H/E,Swami Vivekanand Nagar Dispensary,dispensary;uphc,2,72.85,19.08,True,True,False,False,Dispensary; UPHC
+SITE-0077,H/E,Kalina Dispensary,dispensary;uphc,2,72.86,19.08,True,True,False,False,Dispensary; UPHC
+SITE-0078,H/E,Bharat Nagar Dispensary,dispensary,1,72.86,19.06,True,False,False,False,Dispensary
+SITE-0079,H/E,Kherwadi Dispensary,dispensary,1,72.85,19.06,True,False,False,False,Dispensary
+SITE-0080,H/E,Jawahar Nagar Dispensary,dispensary,1,72.84,19.06,True,False,False,False,Dispensary
+SITE-0081,H/W,Gurunanak Dispensary,dispensary,1,72.84,19.05,True,False,False,False,Dispensary
+SITE-0082,H/W,Ambedkar Dispensary,dispensary,1,72.8377,19.0701,True,False,False,False,Dispensary
+SITE-0083,H/W,Shastri Nagar Dispensary,dispensary;uphc,2,72.84,19.09,True,True,False,False,Dispensary; UPHC
+SITE-0084,H/W,Khar Danda Dispensary,dispensary,1,72.83,19.07,True,False,False,False,Dispensary
+SITE-0085,H/W,Old Khar Dispensary,dispensary,1,72.84,19.07,True,False,False,False,Dispensary
+SITE-0086,K/E,Sambhaji Nagar Dispensary,dispensary;uphc,2,72.85,19.11,True,True,False,False,Dispensary; UPHC
+SITE-0087,K/E,Gundavli Dispensary,dispensary,1,72.859,19.1185,True,False,False,False,Dispensary
+SITE-0088,K/E,Paranjape Dispensary,dispensary,1,72.85,19.1,True,False,False,False,Dispensary
+SITE-0089,K/E,Koldongari Dispensary,dispensary,1,72.85,19.11,True,False,False,False,Dispensary
+SITE-0090,K/E,Natwar Nagar Dispensary,dispensary;uphc,2,72.85,19.13,True,True,False,False,Dispensary; UPHC
+SITE-0091,K/E,Marol Dispensary,dispensary,1,72.88,19.11,True,False,False,False,Dispensary
+SITE-0092,K/E,Caves Road Dispensary,dispensary,1,72.86,19.14,True,False,False,False,Dispensary
+SITE-0093,K/E,Sundar Nagar Dispensary,dispensary,1,72.87,19.13,True,False,False,False,Dispensary
+SITE-0094,K/E,Hari Nagar Dispensary,dispensary,1,72.86,19.13,True,False,False,False,Dispensary
+SITE-0095,K/E,Sambhaji Nagar Ayurvedic Dispensary,dispensary,1,72.8492,19.11,True,False,False,False,Dispensary
+SITE-0096,K/E,Mangala Municipal Nursing Home Dispensary,dispensary,1,72.8886,19.123,True,False,False,False,Dispensary
+SITE-0097,K/W,N.J.Wadia Dispensary,dispensary,1,72.85,19.12,True,False,False,False,Dispensary
+SITE-0098,K/W,Oshiwara Dispensary,dispensary;maternity_hospital,2,72.85,19.15,True,False,False,True,Dispensary; Maternity home
+SITE-0099,K/W,Parle Market Dispensary,dispensary,1,72.84,19.1,True,False,False,False,Dispensary
+SITE-0100,K/W,Versova Dispensary,dispensary;uphc,2,72.81,19.14,True,True,False,False,Dispensary; UPHC
+SITE-0101,K/W,Juhu Jalan Dispensary,dispensary,1,72.83,19.11,True,False,False,False,Dispensary
+SITE-0102,K/W,Banana Leaf Dispensary,dispensary,1,72.82,19.13,True,False,False,False,Dispensary
+SITE-0103,K/W,Millat Nagar Dispensary,dispensary,1,72.83,19.15,True,False,False,False,Dispensary
+SITE-0104,P/S,Topiwala Dispensary,dispensary,1,72.84,19.17,True,False,False,False,Dispensary
+SITE-0105,P/S,Chincholi Squatter's Dispensary,dispensary,1,72.85,19.18,True,False,False,False,Dispensary
+SITE-0106,P/S,Sunder Nagar Dispensary,dispensary,1,72.8962,19.1246,True,False,False,False,Dispensary
+SITE-0107,P/N,Choksy Dispensary,dispensary;maternity_hospital,2,72.84,19.19,True,False,False,True,Dispensary; Maternity home
+SITE-0108,P/N,Nemani Dispensary,dispensary;uphc,2,72.85,19.18,True,True,False,False,Dispensary; UPHC
+SITE-0109,P/N,Malvani Dispensary,dispensary,1,72.82,19.19,True,False,False,False,Dispensary
+SITE-0110,P/N,Rathodi Dispensary,dispensary,1,72.82,19.19,True,False,False,False,Dispensary
+SITE-0111,P/N,Goshala Dispensary,dispensary,1,72.85,19.19,True,False,False,False,Dispensary
+SITE-0112,P/N,Kurar Village Dispensary,dispensary;uphc,2,72.86,19.19,True,True,False,False,Dispensary; UPHC
+SITE-0113,P/N,Pathanwadi Dispensary,dispensary;uphc,2,72.86,19.18,True,True,False,False,Dispensary; UPHC
+SITE-0114,P/N,Riddhi Garden Dispensary,dispensary,1,72.87,19.18,True,False,False,False,Dispensary
+SITE-0115,P/N,Valnai Dispensary,dispensary,1,72.84,19.2,True,False,False,False,Dispensary
+SITE-0116,P/N,Manori Dispensary,dispensary,1,72.79,19.21,True,False,False,False,Dispensary
+SITE-0117,P/N,School Road Dispensary,dispensary,1,72.86,19.18,True,False,False,False,Dispensary
+SITE-0118,R/S,Akurli Dispensary,dispensary;maternity_hospital,2,72.85,19.2,True,False,False,True,Dispensary; Maternity home
+SITE-0119,R/S,Hanuman Nagar Dispensary,dispensary,1,72.87,19.21,True,False,False,False,Dispensary
+SITE-0120,R/S,Shailaja Vijay Girkar Dispensary,dispensary,1,72.8366,19.2073,True,False,False,False,Dispensary
+SITE-0121,R/S,Charkop Sector 1 Dispensary,dispensary,1,72.83,19.21,True,False,False,False,Dispensary
+SITE-0122,R/S,Babrekar Nagar Dispensary,dispensary;uphc,2,72.83,19.2,True,True,False,False,Dispensary; UPHC
+SITE-0123,R/S,New Centenary Dispensary,dispensary;uphc,2,72.91,19.05,True,True,False,False,Dispensary; UPHC
+SITE-0124,R/C,M.H.B. Dispensary,dispensary,1,72.84,19.23,True,False,False,False,Dispensary
+SITE-0125,R/C,Gorai MHADA Dispensary,dispensary;uphc,2,72.83,19.23,True,True,False,False,Dispensary; UPHC
+SITE-0126,R/C,Charkop Sector 5 Dispensary,dispensary,1,72.83,19.22,True,False,False,False,Dispensary
+SITE-0127,R/C,Kajupada Dispensary,dispensary;uphc,2,72.87,19.23,True,True,False,False,Dispensary; UPHC
+SITE-0128,R/C,K.K. Dispensary,dispensary,1,72.8666,19.224,True,False,False,False,Dispensary
+SITE-0129,R/C,Ekser Dispensary,dispensary,1,72.85,19.23,True,False,False,False,Dispensary
+SITE-0130,R/C,Gorai Village Dispensary,dispensary,1,72.79,19.24,True,False,False,False,Dispensary
+SITE-0131,R/N,Y R Tawde Dispensary,dispensary,1,72.86,19.25,True,False,False,False,Dispensary
+SITE-0132,R/N,Shastri Nagar Dispensary,dispensary,1,72.85,19.25,True,False,False,False,Dispensary
+SITE-0133,R/N,L T Road Dispensary,dispensary,1,72.86,19.25,True,False,False,False,Dispensary
+SITE-0134,R/N,Anand Nagar Dispensary,dispensary;uphc,2,72.86,19.26,True,True,False,False,Dispensary; UPHC
+SITE-0135,R/N,Pramila Nagar Dispensary,dispensary;uphc,2,72.8737,19.2605,True,True,False,False,Dispensary; UPHC
+SITE-0136,L,Bail Bazar Dispensary,dispensary,1,72.88,19.08,True,False,False,False,Dispensary
+SITE-0137,L,Bibi Fatima Dispensary,dispensary;uphc,2,72.92,19.1192,True,True,False,False,Dispensary; UPHC
+SITE-0138,L,Buddha Colony Dispensary,dispensary;uphc,2,72.87989999999999,19.0752,True,True,False,False,Dispensary; UPHC
+SITE-0139,L,Chandivali Dispensary,dispensary,1,72.9026,19.1084,True,False,False,False,Dispensary
+SITE-0140,L,Kajupada Dispensary,dispensary;uphc,2,72.89,19.09,True,True,False,False,Dispensary; UPHC
+SITE-0141,L,Nehru Nagar Dispensary,dispensary;uphc,2,72.89,19.06,True,True,False,False,Dispensary; UPHC
+SITE-0142,L,Chunabhatti Dispensary,dispensary,1,72.8846,19.1315,True,False,False,False,Dispensary
+SITE-0143,L,Tilak Nagar Dispensary,dispensary,1,72.89,19.07,True,False,False,False,Dispensary
+SITE-0144,L,Asalpha Village Dispensary,dispensary,1,72.9,19.1,True,False,False,False,Dispensary
+SITE-0145,L,Himalaya Dispensary,dispensary;uphc,2,72.89,19.09,True,True,False,False,Dispensary; UPHC
+SITE-0146,L,Safed Pool Dispensary,dispensary,1,72.88,19.09,True,False,False,False,Dispensary
+SITE-0147,L,Mohili Village Dispensary,dispensary;uphc,2,72.89,19.1,True,True,False,False,Dispensary; UPHC
+SITE-0148,L,Christian Village Dispensary,dispensary,1,72.88,19.08,True,False,False,False,Dispensary
+SITE-0149,L,Qureshi Nagar Dispensary,dispensary,1,72.8773,19.0599,True,False,False,False,Dispensary
+SITE-0150,L,Nahar Amrit Shakti Dispensary,dispensary,1,72.88,19.07,True,False,False,False,Dispensary
+SITE-0151,M/E,Anik Nagar Dispensary,dispensary,1,72.9043,19.0357,True,False,False,False,Dispensary
+SITE-0152,M/E,Ayodhya Nagar Dispensary,dispensary;uphc,2,72.9,19.03,True,True,False,False,Dispensary; UPHC
+SITE-0153,M/E,Gawanpada Dispensary,dispensary,1,72.9,19.01,True,False,False,False,Dispensary
+SITE-0154,M/E,Deonar Dispensary,dispensary,1,72.92,19.05,True,False,False,False,Dispensary
+SITE-0155,M/E,Maharashtra Nagar Dispensary (Cheetah),dispensary,1,72.94,19.05,True,False,False,False,Dispensary
+SITE-0156,M/E,Kamla Raman Nagar Dispensary (Baiganwadi),dispensary,1,72.93,19.06,True,False,False,False,Dispensary
+SITE-0157,M/E,Ram Manohar Lohiya (R B K Dispensary),dispensary,1,72.91,19.06,True,False,False,False,Dispensary
+SITE-0158,M/E,L. U. Gadkari Dispensary (Vashi Naka),dispensary,1,72.89,19.09,True,False,False,False,Dispensary
+SITE-0159,M/E,New Baigan Wadi Dispensary,dispensary,1,72.9235,19.0589,True,False,False,False,Dispensary
+SITE-0160,M/E,A. B. Sathe Nagar Dispensary,dispensary,1,72.93,19.05,True,False,False,False,Dispensary
+SITE-0161,M/E,Trombay Dispensary,dispensary,1,72.95,19.03,True,False,False,False,Dispensary
+SITE-0162,M/W,Chembur Naka Dispensary,dispensary,1,72.89,19.05,True,False,False,False,Dispensary
+SITE-0163,M/W,Chembur Colony Dispensary,dispensary;uphc,2,72.89,19.05,True,True,False,False,Dispensary; UPHC
+SITE-0164,M/W,Labour Camp Dispensary,dispensary,1,72.908,19.0614,True,False,False,False,Dispensary
+SITE-0165,M/W,Lal Dongar Dispensary,dispensary;uphc,2,72.89,19.05,True,True,False,False,Dispensary; UPHC
+SITE-0166,M/W,Mahul SRA Dispensary,dispensary,1,72.89,19.01,True,False,False,False,Dispensary
+SITE-0167,M/W,Mahul Village Dispensary,dispensary;uphc,2,72.89,19.01,True,True,False,False,Dispensary; UPHC
+SITE-0168,N,Sarvodaya Dispensary,dispensary,1,72.91,19.09,True,False,False,False,Dispensary
+SITE-0169,N,Park Site Dispensary,dispensary,1,72.91,19.1,True,False,False,False,Dispensary
+SITE-0170,N,Parshi Wadi Dispensary,dispensary,1,72.9,19.09,True,False,False,False,Dispensary
+SITE-0171,N,Pant Nagar Dispensary,dispensary;uphc,2,72.92,19.09,True,True,False,False,Dispensary; UPHC
+SITE-0172,N,Ramabai Dispensary,dispensary,1,72.92,19.08,True,False,False,False,Dispensary
+SITE-0173,N,Sainath Dispensary,dispensary,1,72.91,19.09,True,False,False,False,Dispensary
+SITE-0174,N,Kirol Village Dispensary,dispensary;uphc,2,72.9,19.085,True,True,False,False,Dispensary; UPHC
+SITE-0175,N,Nath Pai Dispensary,dispensary,1,72.9058,19.073,True,False,False,False,Dispensary
+SITE-0176,S,M.V.R. Shinde Marg Dispensary,dispensary,1,72.94,19.14,True,False,False,False,Dispensary
+SITE-0177,S,Shivaji Talav Dispensary,dispensary,1,72.93,19.15,True,False,False,False,Dispensary
+SITE-0178,S,Tirandaz Dispensary,dispensary,1,72.905,19.1196,True,False,False,False,Dispensary
+SITE-0179,S,Nahur Dispensary,dispensary,1,72.8846,19.1315,True,False,False,False,Dispensary
+SITE-0180,S,Kanjur Village Dispensary,dispensary;uphc,2,72.94,19.13,True,True,False,False,Dispensary; UPHC
+SITE-0181,S,Tagor Nagar Dispensary,dispensary,1,72.94,19.12,True,False,False,False,Dispensary
+SITE-0182,S,Tulshet Pada Dispensary,dispensary,1,72.9306,19.1627,True,False,False,False,Dispensary
+SITE-0183,S,Tembhi Pada Dispensary,dispensary,1,72.93,19.15,True,False,False,False,Dispensary
+SITE-0184,T,PJK Dispensary,dispensary,1,72.95,19.18,True,False,False,False,Dispensary
+SITE-0185,T,DDU Marg Dispensary,dispensary;uphc,2,72.95,19.175,True,True,False,False,Dispensary; UPHC
+SITE-0186,T,Mulund Colony Dispensary,dispensary;uphc,2,72.94,19.17,True,True,False,False,Dispensary; UPHC
+SITE-0187,C,Suryakant Vagal Maternity Home UPHC,uphc,1,72.82,18.95,False,True,False,False,UPHC
+SITE-0188,D,Bane Compound UPHC,uphc,1,72.8183,18.9717,False,True,False,False,UPHC
+SITE-0189,E,Tadwadi UPHC,uphc,1,72.8399,18.9687,False,True,False,False,UPHC
+SITE-0190,E,Reay Road UPHC,uphc,1,72.85,18.97,False,True,False,False,UPHC
+SITE-0191,F/S,Naigaon MH UPHC,uphc,1,72.85,19.01,False,True,False,False,UPHC
+SITE-0192,F/S,Family Welfare UPHC,uphc,1,72.84,19.01,False,True,False,False,UPHC
+SITE-0193,F/S,Abhyuday Nagar UPHC,uphc,1,72.85,18.99,False,True,False,False,UPHC
+SITE-0194,F/N,Raoli Camp MH UPHC,uphc,1,72.87,19.04,False,True,False,False,UPHC
+SITE-0195,F/N,Pratiksha NagarUPHC,uphc,1,72.87,19.04,False,True,False,False,UPHC
+SITE-0196,F/N,LBS Marg UPHC,uphc,1,72.85,19.03,False,True,False,False,UPHC
+SITE-0197,G/S,Haji Mohhamad Haji Saboo Siddiqui Prabhadevi Maternity Home UPHC,uphc,1,72.83,19.02,False,True,False,False,UPHC
+SITE-0198,G/S,MH School Compund UPHC,uphc,1,72.83,19.0,False,True,False,False,UPHC
+SITE-0199,G/S,Sasmira UPHC,uphc,1,72.82,19.01,False,True,False,False,UPHC
+SITE-0200,G/S,Curry Road UPHC,uphc,1,72.83,18.99,False,True,False,False,UPHC
+SITE-0201,G/N,Shastri Nagar -2 UPHC,uphc,1,72.8558,19.0461,False,True,False,False,UPHC
+SITE-0202,G/N,Mahim MH UPHC,uphc,1,72.8402,19.0328,False,True,False,False,UPHC
+SITE-0203,G/N,Urban Health Centre UPHC,uphc,1,72.85,19.04,False,True,False,False,UPHC
+SITE-0204,G/N,Pila Bunglow UPHC,uphc,1,72.86,19.05,False,True,False,False,UPHC
+SITE-0205,H/E,Shanti Nagar UPHC,uphc,1,72.85,19.08,False,True,False,False,UPHC
+SITE-0206,H/E,Golibar UPHC,uphc,1,72.84,19.07,False,True,False,False,UPHC
+SITE-0207,H/E,Bharat Nagar II UPHC,uphc,1,72.86,19.06,False,True,False,False,UPHC
+SITE-0208,H/E,Kherwadi MH UPHC,uphc,1,72.85,19.06,False,True,False,False,UPHC
+SITE-0209,H/W,Gurunanak UPHC,uphc,1,72.83,19.07,False,True,False,False,UPHC
+SITE-0210,K/E,Sahar Road UPHC,uphc,1,72.85,19.11,False,True,False,False,UPHC
+SITE-0211,K/E,VN Shirodkar MH UPHC,uphc,1,72.85,19.11,False,True,False,False,UPHC
+SITE-0212,K/E,Squatters Coloney MH UPHC,uphc,1,72.86,19.14,False,True,False,False,UPHC
+SITE-0213,K/E,Marol MH UPHC,uphc,1,72.88,19.11,False,True,False,False,UPHC
+SITE-0214,K/W,Nusserwanji Jahangirji Wadia UPHC,uphc,1,72.85,19.12,False,True,False,False,UPHC
+SITE-0215,K/W,Oshiwara MH UPHC,uphc,1,72.85,19.15,False,True,False,False,UPHC
+SITE-0216,K/W,Banana Leaf UPHC,uphc,1,72.85,19.13,False,True,False,False,UPHC
+SITE-0217,P/S,Ram Mandir Road UPHC,uphc,1,72.84,19.15,False,True,False,False,UPHC
+SITE-0218,P/S,Sundar Nagar UPHC,uphc,1,72.8962,19.1246,False,True,False,False,UPHC
+SITE-0219,P/S,Topiwala Maternity Home Goregaon,maternity_hospital;uphc,2,72.845,19.165,False,True,False,True,Maternity home; UPHC
+SITE-0220,P/N,Riddhi Garden MH UPHC,uphc,1,72.87,19.18,False,True,False,False,UPHC
+SITE-0221,P/N,Rathodi Village UPHC,uphc,1,72.82,19.19,False,True,False,False,UPHC
+SITE-0222,P/N,Malwani -2 UPHC,uphc,1,72.82,19.19,False,True,False,False,UPHC
+SITE-0223,P/N,Malwani 1 MH UPHC,uphc,1,72.82,19.19,False,True,False,False,UPHC
+SITE-0224,P/N,M.W Desai UPHC,uphc,1,72.85,19.18,False,True,False,False,UPHC
+SITE-0225,P/N,Leher Building UPHC,uphc,1,72.8,19.2,False,True,False,False,UPHC
+SITE-0226,P/N,Choksy MH UPHC,uphc,1,72.84,19.19,False,True,False,False,UPHC
+SITE-0227,R/S,Charkop Gaon UPHC,uphc,1,72.81,19.21,False,True,False,False,UPHC
+SITE-0228,R/S,Dhanukarwadi UPHC,uphc,1,72.83,19.21,False,True,False,False,UPHC
+SITE-0229,R/S,Charkop Sec 1 UPHC,uphc,1,72.83,19.21,False,True,False,False,UPHC
+SITE-0230,R/S,Damu Pada UPHC,uphc,1,72.88,19.21,False,True,False,False,UPHC
+SITE-0231,R/S,Akurli Road MH UPHC,uphc,1,72.85,19.2,False,True,False,False,UPHC
+SITE-0232,R/C,Maharastra Housing Board Colony UPHC,uphc,1,72.84,19.23,False,True,False,False,UPHC
+SITE-0233,R/C,Charkop MH UPHC,uphc,1,72.83,19.22,False,True,False,False,UPHC
+SITE-0234,R/C,Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home MH UPHC,uphc,1,72.86,19.23,False,True,False,False,UPHC
+SITE-0235,R/C,Mother & Child Hosp.UPHC,uphc,1,72.87,19.22,False,True,False,False,UPHC
+SITE-0236,R/N,Shastri Nagar UPHC,uphc,1,72.8733,19.2565,False,True,False,False,UPHC
+SITE-0237,R/N,Navagaon UPHC,uphc,1,72.85,19.25,False,True,False,False,UPHC
+SITE-0238,R/N,Yashwant Rao Tawade Marg UPHC,uphc,1,72.86,19.25,False,True,False,False,UPHC
+SITE-0239,L,New Tunga Village UPHC,uphc,1,72.8922,19.1188,False,True,False,False,UPHC
+SITE-0240,L,Nahar Amrut Shakti UPHC,uphc,1,72.88,19.07,False,True,False,False,UPHC
+SITE-0241,L,Dr. Anandibai Joshi Maternity Home,maternity_hospital;uphc,2,72.88,19.08,False,True,False,True,Maternity home; UPHC
+SITE-0242,L,Asalfa Village UPHC,uphc,1,72.9,19.1,False,True,False,False,UPHC
+SITE-0243,L,Maasaheb Meenatai Thackeray MH UPHC,uphc,1,72.8846,19.1315,False,True,False,False,UPHC
+SITE-0244,L,Sangharsha Nagar UPHC,uphc,1,72.9026,19.1083,False,True,False,False,UPHC
+SITE-0245,L,Kamgar Nagar UPHC,uphc,1,72.88,19.06,False,True,False,False,UPHC
+SITE-0246,M/E,Vashinaka UPHC,uphc,1,72.89,19.09,False,True,False,False,UPHC
+SITE-0247,M/E,New Bainganwadi UPHC,uphc,1,72.9235,19.0589,False,True,False,False,UPHC
+SITE-0248,M/E,Maharashtra Nagar UPHC,uphc,1,72.94,19.05,False,True,False,False,UPHC
+SITE-0249,M/E,Lokshahir Annabhau Sathe Nagar UPHC,uphc,1,72.93,19.05,False,True,False,False,UPHC
+SITE-0250,M/E,Deonar MH UPHC,uphc,1,72.92,19.05,False,True,False,False,UPHC
+SITE-0251,M/E,Shahaji Nagar MH UPHC,uphc,1,72.95,19.04,False,True,False,False,UPHC
+SITE-0252,M/E,Kamala Raman Nagar UPHC,uphc,1,72.93,19.06,False,True,False,False,UPHC
+SITE-0253,M/E,Ayodhya Nagar II UPHC,uphc,1,72.9,19.03,False,True,False,False,UPHC
+SITE-0254,M/W,Matoshri Ramabai Ambedkar MH UPHC,uphc,1,72.89,19.05,False,True,False,False,UPHC
+SITE-0255,M/W,Pestum Sagar UPHC,uphc,1,72.9,19.06,False,True,False,False,UPHC
+SITE-0256,N,Kamraj Nagar UPHC,uphc,1,72.8846,19.1315,False,True,False,False,UPHC
+SITE-0257,N,Matoshri Ramabai Thackeray Maternity Home UPHC,uphc,1,72.91,19.09,False,True,False,False,UPHC
+SITE-0258,N,Vikhroli Park Site UPHC,uphc,1,72.91,19.1,False,True,False,False,UPHC
+SITE-0259,N,Ramabai Colony UPHC,uphc,1,72.92,19.08,False,True,False,False,UPHC
+SITE-0260,N,Sarvodaya Nagar UPHC,uphc,1,72.8846,19.1315,False,True,False,False,UPHC
+SITE-0261,S,Sonapur UPHC (Only HP),uphc,1,72.93,19.15,False,True,False,False,UPHC
+SITE-0262,S,Savitribai Jyotiba Phule Maternity Home UPHC,uphc,1,72.93,19.15,False,True,False,False,UPHC
+SITE-0263,S,Tulshetpada UPHC,uphc,1,72.9306,19.1627,False,True,False,False,UPHC
+SITE-0264,S,Shivaji Talao UPHC,uphc,1,72.93,19.15,False,True,False,False,UPHC
+SITE-0265,S,Hiranandani UPHC,uphc,1,72.92,19.12,False,True,False,False,UPHC
+SITE-0266,S,Dr.Babasaheb Ambedkar Maternity Home UPHC,uphc,1,72.94,19.12,False,True,False,False,UPHC
+SITE-0267,S,Maharshi Karve UPHC,uphc,1,72.9372,19.1511,False,True,False,False,UPHC
+SITE-0268,S,Subhash Nagar UPHC,uphc,1,72.8846,19.1315,False,True,False,False,UPHC
+SITE-0269,S,Ishwar Nagar UPHC,uphc,1,72.94,19.14,False,True,False,False,UPHC
+SITE-0270,S,LBS Marg MH UPHC,uphc,1,72.93,19.15,False,True,False,False,UPHC
+SITE-0271,S,Tembhipada UPHC,uphc,1,72.93,19.15,False,True,False,False,UPHC
+SITE-0272,T,Smt.Shyamkunwarbai Jatashankar Dosa Chanchani Maternity Home UPHC,uphc,1,72.95,19.18,False,True,False,False,UPHC
+SITE-0273,A,Paltan Rd. HP,uphc,1,72.8406,18.9473,False,True,False,False,UPHC
+SITE-0274,B,Janabai Rokade HP,uphc,1,72.84,18.95,False,True,False,False,UPHC
+SITE-0275,B,Jail Road HP,uphc,1,72.84,18.96,False,True,False,False,UPHC
+SITE-0276,D,Banganga HP,uphc,1,72.8517,18.9615,False,True,False,False,UPHC
+SITE-0277,D,Nana Chowk HP.,uphc,1,72.81,18.97,False,True,False,False,UPHC
+SITE-0278,D,Khetwadi Back RD. HP.,uphc,1,72.82,18.96,False,True,False,False,UPHC
+SITE-0279,E,Nawab Tank HP.,uphc,1,72.8441,18.9654,False,True,False,False,UPHC
+SITE-0280,E,Botliboy HP.,uphc,1,72.84,18.98,False,True,False,False,UPHC
+SITE-0281,E,Kasturba Hospital HP.,uphc,1,72.83,18.98,False,True,False,False,UPHC
+SITE-0282,F/S,Ram Laxman Tekadi HP.,uphc,1,72.85,19.0,False,True,False,False,UPHC
+SITE-0283,F/S,2nd. October Colony HP.,uphc,1,72.85,19.01,False,True,False,False,UPHC
+SITE-0284,F/S,V. Shantaram HP.,uphc,1,72.84,19.0,False,True,False,False,UPHC
+SITE-0285,F/N,Don Bosco HP.,uphc,1,72.86,19.02,False,True,False,False,UPHC
+SITE-0286,G/S,Jijamata Nagar RCH-II HP.,uphc,1,72.82,19.0,False,True,False,False,UPHC
+SITE-0287,G/N,Gokhale Road HP.,uphc,1,72.83,19.02,False,True,False,False,UPHC
+SITE-0288,G/N,Shastri Nagar HP.,uphc,1,72.84,19.03,False,True,False,False,UPHC
+SITE-0289,H/E,Vakola H.P.,uphc,1,72.85,19.08,False,True,False,False,UPHC
+SITE-0290,H/E,Govt Colony HP,uphc,1,72.86,19.06,False,True,False,False,UPHC
+SITE-0291,H/E,V.N. Desai Hospital H.P.,uphc,1,72.85,19.08,False,True,False,False,UPHC
+SITE-0292,H/W,Khotwadi H.P.,uphc,1,72.84,19.08,False,True,False,False,UPHC
+SITE-0293,H/W,Sherly Rajan H.P.,uphc,1,72.83,19.05,False,True,False,False,UPHC
+SITE-0294,H/W,S.V. Road H.P.,uphc,1,72.84,19.07,False,True,False,False,UPHC
+SITE-0295,H/W,K.B. Bhabha Hospital H.P.,uphc,1,72.83,19.06,False,True,False,False,UPHC
+SITE-0296,K/E,Tarun Bharat H.P.,uphc,1,72.86,19.11,False,True,False,False,UPHC
+SITE-0297,K/E,Ajgaonkar Plot H.P.,uphc,1,72.85,19.14,False,True,False,False,UPHC
+SITE-0298,K/E,Nehru Road H.P.,uphc,1,72.85,19.1,False,True,False,False,UPHC
+SITE-0299,K/E,M.I.D.C. H.P.,uphc,1,72.86,19.12,False,True,False,False,UPHC
+SITE-0300,K/E,Sarvodaya Nagar H.P.,uphc,1,72.86,19.13,False,True,False,False,UPHC
+SITE-0301,K/E,Sunder Nagar H.P.,uphc,1,72.87,19.14,False,True,False,False,UPHC
+SITE-0302,K/W,Tata Compound H.P.,uphc,1,72.84,19.11,False,True,False,False,UPHC
+SITE-0303,K/W,Anand Nagar H.P.,uphc,1,72.83,19.15,False,True,False,False,UPHC
+SITE-0304,K/W,Lokhandwala H.P.,uphc,1,72.83,19.14,False,True,False,False,UPHC
+SITE-0305,K/W,Nehru Nagar H.P.,uphc,1,72.84,19.1,False,True,False,False,UPHC
+SITE-0306,K/W,Bhardawadi H.P.,uphc,1,72.85,19.13,False,True,False,False,UPHC
+SITE-0307,K/W,Millat Nagar H.P.,uphc,1,72.83,19.15,False,True,False,False,UPHC
+SITE-0308,P/S,Chincholi H.P.,uphc,1,72.84,19.17,False,True,False,False,UPHC
+SITE-0309,P/S,Pandurangwadi H.P.,uphc,1,72.85,19.17,False,True,False,False,UPHC
+SITE-0310,P/S,Teen Dongri H.P.,uphc,1,72.85,19.17,False,True,False,False,UPHC
+SITE-0311,P/S,Motilal Nagar H.P.,uphc,1,72.8353,19.1654,False,True,False,False,UPHC
+SITE-0312,P/S,Pahadi HP,uphc,1,72.85,19.18,False,True,False,False,UPHC
+SITE-0313,P/N,Tank Lane H.P.,uphc,1,72.86,19.19,False,True,False,False,UPHC
+SITE-0314,P/N,Appa Pada H.P.,uphc,1,72.87,19.19,False,True,False,False,UPHC
+SITE-0315,P/N,Dindoshi Vasahat H.P.,uphc,1,72.84,19.16,False,True,False,False,UPHC
+SITE-0316,R/S,Charkop Sec-1A HP,uphc,1,72.83,19.21,False,True,False,False,UPHC
+SITE-0317,R/S,Hanuman Nagar H.P.,uphc,1,72.87,19.21,False,True,False,False,UPHC
+SITE-0318,R/S,Centenary H.P.,uphc,1,72.88,19.13,False,True,False,False,UPHC
+SITE-0319,R/C,Tata Power House H.P.,uphc,1,72.87,19.22,False,True,False,False,UPHC
+SITE-0320,R/C,Eksar Village H.P.,uphc,1,72.85,19.24,False,True,False,False,UPHC
+SITE-0321,R/C,Borsapada H.P.,uphc,1,72.84,19.21,False,True,False,False,UPHC
+SITE-0322,R/C,Rajendra Nagar H.P.,uphc,1,72.86,19.22,False,True,False,False,UPHC
+SITE-0323,R/N,Baglipada H.P.,uphc,1,72.86,19.26,False,True,False,False,UPHC
+SITE-0324,R/N,Dahisar Mun. Disp. H.P.,uphc,1,72.8659,19.2446,False,True,False,False,UPHC
+SITE-0325,R/N,Koknipada H.P.,uphc,1,72.87,19.25,False,True,False,False,UPHC
+SITE-0326,L,Kurla Bhabha Hosp HP,uphc,1,72.88,19.07,False,True,False,False,UPHC
+SITE-0327,L,Tunga Village HP,uphc,1,72.89,19.12,False,True,False,False,UPHC
+SITE-0328,L,Amar Nagar HP,uphc,1,72.89,19.08,False,True,False,False,UPHC
+SITE-0329,L,Match Factory HP,uphc,1,72.88,19.07,False,True,False,False,UPHC
+SITE-0330,M/E,Nimoni Baug HP,uphc,1,72.91,19.06,False,True,False,False,UPHC
+SITE-0331,M/E,Mankhurd HP,uphc,1,72.93,19.05,False,True,False,False,UPHC
+SITE-0332,M/E,Centenary Hosp. HP,uphc,1,72.91,19.05,False,True,False,False,UPHC
+SITE-0333,M/E,Baiganwadi HP,uphc,1,72.93,19.06,False,True,False,False,UPHC
+SITE-0334,M/E,Shivaji Nagar HP,uphc,1,72.95,19.04,False,True,False,False,UPHC
+SITE-0335,M/E,Lotus Colony HP,uphc,1,72.92,19.06,False,True,False,False,UPHC
+SITE-0336,M/W,Tilak Nagar HP,uphc,1,72.89,19.07,False,True,False,False,UPHC
+SITE-0337,M/W,Ghatla Village HP,uphc,1,72.91,19.05,False,True,False,False,UPHC
+SITE-0338,M/W,Subhash Nagar HP,uphc,1,72.91,19.06,False,True,False,False,UPHC
+SITE-0339,N,Barve Nagar HP,uphc,1,72.9,19.1,False,True,False,False,UPHC
+SITE-0340,N,Varsha Nagar HP,uphc,1,72.92,19.11,False,True,False,False,UPHC
+SITE-0341,N,Rajawadi Mun.School HP,uphc,1,72.9,19.08,False,True,False,False,UPHC
+SITE-0342,N,Ganesh Nagar HP (Laxmi Nagar),uphc,1,72.92,19.09,False,True,False,False,UPHC
+SITE-0343,S,Paspoli Village HP,uphc,1,72.91,19.12,False,True,False,False,UPHC
+SITE-0344,S,Kannamwar Nagar HP,uphc,1,72.94,19.12,False,True,False,False,UPHC
+SITE-0345,S,Tagore Nagar HP RCH2,uphc,1,72.94,19.12,False,True,False,False,UPHC
+SITE-0346,T,Veer Savarkar HP,uphc,1,72.96,19.17,False,True,False,False,UPHC
+SITE-0347,T,Nanepada HP,uphc,1,72.95,19.17,False,True,False,False,UPHC
+SITE-0348,T,Mulund Gen.Hosp HP,uphc,1,72.95,19.18,False,True,False,False,UPHC
+SITE-0349,T,DDU HP 2,uphc,1,72.95,19.17,False,True,False,False,UPHC
+SITE-0350,E,Grant Med.College & J.J. Hospital,public_hospital,1,72.83,18.96,False,False,True,False,Public hospital
+SITE-0351,E,NAIR HOSPITAL DENTAL COLLEGE,public_hospital,1,72.82,18.97,False,False,True,False,Public hospital
+SITE-0352,E,B. Y. L. NAIR CHARITABLE HOSPITAL AND T. N. MEDICAL COLLEGE,public_hospital,1,72.82,18.97,False,False,True,False,Public hospital
+SITE-0353,F/S,Seth G.S.Medical college &KEM Hospital,public_hospital,1,72.84,19.0,False,False,True,False,Public hospital
+SITE-0354,F/N,LOKMANYA TILAK MUNICIPAL GENERAL HOSPITAL AND MEDICAL COLLEGE,public_hospital,1,72.86,19.04,False,False,True,False,Public hospital
+SITE-0355,K/W,Hinduhrudaysamrat Balasaheb Thackeray Med.College & Dr.R.N Cooper Hospital,public_hospital,1,72.84,19.11,False,False,True,False,Public hospital
+SITE-0356,A,St George Hospital,public_hospital,1,72.84,18.94,False,False,True,False,Public hospital
+SITE-0357,A,Cama Albless Hospital,public_hospital,1,72.83,18.94,False,False,True,False,Public hospital
+SITE-0358,A,G.T.Hospital,public_hospital,1,72.8336,18.9411,False,False,True,False,Public hospital
+SITE-0359,H/E,V.N Desai Hospital,public_hospital,1,72.85,19.08,False,False,True,False,Public hospital
+SITE-0360,H/W,K.B Bhabha Hospital,public_hospital,1,72.83,19.06,False,False,True,False,Public hospital
+SITE-0361,P/S,Siddharth Municipal General Hospital,public_hospital,1,72.84,19.16,False,False,True,False,Public hospital
+SITE-0362,P/N,MW Desai Mun.Gen.Hospital,public_hospital,1,72.85,19.18,False,False,True,False,Public hospital
+SITE-0363,P/N,S.K.Patil Mun.Gen.Hospital,public_hospital,1,72.85,19.19,False,False,True,False,Public hospital
+SITE-0364,K/E,Hinduhridaysamrat Balasaheb Thackeray Trauma Care Hospital,public_hospital,1,72.85,19.14,False,False,True,False,Public hospital
+SITE-0365,R/S,Bharat ratna Babasaheb Ambedkar Hospital,public_hospital,1,72.85,19.21,False,False,True,False,Public hospital
+SITE-0366,R/N,Harilal Bhagwati Mun.Gen.Hosp,public_hospital,1,72.85,19.24,False,False,True,False,Public hospital
+SITE-0367,R/C,Kasturba Cross Road Hospital,public_hospital,1,72.85,19.24,False,False,True,False,Public hospital
+SITE-0368,L,Kurla Bhabha Hospital,public_hospital,1,72.88,19.07,False,False,True,False,Public hospital
+SITE-0369,M/W,MAA Mun.Gen.Hospital,public_hospital,1,72.9,19.06,False,False,True,False,Public hospital
+SITE-0370,M/E,Pt. MMM Centenery Hospital,public_hospital,1,72.91,19.05,False,False,True,False,Public hospital
+SITE-0371,N,Rajawadi Hospital,public_hospital,1,72.9,19.08,False,False,True,False,Public hospital
+SITE-0372,S,KMJ Phule Mun.Gen.Hospital,public_hospital,1,72.94,19.12,False,False,True,False,Public hospital
+SITE-0373,N,Sant Muktabai Hospital,public_hospital,1,72.9,19.1,False,False,True,False,Public hospital
+SITE-0374,T,SVD Savarkar Hospital,public_hospital,1,72.96,19.17,False,False,True,False,Public hospital
+SITE-0375,T,M.T.Agarwal Mun.Gen.Hospital,public_hospital,1,72.95,19.18,False,False,True,False,Public hospital
+SITE-0376,A,Seth A.J.B.Municipal ENT Hospital,public_hospital,1,72.83,18.93,False,False,True,False,Public hospital
+SITE-0377,E,Municipal Eye Hospital,public_hospital,1,72.83,18.96,False,False,True,False,Public hospital
+SITE-0378,E,Kasturba Hospital (For Infectiou Diseases),public_hospital,1,72.83,18.98,False,False,True,False,Public hospital
+SITE-0379,F/S,Group Of T.B.Hospital,public_hospital,1,72.85,19.01,False,False,True,False,Public hospital
+SITE-0380,F/N,Acworth Leprosy Hospital,public_hospital,1,72.8586,19.0197,False,False,True,False,Public hospital
+SITE-0381,C,"Suryakant Vagal Maternity Home, Zaobawadi",maternity_hospital,1,72.82,18.95,False,False,False,True,Maternity home
+SITE-0382,F/N,Raoli Camp Maternity Home,maternity_hospital,1,72.87,19.04,False,False,False,True,Maternity home
+SITE-0383,G/S,"Haji Mohammad Haji Sabu Siddik Maternity Home, Prabhadevi",maternity_hospital,1,72.83,19.02,False,False,False,True,Maternity home
+SITE-0384,G/N,Mahim Maternity Home,maternity_hospital,1,72.8402,19.0328,False,False,False,True,Maternity home
+SITE-0385,H/E,"Bal Gangadhar Kher Maternity Home, Kherwadi",maternity_hospital,1,72.85,19.06,False,False,False,True,Maternity home
+SITE-0386,K/E,Dr. V.N. Shirodkar Maternity Home,maternity_hospital,1,72.85,19.11,False,False,False,True,Maternity home
+SITE-0387,K/E,Squatters Colony Maternity Home,maternity_hospital,1,72.86,19.14,False,False,False,True,Maternity home
+SITE-0388,K/E,"Mata Ramabai Ambedkar Maternity Home, Marol (Marol Maternity Home)",maternity_hospital,1,72.89,19.05,False,False,False,True,Maternity home
+SITE-0389,P/N,Maulana Abul Kalam Azhad Malvani Maternity Home,maternity_hospital,1,72.82,19.19,False,False,False,True,Maternity home
+SITE-0390,P/N,"Savitribai Phule Mata Bal Hospital, Riddhi Garden",maternity_hospital,1,72.87,19.18,False,False,False,True,Maternity home
+SITE-0391,R/C,Charkop Maternity Home,maternity_hospital,1,72.83,19.22,False,False,False,True,Maternity home
+SITE-0392,R/C,"Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home, Borivali",maternity_hospital,1,72.86,19.23,False,False,False,True,Maternity home
+SITE-0393,R/C,"Mother and Child Hospital, Magthane",maternity_hospital,1,72.87,19.22,False,False,False,True,Maternity home
+SITE-0394,L,"Maasaheb Meenatai Thackeray Maternity Home, Chunabhatti",maternity_hospital,1,72.8846,19.1315,False,False,False,True,Maternity home
+SITE-0395,M/E,Shahaji Nagar Maternity Home Cheeta Camp,maternity_hospital,1,72.95,19.04,False,False,False,True,Maternity home
+SITE-0396,M/E,Deonar Maternity Home,maternity_hospital,1,,,False,False,False,True,Maternity home
+SITE-0397,M/W,"Matoshri Ramabai Ambedkar Maternity Home, Chembur Naka",maternity_hospital,1,72.89,19.05,False,False,False,True,Maternity home
+SITE-0398,N,Matoshri Ramabai Thackeray Maternity Home Ghatkopar,maternity_hospital,1,72.89,19.05,False,False,False,True,Maternity home
+SITE-0399,S,"Dr.Babasaheb Ambedkar Maternity Home, Tagore Nagar",maternity_hospital,1,72.94,19.12,False,False,False,True,Maternity home
+SITE-0400,S,"Savitribai Jyotiba Phule Maternity Home, Bhandup",maternity_hospital,1,72.93,19.15,False,False,False,True,Maternity home
+SITE-0401,S,Lal Bahadur Shastri Marg Mat. Home,maternity_hospital,1,72.93,19.15,False,False,False,True,Maternity home
+SITE-0402,T,Smt.Shyamkunwarbai Jatashankar Dosa Chanchani Mulund Maternity Home,maternity_hospital,1,72.95,19.18,False,False,False,True,Maternity home

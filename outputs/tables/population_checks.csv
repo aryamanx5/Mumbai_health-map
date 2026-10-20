@@ -1,0 +1,8 @@
+check,passed,detail
+all census ward names map to a BMC ward,True,[]
+census ward codes unique,True,
+ward-code prefix agrees with ward name for every row,True,
+every census ward found in Primary Census Abstract,True,"{'both': 97, 'left_only': 0, 'right_only': 0}"
+ward populations equal PCA TOT_P,True,0 mismatches
+total equals sum of the two district TOWN totals (Greater Mumbai),True,12442373 vs 12442373
+24 wards with positive population,True,

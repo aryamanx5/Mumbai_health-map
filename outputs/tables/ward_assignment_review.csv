@@ -1,0 +1,70 @@
+facility_id,spatial_ward_id,distance_to_source_ward_m,assignment_check,facility_name,category,ward_id,coordinate_decimals
+DISP-002,B,128.2,disagree_within_coordinate_rounding,Saboo Sidique Rd. Dispensary (Paltan Road),dispensary,A,2
+DISP-006,,64.4,outside_polygons_within_rounding,S B S Road. Dispensary,dispensary,A,2
+DISP-007,C,185.6,disagree_within_coordinate_rounding,SVP Road Dispensary,dispensary,B,2
+DISP-009,C,302.4,disagree_within_coordinate_rounding,Jail Road Dispensary,dispensary,B,2
+DISP-010,C,185.6,disagree_within_coordinate_rounding,Jail Road Unanai Dispensary,dispensary,B,2
+DISP-011,C,302.4,disagree_within_coordinate_rounding,Kolsa Mohalla Unani Dispensary,dispensary,B,2
+DISP-019,E,82.2,disagree_within_coordinate_rounding,R. S. Nimkar Disp,dispensary,D,2
+DISP-020,C,33.1,disagree_within_coordinate_rounding,R. R.R. Marg Dispensary,dispensary,D,2
+DISP-021,G/S,32.5,disagree_within_coordinate_rounding,Tardeo Flat Dispensary,dispensary,D,2
+DISP-022,,2681.3,outside_polygons_review,Banganga Dispensary,dispensary,D,4
+DISP-026,C,197.2,disagree_within_coordinate_rounding,Huzaria Street Dispensary,dispensary,E,2
+DISP-033,C,197.2,disagree_within_coordinate_rounding,Siddharth Nagar Dispensary,dispensary,E,2
+DISP-044,G/S,319.3,disagree_within_coordinate_rounding,Triveni Sadan Dispensary,dispensary,F/S,2
+DISP-045,G/N,171.0,disagree_within_coordinate_rounding,L.B.S. Market Dispensary,dispensary,F/N,2
+DISP-052,,3406.5,outside_polygons_review,Worli Koliwada Dispensary,dispensary,G/S,4
+DISP-072,F/N,104.7,disagree_within_coordinate_rounding,Transit Camp Dispensary,dispensary,G/N,2
+DISP-074,H/W,283.6,disagree_within_coordinate_rounding,Prabhat Colony Dispensary,dispensary,H/E,2
+DISP-096,L,96.8,disagree_review,Mangala Municipal Nursing Home Dispensary,dispensary,K/E,4
+DISP-097,K/E,326.1,disagree_within_coordinate_rounding,N.J.Wadia Dispensary,dispensary,K/W,2
+DISP-098,P/S,493.7,disagree_within_coordinate_rounding,Oshiwara Dispensary,dispensary,K/W,2
+DISP-105,P/N,291.8,disagree_within_coordinate_rounding,Chincholi Squatter's Dispensary,dispensary,P/S,2
+DISP-106,S,1349.9,disagree_review,Sunder Nagar Dispensary,dispensary,P/S,4
+DISP-123,M/W,14993.5,disagree_review,New Centenary Dispensary,dispensary,R/S,2
+DISP-137,S,1669.6,disagree_review,Bibi Fatima Dispensary,dispensary,L,4
+DISP-141,M/W,264.4,disagree_within_coordinate_rounding,Nehru Nagar Dispensary,dispensary,L,2
+DISP-142,K/E,305.2,disagree_review,Chunabhatti Dispensary,dispensary,L,4
+DISP-158,L,3578.0,disagree_review,L. U. Gadkari Dispensary (Vashi Naka),dispensary,M/E,2
+DISP-179,K/E,217.8,disagree_review,Nahur Dispensary,dispensary,S,4
+UPHC-007,E,82.2,disagree_within_coordinate_rounding,R S Nimkar UPHC,uphc,D,2
+UPHC-022,G/N,171.0,disagree_within_coordinate_rounding,LBS Marg UPHC,uphc,F/N,2
+UPHC-027,,3406.5,outside_polygons_review,Worli Koliwada UPHC,uphc,G/S,4
+UPHC-039,H/W,23.3,disagree_within_coordinate_rounding,Golibar UPHC,uphc,H/E,2
+UPHC-052,K/E,326.1,disagree_within_coordinate_rounding,Nusserwanji Jahangirji Wadia UPHC,uphc,K/W,2
+UPHC-053,P/S,493.7,disagree_within_coordinate_rounding,Oshiwara MH UPHC,uphc,K/W,2
+UPHC-054,K/E,200.1,disagree_within_coordinate_rounding,Banana Leaf UPHC,uphc,K/W,2
+UPHC-055,K/W,11.8,disagree_within_coordinate_rounding,Ram Mandir Road UPHC,uphc,P/S,2
+UPHC-056,S,1349.9,disagree_review,Sundar Nagar UPHC,uphc,P/S,4
+UPHC-068,M/W,14993.5,disagree_review,New Centenary UPHC,uphc,R/S,2
+UPHC-088,S,1669.6,disagree_review,Bibi Fatima UPHC,uphc,L,4
+UPHC-094,K/E,305.2,disagree_review,Maasaheb Meenatai Thackeray MH UPHC,uphc,L,4
+UPHC-098,M/W,264.4,disagree_within_coordinate_rounding,Nehru Nagar UPHC,uphc,L,2
+UPHC-099,L,3578.0,disagree_review,Vashinaka UPHC,uphc,M/E,2
+UPHC-113,K/E,3565.5,disagree_review,Kamraj Nagar UPHC,uphc,N,4
+UPHC-119,K/E,3565.5,disagree_review,Sarvodaya Nagar UPHC,uphc,N,4
+UPHC-127,K/E,217.8,disagree_review,Subhash Nagar UPHC,uphc,S,4
+UPHC-138,,2681.3,outside_polygons_review,Banganga HP,uphc,D,4
+UPHC-149,G/S,129.7,disagree_within_coordinate_rounding,Gokhale Road HP.,uphc,G/N,2
+UPHC-163,P/S,21.0,disagree_within_coordinate_rounding,Sunder Nagar H.P.,uphc,K/E,2
+UPHC-168,K/E,200.1,disagree_within_coordinate_rounding,Bhardawadi H.P.,uphc,K/W,2
+UPHC-174,P/N,291.8,disagree_within_coordinate_rounding,Pahadi HP,uphc,P/S,2
+UPHC-177,P/S,1901.7,disagree_review,Dindoshi Vasahat H.P.,uphc,P/N,2
+UPHC-180,K/E,6459.9,disagree_review,Centenary H.P.,uphc,R/S,2
+UPHC-182,R/N,209.7,disagree_within_coordinate_rounding,Eksar Village H.P.,uphc,R/C,2
+UPHC-183,R/S,394.8,disagree_within_coordinate_rounding,Borsapada H.P.,uphc,R/C,2
+UPHC-194,M/W,34.6,disagree_within_coordinate_rounding,Centenary Hosp. HP,uphc,M/E,2
+UPHC-198,L,350.3,disagree_within_coordinate_rounding,Tilak Nagar HP,uphc,M/W,2
+UPHC-200,M/E,132.9,disagree_within_coordinate_rounding,Subhash Nagar HP,uphc,M/W,2
+UPHC-201,L,82.4,disagree_within_coordinate_rounding,Barve Nagar HP,uphc,N,1
+UPHC-202,S,185.4,disagree_within_coordinate_rounding,Varsha Nagar HP,uphc,N,2
+HOSP-001,C,197.2,disagree_within_coordinate_rounding,Grant Med.College & J.J. Hospital,public_hospital,E,2
+HOSP-018,R/N,209.7,disagree_within_coordinate_rounding,Kasturba Cross Road Hospital,public_hospital,R/C,2
+HOSP-021,M/W,34.6,disagree_within_coordinate_rounding,Pt. MMM Centenery Hospital,public_hospital,M/E,2
+HOSP-024,L,82.4,disagree_within_coordinate_rounding,Sant Muktabai Hospital,public_hospital,N,1
+HOSP-028,C,197.2,disagree_within_coordinate_rounding,Municipal Eye Hospital,public_hospital,E,2
+MAT-009,M/W,4088.6,disagree_review,"Mata Ramabai Ambedkar Maternity Home, Marol (Marol Maternity Home)",maternity_hospital,K/E,2
+MAT-010,P/S,493.7,disagree_within_coordinate_rounding,Oshiwara Maternity Home,maternity_hospital,K/W,2
+MAT-019,K/E,305.2,disagree_review,"Maasaheb Meenatai Thackeray Maternity Home, Chunabhatti",maternity_hospital,L,4
+MAT-022,,,no_valid_coordinates,Deonar Maternity Home,maternity_hospital,M/E,
+MAT-024,M/W,2031.7,disagree_review,Matoshri Ramabai Thackeray Maternity Home Ghatkopar,maternity_hospital,N,2

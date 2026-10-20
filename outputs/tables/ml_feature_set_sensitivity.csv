@@ -1,0 +1,5 @@
+feature_set,features,log1p,rationale,max_silhouette_k,silhouette_at_final_k,sizes_at_final_k,ari_vs_final_at_final_k,ari_vs_final_k2
+primary_log_category_rates,"dispensary_per_100k, uphc_per_100k, public_hospital_per_100k, maternity_hospital_per_100k",True,Four category rates; low mutual correlation; log1p damps the A/E hospital outliers.,2,0.316,"[11, 8, 3, 2]",1.0,1.0
+raw_category_rates,"dispensary_per_100k, uphc_per_100k, public_hospital_per_100k, maternity_hospital_per_100k",False,Same four rates without the log transform.,2,0.322,"[10, 8, 4, 2]",0.888,1.0
+primary_vs_secondary_care,"primary_care_per_100k, secondary_care_per_100k",True,Dispensary+UPHC records vs hospital+maternity records per 100k.,2,0.324,"[11, 7, 3, 3]",0.241,0.32
+overall_rate_and_density,"facilities_per_100k, population_density_per_km2",True,"Overall site rate plus population density (context, not provision).",2,0.423,"[10, 8, 5, 1]",0.371,0.32

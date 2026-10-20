@@ -1,0 +1,7443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+ <Document>
+  <name>
+   mumbai-health-posts-uphcs
+  </name>
+  <open>
+   1
+  </open>
+  <Schema id="J_mumbai_health_posts_uphcs_ISSSSS" name="mumbai_health_posts_uphcs">
+   <SimpleField name="OBJECTID" type="int">
+    <displayName>
+     OBJECTID
+    </displayName>
+   </SimpleField>
+   <SimpleField name="OwnerDept" type="string">
+    <displayName>
+     OwnerDept
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Twitter_Handle" type="string">
+    <displayName>
+     Twitter_Handle
+    </displayName>
+   </SimpleField>
+   <SimpleField name="UPHC_Addre" type="string">
+    <displayName>
+     UPHC_Addre
+    </displayName>
+   </SimpleField>
+   <SimpleField name="UPHC_Name" type="string">
+    <displayName>
+     UPHC_Name
+    </displayName>
+   </SimpleField>
+   <SimpleField name="Ward" type="string">
+    <displayName>
+     Ward
+    </displayName>
+   </SimpleField>
+  </Schema>
+  <Style id="mumbai_health_posts_uphcs_style">
+   <BalloonStyle>
+    <text>
+     &lt;table border="0"&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_health_posts_uphcs/OBJECTID/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_health_posts_uphcs/OBJECTID]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_health_posts_uphcs/OwnerDept/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_health_posts_uphcs/OwnerDept]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_health_posts_uphcs/Twitter_Handle/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_health_posts_uphcs/Twitter_Handle]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_health_posts_uphcs/UPHC_Addre/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_health_posts_uphcs/UPHC_Addre]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_health_posts_uphcs/UPHC_Name/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_health_posts_uphcs/UPHC_Name]&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;b&gt;$[mumbai_health_posts_uphcs/Ward/displayName]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$[mumbai_health_posts_uphcs/Ward]&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+$[description]
+    </text>
+   </BalloonStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Maruti Lane UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      1
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Colaba Mun.Disp, 1St Floor,55 Rajawadkar street colaba Mumbai-01/ Disp Mun.Disp,Maruti Lane,Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Maruti Lane UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.94,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Colaba UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      2
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Colaba Mun.Disp, 1St Floor,55 Rajawadkar street colaba Mumbai-01/ Disp Mun.Disp,Maruti Lane,Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Colaba UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.92,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Panjrapole UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      3
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Panjrapole Health post, rama galli,2nd cross lane,Duncan road Mumbai - 400004
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Panjrapole UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Chandanwadi UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      4
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Chandanwadi Municipal school, Chandanwadi, Marine Lines (E), Mumbai - 400002
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Chandanwadi UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8265,18.9463,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Suryakant Vagal Maternity Home UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      5
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Zaobawadi health post ,near zaobawadi Ram Mandir, Thakurdwar , Charni Raod (E), Mumbai - 400002
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Suryakant Vagal Maternity Home UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.95,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Bane Compound UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      6
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Bane Compound Health Post, Gokuldham Society Opp.Shivram Bane Chawl,Mumbai Central (W),Mumbai - 400034
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Bane Compound UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81829999999999,18.9717,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    R S Nimkar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      7
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Pratiksha Tower, Gr.Fl, Opp. R.S.Nimkar, Workshop Grant Road (W), Mumbai - 8.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      R S Nimkar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Gaurabai  UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      8
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Gaurabai Municiapl Dispensary,13th Kamathipura Lane,Byculla,Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Gaurabai  UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tadwadi UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      9
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Excel Residency , 1st Floor,Opp.Mazgaon Garden, New Nesbit road, Mazgaon ( W) Mumbai - 400010
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tadwadi UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8399,18.9687,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Souter Street UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      10
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Meghraj Shethi marg,opp zula maidan,madanpura,Mumbai - 400008
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Souter Street UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Reay Road UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      11
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Reay Road HP,BIT chawl,Motishah Lane,Mubai - 400010
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Reay Road UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Naigaon MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      12
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Naigaon Mat HM,V.V. Dahiwalkar Buwa Marg  Naigaon (W)  Mumbai - 400014
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Naigaon MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Family Welfare UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      13
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      F/South  Ward, 1st Floor, Parel Mumbai  - 400012
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Family Welfare UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Abhyuday Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      14
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Abhyuday Nagar Hp ,thakarshi Jivraj marg , Near Zakeria Marg, cotton green,Mumbai - 400033
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Abhyuday Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kidwai Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      15
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Rafi ahmed Kidwai ,Near Post office,Wadala,Mumbai- 400031
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kidwai Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    New Transit Camp UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      16
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Dosti Elite,Opp ,SIES College,Sion,Mumbai.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      New Transit Camp UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Wadala UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      17
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Wadala Municipal Dispensary, Near Wadala Railway station,Wadala ( W), Mumbai - 400037
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Wadala UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Raoli Camp MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      18
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Raoli Camp Health Post, Sion Koliwada, Near sardar nagar - 4 Bus stop,Mumbai - 400032
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Raoli Camp MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Korba Mithagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      19
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Korba Mithagar Health Post,Opp.wadala, B.P.T Quarters, Wadala(E),mumbai - 400037
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Korba Mithagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Antop Hill UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      20
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Antop Hill Municipal Dispensary, shaikh Mistry Road, Near Antop Hill Bus depot, Mumbai - 400037
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Antop Hill UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Pratiksha NagarUPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      21
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Pratiksha Nagar Health post,Dosti Elite,  Opp S.I.E.S college,Sion (E),Mumbai - 400037
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Pratiksha NagarUPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    LBS Marg UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      22
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Lal Bahadur Shastri Market, 1st Floor, Matunga Railway station(E),mumbai - 400019
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      LBS Marg UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    BDD Chawl UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      23
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Aururs chamber, Ground Floor,Near Jamburi maidan,Worli Mumbai-18
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      BDD Chawl UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Haji Mohhamad Haji Saboo Siddiqui Prabhadevi Maternity Home  UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      24
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Haji Mohammed Haji saboo siddiqui Municipal maternity Home, Gamon House,Veer Swarkar Road,Prabhadevi,Mumbai - 400025
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Haji Mohhamad Haji Saboo Siddiqui Prabhadevi Maternity Home  UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Jijamata Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      25
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kasturba Gandhi Nagar, Municipal school lokhandwala tower 2nd Floor, L.R.Papan Marg , Dainik Shivneri Marg,Worli  ,mumbai - 400018
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Jijamata Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    MH School Compund UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      26
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      M.H.Compound Municipal Dispensary ,Ground Floor Shiwalay Welfare Centre Building,sitaram Jadhav Marg, lower Parel Mumbai - 400011
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      MH School Compund UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Worli Koliwada UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      27
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Worli Koliwada Health Post, Near Police Chowki,sangit kesharinath Buwa Bhoyemarg,worli koliwada,Mumbai - 400030
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Worli Koliwada UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.85169999999999,18.9615,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sasmira UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      28
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sasmira Health Post, Behind Baneshwar Mandir,Sasmira Road,Worli Mumbai- 400031
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sasmira UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Curry Road UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      29
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Curry Road Health Post and Municipal Dispensary,Sakharam Baal Pawar Marg, Opp vaishanav sadan Building, Curry road(W.), mumbai -400013
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Curry Road UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.99,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Shastri Nagar -2 UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      30
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Shastri nagar - II Health post , Behind dharavi Police station,Near Shramik Vidyapith 90 Feet Road,Dharavi Mumbai, 400017
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Shastri Nagar -2 UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8558,19.0461,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Bai Gulbai UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      31
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Bai Gulbai Municipal Dispensary,455 C wing, saint Anthony S.R.A. Co.opp. housing Society, Dipen Wadi,Bhawani  Shankar Road, Dadar ( W.) mumbai - 400028
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Bai Gulbai UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Mahim MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      32
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mahim Health Post,mahim Maternity Home, Dilip Gupte Road,Opp Shree Cinema,mahim , mumbai - 400016
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Mahim MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8402,19.0328,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Welkarwadi UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      33
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Welkarwadi Municipal Dispensary,Welkarwadi Building No-1,Near M.H. Latif Chawl,Mahim Darga Road,Mahim mumbai - 400017
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Welkarwadi UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kumbharwada UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      34
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      ML camp disp,Opp TATA power,ML camp,Dharavi - 400017
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kumbharwada UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Urban Health Centre UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      35
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Urban Health Cente UPHC,60 feet road,Opp markandey Building,Dharavi ,Mumbai -400017
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Urban Health Centre UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Pila Bunglow UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      36
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Pilla Bunglow Health Post, Behind Tamil Municipal school, near Hanuman temple, Kapada bazar,Dharavi Mumbai -400017
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Pila Bunglow UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Shanti Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      37
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Shanti nagar Disp, Shivaji Nagar, Near Hayat Hotel, Vakola bridge, Santacruz (E) Mum-55
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Shanti Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Swami Vivekanand Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      38
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      S V Nagar Disp Swami vivekanand Dattatry Road, Vakola Bridge, Dattatry NSQ Home, Santacruz-East, Mumbai-400055
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Swami Vivekanand Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Golibar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      39
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Golibar HP opp Jawahar Nagar Disp  Near Charnal masjid , Jawahar nagar, opp ambewadi police Chowky, Khar-East Mumbai-400051
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Golibar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kalina UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      40
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kalina Disp, Near Geeta Vihar Hotel, Near Kalina Market, Kalina kurla Road Mumbai-400029
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kalina UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Bharat Nagar II  UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      41
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Bharat Nagar Disp (Gulabi Dawakhana) 2nd floor  opp pathar Nagar busstop Nagar, Beside Bharat Nagar Muncipal School, disp Bharatnagar Bandra-East
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Bharat Nagar II  UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kherwadi MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      42
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      B. G. Kherwadi Mun. Mat. Home, Ram Mandir, Children complex kherwadi signal,  Kherwadi, Bandra (East), Mumbai – 52.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kherwadi MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      HE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Gurunanak UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      43
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Gurunanak Mun. Disp, Ambedkar Road, Dr. Ambedkar Statue, Khar-West, mum-52
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Gurunanak UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      HW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Shastri Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      44
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      BMC Colony, Next to Building No. 5, end link road, Santacruz West, Mum 400054
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Shastri Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      HW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Natwar Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      45
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Natwar Nagar Road no-5 Sheeljeet Bldg Ground Floor, 5th Road, Shankrwadi Bus stop, Jogeshwari-East, Mumbai-400060
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Natwar Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sambhaji Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      46
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sambhaji Nagar Ayurvedic Disp.Shahaji Raje Road, Near Agrawal Eye Hospital, Koldongri, Vile Parle, Mumbai -59
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sambhaji Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sahar Road UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      47
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sahar Air port Hp, Vishal Hall, Gundvali KE ward office Gr. Floor Andheri (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sahar Road UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    VN Shirodkar MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      48
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Trimurti Building , Ground floor, Ajmal Road, Vile-Parle (E), Mumbai – 54.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      VN Shirodkar MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Squatters Coloney MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      49
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Hari Nagar Disp, Near Hari Nagar Mun School, Near vasthu Building, Pump House, Hari Nagar Road  Jogeshwari (East)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Squatters Coloney MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Marol MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      50
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Marol Mun. Mat. Home, 4th floor Marol-Maroshi, Near Fire bridged Station, Marol Road, Andheri (East), Mumbai – 57.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Marol MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KE
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Versova UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      51
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Versova Disp, Versova, Yari Road, Last Stop (249 Bus Stop) Andheri-West Mumbai-400058
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Versova UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nusserwanji Jahangirji Wadia UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      52
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      N.J. Wadia Mun. Disp Building, S.V. Road, Near Andheri Rly Station, Andheri West, Mumbai-400059
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nusserwanji Jahangirji Wadia UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Oshiwara MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      53
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Oshiwara Mun. Mat. Home, Near Ajit Glass Factory, Oshiwara, Jogeshwari (West)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Oshiwara MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Banana Leaf UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      54
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Banan leaf disp , Near Juhu Bus Depot, Opp Lotus Eye Hosp, Near Juhu Bus Depot, Vileparle West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Banana Leaf UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      KW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ram Mandir Road UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      55
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Indraprasth Building, Near Trikoni Ground,Motilal Nagar No-1, Goregoan (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ram Mandir Road UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sundar Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      56
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sundar Nagar UPHC, Sunder nagar pavan baug road, opp saraf CollegeBmc building, Near Neelam Nursing Home, Malad (W), Mumbai - 400064.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sundar Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89619999999999,19.1246,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Topiwala Maternity Home Goregaon  UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      57
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Goregoan MH HP,PCO Chowky  gram panchayat road Statio Road, Near Goregaon Station, Goregoan (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Topiwala Maternity Home Goregaon  UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Riddhi Garden MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      58
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Riddhi Graden Dispensary, Near Valentain Apartment, Gen. AK vaidya marg, Flim City Road, Malad (East)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Riddhi Garden MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Rathodi Village UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      59
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Rathodi Village Health post, Bali recidency, Opp Atlantis Hospital, Marve road, Malad (West), Mumbai- 400064.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Rathodi Village UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nemani UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      60
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Nemani Disp , Near Nemani School, S.V. Road, Malad West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nemani UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kurar Village UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      61
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kurar Village Disp, Haji Siddhiki Compound Daftari Road, Near Hotel Ramesh,  Malad-East, Mumbai-400097
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kurar Village UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Pathanwadi UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      62
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Pathanwadi HP,Divya Appartment, ground floor, Near Suvidhya hospital triveni Nagar, Malad € Mum 400097
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Pathanwadi UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Malwani -2 UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      63
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Malwani 2 Disp Santosh Nagar, Malvani Gate No 6, Malad-West, Mumbai-400095
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Malwani -2 UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Malwani 1 MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      64
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Gate No- 6, Opp Mount mary School, SRA building Julus wadi, Opp Mount mary School, Malad (W) Mum 400095
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Malwani 1 MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    M.W Desai UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      65
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      K.D. Heights Bldg.no.3, Opp. Laxmi Narayan Temple, Malad E, Mum-97
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      M.W Desai UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Leher Building UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      66
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Leher Building HP, Near Shitaladevi Mandir Marve Village , Amlad West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Leher Building UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8,19.2,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Choksy MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      67
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Choksy Mun Maternity Home, Marve Road, Malad (west)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Choksy MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      PN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    New Centenary UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      68
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ashiyana building, ground floor, Opposite Usha mataernity home, S M modi road, Kandevli.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      New Centenary UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Charkop Gaon UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      69
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Chakop sector 1 Disp Near BMC School, Behind tulsi vihar hotel,  charkop Kandiwali (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Charkop Gaon UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Dhanukarwadi UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      70
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      M.G Road BMC School kandivali Village, Ground Flr, M.G Road Kandivali (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Dhanukarwadi UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Charkop Sec 1 UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      71
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Chakop sector 1 Disp Near BMC School, Behind tulsi vihar hotel,  charkop Kandiwali (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Charkop Sec 1 UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Damu Pada UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      72
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Hanuman Nagar Disp, Samta Nagar, Near Telephone Exchange, Kandivali-East
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Damu Pada UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Babrekar Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      73
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Babrekar Disp, Hindustan Naka Charkop Indl. Estate. Kandivali, Mumbai-67
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Babrekar Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.2,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Akurli Road MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      74
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Akurli  Mun. Mat. Home, Akurli Road, Near ESIS Hospital, Kandivali (East), Mumbai – 101
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Akurli Road MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.2,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kajupada UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      75
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kajupada welfare Center , Savarpada, Near shani Mandir, Opp Chogle nagar, Borivali - (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kajupada UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Maharastra Housing Board Colony UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      76
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      M.H.B Muncipal Disp Nr. Datta Mandir, Datta mandir old M.H.B, Gorai Road Borivali (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Maharastra Housing Board Colony UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Charkop MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      77
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Charkop Sec 5 Disp Plot No. 511, Sector-5, Aadishvuar Jain Mandir marg, Charkop, Behind Apna Bazar, Kandivali-West, Mumbai-400067
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Charkop MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.22,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Gorai MHADA UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      78
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Gorai Mhada HP Nr. Swami Vivekanand School, Near Suvidya School, Gorai- 1
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Gorai MHADA UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      79
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      K.C.L Bhonsali Mun Mat Home S.V Road opp Jaya Talkies, Opp Anupam Super Store, Nr. Borivali Station
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.23,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Mother &amp; Child Hosp.UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      80
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mata Bal Rugnalay, Near Dhiraj upavan shiddharth nagar Magathane, Near Magathane Bus Depot, Borivali (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Mother &amp; Child Hosp.UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RC
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.22,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Anand Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      81
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      BMC 1st floor opp manan Building Near sanghi Hotel Anand Nagar, Opp Shakti nagar, Dahisar € 400068
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Anand Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.26,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Shastri Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      82
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      L.T Road Disp 1 St floor L.T Road, Near to Naghik Stores Dahisar Station Dahisar (W) 400068
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Shastri Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8733,19.2565,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Navagaon UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      83
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      SHASTRINAGAR DISP, NEAR MHARASHTRA HOTE, HOLY CROSS ROAD, DAHISAR (WEST)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Navagaon UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.25,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Pramila Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      84
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      PRAMILA NAGAR, MHADA COLONY, GROUND FLOOR,KANDARPADA,DAHISAR(WEST)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Pramila Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8737,19.2605,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Yashwant Rao Tawade  Marg UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      85
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Y R Tawade disp,  Harishankar Joshi Marg, Near Dhawale Hospital Near Police chowky Dahisar (E) 400068
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Yashwant Rao Tawade  Marg UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      RN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.25,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    New Tunga Village UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      86
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Tulip Building, off  Saki vihar road, Sakinaka, Kurla West Mumbai-70
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      New Tunga Village UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8922,19.1188,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nahar Amrut Shakti UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      87
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ground floor ,Municipal Market building , Near Dmart ,Nahar Amrut Shakti ,Chandivali Mumbai -76
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nahar Amrut Shakti UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Bibi Fatima UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      88
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      BB Fatima Disp, near Imperial cycle stop, L B S Road , Kurla (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Bibi Fatima UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.1192,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Himalaya UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      89
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Shabri Apt. Himalay housing socirty  , Nari Seva Sadan  road, Ghatkopar West, Mumbai -72
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Himalaya UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Dr.Anandibai Joshi Maternity Home UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      90
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Bail Bazar , Kurla Andheri Road , Kurla West Mumbai -70
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Dr.Anandibai Joshi Maternity Home UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Asalfa Village UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      91
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Asalfa Pipe Line Subhash Nagar,Ghatkopar Andheri Link road ,Ghatkopar West Mumbai- 72
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Asalfa Village UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Mohili Village UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      92
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Veer Savarkar Nagar , Ghatkopar Andheri Link Road , Ghatkopar West Mumbai- 72
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Mohili Village UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kajupada UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      93
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kajupada , NearGanesh Maidan, Kajupada Pipeline Kurla West - Mumbai -70
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kajupada UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Maasaheb Meenatai Thackeray MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      94
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      V.N. Purav Marg, off Sion- Trombay Road, Chunabhatti- Mumbai -22
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Maasaheb Meenatai Thackeray MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88460000000001,19.1315,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Buddha Colony UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      95
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Al Sham Bulding ,New Hall Road ,near Kartika High School ,Kurla (W )Mumbai -70
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Buddha Colony UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sangharsha Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      96
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Next to Palacial  Heights,  near Ciba Company ,Sangharsh Nagar, Chandivali Mumbai -76
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sangharsha Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90260000000001,19.1083,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kamgar Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      97
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Qureshi Nagar, Kasaiwada,Kurla(E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kamgar Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nehru Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      98
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Nehru Nagar Mun. Disp., Near Arey Dairy, Nehru Nagar, Kurla (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nehru Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Vashinaka UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      99
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      R-1- R2  Aman Building,Near Datta Mandir, L.U Gadkari Marg, Vashinaka, Mumbai-74
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Vashinaka UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    New Bainganwadi UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      100
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Urdu BMC school 5 , Next ambekar maidhan, Govandi west , Mumbai-43
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      New Bainganwadi UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.9235,19.0589,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Maharashtra Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      101
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Building No 18 &amp;19, Shivshahi Punarvsan Prakalp, Maharashtra Nagar, Mumbai-43
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Maharashtra Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Lokshahir Annabhau Sathe Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      102
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Lallubhai Compound , R-4 Building , MMDRA,Behind Shivan high school, Deonar, Mumbai-43
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Lokshahir Annabhau Sathe Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Deonar MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      103
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Deonar municipal mat. home,Deonar municipal colony,Govandi West ,Mumbai-74
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Deonar MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Shahaji Nagar MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      104
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Trombay Police Station , cheeta camp Trombay , Mumbai -88
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Shahaji Nagar MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ayodhya Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      105
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Hindi municipal school ,Ayodhya nagar market road , Vashinaka,Chembur East , Mumbai-74
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ayodhya Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kamala Raman Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      106
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kamala Raman Nagar Disp., Near Bhadra Nursing Home, Bainganwadi, Mumbai - 43.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kamala Raman Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ayodhya Nagar II  UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      107
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Suraksh Society , Building No 4 1st Floor, MMRDA road, Vashinaka, Chembur East ,Mumbai-74
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ayodhya Nagar II  UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      ME
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Matoshri Ramabai Ambedkar MH  UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      108
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      R.C.Road, Chembur naka, Chembur East - Mumbai-71
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Matoshri Ramabai Ambedkar MH  UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Chembur Colony UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      109
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Next to Vaswani Book Depo,Gidwani road, Chembur colony , Mumbai-74
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Chembur Colony UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Lal Dongar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      110
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Poonam petrol pump, off Sion Trombay road , Chembur Colony ,Chembur East , Mumbai-71
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Lal Dongar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Pestum Sagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      111
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near  BMC School, P.L.Lokhande Marg,Chembur West , Mumbai -89
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Pestum Sagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Mahul Village UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      112
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mahul SRA Complex, Mahul Village,
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Mahul Village UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      MW
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kamraj Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      113
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Eastern  Express Highway ,Ramabai Colony, Ghatkopar (East) Mumbai -75
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kamraj Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88460000000001,19.1315,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kirol Village UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      114
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Parsiwadi , near Ganesh Maidan Opp. Municipal Disp. Ghatkopar (W) - 86
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kirol Village UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Matoshri Ramabai Thackeray  Maternity Home UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      115
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Matoshri Ramabai Thackeray  Maternity Home, Near Ganesh Maidan ,Poddar mill compund , Ghatkopar (West) Mumbai -86
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Matoshri Ramabai Thackeray  Maternity Home UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Vikhroli Park Site UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      116
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Behind Jankalyan Bank , Vikroli Park Site, Road No.1 Vikroli West ,Mumbai -79
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Vikhroli Park Site UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ramabai Colony UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      117
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Eastern  Express Highway ,Ramabai Colony, Ghatkopar (East) Mumbai -75
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ramabai Colony UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Pant Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      118
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Municipal School No.3,Pant Nagar ,Ghatkopar (East), Mumbai-75
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Pant Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sarvodaya Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      119
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      LBS Road, Near Sarvodaya Hospital Ghatkopar (W) Mumbai 400086
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sarvodaya Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88460000000001,19.1315,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sonapur UPHC (Only HP)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      120
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Tulshetpada HP. --Municipal School, Tulshetpada, Bhai Guptadas Road , Bhandup (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sonapur UPHC (Only HP)
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Savitribai Jyotiba Phule Maternity Home UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      121
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Motichand Premises Savitribai Phule Marg , L.B.S Road , Bhandup (West) , Mumbai -78
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Savitribai Jyotiba Phule Maternity Home UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tulshetpada UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      122
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Tulshetpada Municipal school , Tulshetpada,Bhai Guptadas road , Bhandup (west) mumbai -78
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tulshetpada UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.9306,19.1627,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Shivaji Talao UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      123
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ganga Vidhyalay School, Konkon nagar , ,S.P.S Road , Bhandup west -Mumbai -28
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Shivaji Talao UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Hiranandani UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      124
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Shiv Krupa Apt , Below Nehal hospital ,Padmavati road , IIT market , Powai  -Mumbai 76
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Hiranandani UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Dr.Babasaheb Ambedkar Maternity Home UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      125
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Tagore nagar Disp.Dr. Babasaheb Ambedkar Mun. Mat. Home, Ground No.7, Tagore Nagar, Vikhroli (East)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Dr.Babasaheb Ambedkar Maternity Home UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Maharshi Karve UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      126
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kanjur Marg (E), Nehru Nagar, BMC Market Building 1st Floor
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Maharshi Karve UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.9372,19.1511,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Subhash Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      127
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      LBS Mat Home, kukreja Complex Bhandup Villege road , Bhandup (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Subhash Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88460000000001,19.1315,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kanjur Village UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      128
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Behind  Kanjur marg police station, Kanjurmarg (East ) Mumbai -42
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kanjur Village UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ishwar Nagar UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      129
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Municipal  school building , Near MSEB office , Iswar Nagar , Bhandup (West) ,Mumbai -78
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ishwar Nagar UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    LBS Marg MH UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      130
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near S.G. Pawar International school,besides kuckreja complex,L.B S.Road , Bhandup West - Mumbai -78
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      LBS Marg MH UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tembhipada UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      131
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Nardas Nagar, Tembhipada Mun. Disp., Tembhi Pada (W), Mum - 78
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tembhipada UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Smt.Shyamkunwarbai Jatashankar Dosa Chanchani  Maternity Home UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      132
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Panch Rashta , M.G.Road , Mulund  west , Mumbai -80
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Smt.Shyamkunwarbai Jatashankar Dosa Chanchani  Maternity Home UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Mulund Colony UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      133
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Shivaji chowk ,Jhulelal Road ,Mulund colony, Mulund (west) Mumbai -80
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Mulund Colony UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    DDU Marg UPHC
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      134
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      DDU Road, Opp Croma Electronics  Mulund West 400080
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      DDU Marg UPHC
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Paltan Rd. HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      135
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mun. Disp. At Sabu Siddiki Road, Paltan Rd. Gr.Fl. Mumbai-1
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Paltan Rd. HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      A
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84059999999999,18.9473,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Janabai  Rokade HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      136
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Janabai Rokade Mun. School, Ground Floor, Janjikar street, Near masjid Station, Mumbai-3
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Janabai  Rokade HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      B
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.95,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Jail Road HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      137
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Walpakhadi Mun. Disp., Mauji Rathod Road, Noor Baug- Donggri, Mumbai.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Jail Road HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      B
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Banganga HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      138
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kawale Math High school, Walkeshwar, Mumbai-8
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Banganga HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.85169999999999,18.9615,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nana Chowk HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      139
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Lotus Bldg. 1st Floor, Dinanath Mangeshkar Rd.,Forjett Hill, Mumbai-36
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nana Chowk HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81,18.97,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Khetwadi Back RD. HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      140
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Manish Bldg. 1st floor Khetwadi, 11th lane, Grant Road (w) mumbai-4
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Khetwadi Back RD. HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      D
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,18.96,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nawab Tank HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      141
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      opp. Dockyard Road Rly. Station, Dockyard (E) mumbai-10
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nawab Tank HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8441,18.9654,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Botliboy HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      142
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Behind New 52 Chawl, R.B. Margm Ferbaundar, Godapdev Chowk, Mumbai-33.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Botliboy HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kasturba Hospital HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      143
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kasturba Hospital Comp. Sane Guruji, Marg, Chinchpokali (W) mumbai-11
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kasturba Hospital HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,18.98,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ram Laxman Tekadi HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      144
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ambewadi, B.S. Ambedkar Marg, Near Tata Colony Shivari Mumbai-15
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ram Laxman Tekadi HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    2nd. October Colony HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      145
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Veerdarshan 12, Near Shrimati Saree Center, Opp. Jain, Temple, G.D. Ambekar Road, Bhoiwada Parel, Mumbai-12.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      2nd. October Colony HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.01,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    V. Shantaram HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      146
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Rajkamal Balodyan, Near Mahatma, Gandhi Hosp. Parel Mumbai-12.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      V. Shantaram HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      FS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Don Bosco HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      147
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Don Bosco mun. Disp. Madona Bldg.,Nathulal Parekh Marg Wadala. Mumbai-37.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Don Bosco HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      FN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Jijamata Nagar RCH-II HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      148
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Gorakh Complex Gr.Fl. Near B.D.D.Chawl Worli Mumbai-25.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Jijamata Nagar RCH-II HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      GS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.81999999999999,19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Gokhale Road HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      149
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Gokhale Road Mun. School 3rd Floor, Jakhadevi Chowk Dadar (W) Mumbai-28.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Gokhale Road HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.02,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Shastri Nagar HP.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      150
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Shastri Nagar Mun. School Gr. Fl. Dharavi, Mumbai-17.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Shastri Nagar HP.
+     </SimpleData>
+     <SimpleData name="Ward">
+      GN
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.03,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Vakola H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      151
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Vakola Market Building, Santacruz-East Mumbai-400055
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Vakola H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      H/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Govt Colony HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      152
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Bharat Nagar Disp, Bandra - East Mumbai-400052
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Govt Colony HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      H/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    V.N. Desai Hospital H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      153
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      V.N. Desai Mun. Gen. Hospital Santacruz-West, Mumbai-400055
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      V.N. Desai Hospital H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      H/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Khotwadi H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      154
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      3rd Near S.V. Road, Opp, Autopit Petrol Pump, Santacruz-West, Mumbai-400055
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Khotwadi H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      H/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sherly Rajan H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      155
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Flemigo Building, Carmel Church, Near Met College, Vadora Road, Bandra-West Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sherly Rajan H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      H/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    S.V. Road H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      156
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Khar T.B. Clinic, Khar-West Mumbai 400052
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      S.V. Road H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      H/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    K.B. Bhabha Hospital H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      157
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kb Bhabha Mun. Gen. Hospital, 1st Floor New Building, Bandra-West Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      K.B. Bhabha Hospital H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      H/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tarun Bharat H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      158
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Islampura Chakala, Near Mun. School Garden, Andheri-East Mumbai-98
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tarun Bharat H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ajgaonkar Plot H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      159
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ajogaonkar Plot Near Asmita School, Bandrekarwadi, Jogeshwari-East Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ajgaonkar Plot H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nehru Road H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      160
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Water Dept. Building 1st Floor, Nehru Road, Vileparle East Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nehru Road H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    M.I.D.C. H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      161
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Gundwali, Andheri-East, Mumbai-400059
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      M.I.D.C. H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sarvodaya Nagar H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      162
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sarvodaya Nagar Mun. Disp; Near Meghwadi Police Station, Andheri - East; Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sarvodaya Nagar H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Sunder Nagar H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      163
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sunder Nagar H.P. Andheri-East
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Sunder Nagar H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tata Compound H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      164
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      S.V. Road Irla, Andheri-West, Mumbai-400058
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tata Compound H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Anand Nagar H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      165
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mhada Building No. 43, Near Oshiwara Police Station, Anand Nagar, Behram Baug Jogeshwari-West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Anand Nagar H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Lokhandwala H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      166
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sardar Vallabhai Patel Nagar, Near Telephone Exchange, Char Bunglow, Andheri-West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Lokhandwala H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.14,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nehru Nagar H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      167
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Opp. Mithibai College, Irla Road, Vileparle West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nehru Nagar H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Bhardawadi H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      168
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Bhardawadi Mat. Home Building, Gr. Floor, Dawood Baug Road, Andheri-West, Mumbai - 400058
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Bhardawadi H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Millat Nagar H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      169
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mhada Building No. 43, Near Oshiwara Police Station, Anand Nagar, Behram Baug Jogeshwari-West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Millat Nagar H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      K/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.15,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Chincholi H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      170
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sq. Colony, Chincholi Phatak, Goregaon-East, Mumbai-400095
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Chincholi H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      P/S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Pandurangwadi H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      171
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Road No 4 Goregaon-East, Opp Sneha Building, Mumbai-400063
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Pandurangwadi H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      P/S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Teen Dongri  H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      172
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mitha Nagar Mun. School, Teen Dongari Yashwant Nagar, Opp Apna Bazar, Goregaon-West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Teen Dongri  H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      P/S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Motilal Nagar H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      173
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sidharth Nagr Hosp; Opp. Post Office, Goregaon West Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Motilal Nagar H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      P/S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8353,19.1654,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Pahadi HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      174
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Topiwala Mun. Disp. Station Road Goregaon-West, Mumbai-400062
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Pahadi HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      PS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tank Lane H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      175
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Datary Road, Play Ground, Malad East Mumbai-97
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tank Lane H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      P/N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Appa Pada H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      176
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Maharashtra Nagar, Appa Pada, Malad-East, Mumbai-97
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Appa Pada H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      P/N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.19,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Dindoshi Vasahat H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      177
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Malad-West, Mumbai-400095
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Dindoshi Vasahat H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      P/N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.16,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Charkop Sec-1A HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      178
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Charkop Disp( 1000-1200 SqF)Charkop Kandivali-West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Charkop Sec-1A HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      RS
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.83,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Hanuman Nagar H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      179
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Thakur Complex, Kandivali-West Mumbai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Hanuman Nagar H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Centenary H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      180
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Centenary Gen. Hosp, Kandivali West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Centenary H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.13,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tata Power House H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      181
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Tata Powe House, Besides Nagothane Bus Depot, Borivali-East
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tata Power House H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.22,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Eksar Village H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      182
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mun. School Disp; Eksar Road Near Fish Market, Tale Pakhadi, Borivali-West Mumbai-92
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Eksar Village H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84999999999999,19.24,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Borsapada H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      183
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Saibaba Nagar Borivali-West
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Borsapada H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.84,19.21,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Rajendra Nagar H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      184
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Rajendra Nagar, Borivali-East, Prathmesh Nagar
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Rajendra Nagar H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/C
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.22,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Baglipada H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      185
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Anand Nagar, Dahisar-East, Mumbai-68
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Baglipada H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.86,19.26,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Dahisar Mun. Disp. H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      186
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ashokvan, Borivali-East
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Dahisar Mun. Disp. H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.8659,19.2446,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Koknipada H.P.
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      187
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Dahisar - East
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Koknipada H.P.
+     </SimpleData>
+     <SimpleData name="Ward">
+      R/N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.87,19.25,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kurla Bhabha Hosp HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      188
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Wadia Road Near Kurla Station Kurla (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kurla Bhabha Hosp HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tunga Village HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      189
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ashok Nagar D/5, Military Road, Andheri (W).
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tunga Village HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Amar Nagar HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      190
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Navpada, Primier Road, Near Holy Cross Highschool, Kurla (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Amar Nagar HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Match Factory HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      191
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Peter Pareira Road, Alsham Hall, Near Kartika High school
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Match Factory HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      L
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.88,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nimoni Baug HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      192
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Gaikwad Nagar, Govandi
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nimoni Baug HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Mankhurd HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      193
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Bldg.No.98, Mhada Colony, Mankhurd.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Mankhurd HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Centenary Hosp. HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      194
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Dukes company, Govandi (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Centenary Hosp. HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Baiganwadi HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      195
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Ambedkar Maidan, Urdu BMC school No.2, Govandi.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Baiganwadi HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.93000000000001,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Shivaji Nagar HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      196
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      UHC, Room No.4, Plot No.44. Govandi.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Shivaji Nagar HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.04,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Lotus Colony  HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      197
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Lotus Colony Garden, Shivajinagar, Govandi
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Lotus Colony  HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/E
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tilak Nagar HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      198
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near BMC School, P.L. Lokhande Marg. Chembur.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tilak Nagar HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.89,19.07,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ghatla Village HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      199
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near Kukreja Tower, Opp. Centenary Hosp. Govandi
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ghatla Village HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.05,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Subhash Nagar HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      200
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Bhau Pradhan Maidan, Subhash Nagar Road, Chembur.
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Subhash Nagar HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      M/W
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.06,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Barve Nagar HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      201
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sant Muktabai Hosp. Ghatkopar (W), Mumbai -84
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Barve Nagar HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.1,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Varsha Nagar HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      202
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ambedkar Nagar Mun.School, Vikhroli
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Varsha Nagar HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.11,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Rajawadi Mun.School HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      203
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Near R.L.Gandhi School, Vidyavihar (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Rajawadi Mun.School HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.90000000000001,19.08,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Ganesh Nagar HP   (Laxmi Nagar)
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      204
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Laxmi Nagar, Ghatkopar (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Ganesh Nagar HP   (Laxmi Nagar)
+     </SimpleData>
+     <SimpleData name="Ward">
+      N
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.92,19.09,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Paspoli Village HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      205
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Hiranandani, Powai
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Paspoli Village HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.91,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Kannamwar Nagar HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      206
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Kannamwar Nagar No;2,  Mahatma Phule Hosp.Vikhroli (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Kannamwar Nagar HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Tagore Nagar HP RCH2
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      207
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Ambedkar Nagar Mat.Home, Tagore Nagar  group No.7, Vikhroli (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Tagore Nagar HP RCH2
+     </SimpleData>
+     <SimpleData name="Ward">
+      S
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.94,19.12,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Veer Savarkar HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      208
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Mulund Gen.Hosp(E) , Near Deshmukh Garden, Mulund (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Veer Savarkar HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95999999999999,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Nanepada HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      209
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sachin Society, Mithagar Road, Mulund (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Nanepada HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    Mulund Gen.Hosp  HP
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      210
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Opp.ESIS Hosp. LBS Road, Mulund (W)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      Mulund Gen.Hosp  HP
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.18,0
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <styleUrl>
+    #mumbai_health_posts_uphcs_style
+   </styleUrl>
+   <name>
+    DDU HP 2
+   </name>
+   <ExtendedData>
+    <SchemaData schemaUrl="#J_mumbai_health_posts_uphcs_ISSSSS">
+     <SimpleData name="OBJECTID">
+      211
+     </SimpleData>
+     <SimpleData name="OwnerDept">
+      Public Health Dept
+     </SimpleData>
+     <SimpleData name="Twitter_Handle">
+      @mybmcHealthDept
+     </SimpleData>
+     <SimpleData name="UPHC_Addre">
+      Sachin Society, Mithagar Road, Mulund (E)
+     </SimpleData>
+     <SimpleData name="UPHC_Name">
+      DDU HP 2
+     </SimpleData>
+     <SimpleData name="Ward">
+      T
+     </SimpleData>
+    </SchemaData>
+   </ExtendedData>
+   <Point>
+    <coordinates>
+     72.95,19.17,0
+    </coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>

@@ -1,0 +1,109 @@
+{
+  "raw_records": {
+    "dispensary": 186,
+    "uphc": 211,
+    "public_hospital": 31,
+    "maternity_hospital": 28
+  },
+  "raw_records_total": 456,
+  "excluded_records": 0,
+  "master_records": 456,
+  "distinct_sites": 402,
+  "multi_category_sites": 54,
+  "category_records": {
+    "uphc": 211,
+    "dispensary": 186,
+    "public_hospital": 31,
+    "maternity_hospital": 28
+  },
+  "colocation_pairs": {
+    "match": 54,
+    "no_match_too_far": 3,
+    "no_match_missing_coordinates": 1
+  },
+  "colocation_matches_by_pair": [
+    {
+      "category_a": "dispensary",
+      "category_b": "maternity_hospital",
+      "n": 4
+    },
+    {
+      "category_a": "dispensary",
+      "category_b": "uphc",
+      "n": 48
+    },
+    {
+      "category_a": "uphc",
+      "category_b": "maternity_hospital",
+      "n": 2
+    }
+  ],
+  "coordinate_status": {
+    "valid": 455,
+    "missing": 1
+  },
+  "coordinate_decimals": {
+    "1": 5,
+    "2": 393,
+    "4": 57,
+    "<NA>": 1
+  },
+  "assignment_check": {
+    "agree": 387,
+    "disagree_within_coordinate_rounding": 43,
+    "disagree_review": 20,
+    "outside_polygons_review": 4,
+    "outside_polygons_within_rounding": 1,
+    "no_valid_coordinates": 1
+  },
+  "ward_polygon_problems": [],
+  "ward_polygons_repaired": 0,
+  "total_area_km2": 474.4,
+  "population_total_2011": 12442373,
+  "population_checks_passed": true,
+  "hospital_csv": {
+    "csv_rows": 288,
+    "csv_type_counts": {
+      "Private": 235,
+      "Municipal": 33,
+      "Government": 13,
+      "Govt": 3,
+      "Trust": 2,
+      "BMC": 1,
+      "Defence": 1
+    },
+    "csv_public_rows": 51,
+    "csv_wards": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F/N",
+      "F/S",
+      "G/N",
+      "G/S",
+      "H/E",
+      "H/W",
+      "K/E",
+      "K/W",
+      "L",
+      "M/E",
+      "M/W",
+      "N",
+      "P/N",
+      "P/S",
+      "R/C",
+      "R/N",
+      "R/S",
+      "S",
+      "T"
+    ],
+    "csv_unmapped_wards": []
+  },
+  "hospital_csv_reconciliation": {
+    "matched_in_kml": 32,
+    "not_found_in_kml_layers": 18,
+    "matched_in_kml_ward_conflict": 1
+  },
+  "kml_hospital_records_not_in_csv": 26
+}

@@ -1,0 +1,59 @@
+facility_id_a,category_a,name_a,facility_id_b,category_b,name_b,ward_id,name_stem,distance_m,tolerance_m,decision
+DISP-001,dispensary,Colaba Dispensary,UPHC-002,uphc,Colaba UPHC,A,colaba,0.0,1831.7,match
+DISP-003,dispensary,Maruti Lane Dispensary,UPHC-001,uphc,Maruti Lane UPHC,A,maruti lane,0.0,1831.7,match
+DISP-015,dispensary,Chandanwadi Dispensary,UPHC-004,uphc,Chandanwadi UPHC,C,chandanwadi,0.0,315.3,match
+DISP-013,dispensary,Panjrapole Dispensary,UPHC-003,uphc,Panjrapole UPHC,C,panjrapole,0.0,1831.7,match
+DISP-019,dispensary,R. S. Nimkar Disp,UPHC-007,uphc,R S Nimkar UPHC,D,r s nimkar,0.0,1831.7,match
+DISP-032,dispensary,Gaurabai Dispensary,UPHC-008,uphc,Gaurabai UPHC,E,gaurabai,0.0,1831.7,match
+DISP-025,dispensary,Souter Street Dispensary,UPHC-010,uphc,Souter Street UPHC,E,souter street,0.0,1831.7,match
+DISP-050,dispensary,Antop Hill Dispensary,UPHC-020,uphc,Antop Hill UPHC,F/N,antop hill,0.0,1831.7,match
+DISP-047,dispensary,Korba Mithagar Dispensary,UPHC-019,uphc,Korba Mithagar UPHC,F/N,korba mithagar,0.0,1831.7,match
+DISP-049,dispensary,New Transit Camp Dispensary,UPHC-016,uphc,New Transit Camp UPHC,F/N,new transit camp,0.0,1831.7,match
+DISP-046,dispensary,Wadala Dispensary,UPHC-017,uphc,Wadala UPHC,F/N,wadala,0.0,1831.7,match
+DISP-039,dispensary,Kidwai Nagar Dispensary,UPHC-015,uphc,Kidwai Nagar UPHC,F/S,kidwai nagar,0.0,1831.7,match
+DISP-038,dispensary,Naigaon Dispensary,MAT-002,maternity_hospital,Naigaon Maternity Home,F/S,naigaon,0.0,1831.7,match
+DISP-065,dispensary,Bai Gulbai Dispensary,UPHC-031,uphc,Bai Gulbai UPHC,G/N,bai gulbai,0.0,1831.7,match
+DISP-073,dispensary,Kumbharwada Dispensary,UPHC-034,uphc,Kumbharwada UPHC,G/N,kumbharwada,0.0,1831.7,match
+DISP-067,dispensary,Welkarwadi Dispensary,UPHC-033,uphc,Welkarwadi UPHC,G/N,welkarwadi,0.0,1831.7,match
+DISP-061,dispensary,BDD Chawl Dispensary,UPHC-023,uphc,BDD Chawl UPHC,G/S,bdd chawl,0.0,1831.7,match
+DISP-053,dispensary,Jijamata Nagar Dispensary,UPHC-025,uphc,Jijamata Nagar UPHC,G/S,jijamata nagar,0.0,1831.7,match
+DISP-052,dispensary,Worli Koliwada Dispensary,UPHC-027,uphc,Worli Koliwada UPHC,G/S,worli koliwada,0.0,315.3,match
+DISP-077,dispensary,Kalina Dispensary,UPHC-040,uphc,Kalina UPHC,H/E,kalina,0.0,1831.7,match
+DISP-076,dispensary,Swami Vivekanand Nagar Dispensary,UPHC-038,uphc,Swami Vivekanand Nagar UPHC,H/E,swami vivekanand nagar,0.0,1831.7,match
+DISP-081,dispensary,Gurunanak Dispensary,UPHC-043,uphc,Gurunanak UPHC,H/W,gurunanak,2459.7,1831.7,no_match_too_far
+DISP-083,dispensary,Shastri Nagar Dispensary,UPHC-044,uphc,Shastri Nagar UPHC,H/W,shastri nagar,0.0,1831.7,match
+DISP-090,dispensary,Natwar Nagar Dispensary,UPHC-045,uphc,Natwar Nagar UPHC,K/E,natwar nagar,0.0,1831.7,match
+DISP-086,dispensary,Sambhaji Nagar Dispensary,UPHC-046,uphc,Sambhaji Nagar UPHC,K/E,sambhaji nagar,0.0,1831.7,match
+DISP-102,dispensary,Banana Leaf Dispensary,UPHC-054,uphc,Banana Leaf UPHC,K/W,banana leaf,3151.6,1831.7,no_match_too_far
+DISP-098,dispensary,Oshiwara Dispensary,MAT-010,maternity_hospital,Oshiwara Maternity Home,K/W,oshiwara,0.0,1831.7,match
+DISP-100,dispensary,Versova Dispensary,UPHC-051,uphc,Versova UPHC,K/W,versova,0.0,1831.7,match
+DISP-137,dispensary,Bibi Fatima Dispensary,UPHC-088,uphc,Bibi Fatima UPHC,L,bibi fatima,0.0,315.3,match
+DISP-138,dispensary,Buddha Colony Dispensary,UPHC-095,uphc,Buddha Colony UPHC,L,buddha colony,1067.7,1073.5,match
+UPHC-090,uphc,Dr.Anandibai Joshi Maternity Home UPHC,MAT-020,maternity_hospital,Dr. Anandibai Joshi Maternity Home,L,dr anandibai joshi,0.0,1831.7,match
+DISP-145,dispensary,Himalaya Dispensary,UPHC-089,uphc,Himalaya UPHC,L,himalaya,0.0,1831.7,match
+DISP-140,dispensary,Kajupada Dispensary,UPHC-093,uphc,Kajupada UPHC,L,kajupada,0.0,1831.7,match
+DISP-147,dispensary,Mohili Village Dispensary,UPHC-092,uphc,Mohili Village UPHC,L,mohili village,0.0,1831.7,match
+DISP-141,dispensary,Nehru Nagar Dispensary,UPHC-098,uphc,Nehru Nagar UPHC,L,nehru nagar,0.0,1831.7,match
+DISP-152,dispensary,Ayodhya Nagar Dispensary,UPHC-105,uphc,Ayodhya Nagar UPHC,M/E,ayodhya nagar,0.0,1831.7,match
+DISP-154,dispensary,Deonar Dispensary,MAT-022,maternity_hospital,Deonar Maternity Home,M/E,deonar,,,no_match_missing_coordinates
+DISP-163,dispensary,Chembur Colony Dispensary,UPHC-109,uphc,Chembur Colony UPHC,M/W,chembur colony,0.0,1831.7,match
+DISP-165,dispensary,Lal Dongar Dispensary,UPHC-110,uphc,Lal Dongar UPHC,M/W,lal dongar,0.0,1831.7,match
+DISP-167,dispensary,Mahul Village Dispensary,UPHC-112,uphc,Mahul Village UPHC,M/W,mahul village,0.0,1831.7,match
+DISP-174,dispensary,Kirol Village Dispensary,UPHC-114,uphc,Kirol Village UPHC,N,kirol village,1111.9,1831.7,match
+DISP-171,dispensary,Pant Nagar Dispensary,UPHC-118,uphc,Pant Nagar UPHC,N,pant nagar,0.0,1831.7,match
+DISP-107,dispensary,Choksy Dispensary,MAT-012,maternity_hospital,Choksy Maternity Home,P/N,choksy,0.0,1831.7,match
+DISP-112,dispensary,Kurar Village Dispensary,UPHC-061,uphc,Kurar Village UPHC,P/N,kurar village,0.0,1831.7,match
+DISP-108,dispensary,Nemani Dispensary,UPHC-060,uphc,Nemani UPHC,P/N,nemani,0.0,1831.7,match
+DISP-113,dispensary,Pathanwadi Dispensary,UPHC-062,uphc,Pathanwadi UPHC,P/N,pathanwadi,0.0,1831.7,match
+UPHC-057,uphc,Topiwala Maternity Home Goregaon UPHC,MAT-011,maternity_hospital,Topiwala Maternity Home Goregaon,P/S,topiwala goregaon,1529.6,1831.7,match
+DISP-125,dispensary,Gorai MHADA Dispensary,UPHC-078,uphc,Gorai MHADA UPHC,R/C,gorai mhada,0.0,1831.7,match
+DISP-127,dispensary,Kajupada Dispensary,UPHC-075,uphc,Kajupada UPHC,R/C,kajupada,0.0,1831.7,match
+DISP-134,dispensary,Anand Nagar Dispensary,UPHC-081,uphc,Anand Nagar UPHC,R/N,anand nagar,0.0,1831.7,match
+DISP-135,dispensary,Pramila Nagar Dispensary,UPHC-084,uphc,Pramila Nagar UPHC,R/N,pramila nagar,0.0,315.3,match
+DISP-132,dispensary,Shastri Nagar Dispensary,UPHC-082,uphc,Shastri Nagar UPHC,R/N,shastri nagar,2550.5,1073.5,no_match_too_far
+DISP-118,dispensary,Akurli Dispensary,MAT-015,maternity_hospital,Akurli Maternity Home,R/S,akurli,0.0,1831.7,match
+DISP-122,dispensary,Babrekar Nagar Dispensary,UPHC-073,uphc,Babrekar Nagar UPHC,R/S,babrekar nagar,0.0,1831.7,match
+DISP-123,dispensary,New Centenary Dispensary,UPHC-068,uphc,New Centenary UPHC,R/S,new centenary,0.0,1831.7,match
+DISP-180,dispensary,Kanjur Village Dispensary,UPHC-128,uphc,Kanjur Village UPHC,S,kanjur village,0.0,1831.7,match
+DISP-185,dispensary,DDU Marg Dispensary,UPHC-134,uphc,DDU Marg UPHC,T,ddu marg,1111.9,1831.7,match
+DISP-186,dispensary,Mulund Colony Dispensary,UPHC-133,uphc,Mulund Colony UPHC,T,mulund colony,0.0,1831.7,match

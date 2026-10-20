@@ -1,0 +1,5 @@
+category,category_label,sort_order
+dispensary,Dispensary,1
+uphc,UPHC,2
+public_hospital,Public hospital,3
+maternity_hospital,Maternity home,4

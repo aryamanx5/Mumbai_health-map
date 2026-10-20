@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mumbai Ward Health</title>
+<meta name="description" content="A data study of where Mumbai's listed public dispensaries, UPHCs, hospitals and maternity homes sit, ward by ward, against the people they serve.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="landing/style.css?v=6">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<div class="accent-bar"></div>
+
+<header class="nav">
+  <a class="wordmark" href="#top">Mumbai Ward Health</a>
+  <nav aria-label="Sections">
+    <a href="#findings">Findings</a>
+    <a href="#method">Method</a>
+    <a href="#where">Where to look</a>
+  </nav>
+  <a class="btn btn-small" href="dashboard/">Open the dashboard</a>
+</header>
+
+<main id="top">
+  <!-- ========== Hero: the sentence, with the ward controls sitting on it ========== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-stage">
+      <h1 id="hero-title" class="hero-title">
+        <span class="line"><span class="line-inner"><span class="num" id="h-sites">402</span> health sites</span></span>
+        <span class="line"><span class="line-inner"><span class="frame" aria-hidden="true"><svg id="h-map" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"></svg></span><span class="num" id="h-pop">1.24 crore</span> people</span></span>
+      </h1>
+
+      <div class="chip chip-ward" data-ui role="group" aria-label="Choose a ward">
+        <span class="chip-label">Ward</span>
+        <div class="chip-row">
+          <button type="button" class="chip-step" id="w-prev" aria-label="Previous ward">‹</button>
+          <select id="w-select" aria-label="Ward"><option value="">All 24</option></select>
+          <button type="button" class="chip-step" id="w-next" aria-label="Next ward">›</button>
+        </div>
+      </div>
+
+      <div class="chip chip-rate" data-ui aria-live="polite">
+        <span class="chip-label">Sites per 100,000</span>
+        <span class="chip-value"><span id="w-rate">3.23</span><span class="chip-sub" id="w-rank">city-wide</span></span>
+      </div>
+
+      <button type="button" class="chip chip-switch" data-ui id="w-switch" aria-pressed="false">
+        <span class="chip-label">Show the lowest ward</span>
+        <span class="switch" aria-hidden="true"><span class="knob"></span></span>
+      </button>
+    </div>
+
+    <p class="hero-sub">A data study of where Mumbai's listed public dispensaries, UPHCs, hospitals and maternity homes sit,
+      ward by ward, against the people they serve.</p>
+    <div class="hero-actions">
+      <a class="btn" href="dashboard/">Open the dashboard</a>
+      <a class="text-link" href="outputs/reports/final_report.pdf">Read the 12-page report</a>
+    </div>
+  </section>
+
+  <!-- ========== Intro statement ========== -->
+  <section class="intro" data-reveal>
+    <p class="statement">
+      We laid four city facility
+      <span class="thumb" aria-hidden="true"><img src="landing/assets/bombay-suburban-district-map-1929.jpg" alt="" width="1920" height="1440" loading="lazy" style="object-position: 40% 55%"></span>
+      maps over the census
+      <span class="thumb" aria-hidden="true"><img src="landing/assets/mumbai-local-train-passing.jpg" alt="" width="1920" height="1438" loading="lazy" style="object-position: 30% 50%"></span>
+      and 24 wards to ask if
+      <span class="thumb" aria-hidden="true"><img src="landing/assets/the-sir-jamsetjee-hospital-grant-medical-college.jpg" alt="" width="1920" height="1518" loading="lazy" style="object-position: 50% 40%"></span>
+      care follows people.
+    </p>
+  </section>
+
+  <!-- ========== The thumbnails, opened up ========== -->
+  <section class="band" aria-label="Mumbai, then and now">
+    <figure class="band-a" data-reveal>
+      <img src="landing/assets/the-sir-jamsetjee-hospital-grant-medical-college.jpg" alt="Nineteenth-century engraving of the Sir Jamsetjee Jeejeebhoy Hospital and Grant Medical College, Bombay" width="1920" height="1518" loading="lazy">
+      <figcaption>Sir J.J. Hospital and Grant Medical College, Byculla, in a 19th-century engraving. Still one of the 31 public hospitals in the data, in E ward.</figcaption>
+    </figure>
+    <figure class="band-b" data-reveal>
+      <img src="landing/assets/mumbai-local-train-passing.jpg" alt="A Mumbai suburban local train passing along the tracks" width="1920" height="1438" loading="lazy">
+      <figcaption>The suburban line. The wards it runs through hold most of the city's people and the lowest rates.</figcaption>
+    </figure>
+    <figure class="band-c" data-reveal>
+      <img src="landing/assets/lohar-chawl-kalbadevi-mumbai-maharashtra-india-panoramio.jpg" alt="Crawford Market clock tower and street traffic near Lohar Chawl, Kalbadevi" width="1920" height="1280" loading="lazy">
+      <figcaption>Kalbadevi, in the island city, where sites per resident run highest.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ========== Stats ledger ========== -->
+  <section class="stats" id="findings" aria-labelledby="stats-title">
+    <h2 id="stats-title" class="stats-title" data-reveal><span class="soft">Six numbers</span> <span>worth knowing</span></h2>
+    <dl class="ledger" data-reveal>
+      <div class="row"><dt class="whole" data-count="402">402</dt><dd class="dec"></dd><dd class="cap">distinct public facility sites, from 456 records; 54 buildings hold more than one service</dd></div>
+      <div class="row"><dt class="whole" data-count="3">3</dt><dd class="dec" data-count-dec="23">.23</dd><dd class="cap">sites per 100,000 residents across the city</dd></div>
+      <div class="row hl"><dt class="whole" data-count="2">2</dt><dd class="dec" data-count-dec="17">.17</dd><dd class="cap">the lowest ward rate, in R South, where one site serves 46,082 people</dd></div>
+      <div class="row"><dt class="whole" data-count="5">5</dt><dd class="dec" data-count-dec="95">.95</dd><dd class="cap">the highest ward rate, in A ward, home to four public hospitals</dd></div>
+      <div class="row"><dt class="whole" data-count="4">4</dt><dd class="dec" data-count-dec="2">.02</dd><dd class="cap">sites per 100,000 in the island city, against 2.97 in the suburbs</dd></div>
+      <div class="row"><dt class="whole" data-count="14">14</dt><dd class="dec"></dd><dd class="cap">wards hold a bigger share of the city's people than of its listed sites</dd></div>
+    </dl>
+  </section>
+
+  <!-- ========== How it works: the pipeline as one bar ========== -->
+  <section class="method" id="method" aria-labelledby="method-title">
+    <h2 id="method-title" class="method-title" data-reveal>One command, four stages</h2>
+    <div class="stagebar" data-ui data-reveal role="list" aria-label="Pipeline stages, sized by how long each takes">
+      <div class="stage s1" role="listitem" style="--grow: 12">
+        <div class="seg"><h3 class="dur">Under a second</h3></div>
+        <p>First, read four KML layers, merge 54 shared buildings and add 97 census wards into 24.</p>
+      </div>
+      <div class="stage s2" role="listitem" style="--grow: 12">
+        <div class="seg"><h3 class="dur">Three seconds</h3></div>
+        <p>Then compute rates, shares and gaps for every ward and draw twelve figures.</p>
+      </div>
+      <div class="stage s3" role="listitem" style="--grow: 76">
+        <div class="seg"><h3 class="dur">Thirty-two seconds</h3></div>
+        <p>Next, fit K-Means for K from 2 to 6 and re-test each fit 230 times with new seeds, subsamples and noise.</p>
+      </div>
+      <div class="stage s4" role="listitem" style="--grow: 12">
+        <div class="seg"><h3 class="dur">Instant</h3></div>
+        <p>Last, write the Power BI tables that feed the dashboard.</p>
+      </div>
+    </div>
+    <p class="method-note" data-reveal>Segment widths follow the measured run time (0.6 s, 3.0 s, 32.2 s, under 0.1 s), with a floor so the short stages stay
+      readable. 37 automated tests check the counts, the formulas and that the saved model reproduces every exported cluster.</p>
+  </section>
+
+  <!-- ========== Showcase: the dashboard in front of the type ========== -->
+  <section class="showcase" aria-labelledby="show-title">
+    <h2 id="show-title" class="stack" data-reveal><span class="soft">Every ward,</span> one click</h2>
+    <div class="show-grid">
+    <a class="object" href="dashboard/" aria-label="Open the dashboard overview">
+      <img id="show-img" src="landing/assets/dashboard-overview.png" alt="Dashboard overview: headline figures, facility counts by category and a ward map shaded by sites per 100,000 residents" width="1440" height="1000" loading="lazy">
+    </a>
+    <div class="facts" data-reveal>
+      <p>The dashboard reads the pipeline's own output files. Its overview maps all 455 located facilities over the 24 ward polygons;
+        the ward page ranks every ward by rate, population share and residents per site, filtered by facility type or cluster.</p>
+      <p>The third page shows the four K-Means clusters, how K was chosen, and how stable each choice was. Click any ward, anywhere, to open
+        its full facility list.</p>
+      <div class="facts-tabs" role="tablist" aria-label="Dashboard pages">
+        <button type="button" role="tab" aria-selected="true" data-shot="overview">Overview</button>
+        <button type="button" role="tab" aria-selected="false" data-shot="wards">Ward analysis</button>
+        <button type="button" role="tab" aria-selected="false" data-shot="clusters">ML clusters</button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ========== Where to look: statement + table pushed right ========== -->
+  <section class="where" id="where" aria-labelledby="where-title">
+    <h2 id="where-title" class="where-title" data-reveal>Where to look first</h2>
+    <div class="where-grid">
+      <figure class="where-media" data-reveal>
+        <video autoplay muted loop playsinline preload="metadata" poster="landing/assets/street-in-mumbai-video-01-poster.jpg" width="960" height="540">
+          <source src="landing/assets/street-in-mumbai-video-01.webm" type="video/webm">
+        </video>
+        <figcaption>A Mumbai street, 2016. Footage by Nicolas Vigier, CC0.</figcaption>
+      </figure>
+      <div class="where-table" data-reveal>
+        <span class="table-name">Wards</span>
+        <table>
+          <caption class="sr-only">Wards with the fewest listed public sites per 100,000 residents</caption>
+          <thead class="sr-only"><tr><th>Ward</th><th>Sites per 100k</th><th>Share gap</th></tr></thead>
+          <tbody id="where-rows">
+            <tr><td><a href="dashboard/#ward=R/S">R South</a></td><td>2.17 per 100k</td><td>+1.82 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=K/W">K West</a></td><td>2.27 per 100k</td><td>+1.79 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=P/S">P South</a></td><td>2.59 per 100k</td><td>+0.74 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=F/N">F North</a></td><td>2.65 per 100k</td><td>+0.77 pp</td></tr>
+            <tr class="gap"><td><a href="dashboard/#ward=P/N">P North</a></td><td>2.66 per 100k</td><td>+1.35 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=G/N">G North</a></td><td>2.67 per 100k</td><td>+0.83 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=R/N">R North</a></td><td>2.78 per 100k</td><td>+0.48 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=H/E">H East</a></td><td>2.87 per 100k</td><td>+0.50 pp</td></tr>
+          </tbody>
+        </table>
+        <p class="where-note">Share gap is the ward's share of the city's people minus its share of listed sites. A low rate is a reason to look closer, not a verdict:
+          population is from 2011, counts carry no beds or staff, and 18 public hospitals from the city's hospital list are missing from the facility layers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Close: the idea again, inverted ========== -->
+  <section class="close" aria-labelledby="close-title">
+    <h2 id="close-title" class="close-title" data-reveal><span>Find your</span> <span>ward's number</span></h2>
+    <div class="close-base" data-reveal>
+      <p>Pick any of the 24 wards to see its sites, its people, its share gap and the cluster it falls into.</p>
+      <a class="btn" href="dashboard/#wards">Open ward analysis</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="invite">
+      <h2 class="invite-title"><span>Read the</span> <span>whole study</span></h2>
+      <a class="btn btn-dark" href="outputs/reports/final_report.pdf">Download the report</a>
+    </div>
+    <ul class="footer-links">
+      <li><a href="dashboard/">Dashboard</a></li>
+      <li><a href="docs/model_card.md">Model card</a></li>
+      <li><a href="docs/data_quality_report.md">Data quality report</a></li>
+      <li><a href="README.md">How to run it</a></li>
+    </ul>
+  </div>
+  <div class="footer-legal">
+    <p class="credits">Data: OpenCity / MCGM facility maps (Nov 2025), OpenCity Mumbai Wards Map, Census of India 2011.
+      Pictures and footage: <a href="https://commons.wikimedia.org/w/index.php?curid=36466814">“The Sir Jamsetjee hospital, Grant medical college”</a>, Wellcome Collection, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=98653677">“Bombay Suburban District Map 1929”</a> by District Inspector Land Records Bombay Suburban Andheri, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=108327120">“Mumbai Local Train passing”</a> by Pratishkhedekar, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>;
+      <a href="https://commons.wikimedia.org/wiki/File:Street_in_Mumbai_(video)_01.webm">“Street in Mumbai (video) 01”</a> by Nicolas Vigier, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>; all via Wikimedia Commons.
+      Map tiles in the dashboard © OpenStreetMap contributors.</p>
+    <p>Academic project · 2026</p>
+  </div>
+  <p class="giant" aria-hidden="true">Mumbai wards</p>
+</footer>
+
+<script src="landing/app.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+ward_id,cluster_label,kmeans_raw_label,cluster_name,silhouette_sample,cluster_k2_label
+A,4,1,Relatively higher public-hospital & dispensary rates; lower maternity-home rates,0.6862,2
+B,3,2,Relatively higher dispensary rates; lower public-hospital rates,-0.0848,1
+C,3,2,Relatively higher dispensary rates; lower public-hospital rates,0.0214,1
+D,1,3,Relatively lower UPHC & dispensary rates,0.3709,1
+E,4,1,Relatively higher public-hospital & dispensary rates; lower maternity-home rates,0.5988,2
+F/S,2,0,Relatively higher UPHC rates,0.1767,1
+F/N,1,3,Relatively lower UPHC & dispensary rates,0.3936,1
+G/S,3,2,Relatively higher dispensary rates; lower public-hospital rates,0.066,1
+G/N,1,3,Relatively lower UPHC & dispensary rates,0.471,1
+H/E,1,3,Relatively lower UPHC & dispensary rates,0.268,1
+H/W,2,0,Relatively higher UPHC rates,0.2584,1
+K/E,1,3,Relatively lower UPHC & dispensary rates,0.4016,1
+K/W,1,3,Relatively lower UPHC & dispensary rates,0.5506,1
+P/S,2,0,Relatively higher UPHC rates,-0.01,1
+P/N,1,3,Relatively lower UPHC & dispensary rates,0.4934,1
+R/S,1,3,Relatively lower UPHC & dispensary rates,0.5205,1
+R/C,2,0,Relatively higher UPHC rates,0.1486,1
+R/N,2,0,Relatively higher UPHC rates,0.1567,1
+L,2,0,Relatively higher UPHC rates,0.3524,1
+M/E,2,0,Relatively higher UPHC rates,0.3488,1
+M/W,2,0,Relatively higher UPHC rates,0.4574,1
+N,2,0,Relatively higher UPHC rates,0.166,1
+S,2,0,Relatively higher UPHC rates,0.3848,1
+T,2,0,Relatively higher UPHC rates,0.3909,1

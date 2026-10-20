@@ -1,0 +1,52 @@
+csv_row,ward_id,csv_name,ownership_csv,csv_beds,matched_facility_id,matched_name,match_score,status,match_method
+2,A,"Gokuldas Tejpal Hospital, Fort",Government,621,HOSP-009,G.T.Hospital,,matched_in_kml,manual_review_high_confidence
+3,A,ENT Hospital,Municipal (BMC),100,HOSP-027,Seth A.J.B.Municipal ENT Hospital,1.0,matched_in_kml,automatic_name_tokens
+4,A,St George Hospital,Government,467,HOSP-007,St George Hospital,1.0,matched_in_kml,automatic_name_tokens
+5,A,Cama & Albless Hospital,Government,505,HOSP-008,Cama Albless Hospital,1.0,matched_in_kml,automatic_name_tokens
+6,A,INS Ashwini Hospital,Government (Defence),101,,,0.0,not_found_in_kml_layers,
+66,E,Kasturba Hospital,Municipal (BMC),515,HOSP-029,Kasturba Hospital (For Infectiou Diseases),1.0,matched_in_kml,automatic_name_tokens
+67,E,BYL Nair Hospital,Municipal (BMC),1229,HOSP-003,B. Y. L. NAIR CHARITABLE HOSPITAL AND T. N. MEDICAL COLLEGE,,matched_in_kml,manual_review_high_confidence
+68,E,JJ Hospital,Government,1352,HOSP-001,Grant Med.College & J.J. Hospital,,matched_in_kml,manual_review_high_confidence
+69,E,"Ambedkar Hospital (Central Railway Hospital), Byculla",Government,366,,,0.0,not_found_in_kml_layers,
+70,E,"Jagjivanram Hospital, Western Rly",Government,342,,,0.0,not_found_in_kml_layers,
+76,F/N,"Lokmanya Tilak Hospital, Sion",Municipal (BMC),1422,HOSP-005,LOKMANYA TILAK MUNICIPAL GENERAL HOSPITAL AND MEDICAL COLLEGE,0.67,matched_in_kml,automatic_name_tokens
+80,F/S,King Edward Memorial (KEM) Hospital,Municipal (BMC),2250,HOSP-004,Seth G.S.Medical college &KEM Hospital,,matched_in_kml,manual_review_high_confidence
+81,F/S,GTB Hospital,Municipal (BMC),1000,HOSP-030,Group Of T.B.Hospital,,matched_in_kml,manual_review_medium_confidence
+82,F/S,Tata Memorial Hospital,Government,469,,,0.0,not_found_in_kml_layers,
+83,F/S,Mahatma Gandhi Memorial Hospital,Government,120,,,0.0,not_found_in_kml_layers,
+119,G/S,ESIS Hospital,Government,300,,,0.0,not_found_in_kml_layers,
+120,G/S,Poddar Hospital,Government,210,,,0.0,not_found_in_kml_layers,
+130,H/E,V N Desai Municipal Gen Hospital,Municipal (BMC),276,HOSP-010,V.N Desai Hospital,1.0,matched_in_kml,automatic_name_tokens
+131,H/E,Urban Health Centre,Government,,,,0.0,not_found_in_kml_layers,
+167,H/W,K B Bhabha Hospital,Municipal (BMC),436,HOSP-011,K.B Bhabha Hospital,1.0,matched_in_kml,automatic_name_tokens
+179,K/E,ESIS Hospital,Government,325,,,0.0,not_found_in_kml_layers,
+180,K/E,HBT (Thackeray) Trauma Care,Municipal (BMC),180,HOSP-015,Hinduhridaysamrat Balasaheb Thackeray Trauma Care Hospital,0.75,matched_in_kml,automatic_name_tokens
+195,K/W,BSES Municipal Gen Hospital,Municipal (BMC),100,,,0.0,not_found_in_kml_layers,
+196,K/W,Dr. R N Cooper Hospital,Municipal (BMC),700,HOSP-006,Hinduhrudaysamrat Balasaheb Thackeray Med.College & Dr.R.N Cooper Hospital,1.0,matched_in_kml,automatic_name_tokens
+199,L,Dr Bhabha Hospital,Municipal (BMC),307,HOSP-019,Kurla Bhabha Hospital,1.0,matched_in_kml,automatic_name_tokens
+207,M/E,Shatabdi Hospital,Municipal (BMC),120,HOSP-021,Pt. MMM Centenery Hospital,,matched_in_kml,manual_review_medium_confidence
+208,M/E,Maa Hospital,Municipal (BMC),74,HOSP-020,MAA Mun.Gen.Hospital,,matched_in_kml_ward_conflict,manual_review_medium_confidence
+209,M/E,Deonar Maternity Home,Municipal (BMC),14,MAT-022,Deonar Maternity Home,1.0,matched_in_kml,automatic_name_tokens
+210,M/E,RCF Hospital,Government,150,,,0.0,not_found_in_kml_layers,
+219,M/W,Dr. Das Hospital,Municipal (BMC),45,,,0.0,not_found_in_kml_layers,
+220,M/W,Inlaks General Hospital,Municipal (BMC),94,,,0.0,not_found_in_kml_layers,
+221,M/W,Sushrut Hospital & Research Centre,Municipal (BMC),70,,,0.0,not_found_in_kml_layers,
+222,M/W,Kher Hospital,Government,19,,,0.0,not_found_in_kml_layers,
+228,M/W,Matoshree Ramabai Ambedkar Maternity Home,Municipal (BMC),50,MAT-023,"Matoshri Ramabai Ambedkar Maternity Home, Chembur Naka",0.67,matched_in_kml,automatic_name_tokens
+237,N,Rajawadi Hospital,Municipal (BMC),596,HOSP-022,Rajawadi Hospital,1.0,matched_in_kml,automatic_name_tokens
+238,N,Sant Muktabai Hospital,Municipal (BMC),104,HOSP-024,Sant Muktabai Hospital,1.0,matched_in_kml,automatic_name_tokens
+244,P/N,M W Desai Hospital,Municipal (BMC),180,HOSP-013,MW Desai Mun.Gen.Hospital,0.5,matched_in_kml,automatic_name_tokens
+245,P/N,SK Patil Hospital,Municipal (BMC),50,HOSP-014,S.K.Patil Mun.Gen.Hospital,0.5,matched_in_kml,automatic_name_tokens
+249,P/S,"Siddharth Hospital, Goregaon (W)",Municipal (BMC),172,HOSP-012,Siddharth Municipal General Hospital,1.0,matched_in_kml,automatic_name_tokens
+255,R/N,"Bhagwati Hospital, Borivali",Municipal (BMC),500,HOSP-017,Harilal Bhagwati Mun.Gen.Hosp,0.5,matched_in_kml,automatic_name_tokens
+261,R/S,Dr Babasaheb Ambedkar Hospital (Shatabdi Hospital),Municipal (BMC),427,HOSP-016,Bharat ratna Babasaheb Ambedkar Hospital,0.67,matched_in_kml,automatic_name_tokens
+262,R/S,ESIS Hospital,Government,85,,,0.0,not_found_in_kml_layers,
+265,R/C,KCS Bansali Maternity Home,Municipal (BMC),40,MAT-017,"Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home, Borivali",,matched_in_kml,manual_review_low_confidence
+266,R/C,Charkop Maternity Home,Municipal (BMC),20,MAT-016,Charkop Maternity Home,1.0,matched_in_kml,automatic_name_tokens
+267,R/C,Krantijyoti Savitribai Phule Maternity Home,Municipal (BMC),40,,,0.0,not_found_in_kml_layers,
+273,S,Savitribai Phule Maternity Home,Municipal (BMC),40,MAT-026,"Savitribai Jyotiba Phule Maternity Home, Bhandup",1.0,matched_in_kml,automatic_name_tokens
+274,S,Ambedkar Maternity Home,Municipal (BMC),24,MAT-025,"Dr.Babasaheb Ambedkar Maternity Home, Tagore Nagar",1.0,matched_in_kml,automatic_name_tokens
+275,S,Jyotiba Phule General Hospital,Municipal (BMC),110,HOSP-023,KMJ Phule Mun.Gen.Hospital,,matched_in_kml,manual_review_medium_confidence
+284,T,Agarwal Municipal General Hospital,Municipal (BMC),110,HOSP-026,M.T.Agarwal Mun.Gen.Hospital,1.0,matched_in_kml,automatic_name_tokens
+285,T,Veer Savarkar Hospital,Municipal (BMC),105,HOSP-025,SVD Savarkar Hospital,0.5,matched_in_kml,automatic_name_tokens
+286,T,ESIS Hospital,Government,400,,,0.0,not_found_in_kml_layers,

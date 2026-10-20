@@ -1,0 +1,12 @@
+metric,ward_id,value,q1,q3,direction
+facilities_per_100k,A,5.945,2.754,3.735,high
+facilities_per_100k,B,5.499,2.754,3.735,high
+facilities_per_100k,E,5.848,2.754,3.735,high
+population_facility_share_gap,E,-2.561,-0.478,0.559,low
+dispensary_per_100k,A,3.243,1.166,1.921,high
+dispensary_per_100k,B,3.928,1.166,1.921,high
+dispensary_per_100k,E,3.305,1.166,1.921,high
+dispensary_per_100k,G/S,3.441,1.166,1.921,high
+public_hospital_per_100k,A,2.162,0.119,0.322,high
+public_hospital_per_100k,E,1.271,0.119,0.322,high
+maternity_hospital_per_100k,C,0.602,0.1,0.281,high

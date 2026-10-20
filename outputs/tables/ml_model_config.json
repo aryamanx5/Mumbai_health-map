@@ -1,0 +1,42 @@
+{
+  "feature_set": "primary_log_category_rates",
+  "features": [
+    "dispensary_per_100k",
+    "uphc_per_100k",
+    "public_hospital_per_100k",
+    "maternity_hospital_per_100k"
+  ],
+  "log1p": true,
+  "scaler": "StandardScaler",
+  "algorithm": "KMeans (lloyd)",
+  "k": 4,
+  "n_init": 50,
+  "max_iter": 500,
+  "random_state": 42,
+  "min_cluster_size_rule": 2,
+  "k_range": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "n_observations": 24,
+  "sklearn_version": "1.9.1",
+  "label_order": "cluster 1 = lowest mean distinct sites per 100k",
+  "final_silhouette": 0.3162,
+  "final_inertia": 35.0148,
+  "final_sizes": [
+    11,
+    8,
+    3,
+    2
+  ],
+  "converged": true,
+  "stability": {
+    "seed_ari_min": 0.888,
+    "subsample80_ari_mean": 0.727,
+    "subsample80_ari_p10": 0.337,
+    "noise5pct_ari_mean": 0.64
+  }
+}

@@ -1,0 +1,457 @@
+facility_id,site_id,ward_id,category,facility_name,address,source_subtype,longitude,latitude,coordinate_decimals,coordinate_status,assignment_check,source_file,source_record_id,category_label,coordinates_approximate
+DISP-001,SITE-0001,A,dispensary,Colaba Dispensary,1st Floor MCGM Bldg Lala Nigam Rd Mum-5,,72.83,18.92,2,valid,agree,dispensaries.kml,1,Dispensary,True
+DISP-002,SITE-0002,A,dispensary,Saboo Sidique Rd. Dispensary (Paltan Road),Rota Printing Press 2nd floor Camac Bridge Masjid -1,,72.84,18.95,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,2,Dispensary,True
+DISP-003,SITE-0003,A,dispensary,Maruti Lane Dispensary,"Near Handloom House Maruti Lane , Fort",,72.83,18.94,2,valid,agree,dispensaries.kml,3,Dispensary,True
+DISP-004,SITE-0004,A,dispensary,Head Office Dispensary,"Municipal Head Office 2nd Floor ,CST",,72.8344,18.9405,4,valid,agree,dispensaries.kml,4,Dispensary,False
+DISP-005,SITE-0005,A,dispensary,Head Office Ayurvedic,Municipal Head Office 2nd Floor Annex Bldg Mumbai -1,,72.8344,18.9405,4,valid,agree,dispensaries.kml,5,Dispensary,False
+DISP-006,SITE-0006,A,dispensary,S B S Road. Dispensary,"303 Chowksi Mension 1st floor SBS Rd Fort, Mumbai -1",,72.84,18.93,2,valid,outside_polygons_within_rounding,dispensaries.kml,6,Dispensary,True
+DISP-007,SITE-0007,B,dispensary,SVP Road Dispensary,"259'SVP rd Disp, Municipal Urdu school,SVP rd Mumbai-09",,72.83,18.96,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,7,Dispensary,True
+DISP-008,SITE-0008,B,dispensary,Walphakdi Dispensary,"BMC block A ground floor Mavji Rathod rd,Noorbaugh Mumbai-9",,72.84,18.96,2,valid,agree,dispensaries.kml,8,Dispensary,True
+DISP-009,SITE-0009,B,dispensary,Jail Road Dispensary,"44,jail rd disp,20 kolsa mohalla ground floor pydhunie Mumbai-3",,72.83,18.95,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,9,Dispensary,True
+DISP-010,SITE-0010,B,dispensary,Jail Road Unanai Dispensary,"C/O 259'SVP rd Disp, Municipal Urdu school,SVP rd Mumbai-09",,72.83,18.96,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,10,Dispensary,True
+DISP-011,SITE-0011,B,dispensary,Kolsa Mohalla Unani Dispensary,"C/O 44, jail rd disp,20 kolsa mohalla,1st floor pydhunie Mumbai-3",,72.83,18.95,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,11,Dispensary,True
+DISP-012,SITE-0012,C,dispensary,Ghoghari Mohalla Dispensary,47 Ghoghari Mohalla Mumbai 400003,,72.83,18.96,2,valid,agree,dispensaries.kml,12,Dispensary,True
+DISP-013,SITE-0013,C,dispensary,Panjrapole Dispensary,Panjarapol BMC Dispensary 1st Panjarapol Lane near C.P. Fank Mumbai 400004.,,72.83,18.96,2,valid,agree,dispensaries.kml,13,Dispensary,True
+DISP-014,SITE-0014,C,dispensary,Thakurdwar Dispensary,Babasaheb Jaykar Marg Ground Floor Thakurdwar Dispensary,,72.82,18.95,2,valid,agree,dispensaries.kml,14,Dispensary,True
+DISP-015,SITE-0015,C,dispensary,Chandanwadi Dispensary,Chandanwadi Mun.Corporation Desp C Ward S.P Marg Chandanwadi Chirabazar Mumbai,,72.8265,18.9463,4,valid,agree,dispensaries.kml,15,Dispensary,False
+DISP-016,SITE-0016,C,dispensary,Duncan Road Dispensary,2nd Duncan Road 2nd Cross Lane,,72.83,18.96,2,valid,agree,dispensaries.kml,16,Dispensary,True
+DISP-017,SITE-0017,D,dispensary,Nana Chowk Dispensary,"JSS Municipal School,Ground Floor,Near Frare bridge,Grant road(W),Mumbai 400007",,72.81,18.96,2,valid,agree,dispensaries.kml,17,Dispensary,True
+DISP-018,SITE-0018,D,dispensary,Bane Compound Dispensary(Tulshiwadi),"Bane Compound,Sane Guruji marg, Tardeo mumbai-34",,72.8183,18.9717,4,valid,agree,dispensaries.kml,18,Dispensary,False
+DISP-019,SITE-0019,D,dispensary,R. S. Nimkar Disp,"R S Nimkar Marg,Near Pratiksha Tower,Grant Road (E),Mumbai-400008",,72.82,18.97,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,19,Dispensary,True
+DISP-020,SITE-0020,D,dispensary,R. R.R. Marg Dispensary,"303 RRR Marg mun.dispensary,rrr marg, charni road(E), Mumbai-04",,72.82,18.95,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,20,Dispensary,True
+DISP-021,SITE-0021,D,dispensary,Tardeo Flat Dispensary,"B-1 Tower,Dr.Babasaheb Ambedkar nagar,Mahalaxmi,Mumbai-400034",,72.82,18.98,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,21,Dispensary,True
+DISP-022,SITE-0022,D,dispensary,Banganga Dispensary,"Banganga kawale math Municipal school,Walkeshwar,Mumbai 400006",,72.8517,18.9615,4,valid,outside_polygons_review,dispensaries.kml,22,Dispensary,False
+DISP-023,SITE-0023,E,dispensary,N.M. Joshi Dispensary,"N.M. Joshi Marg,Opp Byculla railway station Mumbai- 11",,72.83,18.98,2,valid,agree,dispensaries.kml,23,Dispensary,True
+DISP-024,SITE-0024,E,dispensary,R.J. Compound Dispensary,"Keshavrao Khade Marg ,Satrasta,Byculla Mumbai-11",,72.83,18.98,2,valid,agree,dispensaries.kml,24,Dispensary,True
+DISP-025,SITE-0025,E,dispensary,Souter Street Dispensary,"Meghraj Sethi Marg,opp Zula maidan Byculla Mumbai- 08",,72.83,18.97,2,valid,agree,dispensaries.kml,25,Dispensary,True
+DISP-026,SITE-0026,E,dispensary,Huzaria Street Dispensary,"Huzeria Street ,Nagpada ,Mumbai- 10",,72.83,18.96,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,26,Dispensary,True
+DISP-027,SITE-0027,E,dispensary,Tadwadi Tank Dispensary,"Residency Tower,1st Floor,old Nesbit Road,dockyard Road Mumbai-10",,72.8399,18.9687,4,valid,agree,dispensaries.kml,27,Dispensary,False
+DISP-028,SITE-0028,E,dispensary,Tank Square Garden Dispensary,"Behind Mazgoan post Office,Mascerhance Road, Mazgoan,Mumbai- 10",,72.84,18.97,2,valid,agree,dispensaries.kml,28,Dispensary,True
+DISP-029,SITE-0029,E,dispensary,D P Wadi Dispensary,"Kapreshwar Krupa,Chs.Umesh Salunkhe Marg Mumbai- 33",,72.84,18.98,2,valid,agree,dispensaries.kml,29,Dispensary,True
+DISP-030,SITE-0030,E,dispensary,E S Patanwala Dispensary,"E.S. Patanwala Marg,Maratha Compound,Byculla Mumbai- 27",,72.84,18.98,2,valid,agree,dispensaries.kml,30,Dispensary,True
+DISP-031,SITE-0031,E,dispensary,Motishah Lane Dispensary,"Near B.I.T. chwal, Love Lane,Mumbai- 10",,72.84,18.98,2,valid,agree,dispensaries.kml,31,Dispensary,True
+DISP-032,SITE-0032,E,dispensary,Gaurabai Dispensary,Ozone Building Nagpada Mumbai .,,72.83,18.97,2,valid,agree,dispensaries.kml,32,Dispensary,True
+DISP-033,SITE-0033,E,dispensary,Siddharth Nagar Dispensary,"siddharth Nagar Porta Cabin, Kamathipura Mumbai- 8",,72.83,18.96,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,33,Dispensary,True
+DISP-034,SITE-0034,E,dispensary,Nawab Tank Dispensary,"Porta Cabin, Chimanaji Ranoji Street, Dockyard East Mumbai- 10",,72.8441,18.9654,4,valid,agree,dispensaries.kml,34,Dispensary,False
+DISP-035,SITE-0035,E,dispensary,Hakim Ajmal Khan Unani (Souter Street) Dispensary,"Meghraj Sethi Marg,opp Zula maidan Byculla Mumbai- 08",,72.83,18.97,2,valid,agree,dispensaries.kml,35,Dispensary,True
+DISP-036,SITE-0036,F/S,dispensary,F/S Parel Dispensary,"Room no.12,F/South ward offiice Bldg.Parel,Mumbai-12",,72.84,19.01,2,valid,agree,dispensaries.kml,36,Dispensary,True
+DISP-037,SITE-0037,F/S,dispensary,Gautam Ngr. Dispensary,"Dadasaheb Phalkr Road,Dadar(E),Mumbai-14",,72.84,19.01,2,valid,agree,dispensaries.kml,37,Dispensary,True
+DISP-038,SITE-0038,F/S,dispensary,Naigaon Dispensary,"S.S.Wagh Marg,Naigaon Mumbai-14",,72.85,19.01,2,valid,agree,dispensaries.kml,38,Dispensary,True
+DISP-039,SITE-0039,F/S,dispensary,Kidwai Nagar Dispensary,"Rafiahmad Kidwai Road,Near Hari Masjid,Kidwainagar Wadal.Mumbai-31",,72.85,19.01,2,valid,agree,dispensaries.kml,39,Dispensary,True
+DISP-040,SITE-0040,F/S,dispensary,Sewree Cross Road Dispensary,"Opp.Old Post Office,Sewree Cross Rd.Disp.,Sewree Mumbai-15",,72.85,19.0,2,valid,agree,dispensaries.kml,40,Dispensary,True
+DISP-041,SITE-0041,F/S,dispensary,A.D. Marg Dispensary (private Property),"Mulraj Bhavan,A.D.Marg,Sewree-15",,72.85,19.0,2,valid,agree,dispensaries.kml,41,Dispensary,True
+DISP-042,SITE-0042,F/S,dispensary,Ambewadi Dispensary,"G.D.Ambekar Marg,Near Pooja Hotel ,Kalachowy,Mumbai-33",,72.84,18.99,2,valid,agree,dispensaries.kml,42,Dispensary,True
+DISP-043,SITE-0043,F/S,dispensary,Abhuday Nagar Dispensary,"Bldg.no.12,Near N.M.K.School,Cottn Green ,Kalachowky",,72.85,18.99,2,valid,agree,dispensaries.kml,43,Dispensary,True
+DISP-044,SITE-0044,F/S,dispensary,Triveni Sadan Dispensary,"Bldg.no.2,MahadevPalav Marg,Currey Road,Mumbai-12",,72.83,18.99,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,44,Dispensary,True
+DISP-045,SITE-0045,F/N,dispensary,L.B.S. Market Dispensary,"LBS Municipal Market Dispensary Bld, 1st Floor L.N Road Beside Matunga Central Railway Station(E),Mumbai-19",,72.85,19.03,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,45,Dispensary,True
+DISP-046,SITE-0046,F/N,dispensary,Wadala Dispensary,Madona Building Ground Floor Nathalal Parekh Marg Wadala 400031,,72.86,19.02,2,valid,agree,dispensaries.kml,46,Dispensary,True
+DISP-047,SITE-0047,F/N,dispensary,Korba Mithagar Dispensary,"Korba Mithagar Dipensary,Barkat Ali Naka, OPP Wadala Police Station,Near Municipal Marathi School",,72.86,19.02,2,valid,agree,dispensaries.kml,47,Dispensary,True
+DISP-048,SITE-0048,F/N,dispensary,Pratiksha Nagar Transit Camp Dispensary,"Pratiksha Nagar Municipal Dispensary, Room No 3,4,5, & 6, Ground Floor,Mhada Building no T-1, Behind Transit Camp Post Office, Sion -22",,72.87,19.04,2,valid,agree,dispensaries.kml,48,Dispensary,True
+DISP-049,SITE-0049,F/N,dispensary,New Transit Camp Dispensary,"C S NO.404/6, PLOT NO.104, OPP.NEW SIES COLLEGE, ROAD NO.29, SION EAST , MUMBAI 22.",,72.86,19.03,2,valid,agree,dispensaries.kml,49,Dispensary,True
+DISP-050,SITE-0050,F/N,dispensary,Antop Hill Dispensary,"Oppo Antop Hill Bus Depot,Shaikh Mistri Dargah, Road Antop Hill Mumbai 400037",,72.87,19.03,2,valid,agree,dispensaries.kml,50,Dispensary,True
+DISP-051,SITE-0051,F/N,dispensary,Rawli Camp Dispensary,"Raoli Camp MH UPHC, Sardar Nagar-4, Sion Koliwada, Mumbai-37",,72.87,19.04,2,valid,agree,dispensaries.kml,51,Dispensary,True
+DISP-052,SITE-0052,G/S,dispensary,Worli Koliwada Dispensary,Ground floor near worli bus depot near police chowki Mumbai-25,,72.8517,18.9615,4,valid,outside_polygons_review,dispensaries.kml,52,Dispensary,False
+DISP-053,SITE-0053,G/S,dispensary,Jijamata Nagar Dispensary,dispensary in container opp four season hospital Dr E Moses Road worli Mumbai-18,,72.82,18.99,2,valid,agree,dispensaries.kml,53,Dispensary,True
+DISP-054,SITE-0054,G/S,dispensary,S.B. Marg Dispensary,opp one India bull center BMC building Ground floor near shikshak bhavan Elephiston Mumbai -13,,72.83,19.0,2,valid,agree,dispensaries.kml,54,Dispensary,True
+DISP-055,SITE-0055,G/S,dispensary,Ferguson Road Dispensary,160-A Hasan building ground floor N M Joshi marg lower parel Mumbai-13,,72.83,19.0,2,valid,agree,dispensaries.kml,55,Dispensary,True
+DISP-056,SITE-0056,G/S,dispensary,Maharashtra High School Compound Dispensary,Municipal dispensary ground floor N M Joshi marg Mumbai -13,,72.83,19.0,2,valid,agree,dispensaries.kml,56,Dispensary,True
+DISP-057,SITE-0057,G/S,dispensary,Beggars Home Dispensary,Dr King’s George V memorial bld Dr E Moses road near famous studio Mahalaxmi Mumbai -11,,72.82,18.99,2,valid,agree,dispensaries.kml,57,Dispensary,True
+DISP-058,SITE-0058,G/S,dispensary,Prabhadevi Dispensary,Paricharika niwas building ground floor old prabhadevi road opp Giayaman house Mumbai -13,,72.83,19.02,2,valid,agree,dispensaries.kml,58,Dispensary,True
+DISP-059,SITE-0059,G/S,dispensary,Welfare center Dispensary,Ground floor shivalya building Ganapat rao kadam marg Mumbai -13,,72.8227,18.9978,4,valid,agree,dispensaries.kml,59,Dispensary,False
+DISP-060,SITE-0060,G/S,dispensary,Sasmira Marg Dispensary,Ground floor sasmira marg behinsd worli labour camp Mumbai -25,,72.82,19.01,2,valid,agree,dispensaries.kml,60,Dispensary,True
+DISP-061,SITE-0061,G/S,dispensary,BDD Chawl Dispensary,Building no 45 ground floor N M Joshi marg opp jambori Maidan worli,,72.82,19.0,2,valid,agree,dispensaries.kml,61,Dispensary,True
+DISP-062,SITE-0062,G/S,dispensary,Currey Road Dispensary,S B Pawar marg near Municipal Gardan Low leval north Mumbai -13,,72.83,18.99,2,valid,agree,dispensaries.kml,62,Dispensary,True
+DISP-063,SITE-0063,G/S,dispensary,Zandu Ayurvedic Dispensary,opp one India bull center BMC building Ground floor near shikshak bhavan Elephiston Mumbai -13,,72.83,19.01,2,valid,agree,dispensaries.kml,63,Dispensary,True
+DISP-064,SITE-0064,G/S,dispensary,Prabhadevi Avurvedic Dispensary,Dnyaneshwar apartment Ground floor veer savarkar marg Mumbai -25,,72.83,19.02,2,valid,agree,dispensaries.kml,64,Dispensary,True
+DISP-065,SITE-0065,G/N,dispensary,Bai Gulbai Dispensary,"St. Anthony Building, Groung floor ,Bhavani shankar road ,dadar west-28",,72.84,19.02,2,valid,agree,dispensaries.kml,65,Dispensary,True
+DISP-066,SITE-0066,G/N,dispensary,Shree Cinema Dispensary,"Welfare Center Building, Dilip Gupte,Road mahim-16",,72.84,19.03,2,valid,agree,dispensaries.kml,66,Dispensary,True
+DISP-067,SITE-0067,G/N,dispensary,Welkarwadi Dispensary,Welkarwadi L.J.2nd Road BMC Building BMC Ground Floor Building no.4,,72.84,19.04,2,valid,agree,dispensaries.kml,67,Dispensary,True
+DISP-068,SITE-0068,G/N,dispensary,Shahu Nagar Dispensary,"Building E-14,Ground Floor shahunagar BMC Building Mahim -17",,72.85,19.04,2,valid,agree,dispensaries.kml,68,Dispensary,True
+DISP-069,SITE-0069,G/N,dispensary,Matunga Labour Camp Dispensary,"Matunga labour camp,in front of tata power,Dharavi",,72.85,19.03,2,valid,agree,dispensaries.kml,69,Dispensary,True
+DISP-070,SITE-0070,G/N,dispensary,Pilla Bunglow Dispensary,Pilla Bunglow Mumcipal Dispensary sant Rohidas Road Dharravi-17,,72.86,19.05,2,valid,agree,dispensaries.kml,70,Dispensary,True
+DISP-071,SITE-0071,G/N,dispensary,Dharavi Main Road Dispensary,Dharavi Main road muncipal Dispensary,,72.85,19.04,2,valid,agree,dispensaries.kml,71,Dispensary,True
+DISP-072,SITE-0072,G/N,dispensary,Transit Camp Dispensary,"Transit camp dispensary,60ft road, Dharavi",,72.86,19.04,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,72,Dispensary,True
+DISP-073,SITE-0073,G/N,dispensary,Kumbharwada Dispensary,Ground Floor Rajiv Gandhi SRA Building 90 feet road kumbharwada dharavi- 17,,72.85,19.04,2,valid,agree,dispensaries.kml,73,Dispensary,True
+DISP-074,SITE-0074,H/E,dispensary,Prabhat Colony Dispensary,,,72.84,19.09,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,74,Dispensary,True
+DISP-075,SITE-0075,H/E,dispensary,Kolekalyan Dispensary,"Shantinagar industrial estate, Near Hayat Hotel , Santacruz East Mumbai – 55.",,72.85,19.07,2,valid,agree,dispensaries.kml,75,Dispensary,True
+DISP-076,SITE-0076,H/E,dispensary,Swami Vivekanand Nagar Dispensary,"Datta Mandir Road,Vakola,Santacruz-East",,72.85,19.08,2,valid,agree,dispensaries.kml,76,Dispensary,True
+DISP-077,SITE-0077,H/E,dispensary,Kalina Dispensary,"Near Kalina Market, kalina kurla road,kalina,Santacruz east",,72.86,19.08,2,valid,agree,dispensaries.kml,77,Dispensary,True
+DISP-078,SITE-0078,H/E,dispensary,Bharat Nagar Dispensary,"Windsor House, MCGM Library , Santacruz East",,72.86,19.06,2,valid,agree,dispensaries.kml,78,Dispensary,True
+DISP-079,SITE-0079,H/E,dispensary,Kherwadi Dispensary,"kherwadi Dispensary,Kherwadi, bandra 51",,72.85,19.06,2,valid,agree,dispensaries.kml,79,Dispensary,True
+DISP-080,SITE-0080,H/E,dispensary,Jawahar Nagar Dispensary,"Jawahar Nagar Dispensary,Golibar Road, Khar east",,72.84,19.06,2,valid,agree,dispensaries.kml,80,Dispensary,True
+DISP-081,SITE-0081,H/W,dispensary,Gurunanak Dispensary,"Bandra Station, Near Bandra Dharmshala Road, Bandra West, Mumbai",,72.84,19.05,2,valid,agree,dispensaries.kml,81,Dispensary,True
+DISP-082,SITE-0082,H/W,dispensary,Ambedkar Dispensary,"Dr. Ambedkar Road, Khar West",,72.8377,19.0701,4,valid,agree,dispensaries.kml,82,Dispensary,False
+DISP-083,SITE-0083,H/W,dispensary,Shastri Nagar Dispensary,"shastri nagar disp. Near shiv sena shakha, shastri nagar , Santakruz west",,72.84,19.09,2,valid,agree,dispensaries.kml,83,Dispensary,True
+DISP-084,SITE-0084,H/W,dispensary,Khar Danda Dispensary,"Khar Danda Chavari galli, Khar west",,72.83,19.07,2,valid,agree,dispensaries.kml,84,Dispensary,True
+DISP-085,SITE-0085,H/W,dispensary,Old Khar Dispensary,"Khar TB Clinic, S. V. Rd, Khar West",,72.84,19.07,2,valid,agree,dispensaries.kml,85,Dispensary,True
+DISP-086,SITE-0086,K/E,dispensary,Sambhaji Nagar Dispensary,"Sahar Road, Opp. Nagar Soc., Andheri (E) 400069",,72.85,19.11,2,valid,agree,dispensaries.kml,86,Dispensary,True
+DISP-087,SITE-0087,K/E,dispensary,Gundavli Dispensary,"Ground Floor,MCGM K/E Ward office,Gundavli,gaothan, Azad Road, Andheri (E) 400069",,72.859,19.1185,4,valid,agree,dispensaries.kml,87,Dispensary,False
+DISP-088,SITE-0088,K/E,dispensary,Paranjape Dispensary,"Nehru Road, BMC Bldg., 1st Floor, Nehru Road, Vile Parle, Mumbai-400057",,72.85,19.1,2,valid,agree,dispensaries.kml,88,Dispensary,True
+DISP-089,SITE-0089,K/E,dispensary,Koldongari Dispensary,"Sahar Road, Opp. Garware Chowk, Koldongri, Andheri (E), 400069",,72.85,19.11,2,valid,agree,dispensaries.kml,89,Dispensary,True
+DISP-090,SITE-0090,K/E,dispensary,Natwar Nagar Dispensary,"Road No.05,Shiljeet Apt., Natwar Nagar, Jogeshwari (E) 400060",,72.85,19.13,2,valid,agree,dispensaries.kml,90,Dispensary,True
+DISP-091,SITE-0091,K/E,dispensary,Marol Dispensary,"Near fish Market, Opp. Saifee Park, Church Road, Marol, Andheri (E) 400059",,72.88,19.11,2,valid,agree,dispensaries.kml,91,Dispensary,True
+DISP-092,SITE-0092,K/E,dispensary,Caves Road Dispensary,"Squartters Colony, Maternity home, Sanjay Gandhi Nagar, Jogeshwari (E), 400060",,72.86,19.14,2,valid,agree,dispensaries.kml,92,Dispensary,True
+DISP-093,SITE-0093,K/E,dispensary,Sundar Nagar Dispensary,"Mahakali Caves Road, Andheri (E), 400093",,72.87,19.13,2,valid,agree,dispensaries.kml,93,Dispensary,True
+DISP-094,SITE-0094,K/E,dispensary,Hari Nagar Dispensary,"Shankarwadi, Pump House, Jogeshwari (E), 400093",,72.86,19.13,2,valid,agree,dispensaries.kml,94,Dispensary,True
+DISP-095,SITE-0095,K/E,dispensary,Sambhaji Nagar Ayurvedic Dispensary,"Shahaji Raje Road, Vile Parle(E), 400057",,72.8492,19.11,4,valid,agree,dispensaries.kml,95,Dispensary,False
+DISP-096,SITE-0096,K/E,dispensary,Mangala Municipal Nursing Home Dispensary,"Baman Daya Pada, Miletary Road, Andheri (E),400059",,72.8886,19.123,4,valid,disagree_review,dispensaries.kml,96,Dispensary,False
+DISP-097,SITE-0097,K/W,dispensary,N.J.Wadia Dispensary,"GAZDHAAR HALL, S.V ROAD, NEAR ANDHERI WEST RAILWAY STATION, ANDHERI WEST , MUMBAI-400058",,72.85,19.12,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,97,Dispensary,True
+DISP-098,SITE-0098,K/W,dispensary,Oshiwara Dispensary,"Link Plaza,in front of lashkria tower aadarsh nagar behram baugh jogeshwari west",,72.85,19.15,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,98,Dispensary,True
+DISP-099,SITE-0099,K/W,dispensary,Parle Market Dispensary,Amasaheb vartak bmc market compound sarojini road parla west mumbai 400056,,72.84,19.1,2,valid,agree,dispensaries.kml,99,Dispensary,True
+DISP-100,SITE-0100,K/W,dispensary,Versova Dispensary,"yari road, near muncipal school, Andheri west Mumbai 61.",,72.81,19.14,2,valid,agree,dispensaries.kml,100,Dispensary,True
+DISP-101,SITE-0101,K/W,dispensary,Juhu Jalan Dispensary,"N S Rd Number 13, Chand Society, MHADA Colony, Juhu, Mumbai, Maharashtra 400049",,72.83,19.11,2,valid,agree,dispensaries.kml,101,Dispensary,True
+DISP-102,SITE-0102,K/W,dispensary,Banana Leaf Dispensary,Juhu versova link road andheri west mumbai 400053,,72.82,19.13,2,valid,agree,dispensaries.kml,102,Dispensary,True
+DISP-103,SITE-0103,K/W,dispensary,Millat Nagar Dispensary,"Millat nagar Muncipal Dispensary ,lokhandwala back road, near yamuna nagar, Andheri (west),",,72.83,19.15,2,valid,agree,dispensaries.kml,103,Dispensary,True
+DISP-104,SITE-0104,P/S,dispensary,Topiwala Dispensary,"Topiwala Maternity home, opp lords College, station Rd, Goregaon West",,72.84,19.17,2,valid,agree,dispensaries.kml,104,Dispensary,True
+DISP-105,SITE-0105,P/S,dispensary,Chincholi Squatter's Dispensary,"Chincholi Fatak, Goregoan East",,72.85,19.18,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,105,Dispensary,True
+DISP-106,SITE-0106,P/S,dispensary,Sunder Nagar Dispensary,"BMC Bldg, Pawan Baug,Nr,saraf College, Malad west",,72.8962,19.1246,4,valid,disagree_review,dispensaries.kml,106,Dispensary,False
+DISP-107,SITE-0107,P/N,dispensary,Choksy Dispensary,"Marve Rd., In front of Nutan High School, Malad (W)",,72.84,19.19,2,valid,agree,dispensaries.kml,107,Dispensary,True
+DISP-108,SITE-0108,P/N,dispensary,Nemani Dispensary,"Nr. Nemani High School, Nr. New Era Cinema. Opp. Petrol Pump, Malad (W)",,72.85,19.18,2,valid,agree,dispensaries.kml,108,Dispensary,True
+DISP-109,SITE-0109,P/N,dispensary,Malvani Dispensary,"Malvani gate no.6, OPP. Holy Angel School, Malvani, Malad W",,72.82,19.19,2,valid,agree,dispensaries.kml,109,Dispensary,True
+DISP-110,SITE-0110,P/N,dispensary,Rathodi Dispensary,"Bali Residency Bldg., 1st Flr., Rathodi Bus Stop, behind Petrol Pump, Malad W",,72.82,19.19,2,valid,agree,dispensaries.kml,110,Dispensary,True
+DISP-111,SITE-0111,P/N,dispensary,Goshala Dispensary,"Nr. Diamond Mkt., Goshala Rd., Malad E",,72.85,19.19,2,valid,agree,dispensaries.kml,111,Dispensary,True
+DISP-112,SITE-0112,P/N,dispensary,Kurar Village Dispensary,"Siddique Comp., Nr. Ramesh Hotel, Daptari Rd., Kurar Village, Malad E",,72.86,19.19,2,valid,agree,dispensaries.kml,112,Dispensary,True
+DISP-113,SITE-0113,P/N,dispensary,Pathanwadi Dispensary,"Pathanwadi. Mun. Disp., Triveni Ngr., Nr. Suvidha Hsp., Malad E",,72.86,19.18,2,valid,agree,dispensaries.kml,113,Dispensary,True
+DISP-114,SITE-0114,P/N,dispensary,Riddhi Garden Dispensary,"Nr. Riddhi Garden Tower, Wageshwari Temple, General A.K.Vaidhya Marg, Dindoshi, Malad E",,72.87,19.18,2,valid,agree,dispensaries.kml,114,Dispensary,True
+DISP-115,SITE-0115,P/N,dispensary,Valnai Dispensary,"Valnai Mun. School, Opp. Orlem Church, Malad W",,72.84,19.2,2,valid,agree,dispensaries.kml,115,Dispensary,True
+DISP-116,SITE-0116,P/N,dispensary,Manori Dispensary,"Manori Village, Marve Rd., Malad W",,72.79,19.21,2,valid,agree,dispensaries.kml,116,Dispensary,True
+DISP-117,SITE-0117,P/N,dispensary,School Road Dispensary,"K.D. Heights bldg no.3, Rani Sati Rd., Nr. Laxminarayan Temple, Malad E",,72.86,19.18,2,valid,agree,dispensaries.kml,117,Dispensary,True
+DISP-118,SITE-0118,R/S,dispensary,Akurli Dispensary,Akurli Municipal Dispensary Opp Farid Estate next to oxford International School gausiya chawk thakur village kandivali east mumbai 400101,,72.85,19.2,2,valid,agree,dispensaries.kml,118,Dispensary,True
+DISP-119,SITE-0119,R/S,dispensary,Hanuman Nagar Dispensary,Sambhaji Nagar Complex near by Hanuman Mandir Kandivali East 400101,,72.87,19.21,2,valid,agree,dispensaries.kml,119,Dispensary,True
+DISP-120,SITE-0120,R/S,dispensary,Shailaja Vijay Girkar Dispensary,"shaileja vijay girkar municipal dispensary, dahanukarwadi, m g road, kandivali west",,72.8366,19.2073,4,valid,agree,dispensaries.kml,120,Dispensary,False
+DISP-121,SITE-0121,R/S,dispensary,Charkop Sector 1 Dispensary,Charkop Sec-1 Muncipal Dispensary Sector-1 Charkop Near BMC School Kandivali west,,72.83,19.21,2,valid,agree,dispensaries.kml,121,Dispensary,True
+DISP-122,SITE-0122,R/S,dispensary,Babrekar Nagar Dispensary,Ganesh Nagar Babrekar Nagar Kandivali West,,72.83,19.2,2,valid,agree,dispensaries.kml,122,Dispensary,True
+DISP-123,SITE-0123,R/S,dispensary,New Centenary Dispensary,Ashiyana Building Nare usha mat home s modi road kandivali west 400067,,72.91,19.05,2,valid,disagree_review,dispensaries.kml,123,Dispensary,True
+DISP-124,SITE-0124,R/C,dispensary,M.H.B. Dispensary,"Old MHB Colony-MCGM,Borivali west,Mumbai 400091",,72.84,19.23,2,valid,agree,dispensaries.kml,124,Dispensary,True
+DISP-125,SITE-0125,R/C,dispensary,Gorai MHADA Dispensary,"Gorai Mhada Part-1,near suvidya school,opposite plot no 112,Gorai,Borivali west Mumbai 400092",,72.83,19.23,2,valid,agree,dispensaries.kml,125,Dispensary,True
+DISP-126,SITE-0126,R/C,dispensary,Charkop Sector 5 Dispensary,"Near Apna Bazar sector -5,charkop.Borivali west 400067",,72.83,19.22,2,valid,agree,dispensaries.kml,126,Dispensary,True
+DISP-127,SITE-0127,R/C,dispensary,Kajupada Dispensary,"Chougule nagar ,mourya building ,1 st floor ,Borivali east ,Mumbai -400066",,72.87,19.23,2,valid,agree,dispensaries.kml,127,Dispensary,True
+DISP-128,SITE-0128,R/C,dispensary,K.K. Dispensary,"at juction of s.v. and s.v.p rd,borivali west. BMC buliding.Mumbai 400092",,72.8666,19.224,4,valid,agree,dispensaries.kml,128,Dispensary,False
+DISP-129,SITE-0129,R/C,dispensary,Ekser Dispensary,"Eksar Talepakhadi,opp Eksar talav,Borivali west Mumbai 400092",,72.85,19.23,2,valid,agree,dispensaries.kml,129,Dispensary,True
+DISP-130,SITE-0130,R/C,dispensary,Gorai Village Dispensary,"Near Gorai cross,Gorai village ,Borivali west,Mumbai 400091",,72.79,19.24,2,valid,agree,dispensaries.kml,130,Dispensary,True
+DISP-131,SITE-0131,R/N,dispensary,Y R Tawde Dispensary,"Hari Shankar Joshi Road, Dahisar East",,72.86,19.25,2,valid,agree,dispensaries.kml,131,Dispensary,True
+DISP-132,SITE-0132,R/N,dispensary,Shastri Nagar Dispensary,"Holy Cross Road, Navagaon, Dahisar West",,72.85,19.25,2,valid,agree,dispensaries.kml,132,Dispensary,True
+DISP-133,SITE-0133,R/N,dispensary,L T Road Dispensary,"L T Road, Dahisar West",,72.86,19.25,2,valid,agree,dispensaries.kml,133,Dispensary,True
+DISP-134,SITE-0134,R/N,dispensary,Anand Nagar Dispensary,"Manan Building, Anand Nagar, Dahisar West",,72.86,19.26,2,valid,agree,dispensaries.kml,134,Dispensary,True
+DISP-135,SITE-0135,R/N,dispensary,Pramila Nagar Dispensary,"Mhada Colony, Kandarpada, Dahisar West",,72.8737,19.2605,4,valid,agree,dispensaries.kml,135,Dispensary,False
+DISP-136,SITE-0136,L,dispensary,Bail Bazar Dispensary,"C/O ANANDIBAI JOSHI MATERNITY HOME, KALE MARG ANDHERI KURLA ROAD NEAR POLIC CHOWKI BAIL BAZAR KURLA (WEST) MUMBAI 400072",,72.88,19.08,2,valid,agree,dispensaries.kml,136,Dispensary,True
+DISP-137,SITE-0137,L,dispensary,Bibi Fatima Dispensary,BELGRAMI ROAD NEAR LBS KURLA WEST,,72.92,19.1192,4,valid,disagree_review,dispensaries.kml,137,Dispensary,False
+DISP-138,SITE-0138,L,dispensary,Buddha Colony Dispensary,Buddha Colony kurla West,,72.8798,19.0704,4,valid,agree,dispensaries.kml,138,Dispensary,False
+DISP-139,SITE-0139,L,dispensary,Chandivali Dispensary,"chandivali Dispensary,Sangharsh nagar",,72.9026,19.1084,4,valid,agree,dispensaries.kml,139,Dispensary,False
+DISP-140,SITE-0140,L,dispensary,Kajupada Dispensary,"Kajupada municipal dispensary, kajupada pipeline, near Ganesh maidan, kurla west, Mumbai 400072",,72.89,19.09,2,valid,agree,dispensaries.kml,140,Dispensary,True
+DISP-141,SITE-0141,L,dispensary,Nehru Nagar Dispensary,"MOTHER DAIRY ROAD, MOTHER DAIRY NEHRU NAGAR KURLA (E)",,72.89,19.06,2,valid,disagree_within_coordinate_rounding,dispensaries.kml,141,Dispensary,True
+DISP-142,SITE-0142,L,dispensary,Chunabhatti Dispensary,V N Purav marg chunabhatti mumbai 22,,72.8846,19.1315,4,valid,disagree_review,dispensaries.kml,142,Dispensary,False
+DISP-143,SITE-0143,L,dispensary,Tilak Nagar Dispensary,"ROYAL GARGEN CHS, CTS NO 47, TILAK NAGAR (W) 400089",,72.89,19.07,2,valid,agree,dispensaries.kml,143,Dispensary,True
+DISP-144,SITE-0144,L,dispensary,Asalpha Village Dispensary,subash nagar Asalpha village pipeline,,72.9,19.1,1,valid,agree,dispensaries.kml,144,Dispensary,True
+DISP-145,SITE-0145,L,dispensary,Himalaya Dispensary,"Himalaya soc disp,near sabri bldg,NSS road Ghatkopar (w)",,72.89,19.09,2,valid,agree,dispensaries.kml,145,Dispensary,True
+DISP-146,SITE-0146,L,dispensary,Safed Pool Dispensary,"Safed Pool ,Kurla West",,72.88,19.09,2,valid,agree,dispensaries.kml,146,Dispensary,True
+DISP-147,SITE-0147,L,dispensary,Mohili Village Dispensary,"Mohili Village,Kurla West",,72.89,19.1,2,valid,agree,dispensaries.kml,147,Dispensary,True
+DISP-148,SITE-0148,L,dispensary,Christian Village Dispensary,CHRISTIAN VILLAGE DISPENSARY FATHER PETER PERIERA ROAD CHRISTIAN VILLAGE KURLA WEST,,72.88,19.08,2,valid,agree,dispensaries.kml,148,Dispensary,True
+DISP-149,SITE-0149,L,dispensary,Qureshi Nagar Dispensary,"Qureshi nagar,Kurla West",,72.8773,19.0599,4,valid,agree,dispensaries.kml,149,Dispensary,False
+DISP-150,SITE-0150,L,dispensary,Nahar Amrit Shakti Dispensary,Nahar Amrit Shakti Dispensary,,72.88,19.07,2,valid,agree,dispensaries.kml,150,Dispensary,True
+DISP-151,SITE-0151,M/E,dispensary,Anik Nagar Dispensary,"SURAKSHA SOCIETY. BLDG. NO.4, 1ST FLOOR, MHADA COLONY, VASHI NAKA, CHEMBUR-74",,72.9043,19.0357,4,valid,agree,dispensaries.kml,151,Dispensary,False
+DISP-152,SITE-0152,M/E,dispensary,Ayodhya Nagar Dispensary,"NEAR FISH MARKET, JAY BHAVANI MARG, VASHI NAKA, CHEMBUR-74.",,72.9,19.03,2,valid,agree,dispensaries.kml,152,Dispensary,True
+DISP-153,SITE-0153,M/E,dispensary,Gawanpada Dispensary,"B.D.PATIL MARG, GAVANPADA, MUMBAI-74",,72.9,19.01,2,valid,agree,dispensaries.kml,153,Dispensary,True
+DISP-154,SITE-0154,M/E,dispensary,Deonar Dispensary,"ROOM NO. 123, DEONAR SHOPPING CENTRE, DEONAR MUNICIPAL COLONY, GOVANDI (W)",,72.92,19.05,2,valid,agree,dispensaries.kml,154,Dispensary,True
+DISP-155,SITE-0155,M/E,dispensary,Maharashtra Nagar Dispensary (Cheetah),"BLDG. NO. 18, 1st FLOOR, ROOM NO.101,102,115 & 116. MAHARASHTRA NAGAR MANKHURD, MUMBAI-88.",,72.94,19.05,2,valid,agree,dispensaries.kml,155,Dispensary,True
+DISP-156,SITE-0156,M/E,dispensary,Kamla Raman Nagar Dispensary (Baiganwadi),"BEHIND BHADRA HOSPITAL, ROAD TO DUMPING GROUND, MUMBAI-43, GOVANDI East",,72.93,19.06,2,valid,agree,dispensaries.kml,156,Dispensary,True
+DISP-157,SITE-0157,M/E,dispensary,Ram Manohar Lohiya (R B K Dispensary),"CITY SURVEY NO. 4A/8/1 & 4A/8/2, UNIVERSAL MAJESTIC BLDG. P.L.LOKHANDE MARG, CHEMBUR-400071",,72.91,19.06,2,valid,agree,dispensaries.kml,157,Dispensary,True
+DISP-158,SITE-0158,M/E,dispensary,L. U. Gadkari Dispensary (Vashi Naka),"R/1 BLDG. AMAN SOCIETY, NEAR DATTA MANDIR, VISHNU NAGAR, L.U.GADAKARI MARG, CHEMBUR, MUMBAI-74.",,72.89,19.09,2,valid,disagree_review,dispensaries.kml,158,Dispensary,True
+DISP-159,SITE-0159,M/E,dispensary,New Baigan Wadi Dispensary,"PLOT NO.32, ROAD NO.8, RAFIQ NAGAR, NEAR SANJAY NAGAR & 90FT. ROAD, GOVANDI, MUMBAI-43",,72.9235,19.0589,4,valid,agree,dispensaries.kml,159,Dispensary,False
+DISP-160,SITE-0160,M/E,dispensary,A. B. Sathe Nagar Dispensary,"R4, MMRDA BLDG, SATHE NAGAR, MANKHURD, MUMBAI 43",,72.93,19.05,2,valid,agree,dispensaries.kml,160,Dispensary,True
+DISP-161,SITE-0161,M/E,dispensary,Trombay Dispensary,"NEAR POST OFFICE, MAIN ROAD, TROMBAY",,72.95,19.03,2,valid,agree,dispensaries.kml,161,Dispensary,True
+DISP-162,SITE-0162,M/W,dispensary,Chembur Naka Dispensary,"CHEMBUR NAKA DISPENSARY, BLDG NO. 2, GROUND FLOOR, CHEMBUR 71",,72.89,19.05,2,valid,agree,dispensaries.kml,162,Dispensary,True
+DISP-163,SITE-0163,M/W,dispensary,Chembur Colony Dispensary,"CHEMBUR COLONY DISPENSARY, CHEMBUR 71",,72.89,19.05,2,valid,agree,dispensaries.kml,163,Dispensary,True
+DISP-164,SITE-0164,M/W,dispensary,Labour Camp Dispensary,"LABOUR CAMP DISPENSARY, P.L.LOKHANDE MARG, CHEMBUR-89.",,72.908,19.0614,4,valid,agree,dispensaries.kml,164,Dispensary,False
+DISP-165,SITE-0165,M/W,dispensary,Lal Dongar Dispensary,"LAL DONGAR DISPENSARY, OPP ALTAVISTA TOWAR, NEAR SURANA SETHIYA HOSPITAL, V.N. PURAN MARG, CHEMBUR 71",,72.89,19.05,2,valid,agree,dispensaries.kml,165,Dispensary,True
+DISP-166,SITE-0166,M/W,dispensary,Mahul SRA Dispensary,"MAHUL SRA DISPENSARY, GROUND FLOOR, BLDG NO. 42, MHADA SRA COMPLEX, MAHUL 74",,72.89,19.01,2,valid,agree,dispensaries.kml,166,Dispensary,True
+DISP-167,SITE-0167,M/W,dispensary,Mahul Village Dispensary,"MAHUL DISPENSARY, NEAR FISH MARKET, MAHUL ROAD, CHEMBUR 74",,72.89,19.01,2,valid,agree,dispensaries.kml,167,Dispensary,True
+DISP-168,SITE-0168,N,dispensary,Sarvodaya Dispensary,"Sarvodaya Muncipal Dispensary, Khot lane Near Bata showroom , Jyoti Chemburs Ghatkopar w Mumbai 400086",,72.91,19.09,2,valid,agree,dispensaries.kml,168,Dispensary,True
+DISP-169,SITE-0169,N,dispensary,Park Site Dispensary,PARKSITE MUNCIPAL UPHC ROAD NO 1 BEHIND OLD JANKALYAN BANK VIKHROLI W 400079,,72.91,19.1,2,valid,agree,dispensaries.kml,169,Dispensary,True
+DISP-170,SITE-0170,N,dispensary,Parshi Wadi Dispensary,"parshiwad muncipal i disp,jai maharashtra ganesh maidan,parshiwadi,ghatkopar west 4000086,",,72.9,19.09,2,valid,agree,dispensaries.kml,170,Dispensary,True
+DISP-171,SITE-0171,N,dispensary,Pant Nagar Dispensary,"NEAR BMC SCHOOL NO 3, PANTNGAR",,72.92,19.09,2,valid,agree,dispensaries.kml,171,Dispensary,True
+DISP-172,SITE-0172,N,dispensary,Ramabai Dispensary,"KDGM RAMABAI COLONY UPHC ,ON EASTERN EXPRESS HIGHWAY,NEAR SHAHID SAMARK,GHATKOPAR(East)-75..MCGM property",,72.92,19.08,2,valid,agree,dispensaries.kml,172,Dispensary,True
+DISP-173,SITE-0173,N,dispensary,Sainath Dispensary,Matoshree Ramabai Thakare Mat.Home Sainath nagar Rd Ganesh Maidan Ghatkopar W,,72.91,19.09,2,valid,agree,dispensaries.kml,173,Dispensary,True
+DISP-174,SITE-0174,N,dispensary,Kirol Village Dispensary,"near Vidyavihar(w)station,opp.BESTdepot",,72.9,19.08,2,valid,agree,dispensaries.kml,174,Dispensary,True
+DISP-175,SITE-0175,N,dispensary,Nath Pai Dispensary,"Venus Appartment, ground floor, opp. Dr hedagewar gardan, vidhyabhavan marg, near 90 feet road, nath pai nagar, garodiya, ghatkoper east mumbai 400072",,72.9058,19.073,4,valid,agree,dispensaries.kml,175,Dispensary,False
+DISP-176,SITE-0176,S,dispensary,M.V.R. Shinde Marg Dispensary,"M.V.R.Shinde Marg, Ishwarnagar MGCB Office, Bhandup West",,72.94,19.14,2,valid,agree,dispensaries.kml,176,Dispensary,True
+DISP-177,SITE-0177,S,dispensary,Shivaji Talav Dispensary,"Kokan nagar, Ganga Vidyalay Primises near shivajitalao Bhandup",,72.93,19.15,2,valid,agree,dispensaries.kml,177,Dispensary,True
+DISP-178,SITE-0178,S,dispensary,Tirandaz Dispensary,"Tirandaz Village, IIT Road, Powai Market",,72.905,19.1196,4,valid,agree,dispensaries.kml,178,Dispensary,False
+DISP-179,SITE-0179,S,dispensary,Nahur Dispensary,"MHADA colony shop no 3,4,5,Subhash Nagar,Bhandup",,72.8846,19.1315,4,valid,disagree_review,dispensaries.kml,179,Dispensary,False
+DISP-180,SITE-0180,S,dispensary,Kanjur Village Dispensary,Kanjur Gao Near Police station Kanjur East,,72.94,19.13,2,valid,agree,dispensaries.kml,180,Dispensary,True
+DISP-181,SITE-0181,S,dispensary,Tagor Nagar Dispensary,Suncity building IIT Market Gandhi Nagar,,72.94,19.12,2,valid,agree,dispensaries.kml,181,Dispensary,True
+DISP-182,SITE-0182,S,dispensary,Tulshet Pada Dispensary,"Tulshetpada mun disp lake rd, Bhandup",,72.9306,19.1627,4,valid,agree,dispensaries.kml,182,Dispensary,False
+DISP-183,SITE-0183,S,dispensary,Tembhi Pada Dispensary,"Tembhipada Mun.disp, Nardas nagar, Near Pach mandir, Bhandup (West)",,72.93,19.15,2,valid,agree,dispensaries.kml,183,Dispensary,True
+DISP-184,SITE-0184,T,dispensary,PJK Dispensary,"M.G.Road, Panch Rasta, opp Kirtimahal Hotel, Mulund (w). Mum 80.",,72.95,19.18,2,valid,agree,dispensaries.kml,184,Dispensary,True
+DISP-185,SITE-0185,T,dispensary,DDU Marg Dispensary,"Din Dayal Upadhyay Marg, Opp Croma Shop, Checknaka, Mulund (w). Mum 80",,72.95,19.18,2,valid,agree,dispensaries.kml,185,Dispensary,True
+DISP-186,SITE-0186,T,dispensary,Mulund Colony Dispensary,"Zulelal Marg, Opp Jay Bharat School, Mulund colony , Mulund (w). Mum80.",,72.94,19.17,2,valid,agree,dispensaries.kml,186,Dispensary,True
+UPHC-001,SITE-0003,A,uphc,Maruti Lane UPHC,"Colaba Mun.Disp, 1St Floor,55 Rajawadkar street colaba Mumbai-01/ Disp Mun.Disp,Maruti Lane,Mumbai",,72.83,18.94,2,valid,agree,uphcs.kml,1,UPHC,True
+UPHC-002,SITE-0001,A,uphc,Colaba UPHC,"Colaba Mun.Disp, 1St Floor,55 Rajawadkar street colaba Mumbai-01/ Disp Mun.Disp,Maruti Lane,Mumbai",,72.83,18.92,2,valid,agree,uphcs.kml,2,UPHC,True
+UPHC-003,SITE-0013,C,uphc,Panjrapole UPHC,"Panjrapole Health post, rama galli,2nd cross lane,Duncan road Mumbai - 400004",,72.83,18.96,2,valid,agree,uphcs.kml,3,UPHC,True
+UPHC-004,SITE-0015,C,uphc,Chandanwadi UPHC,"Chandanwadi Municipal school, Chandanwadi, Marine Lines (E), Mumbai - 400002",,72.8265,18.9463,4,valid,agree,uphcs.kml,4,UPHC,False
+UPHC-005,SITE-0187,C,uphc,Suryakant Vagal Maternity Home UPHC,"Zaobawadi health post ,near zaobawadi Ram Mandir, Thakurdwar , Charni Raod (E), Mumbai - 400002",,72.82,18.95,2,valid,agree,uphcs.kml,5,UPHC,True
+UPHC-006,SITE-0188,D,uphc,Bane Compound UPHC,"Bane Compound Health Post, Gokuldham Society Opp.Shivram Bane Chawl,Mumbai Central (W),Mumbai - 400034",,72.8183,18.9717,4,valid,agree,uphcs.kml,6,UPHC,False
+UPHC-007,SITE-0019,D,uphc,R S Nimkar UPHC,"Near Pratiksha Tower, Gr.Fl, Opp. R.S.Nimkar, Workshop Grant Road (W), Mumbai - 8.",,72.82,18.97,2,valid,disagree_within_coordinate_rounding,uphcs.kml,7,UPHC,True
+UPHC-008,SITE-0032,E,uphc,Gaurabai UPHC,"Gaurabai Municiapl Dispensary,13th Kamathipura Lane,Byculla,Mumbai",,72.83,18.97,2,valid,agree,uphcs.kml,8,UPHC,True
+UPHC-009,SITE-0189,E,uphc,Tadwadi UPHC,"Excel Residency , 1st Floor,Opp.Mazgaon Garden, New Nesbit road, Mazgaon ( W) Mumbai - 400010",,72.8399,18.9687,4,valid,agree,uphcs.kml,9,UPHC,False
+UPHC-010,SITE-0025,E,uphc,Souter Street UPHC,"Meghraj Shethi marg,opp zula maidan,madanpura,Mumbai - 400008",,72.83,18.97,2,valid,agree,uphcs.kml,10,UPHC,True
+UPHC-011,SITE-0190,E,uphc,Reay Road UPHC,"Reay Road HP,BIT chawl,Motishah Lane,Mubai - 400010",,72.85,18.97,2,valid,agree,uphcs.kml,11,UPHC,True
+UPHC-012,SITE-0191,F/S,uphc,Naigaon MH UPHC,"Naigaon Mat HM,V.V. Dahiwalkar Buwa Marg Naigaon (W) Mumbai - 400014",,72.85,19.01,2,valid,agree,uphcs.kml,12,UPHC,True
+UPHC-013,SITE-0192,F/S,uphc,Family Welfare UPHC,"F/South Ward, 1st Floor, Parel Mumbai - 400012",,72.84,19.01,2,valid,agree,uphcs.kml,13,UPHC,True
+UPHC-014,SITE-0193,F/S,uphc,Abhyuday Nagar UPHC,"Abhyuday Nagar Hp ,thakarshi Jivraj marg , Near Zakeria Marg, cotton green,Mumbai - 400033",,72.85,18.99,2,valid,agree,uphcs.kml,14,UPHC,True
+UPHC-015,SITE-0039,F/S,uphc,Kidwai Nagar UPHC,"Rafi ahmed Kidwai ,Near Post office,Wadala,Mumbai- 400031",,72.85,19.01,2,valid,agree,uphcs.kml,15,UPHC,True
+UPHC-016,SITE-0049,F/N,uphc,New Transit Camp UPHC,"Dosti Elite,Opp ,SIES College,Sion,Mumbai.",,72.86,19.03,2,valid,agree,uphcs.kml,16,UPHC,True
+UPHC-017,SITE-0046,F/N,uphc,Wadala UPHC,"Wadala Municipal Dispensary, Near Wadala Railway station,Wadala ( W), Mumbai - 400037",,72.86,19.02,2,valid,agree,uphcs.kml,17,UPHC,True
+UPHC-018,SITE-0194,F/N,uphc,Raoli Camp MH UPHC,"Raoli Camp Health Post, Sion Koliwada, Near sardar nagar - 4 Bus stop,Mumbai - 400032",,72.87,19.04,2,valid,agree,uphcs.kml,18,UPHC,True
+UPHC-019,SITE-0047,F/N,uphc,Korba Mithagar UPHC,"Korba Mithagar Health Post,Opp.wadala, B.P.T Quarters, Wadala(E),mumbai - 400037",,72.86,19.02,2,valid,agree,uphcs.kml,19,UPHC,True
+UPHC-020,SITE-0050,F/N,uphc,Antop Hill UPHC,"Antop Hill Municipal Dispensary, shaikh Mistry Road, Near Antop Hill Bus depot, Mumbai - 400037",,72.87,19.03,2,valid,agree,uphcs.kml,20,UPHC,True
+UPHC-021,SITE-0195,F/N,uphc,Pratiksha NagarUPHC,"Pratiksha Nagar Health post,Dosti Elite, Opp S.I.E.S college,Sion (E),Mumbai - 400037",,72.87,19.04,2,valid,agree,uphcs.kml,21,UPHC,True
+UPHC-022,SITE-0196,F/N,uphc,LBS Marg UPHC,"Lal Bahadur Shastri Market, 1st Floor, Matunga Railway station(E),mumbai - 400019",,72.85,19.03,2,valid,disagree_within_coordinate_rounding,uphcs.kml,22,UPHC,True
+UPHC-023,SITE-0061,G/S,uphc,BDD Chawl UPHC,"Aururs chamber, Ground Floor,Near Jamburi maidan,Worli Mumbai-18",,72.82,19.0,2,valid,agree,uphcs.kml,23,UPHC,True
+UPHC-024,SITE-0197,G/S,uphc,Haji Mohhamad Haji Saboo Siddiqui Prabhadevi Maternity Home UPHC,"Haji Mohammed Haji saboo siddiqui Municipal maternity Home, Gamon House,Veer Swarkar Road,Prabhadevi,Mumbai - 400025",,72.83,19.02,2,valid,agree,uphcs.kml,24,UPHC,True
+UPHC-025,SITE-0053,G/S,uphc,Jijamata Nagar UPHC,"Kasturba Gandhi Nagar, Municipal school lokhandwala tower 2nd Floor, L.R.Papan Marg , Dainik Shivneri Marg,Worli ,mumbai - 400018",,72.82,18.99,2,valid,agree,uphcs.kml,25,UPHC,True
+UPHC-026,SITE-0198,G/S,uphc,MH School Compund UPHC,"M.H.Compound Municipal Dispensary ,Ground Floor Shiwalay Welfare Centre Building,sitaram Jadhav Marg, lower Parel Mumbai - 400011",,72.83,19.0,2,valid,agree,uphcs.kml,26,UPHC,True
+UPHC-027,SITE-0052,G/S,uphc,Worli Koliwada UPHC,"Worli Koliwada Health Post, Near Police Chowki,sangit kesharinath Buwa Bhoyemarg,worli koliwada,Mumbai - 400030",,72.8517,18.9615,4,valid,outside_polygons_review,uphcs.kml,27,UPHC,False
+UPHC-028,SITE-0199,G/S,uphc,Sasmira UPHC,"Sasmira Health Post, Behind Baneshwar Mandir,Sasmira Road,Worli Mumbai- 400031",,72.82,19.01,2,valid,agree,uphcs.kml,28,UPHC,True
+UPHC-029,SITE-0200,G/S,uphc,Curry Road UPHC,"Curry Road Health Post and Municipal Dispensary,Sakharam Baal Pawar Marg, Opp vaishanav sadan Building, Curry road(W.), mumbai -400013",,72.83,18.99,2,valid,agree,uphcs.kml,29,UPHC,True
+UPHC-030,SITE-0201,G/N,uphc,Shastri Nagar -2 UPHC,"Shastri nagar - II Health post , Behind dharavi Police station,Near Shramik Vidyapith 90 Feet Road,Dharavi Mumbai, 400017",,72.8558,19.0461,4,valid,agree,uphcs.kml,30,UPHC,False
+UPHC-031,SITE-0065,G/N,uphc,Bai Gulbai UPHC,"Bai Gulbai Municipal Dispensary,455 C wing, saint Anthony S.R.A. Co.opp. housing Society, Dipen Wadi,Bhawani Shankar Road, Dadar ( W.) mumbai - 400028",,72.84,19.02,2,valid,agree,uphcs.kml,31,UPHC,True
+UPHC-032,SITE-0202,G/N,uphc,Mahim MH UPHC,"Mahim Health Post,mahim Maternity Home, Dilip Gupte Road,Opp Shree Cinema,mahim , mumbai - 400016",,72.8402,19.0328,4,valid,agree,uphcs.kml,32,UPHC,False
+UPHC-033,SITE-0067,G/N,uphc,Welkarwadi UPHC,"Welkarwadi Municipal Dispensary,Welkarwadi Building No-1,Near M.H. Latif Chawl,Mahim Darga Road,Mahim mumbai - 400017",,72.84,19.04,2,valid,agree,uphcs.kml,33,UPHC,True
+UPHC-034,SITE-0073,G/N,uphc,Kumbharwada UPHC,"ML camp disp,Opp TATA power,ML camp,Dharavi - 400017",,72.85,19.04,2,valid,agree,uphcs.kml,34,UPHC,True
+UPHC-035,SITE-0203,G/N,uphc,Urban Health Centre UPHC,"Urban Health Cente UPHC,60 feet road,Opp markandey Building,Dharavi ,Mumbai -400017",,72.85,19.04,2,valid,agree,uphcs.kml,35,UPHC,True
+UPHC-036,SITE-0204,G/N,uphc,Pila Bunglow UPHC,"Pilla Bunglow Health Post, Behind Tamil Municipal school, near Hanuman temple, Kapada bazar,Dharavi Mumbai -400017",,72.86,19.05,2,valid,agree,uphcs.kml,36,UPHC,True
+UPHC-037,SITE-0205,H/E,uphc,Shanti Nagar UPHC,"Shanti nagar Disp, Shivaji Nagar, Near Hayat Hotel, Vakola bridge, Santacruz (E) Mum-55",,72.85,19.08,2,valid,agree,uphcs.kml,37,UPHC,True
+UPHC-038,SITE-0076,H/E,uphc,Swami Vivekanand Nagar UPHC,"S V Nagar Disp Swami vivekanand Dattatry Road, Vakola Bridge, Dattatry NSQ Home, Santacruz-East, Mumbai-400055",,72.85,19.08,2,valid,agree,uphcs.kml,38,UPHC,True
+UPHC-039,SITE-0206,H/E,uphc,Golibar UPHC,"Golibar HP opp Jawahar Nagar Disp Near Charnal masjid , Jawahar nagar, opp ambewadi police Chowky, Khar-East Mumbai-400051",,72.84,19.07,2,valid,disagree_within_coordinate_rounding,uphcs.kml,39,UPHC,True
+UPHC-040,SITE-0077,H/E,uphc,Kalina UPHC,"Kalina Disp, Near Geeta Vihar Hotel, Near Kalina Market, Kalina kurla Road Mumbai-400029",,72.86,19.08,2,valid,agree,uphcs.kml,40,UPHC,True
+UPHC-041,SITE-0207,H/E,uphc,Bharat Nagar II UPHC,"Bharat Nagar Disp (Gulabi Dawakhana) 2nd floor opp pathar Nagar busstop Nagar, Beside Bharat Nagar Muncipal School, disp Bharatnagar Bandra-East",,72.86,19.06,2,valid,agree,uphcs.kml,41,UPHC,True
+UPHC-042,SITE-0208,H/E,uphc,Kherwadi MH UPHC,"B. G. Kherwadi Mun. Mat. Home, Ram Mandir, Children complex kherwadi signal, Kherwadi, Bandra (East), Mumbai – 52.",,72.85,19.06,2,valid,agree,uphcs.kml,42,UPHC,True
+UPHC-043,SITE-0209,H/W,uphc,Gurunanak UPHC,"Gurunanak Mun. Disp, Ambedkar Road, Dr. Ambedkar Statue, Khar-West, mum-52",,72.83,19.07,2,valid,agree,uphcs.kml,43,UPHC,True
+UPHC-044,SITE-0083,H/W,uphc,Shastri Nagar UPHC,"BMC Colony, Next to Building No. 5, end link road, Santacruz West, Mum 400054",,72.84,19.09,2,valid,agree,uphcs.kml,44,UPHC,True
+UPHC-045,SITE-0090,K/E,uphc,Natwar Nagar UPHC,"Natwar Nagar Road no-5 Sheeljeet Bldg Ground Floor, 5th Road, Shankrwadi Bus stop, Jogeshwari-East, Mumbai-400060",,72.85,19.13,2,valid,agree,uphcs.kml,45,UPHC,True
+UPHC-046,SITE-0086,K/E,uphc,Sambhaji Nagar UPHC,"Sambhaji Nagar Ayurvedic Disp.Shahaji Raje Road, Near Agrawal Eye Hospital, Koldongri, Vile Parle, Mumbai -59",,72.85,19.11,2,valid,agree,uphcs.kml,46,UPHC,True
+UPHC-047,SITE-0210,K/E,uphc,Sahar Road UPHC,"Sahar Air port Hp, Vishal Hall, Gundvali KE ward office Gr. Floor Andheri (E)",,72.85,19.11,2,valid,agree,uphcs.kml,47,UPHC,True
+UPHC-048,SITE-0211,K/E,uphc,VN Shirodkar MH UPHC,"Trimurti Building , Ground floor, Ajmal Road, Vile-Parle (E), Mumbai – 54.",,72.85,19.11,2,valid,agree,uphcs.kml,48,UPHC,True
+UPHC-049,SITE-0212,K/E,uphc,Squatters Coloney MH UPHC,"Hari Nagar Disp, Near Hari Nagar Mun School, Near vasthu Building, Pump House, Hari Nagar Road Jogeshwari (East)",,72.86,19.14,2,valid,agree,uphcs.kml,49,UPHC,True
+UPHC-050,SITE-0213,K/E,uphc,Marol MH UPHC,"Marol Mun. Mat. Home, 4th floor Marol-Maroshi, Near Fire bridged Station, Marol Road, Andheri (East), Mumbai – 57.",,72.88,19.11,2,valid,agree,uphcs.kml,50,UPHC,True
+UPHC-051,SITE-0100,K/W,uphc,Versova UPHC,"Versova Disp, Versova, Yari Road, Last Stop (249 Bus Stop) Andheri-West Mumbai-400058",,72.81,19.14,2,valid,agree,uphcs.kml,51,UPHC,True
+UPHC-052,SITE-0214,K/W,uphc,Nusserwanji Jahangirji Wadia UPHC,"N.J. Wadia Mun. Disp Building, S.V. Road, Near Andheri Rly Station, Andheri West, Mumbai-400059",,72.85,19.12,2,valid,disagree_within_coordinate_rounding,uphcs.kml,52,UPHC,True
+UPHC-053,SITE-0215,K/W,uphc,Oshiwara MH UPHC,"Oshiwara Mun. Mat. Home, Near Ajit Glass Factory, Oshiwara, Jogeshwari (West)",,72.85,19.15,2,valid,disagree_within_coordinate_rounding,uphcs.kml,53,UPHC,True
+UPHC-054,SITE-0216,K/W,uphc,Banana Leaf UPHC,"Banan leaf disp , Near Juhu Bus Depot, Opp Lotus Eye Hosp, Near Juhu Bus Depot, Vileparle West",,72.85,19.13,2,valid,disagree_within_coordinate_rounding,uphcs.kml,54,UPHC,True
+UPHC-055,SITE-0217,P/S,uphc,Ram Mandir Road UPHC,"Indraprasth Building, Near Trikoni Ground,Motilal Nagar No-1, Goregoan (W)",,72.84,19.15,2,valid,disagree_within_coordinate_rounding,uphcs.kml,55,UPHC,True
+UPHC-056,SITE-0218,P/S,uphc,Sundar Nagar UPHC,"Sundar Nagar UPHC, Sunder nagar pavan baug road, opp saraf CollegeBmc building, Near Neelam Nursing Home, Malad (W), Mumbai - 400064.",,72.8962,19.1246,4,valid,disagree_review,uphcs.kml,56,UPHC,False
+UPHC-057,SITE-0219,P/S,uphc,Topiwala Maternity Home Goregaon UPHC,"Goregoan MH HP,PCO Chowky gram panchayat road Statio Road, Near Goregaon Station, Goregoan (W)",,72.85,19.17,2,valid,agree,uphcs.kml,57,UPHC,True
+UPHC-058,SITE-0220,P/N,uphc,Riddhi Garden MH UPHC,"Riddhi Graden Dispensary, Near Valentain Apartment, Gen. AK vaidya marg, Flim City Road, Malad (East)",,72.87,19.18,2,valid,agree,uphcs.kml,58,UPHC,True
+UPHC-059,SITE-0221,P/N,uphc,Rathodi Village UPHC,"Rathodi Village Health post, Bali recidency, Opp Atlantis Hospital, Marve road, Malad (West), Mumbai- 400064.",,72.82,19.19,2,valid,agree,uphcs.kml,59,UPHC,True
+UPHC-060,SITE-0108,P/N,uphc,Nemani UPHC,"Nemani Disp , Near Nemani School, S.V. Road, Malad West",,72.85,19.18,2,valid,agree,uphcs.kml,60,UPHC,True
+UPHC-061,SITE-0112,P/N,uphc,Kurar Village UPHC,"Kurar Village Disp, Haji Siddhiki Compound Daftari Road, Near Hotel Ramesh, Malad-East, Mumbai-400097",,72.86,19.19,2,valid,agree,uphcs.kml,61,UPHC,True
+UPHC-062,SITE-0113,P/N,uphc,Pathanwadi UPHC,"Pathanwadi HP,Divya Appartment, ground floor, Near Suvidhya hospital triveni Nagar, Malad € Mum 400097",,72.86,19.18,2,valid,agree,uphcs.kml,62,UPHC,True
+UPHC-063,SITE-0222,P/N,uphc,Malwani -2 UPHC,"Malwani 2 Disp Santosh Nagar, Malvani Gate No 6, Malad-West, Mumbai-400095",,72.82,19.19,2,valid,agree,uphcs.kml,63,UPHC,True
+UPHC-064,SITE-0223,P/N,uphc,Malwani 1 MH UPHC,"Gate No- 6, Opp Mount mary School, SRA building Julus wadi, Opp Mount mary School, Malad (W) Mum 400095",,72.82,19.19,2,valid,agree,uphcs.kml,64,UPHC,True
+UPHC-065,SITE-0224,P/N,uphc,M.W Desai UPHC,"K.D. Heights Bldg.no.3, Opp. Laxmi Narayan Temple, Malad E, Mum-97",,72.85,19.18,2,valid,agree,uphcs.kml,65,UPHC,True
+UPHC-066,SITE-0225,P/N,uphc,Leher Building UPHC,"Leher Building HP, Near Shitaladevi Mandir Marve Village , Amlad West",,72.8,19.2,1,valid,agree,uphcs.kml,66,UPHC,True
+UPHC-067,SITE-0226,P/N,uphc,Choksy MH UPHC,"Choksy Mun Maternity Home, Marve Road, Malad (west)",,72.84,19.19,2,valid,agree,uphcs.kml,67,UPHC,True
+UPHC-068,SITE-0123,R/S,uphc,New Centenary UPHC,"Ashiyana building, ground floor, Opposite Usha mataernity home, S M modi road, Kandevli.",,72.91,19.05,2,valid,disagree_review,uphcs.kml,68,UPHC,True
+UPHC-069,SITE-0227,R/S,uphc,Charkop Gaon UPHC,"Chakop sector 1 Disp Near BMC School, Behind tulsi vihar hotel, charkop Kandiwali (W)",,72.81,19.21,2,valid,agree,uphcs.kml,69,UPHC,True
+UPHC-070,SITE-0228,R/S,uphc,Dhanukarwadi UPHC,"M.G Road BMC School kandivali Village, Ground Flr, M.G Road Kandivali (W)",,72.83,19.21,2,valid,agree,uphcs.kml,70,UPHC,True
+UPHC-071,SITE-0229,R/S,uphc,Charkop Sec 1 UPHC,"Chakop sector 1 Disp Near BMC School, Behind tulsi vihar hotel, charkop Kandiwali (W)",,72.83,19.21,2,valid,agree,uphcs.kml,71,UPHC,True
+UPHC-072,SITE-0230,R/S,uphc,Damu Pada UPHC,"Hanuman Nagar Disp, Samta Nagar, Near Telephone Exchange, Kandivali-East",,72.88,19.21,2,valid,agree,uphcs.kml,72,UPHC,True
+UPHC-073,SITE-0122,R/S,uphc,Babrekar Nagar UPHC,"Babrekar Disp, Hindustan Naka Charkop Indl. Estate. Kandivali, Mumbai-67",,72.83,19.2,2,valid,agree,uphcs.kml,73,UPHC,True
+UPHC-074,SITE-0231,R/S,uphc,Akurli Road MH UPHC,"Akurli Mun. Mat. Home, Akurli Road, Near ESIS Hospital, Kandivali (East), Mumbai – 101",,72.85,19.2,2,valid,agree,uphcs.kml,74,UPHC,True
+UPHC-075,SITE-0127,R/C,uphc,Kajupada UPHC,"Kajupada welfare Center , Savarpada, Near shani Mandir, Opp Chogle nagar, Borivali - (E)",,72.87,19.23,2,valid,agree,uphcs.kml,75,UPHC,True
+UPHC-076,SITE-0232,R/C,uphc,Maharastra Housing Board Colony UPHC,"M.H.B Muncipal Disp Nr. Datta Mandir, Datta mandir old M.H.B, Gorai Road Borivali (W)",,72.84,19.23,2,valid,agree,uphcs.kml,76,UPHC,True
+UPHC-077,SITE-0233,R/C,uphc,Charkop MH UPHC,"Charkop Sec 5 Disp Plot No. 511, Sector-5, Aadishvuar Jain Mandir marg, Charkop, Behind Apna Bazar, Kandivali-West, Mumbai-400067",,72.83,19.22,2,valid,agree,uphcs.kml,77,UPHC,True
+UPHC-078,SITE-0125,R/C,uphc,Gorai MHADA UPHC,"Gorai Mhada HP Nr. Swami Vivekanand School, Near Suvidya School, Gorai- 1",,72.83,19.23,2,valid,agree,uphcs.kml,78,UPHC,True
+UPHC-079,SITE-0234,R/C,uphc,Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home MH UPHC,"K.C.L Bhonsali Mun Mat Home S.V Road opp Jaya Talkies, Opp Anupam Super Store, Nr. Borivali Station",,72.86,19.23,2,valid,agree,uphcs.kml,79,UPHC,True
+UPHC-080,SITE-0235,R/C,uphc,Mother & Child Hosp.UPHC,"Mata Bal Rugnalay, Near Dhiraj upavan shiddharth nagar Magathane, Near Magathane Bus Depot, Borivali (E)",,72.87,19.22,2,valid,agree,uphcs.kml,80,UPHC,True
+UPHC-081,SITE-0134,R/N,uphc,Anand Nagar UPHC,"BMC 1st floor opp manan Building Near sanghi Hotel Anand Nagar, Opp Shakti nagar, Dahisar € 400068",,72.86,19.26,2,valid,agree,uphcs.kml,81,UPHC,True
+UPHC-082,SITE-0236,R/N,uphc,Shastri Nagar UPHC,"L.T Road Disp 1 St floor L.T Road, Near to Naghik Stores Dahisar Station Dahisar (W) 400068",,72.8733,19.2565,4,valid,agree,uphcs.kml,82,UPHC,False
+UPHC-083,SITE-0237,R/N,uphc,Navagaon UPHC,"SHASTRINAGAR DISP, NEAR MHARASHTRA HOTE, HOLY CROSS ROAD, DAHISAR (WEST)",,72.85,19.25,2,valid,agree,uphcs.kml,83,UPHC,True
+UPHC-084,SITE-0135,R/N,uphc,Pramila Nagar UPHC,"PRAMILA NAGAR, MHADA COLONY, GROUND FLOOR,KANDARPADA,DAHISAR(WEST)",,72.8737,19.2605,4,valid,agree,uphcs.kml,84,UPHC,False
+UPHC-085,SITE-0238,R/N,uphc,Yashwant Rao Tawade Marg UPHC,"Y R Tawade disp, Harishankar Joshi Marg, Near Dhawale Hospital Near Police chowky Dahisar (E) 400068",,72.86,19.25,2,valid,agree,uphcs.kml,85,UPHC,True
+UPHC-086,SITE-0239,L,uphc,New Tunga Village UPHC,"Tulip Building, off Saki vihar road, Sakinaka, Kurla West Mumbai-70",,72.8922,19.1188,4,valid,agree,uphcs.kml,86,UPHC,False
+UPHC-087,SITE-0240,L,uphc,Nahar Amrut Shakti UPHC,"Ground floor ,Municipal Market building , Near Dmart ,Nahar Amrut Shakti ,Chandivali Mumbai -76",,72.88,19.07,2,valid,agree,uphcs.kml,87,UPHC,True
+UPHC-088,SITE-0137,L,uphc,Bibi Fatima UPHC,"BB Fatima Disp, near Imperial cycle stop, L B S Road , Kurla (W)",,72.92,19.1192,4,valid,disagree_review,uphcs.kml,88,UPHC,False
+UPHC-089,SITE-0145,L,uphc,Himalaya UPHC,"Shabri Apt. Himalay housing socirty , Nari Seva Sadan road, Ghatkopar West, Mumbai -72",,72.89,19.09,2,valid,agree,uphcs.kml,89,UPHC,True
+UPHC-090,SITE-0241,L,uphc,Dr.Anandibai Joshi Maternity Home UPHC,"Bail Bazar , Kurla Andheri Road , Kurla West Mumbai -70",,72.88,19.08,2,valid,agree,uphcs.kml,90,UPHC,True
+UPHC-091,SITE-0242,L,uphc,Asalfa Village UPHC,"Asalfa Pipe Line Subhash Nagar,Ghatkopar Andheri Link road ,Ghatkopar West Mumbai- 72",,72.9,19.1,1,valid,agree,uphcs.kml,91,UPHC,True
+UPHC-092,SITE-0147,L,uphc,Mohili Village UPHC,"Veer Savarkar Nagar , Ghatkopar Andheri Link Road , Ghatkopar West Mumbai- 72",,72.89,19.1,2,valid,agree,uphcs.kml,92,UPHC,True
+UPHC-093,SITE-0140,L,uphc,Kajupada UPHC,"Kajupada , NearGanesh Maidan, Kajupada Pipeline Kurla West - Mumbai -70",,72.89,19.09,2,valid,agree,uphcs.kml,93,UPHC,True
+UPHC-094,SITE-0243,L,uphc,Maasaheb Meenatai Thackeray MH UPHC,"V.N. Purav Marg, off Sion- Trombay Road, Chunabhatti- Mumbai -22",,72.8846,19.1315,4,valid,disagree_review,uphcs.kml,94,UPHC,False
+UPHC-095,SITE-0138,L,uphc,Buddha Colony UPHC,"Al Sham Bulding ,New Hall Road ,near Kartika High School ,Kurla (W )Mumbai -70",,72.88,19.08,2,valid,agree,uphcs.kml,95,UPHC,True
+UPHC-096,SITE-0244,L,uphc,Sangharsha Nagar UPHC,"Next to Palacial Heights, near Ciba Company ,Sangharsh Nagar, Chandivali Mumbai -76",,72.9026,19.1083,4,valid,agree,uphcs.kml,96,UPHC,False
+UPHC-097,SITE-0245,L,uphc,Kamgar Nagar UPHC,"Qureshi Nagar, Kasaiwada,Kurla(E)",,72.88,19.06,2,valid,agree,uphcs.kml,97,UPHC,True
+UPHC-098,SITE-0141,L,uphc,Nehru Nagar UPHC,"Nehru Nagar Mun. Disp., Near Arey Dairy, Nehru Nagar, Kurla (E)",,72.89,19.06,2,valid,disagree_within_coordinate_rounding,uphcs.kml,98,UPHC,True
+UPHC-099,SITE-0246,M/E,uphc,Vashinaka UPHC,"R-1- R2 Aman Building,Near Datta Mandir, L.U Gadkari Marg, Vashinaka, Mumbai-74",,72.89,19.09,2,valid,disagree_review,uphcs.kml,99,UPHC,True
+UPHC-100,SITE-0247,M/E,uphc,New Bainganwadi UPHC,"Near Urdu BMC school 5 , Next ambekar maidhan, Govandi west , Mumbai-43",,72.9235,19.0589,4,valid,agree,uphcs.kml,100,UPHC,False
+UPHC-101,SITE-0248,M/E,uphc,Maharashtra Nagar UPHC,"Building No 18 &19, Shivshahi Punarvsan Prakalp, Maharashtra Nagar, Mumbai-43",,72.94,19.05,2,valid,agree,uphcs.kml,101,UPHC,True
+UPHC-102,SITE-0249,M/E,uphc,Lokshahir Annabhau Sathe Nagar UPHC,"Lallubhai Compound , R-4 Building , MMDRA,Behind Shivan high school, Deonar, Mumbai-43",,72.93,19.05,2,valid,agree,uphcs.kml,102,UPHC,True
+UPHC-103,SITE-0250,M/E,uphc,Deonar MH UPHC,"Deonar municipal mat. home,Deonar municipal colony,Govandi West ,Mumbai-74",,72.92,19.05,2,valid,agree,uphcs.kml,103,UPHC,True
+UPHC-104,SITE-0251,M/E,uphc,Shahaji Nagar MH UPHC,"Near Trombay Police Station , cheeta camp Trombay , Mumbai -88",,72.95,19.04,2,valid,agree,uphcs.kml,104,UPHC,True
+UPHC-105,SITE-0152,M/E,uphc,Ayodhya Nagar UPHC,"Near Hindi municipal school ,Ayodhya nagar market road , Vashinaka,Chembur East , Mumbai-74",,72.9,19.03,2,valid,agree,uphcs.kml,105,UPHC,True
+UPHC-106,SITE-0252,M/E,uphc,Kamala Raman Nagar UPHC,"Kamala Raman Nagar Disp., Near Bhadra Nursing Home, Bainganwadi, Mumbai - 43.",,72.93,19.06,2,valid,agree,uphcs.kml,106,UPHC,True
+UPHC-107,SITE-0253,M/E,uphc,Ayodhya Nagar II UPHC,"Suraksh Society , Building No 4 1st Floor, MMRDA road, Vashinaka, Chembur East ,Mumbai-74",,72.9,19.03,2,valid,agree,uphcs.kml,107,UPHC,True
+UPHC-108,SITE-0254,M/W,uphc,Matoshri Ramabai Ambedkar MH UPHC,"R.C.Road, Chembur naka, Chembur East - Mumbai-71",,72.89,19.05,2,valid,agree,uphcs.kml,108,UPHC,True
+UPHC-109,SITE-0163,M/W,uphc,Chembur Colony UPHC,"Next to Vaswani Book Depo,Gidwani road, Chembur colony , Mumbai-74",,72.89,19.05,2,valid,agree,uphcs.kml,109,UPHC,True
+UPHC-110,SITE-0165,M/W,uphc,Lal Dongar UPHC,"Near Poonam petrol pump, off Sion Trombay road , Chembur Colony ,Chembur East , Mumbai-71",,72.89,19.05,2,valid,agree,uphcs.kml,110,UPHC,True
+UPHC-111,SITE-0255,M/W,uphc,Pestum Sagar UPHC,"Near BMC School, P.L.Lokhande Marg,Chembur West , Mumbai -89",,72.9,19.06,2,valid,agree,uphcs.kml,111,UPHC,True
+UPHC-112,SITE-0167,M/W,uphc,Mahul Village UPHC,"Mahul SRA Complex, Mahul Village,",,72.89,19.01,2,valid,agree,uphcs.kml,112,UPHC,True
+UPHC-113,SITE-0256,N,uphc,Kamraj Nagar UPHC,"Near Eastern Express Highway ,Ramabai Colony, Ghatkopar (East) Mumbai -75",,72.8846,19.1315,4,valid,disagree_review,uphcs.kml,113,UPHC,False
+UPHC-114,SITE-0174,N,uphc,Kirol Village UPHC,"Parsiwadi , near Ganesh Maidan Opp. Municipal Disp. Ghatkopar (W) - 86",,72.9,19.09,2,valid,agree,uphcs.kml,114,UPHC,True
+UPHC-115,SITE-0257,N,uphc,Matoshri Ramabai Thackeray Maternity Home UPHC,"Matoshri Ramabai Thackeray Maternity Home, Near Ganesh Maidan ,Poddar mill compund , Ghatkopar (West) Mumbai -86",,72.91,19.09,2,valid,agree,uphcs.kml,115,UPHC,True
+UPHC-116,SITE-0258,N,uphc,Vikhroli Park Site UPHC,"Behind Jankalyan Bank , Vikroli Park Site, Road No.1 Vikroli West ,Mumbai -79",,72.91,19.1,2,valid,agree,uphcs.kml,116,UPHC,True
+UPHC-117,SITE-0259,N,uphc,Ramabai Colony UPHC,"Near Eastern Express Highway ,Ramabai Colony, Ghatkopar (East) Mumbai -75",,72.92,19.08,2,valid,agree,uphcs.kml,117,UPHC,True
+UPHC-118,SITE-0171,N,uphc,Pant Nagar UPHC,"Near Municipal School No.3,Pant Nagar ,Ghatkopar (East), Mumbai-75",,72.92,19.09,2,valid,agree,uphcs.kml,118,UPHC,True
+UPHC-119,SITE-0260,N,uphc,Sarvodaya Nagar UPHC,"LBS Road, Near Sarvodaya Hospital Ghatkopar (W) Mumbai 400086",,72.8846,19.1315,4,valid,disagree_review,uphcs.kml,119,UPHC,False
+UPHC-120,SITE-0261,S,uphc,Sonapur UPHC (Only HP),"Tulshetpada HP. --Municipal School, Tulshetpada, Bhai Guptadas Road , Bhandup (W)",,72.93,19.15,2,valid,agree,uphcs.kml,120,UPHC,True
+UPHC-121,SITE-0262,S,uphc,Savitribai Jyotiba Phule Maternity Home UPHC,"Motichand Premises Savitribai Phule Marg , L.B.S Road , Bhandup (West) , Mumbai -78",,72.93,19.15,2,valid,agree,uphcs.kml,121,UPHC,True
+UPHC-122,SITE-0263,S,uphc,Tulshetpada UPHC,"Tulshetpada Municipal school , Tulshetpada,Bhai Guptadas road , Bhandup (west) mumbai -78",,72.9306,19.1627,4,valid,agree,uphcs.kml,122,UPHC,False
+UPHC-123,SITE-0264,S,uphc,Shivaji Talao UPHC,"Ganga Vidhyalay School, Konkon nagar , ,S.P.S Road , Bhandup west -Mumbai -28",,72.93,19.15,2,valid,agree,uphcs.kml,123,UPHC,True
+UPHC-124,SITE-0265,S,uphc,Hiranandani UPHC,"Shiv Krupa Apt , Below Nehal hospital ,Padmavati road , IIT market , Powai -Mumbai 76",,72.92,19.12,2,valid,agree,uphcs.kml,124,UPHC,True
+UPHC-125,SITE-0266,S,uphc,Dr.Babasaheb Ambedkar Maternity Home UPHC,"Tagore nagar Disp.Dr. Babasaheb Ambedkar Mun. Mat. Home, Ground No.7, Tagore Nagar, Vikhroli (East)",,72.94,19.12,2,valid,agree,uphcs.kml,125,UPHC,True
+UPHC-126,SITE-0267,S,uphc,Maharshi Karve UPHC,"Kanjur Marg (E), Nehru Nagar, BMC Market Building 1st Floor",,72.9372,19.1511,4,valid,agree,uphcs.kml,126,UPHC,False
+UPHC-127,SITE-0268,S,uphc,Subhash Nagar UPHC,"LBS Mat Home, kukreja Complex Bhandup Villege road , Bhandup (W)",,72.8846,19.1315,4,valid,disagree_review,uphcs.kml,127,UPHC,False
+UPHC-128,SITE-0180,S,uphc,Kanjur Village UPHC,"Behind Kanjur marg police station, Kanjurmarg (East ) Mumbai -42",,72.94,19.13,2,valid,agree,uphcs.kml,128,UPHC,True
+UPHC-129,SITE-0269,S,uphc,Ishwar Nagar UPHC,"Municipal school building , Near MSEB office , Iswar Nagar , Bhandup (West) ,Mumbai -78",,72.94,19.14,2,valid,agree,uphcs.kml,129,UPHC,True
+UPHC-130,SITE-0270,S,uphc,LBS Marg MH UPHC,"Near S.G. Pawar International school,besides kuckreja complex,L.B S.Road , Bhandup West - Mumbai -78",,72.93,19.15,2,valid,agree,uphcs.kml,130,UPHC,True
+UPHC-131,SITE-0271,S,uphc,Tembhipada UPHC,"Nardas Nagar, Tembhipada Mun. Disp., Tembhi Pada (W), Mum - 78",,72.93,19.15,2,valid,agree,uphcs.kml,131,UPHC,True
+UPHC-132,SITE-0272,T,uphc,Smt.Shyamkunwarbai Jatashankar Dosa Chanchani Maternity Home UPHC,"Panch Rashta , M.G.Road , Mulund west , Mumbai -80",,72.95,19.18,2,valid,agree,uphcs.kml,132,UPHC,True
+UPHC-133,SITE-0186,T,uphc,Mulund Colony UPHC,"Shivaji chowk ,Jhulelal Road ,Mulund colony, Mulund (west) Mumbai -80",,72.94,19.17,2,valid,agree,uphcs.kml,133,UPHC,True
+UPHC-134,SITE-0185,T,uphc,DDU Marg UPHC,"DDU Road, Opp Croma Electronics Mulund West 400080",,72.95,19.17,2,valid,agree,uphcs.kml,134,UPHC,True
+UPHC-135,SITE-0273,A,uphc,Paltan Rd. HP,"Mun. Disp. At Sabu Siddiki Road, Paltan Rd. Gr.Fl. Mumbai-1",,72.8406,18.9473,4,valid,agree,uphcs.kml,135,UPHC,False
+UPHC-136,SITE-0274,B,uphc,Janabai Rokade HP,"Janabai Rokade Mun. School, Ground Floor, Janjikar street, Near masjid Station, Mumbai-3",,72.84,18.95,2,valid,agree,uphcs.kml,136,UPHC,True
+UPHC-137,SITE-0275,B,uphc,Jail Road HP,"Walpakhadi Mun. Disp., Mauji Rathod Road, Noor Baug- Donggri, Mumbai.",,72.84,18.96,2,valid,agree,uphcs.kml,137,UPHC,True
+UPHC-138,SITE-0276,D,uphc,Banganga HP,"Kawale Math High school, Walkeshwar, Mumbai-8",,72.8517,18.9615,4,valid,outside_polygons_review,uphcs.kml,138,UPHC,False
+UPHC-139,SITE-0277,D,uphc,Nana Chowk HP.,"Lotus Bldg. 1st Floor, Dinanath Mangeshkar Rd.,Forjett Hill, Mumbai-36",,72.81,18.97,2,valid,agree,uphcs.kml,139,UPHC,True
+UPHC-140,SITE-0278,D,uphc,Khetwadi Back RD. HP.,"Manish Bldg. 1st floor Khetwadi, 11th lane, Grant Road (w) mumbai-4",,72.82,18.96,2,valid,agree,uphcs.kml,140,UPHC,True
+UPHC-141,SITE-0279,E,uphc,Nawab Tank HP.,"opp. Dockyard Road Rly. Station, Dockyard (E) mumbai-10",,72.8441,18.9654,4,valid,agree,uphcs.kml,141,UPHC,False
+UPHC-142,SITE-0280,E,uphc,Botliboy HP.,"Behind New 52 Chawl, R.B. Margm Ferbaundar, Godapdev Chowk, Mumbai-33.",,72.84,18.98,2,valid,agree,uphcs.kml,142,UPHC,True
+UPHC-143,SITE-0281,E,uphc,Kasturba Hospital HP.,"Kasturba Hospital Comp. Sane Guruji, Marg, Chinchpokali (W) mumbai-11",,72.83,18.98,2,valid,agree,uphcs.kml,143,UPHC,True
+UPHC-144,SITE-0282,F/S,uphc,Ram Laxman Tekadi HP.,"Ambewadi, B.S. Ambedkar Marg, Near Tata Colony Shivari Mumbai-15",,72.85,19.0,2,valid,agree,uphcs.kml,144,UPHC,True
+UPHC-145,SITE-0283,F/S,uphc,2nd. October Colony HP.,"Veerdarshan 12, Near Shrimati Saree Center, Opp. Jain, Temple, G.D. Ambekar Road, Bhoiwada Parel, Mumbai-12.",,72.85,19.01,2,valid,agree,uphcs.kml,145,UPHC,True
+UPHC-146,SITE-0284,F/S,uphc,V. Shantaram HP.,"Rajkamal Balodyan, Near Mahatma, Gandhi Hosp. Parel Mumbai-12.",,72.84,19.0,2,valid,agree,uphcs.kml,146,UPHC,True
+UPHC-147,SITE-0285,F/N,uphc,Don Bosco HP.,"Don Bosco mun. Disp. Madona Bldg.,Nathulal Parekh Marg Wadala. Mumbai-37.",,72.86,19.02,2,valid,agree,uphcs.kml,147,UPHC,True
+UPHC-148,SITE-0286,G/S,uphc,Jijamata Nagar RCH-II HP.,Gorakh Complex Gr.Fl. Near B.D.D.Chawl Worli Mumbai-25.,,72.82,19.0,2,valid,agree,uphcs.kml,148,UPHC,True
+UPHC-149,SITE-0287,G/N,uphc,Gokhale Road HP.,"Gokhale Road Mun. School 3rd Floor, Jakhadevi Chowk Dadar (W) Mumbai-28.",,72.83,19.02,2,valid,disagree_within_coordinate_rounding,uphcs.kml,149,UPHC,True
+UPHC-150,SITE-0288,G/N,uphc,Shastri Nagar HP.,"Shastri Nagar Mun. School Gr. Fl. Dharavi, Mumbai-17.",,72.84,19.03,2,valid,agree,uphcs.kml,150,UPHC,True
+UPHC-151,SITE-0289,H/E,uphc,Vakola H.P.,"Vakola Market Building, Santacruz-East Mumbai-400055",,72.85,19.08,2,valid,agree,uphcs.kml,151,UPHC,True
+UPHC-152,SITE-0290,H/E,uphc,Govt Colony HP,"Bharat Nagar Disp, Bandra - East Mumbai-400052",,72.86,19.06,2,valid,agree,uphcs.kml,152,UPHC,True
+UPHC-153,SITE-0291,H/E,uphc,V.N. Desai Hospital H.P.,"V.N. Desai Mun. Gen. Hospital Santacruz-West, Mumbai-400055",,72.85,19.08,2,valid,agree,uphcs.kml,153,UPHC,True
+UPHC-154,SITE-0292,H/W,uphc,Khotwadi H.P.,"3rd Near S.V. Road, Opp, Autopit Petrol Pump, Santacruz-West, Mumbai-400055",,72.84,19.08,2,valid,agree,uphcs.kml,154,UPHC,True
+UPHC-155,SITE-0293,H/W,uphc,Sherly Rajan H.P.,"Flemigo Building, Carmel Church, Near Met College, Vadora Road, Bandra-West Mumbai",,72.83,19.05,2,valid,agree,uphcs.kml,155,UPHC,True
+UPHC-156,SITE-0294,H/W,uphc,S.V. Road H.P.,"Khar T.B. Clinic, Khar-West Mumbai 400052",,72.84,19.07,2,valid,agree,uphcs.kml,156,UPHC,True
+UPHC-157,SITE-0295,H/W,uphc,K.B. Bhabha Hospital H.P.,"Kb Bhabha Mun. Gen. Hospital, 1st Floor New Building, Bandra-West Mumbai",,72.83,19.06,2,valid,agree,uphcs.kml,157,UPHC,True
+UPHC-158,SITE-0296,K/E,uphc,Tarun Bharat H.P.,"Islampura Chakala, Near Mun. School Garden, Andheri-East Mumbai-98",,72.86,19.11,2,valid,agree,uphcs.kml,158,UPHC,True
+UPHC-159,SITE-0297,K/E,uphc,Ajgaonkar Plot H.P.,"Ajogaonkar Plot Near Asmita School, Bandrekarwadi, Jogeshwari-East Mumbai",,72.85,19.14,2,valid,agree,uphcs.kml,159,UPHC,True
+UPHC-160,SITE-0298,K/E,uphc,Nehru Road H.P.,"Water Dept. Building 1st Floor, Nehru Road, Vileparle East Mumbai",,72.85,19.1,2,valid,agree,uphcs.kml,160,UPHC,True
+UPHC-161,SITE-0299,K/E,uphc,M.I.D.C. H.P.,"Gundwali, Andheri-East, Mumbai-400059",,72.86,19.12,2,valid,agree,uphcs.kml,161,UPHC,True
+UPHC-162,SITE-0300,K/E,uphc,Sarvodaya Nagar H.P.,"Sarvodaya Nagar Mun. Disp; Near Meghwadi Police Station, Andheri - East; Mumbai",,72.86,19.13,2,valid,agree,uphcs.kml,162,UPHC,True
+UPHC-163,SITE-0301,K/E,uphc,Sunder Nagar H.P.,Sunder Nagar H.P. Andheri-East,,72.87,19.14,2,valid,disagree_within_coordinate_rounding,uphcs.kml,163,UPHC,True
+UPHC-164,SITE-0302,K/W,uphc,Tata Compound H.P.,"S.V. Road Irla, Andheri-West, Mumbai-400058",,72.84,19.11,2,valid,agree,uphcs.kml,164,UPHC,True
+UPHC-165,SITE-0303,K/W,uphc,Anand Nagar H.P.,"Mhada Building No. 43, Near Oshiwara Police Station, Anand Nagar, Behram Baug Jogeshwari-West",,72.83,19.15,2,valid,agree,uphcs.kml,165,UPHC,True
+UPHC-166,SITE-0304,K/W,uphc,Lokhandwala H.P.,"Sardar Vallabhai Patel Nagar, Near Telephone Exchange, Char Bunglow, Andheri-West",,72.83,19.14,2,valid,agree,uphcs.kml,166,UPHC,True
+UPHC-167,SITE-0305,K/W,uphc,Nehru Nagar H.P.,"Opp. Mithibai College, Irla Road, Vileparle West",,72.84,19.1,2,valid,agree,uphcs.kml,167,UPHC,True
+UPHC-168,SITE-0306,K/W,uphc,Bhardawadi H.P.,"Bhardawadi Mat. Home Building, Gr. Floor, Dawood Baug Road, Andheri-West, Mumbai - 400058",,72.85,19.13,2,valid,disagree_within_coordinate_rounding,uphcs.kml,168,UPHC,True
+UPHC-169,SITE-0307,K/W,uphc,Millat Nagar H.P.,"Mhada Building No. 43, Near Oshiwara Police Station, Anand Nagar, Behram Baug Jogeshwari-West",,72.83,19.15,2,valid,agree,uphcs.kml,169,UPHC,True
+UPHC-170,SITE-0308,P/S,uphc,Chincholi H.P.,"Sq. Colony, Chincholi Phatak, Goregaon-East, Mumbai-400095",,72.84,19.17,2,valid,agree,uphcs.kml,170,UPHC,True
+UPHC-171,SITE-0309,P/S,uphc,Pandurangwadi H.P.,"Road No 4 Goregaon-East, Opp Sneha Building, Mumbai-400063",,72.85,19.17,2,valid,agree,uphcs.kml,171,UPHC,True
+UPHC-172,SITE-0310,P/S,uphc,Teen Dongri H.P.,"Mitha Nagar Mun. School, Teen Dongari Yashwant Nagar, Opp Apna Bazar, Goregaon-West",,72.85,19.17,2,valid,agree,uphcs.kml,172,UPHC,True
+UPHC-173,SITE-0311,P/S,uphc,Motilal Nagar H.P.,"Sidharth Nagr Hosp; Opp. Post Office, Goregaon West Mumbai",,72.8353,19.1654,4,valid,agree,uphcs.kml,173,UPHC,False
+UPHC-174,SITE-0312,P/S,uphc,Pahadi HP,"Topiwala Mun. Disp. Station Road Goregaon-West, Mumbai-400062",,72.85,19.18,2,valid,disagree_within_coordinate_rounding,uphcs.kml,174,UPHC,True
+UPHC-175,SITE-0313,P/N,uphc,Tank Lane H.P.,"Datary Road, Play Ground, Malad East Mumbai-97",,72.86,19.19,2,valid,agree,uphcs.kml,175,UPHC,True
+UPHC-176,SITE-0314,P/N,uphc,Appa Pada H.P.,"Maharashtra Nagar, Appa Pada, Malad-East, Mumbai-97",,72.87,19.19,2,valid,agree,uphcs.kml,176,UPHC,True
+UPHC-177,SITE-0315,P/N,uphc,Dindoshi Vasahat H.P.,"Malad-West, Mumbai-400095",,72.84,19.16,2,valid,disagree_review,uphcs.kml,177,UPHC,True
+UPHC-178,SITE-0316,R/S,uphc,Charkop Sec-1A HP,Charkop Disp( 1000-1200 SqF)Charkop Kandivali-West,,72.83,19.21,2,valid,agree,uphcs.kml,178,UPHC,True
+UPHC-179,SITE-0317,R/S,uphc,Hanuman Nagar H.P.,"Thakur Complex, Kandivali-West Mumbai",,72.87,19.21,2,valid,agree,uphcs.kml,179,UPHC,True
+UPHC-180,SITE-0318,R/S,uphc,Centenary H.P.,"Centenary Gen. Hosp, Kandivali West",,72.88,19.13,2,valid,disagree_review,uphcs.kml,180,UPHC,True
+UPHC-181,SITE-0319,R/C,uphc,Tata Power House H.P.,"Near Tata Powe House, Besides Nagothane Bus Depot, Borivali-East",,72.87,19.22,2,valid,agree,uphcs.kml,181,UPHC,True
+UPHC-182,SITE-0320,R/C,uphc,Eksar Village H.P.,"Mun. School Disp; Eksar Road Near Fish Market, Tale Pakhadi, Borivali-West Mumbai-92",,72.85,19.24,2,valid,disagree_within_coordinate_rounding,uphcs.kml,182,UPHC,True
+UPHC-183,SITE-0321,R/C,uphc,Borsapada H.P.,Saibaba Nagar Borivali-West,,72.84,19.21,2,valid,disagree_within_coordinate_rounding,uphcs.kml,183,UPHC,True
+UPHC-184,SITE-0322,R/C,uphc,Rajendra Nagar H.P.,"Rajendra Nagar, Borivali-East, Prathmesh Nagar",,72.86,19.22,2,valid,agree,uphcs.kml,184,UPHC,True
+UPHC-185,SITE-0323,R/N,uphc,Baglipada H.P.,"Anand Nagar, Dahisar-East, Mumbai-68",,72.86,19.26,2,valid,agree,uphcs.kml,185,UPHC,True
+UPHC-186,SITE-0324,R/N,uphc,Dahisar Mun. Disp. H.P.,"Ashokvan, Borivali-East",,72.8659,19.2446,4,valid,agree,uphcs.kml,186,UPHC,False
+UPHC-187,SITE-0325,R/N,uphc,Koknipada H.P.,Dahisar - East,,72.87,19.25,2,valid,agree,uphcs.kml,187,UPHC,True
+UPHC-188,SITE-0326,L,uphc,Kurla Bhabha Hosp HP,Wadia Road Near Kurla Station Kurla (W),,72.88,19.07,2,valid,agree,uphcs.kml,188,UPHC,True
+UPHC-189,SITE-0327,L,uphc,Tunga Village HP,"Ashok Nagar D/5, Military Road, Andheri (W).",,72.89,19.12,2,valid,agree,uphcs.kml,189,UPHC,True
+UPHC-190,SITE-0328,L,uphc,Amar Nagar HP,"Navpada, Primier Road, Near Holy Cross Highschool, Kurla (W)",,72.89,19.08,2,valid,agree,uphcs.kml,190,UPHC,True
+UPHC-191,SITE-0329,L,uphc,Match Factory HP,"Peter Pareira Road, Alsham Hall, Near Kartika High school",,72.88,19.07,2,valid,agree,uphcs.kml,191,UPHC,True
+UPHC-192,SITE-0330,M/E,uphc,Nimoni Baug HP,"Gaikwad Nagar, Govandi",,72.91,19.06,2,valid,agree,uphcs.kml,192,UPHC,True
+UPHC-193,SITE-0331,M/E,uphc,Mankhurd HP,"Bldg.No.98, Mhada Colony, Mankhurd.",,72.93,19.05,2,valid,agree,uphcs.kml,193,UPHC,True
+UPHC-194,SITE-0332,M/E,uphc,Centenary Hosp. HP,"Near Dukes company, Govandi (E)",,72.91,19.05,2,valid,disagree_within_coordinate_rounding,uphcs.kml,194,UPHC,True
+UPHC-195,SITE-0333,M/E,uphc,Baiganwadi HP,"Near Ambedkar Maidan, Urdu BMC school No.2, Govandi.",,72.93,19.06,2,valid,agree,uphcs.kml,195,UPHC,True
+UPHC-196,SITE-0334,M/E,uphc,Shivaji Nagar HP,"UHC, Room No.4, Plot No.44. Govandi.",,72.95,19.04,2,valid,agree,uphcs.kml,196,UPHC,True
+UPHC-197,SITE-0335,M/E,uphc,Lotus Colony HP,"Lotus Colony Garden, Shivajinagar, Govandi",,72.92,19.06,2,valid,agree,uphcs.kml,197,UPHC,True
+UPHC-198,SITE-0336,M/W,uphc,Tilak Nagar HP,"Near BMC School, P.L. Lokhande Marg. Chembur.",,72.89,19.07,2,valid,disagree_within_coordinate_rounding,uphcs.kml,198,UPHC,True
+UPHC-199,SITE-0337,M/W,uphc,Ghatla Village HP,"Near Kukreja Tower, Opp. Centenary Hosp. Govandi",,72.91,19.05,2,valid,agree,uphcs.kml,199,UPHC,True
+UPHC-200,SITE-0338,M/W,uphc,Subhash Nagar HP,"Bhau Pradhan Maidan, Subhash Nagar Road, Chembur.",,72.91,19.06,2,valid,disagree_within_coordinate_rounding,uphcs.kml,200,UPHC,True
+UPHC-201,SITE-0339,N,uphc,Barve Nagar HP,"Sant Muktabai Hosp. Ghatkopar (W), Mumbai -84",,72.9,19.1,1,valid,disagree_within_coordinate_rounding,uphcs.kml,201,UPHC,True
+UPHC-202,SITE-0340,N,uphc,Varsha Nagar HP,"Ambedkar Nagar Mun.School, Vikhroli",,72.92,19.11,2,valid,disagree_within_coordinate_rounding,uphcs.kml,202,UPHC,True
+UPHC-203,SITE-0341,N,uphc,Rajawadi Mun.School HP,"Near R.L.Gandhi School, Vidyavihar (E)",,72.9,19.08,2,valid,agree,uphcs.kml,203,UPHC,True
+UPHC-204,SITE-0342,N,uphc,Ganesh Nagar HP (Laxmi Nagar),"Laxmi Nagar, Ghatkopar (E)",,72.92,19.09,2,valid,agree,uphcs.kml,204,UPHC,True
+UPHC-205,SITE-0343,S,uphc,Paspoli Village HP,"Hiranandani, Powai",,72.91,19.12,2,valid,agree,uphcs.kml,205,UPHC,True
+UPHC-206,SITE-0344,S,uphc,Kannamwar Nagar HP,"Kannamwar Nagar No;2, Mahatma Phule Hosp.Vikhroli (E)",,72.94,19.12,2,valid,agree,uphcs.kml,206,UPHC,True
+UPHC-207,SITE-0345,S,uphc,Tagore Nagar HP RCH2,"Ambedkar Nagar Mat.Home, Tagore Nagar group No.7, Vikhroli (E)",,72.94,19.12,2,valid,agree,uphcs.kml,207,UPHC,True
+UPHC-208,SITE-0346,T,uphc,Veer Savarkar HP,"Mulund Gen.Hosp(E) , Near Deshmukh Garden, Mulund (E)",,72.96,19.17,2,valid,agree,uphcs.kml,208,UPHC,True
+UPHC-209,SITE-0347,T,uphc,Nanepada HP,"Sachin Society, Mithagar Road, Mulund (E)",,72.95,19.17,2,valid,agree,uphcs.kml,209,UPHC,True
+UPHC-210,SITE-0348,T,uphc,Mulund Gen.Hosp HP,"Opp.ESIS Hosp. LBS Road, Mulund (W)",,72.95,19.18,2,valid,agree,uphcs.kml,210,UPHC,True
+UPHC-211,SITE-0349,T,uphc,DDU HP 2,"Sachin Society, Mithagar Road, Mulund (E)",,72.95,19.17,2,valid,agree,uphcs.kml,211,UPHC,True
+HOSP-001,SITE-0350,E,public_hospital,Grant Med.College & J.J. Hospital,"J.J.Marg Nagpada,Near Sandhurst Road station Mumbai-400008",Major Hospitals,72.83,18.96,2,valid,disagree_within_coordinate_rounding,public_hospitals.kml,1,Public hospital,True
+HOSP-002,SITE-0351,E,public_hospital,NAIR HOSPITAL DENTAL COLLEGE,"Dr. Anandrao L. Nair Road, Mumbai Central, Mumbai – 400 008",Major Hospitals,72.82,18.97,2,valid,agree,public_hospitals.kml,2,Public hospital,True
+HOSP-003,SITE-0352,E,public_hospital,B. Y. L. NAIR CHARITABLE HOSPITAL AND T. N. MEDICAL COLLEGE,"Dr. Anandrao L. Nair Road, Mumbai Central, Mumbai – 400 008.",Major Hospitals,72.82,18.97,2,valid,agree,public_hospitals.kml,3,Public hospital,True
+HOSP-004,SITE-0353,F/S,public_hospital,Seth G.S.Medical college &KEM Hospital,"Acharya Donde Road,Parel,Mumbai-400012.",Major Hospitals,72.84,19.0,2,valid,agree,public_hospitals.kml,4,Public hospital,True
+HOSP-005,SITE-0354,F/N,public_hospital,LOKMANYA TILAK MUNICIPAL GENERAL HOSPITAL AND MEDICAL COLLEGE,"Laxmibai Kelkar Road,Sion,Mumbai-400022.",Major Hospitals,72.86,19.04,2,valid,agree,public_hospitals.kml,5,Public hospital,True
+HOSP-006,SITE-0355,K/W,public_hospital,Hinduhrudaysamrat Balasaheb Thackeray Med.College & Dr.R.N Cooper Hospital,"JVPD Sceme,Gulmohor Road,Juhu,Vile Paele()W,Mumbai-400056",Major Hospitals,72.84,19.11,2,valid,agree,public_hospitals.kml,6,Public hospital,True
+HOSP-007,SITE-0356,A,public_hospital,St George Hospital,"St.Georges Road,C.S.T.,Mumbai-400001",Peripheral Hospital,72.84,18.94,2,valid,agree,public_hospitals.kml,7,Public hospital,True
+HOSP-008,SITE-0357,A,public_hospital,Cama Albless Hospital,"Mahapalika Marg,Dhobi Talao,Mumai-400001",Peripheral Hospital,72.83,18.94,2,valid,agree,public_hospitals.kml,8,Public hospital,True
+HOSP-009,SITE-0358,A,public_hospital,G.T.Hospital,"L.T.Road,Dhobi Talao,Near Crowford Market,Mumbai-400001.",Peripheral Hospital,72.8336,18.9411,4,valid,agree,public_hospitals.kml,9,Public hospital,False
+HOSP-010,SITE-0359,H/E,public_hospital,V.N Desai Hospital,"Golibar Road,Santacrus (E),Mumbai-400055",Peripheral Hospital,72.85,19.08,2,valid,agree,public_hospitals.kml,10,Public hospital,True
+HOSP-011,SITE-0360,H/W,public_hospital,K.B Bhabha Hospital,"R. K. Patkar Marg, Bandra(W),Mumbai-400050.",Peripheral Hospital,72.83,19.06,2,valid,agree,public_hospitals.kml,11,Public hospital,True
+HOSP-012,SITE-0361,P/S,public_hospital,Siddharth Municipal General Hospital,"Shrirang Shabde Road, Opp.Motilala Nagar Post Office,Goregaon (W),Mumbai-400053",Peripheral Hospital,72.84,19.16,2,valid,agree,public_hospitals.kml,12,Public hospital,True
+HOSP-013,SITE-0362,P/N,public_hospital,MW Desai Mun.Gen.Hospital,"Govind Nagar ,HB..P. Road,Malad (East),Mumbai-400097",Peripheral Hospital,72.85,19.18,2,valid,agree,public_hospitals.kml,13,Public hospital,True
+HOSP-014,SITE-0363,P/N,public_hospital,S.K.Patil Mun.Gen.Hospital,"Daftari Road,Malad (E),Mumbai-400097.",Peripheral Hospital,72.85,19.19,2,valid,agree,public_hospitals.kml,14,Public hospital,True
+HOSP-015,SITE-0364,K/E,public_hospital,Hinduhridaysamrat Balasaheb Thackeray Trauma Care Hospital,"Jogeshwari(E),Mumbai-400060.",Peripheral Hospital,72.85,19.14,2,valid,agree,public_hospitals.kml,15,Public hospital,True
+HOSP-016,SITE-0365,R/S,public_hospital,Bharat ratna Babasaheb Ambedkar Hospital,"S.V.Road Opp.Police Station, Kandivli (W),Mumbai-400067.",Peripheral Hospital,72.85,19.21,2,valid,agree,public_hospitals.kml,16,Public hospital,True
+HOSP-017,SITE-0366,R/N,public_hospital,Harilal Bhagwati Mun.Gen.Hosp,"S.V.Patel Road,Borivali,Mumbau-400068.",Peripheral Hospital,72.85,19.24,2,valid,agree,public_hospitals.kml,17,Public hospital,True
+HOSP-018,SITE-0367,R/C,public_hospital,Kasturba Cross Road Hospital,"Kasturba Cross Road No.2,Borivali (W),Mumbai-400066.",Peripheral Hospital,72.85,19.24,2,valid,disagree_within_coordinate_rounding,public_hospitals.kml,18,Public hospital,True
+HOSP-019,SITE-0368,L,public_hospital,Kurla Bhabha Hospital,"Belgrami Road, Kurla (West), Mumbai - 400 070.",Peripheral Hospital,72.88,19.07,2,valid,agree,public_hospitals.kml,19,Public hospital,True
+HOSP-020,SITE-0369,M/W,public_hospital,MAA Mun.Gen.Hospital,"Postal Colony Road,Chembur,Mumbai-400071",Peripheral Hospital,72.9,19.06,2,valid,agree,public_hospitals.kml,20,Public hospital,True
+HOSP-021,SITE-0370,M/E,public_hospital,Pt. MMM Centenery Hospital,"Waman Tukaram Patil Marg,Govandi (E),Mumbai-400088.",Peripheral Hospital,72.91,19.05,2,valid,disagree_within_coordinate_rounding,public_hospitals.kml,21,Public hospital,True
+HOSP-022,SITE-0371,N,public_hospital,Rajawadi Hospital,"7,M.G.Road,Near Somaiya College, Ghatkopar (East), Mumbai – 400 077.",Peripheral Hospital,72.9,19.08,2,valid,agree,public_hospitals.kml,22,Public hospital,True
+HOSP-023,SITE-0372,S,public_hospital,KMJ Phule Mun.Gen.Hospital,"Kannamwar Nagar-2,Vikhroli(E),Mumbai-400083.",Peripheral Hospital,72.94,19.12,2,valid,agree,public_hospitals.kml,23,Public hospital,True
+HOSP-024,SITE-0373,N,public_hospital,Sant Muktabai Hospital,"Barvenagar,Bhatwadi,Ghatkopar (W),Mumbai-400084",Peripheral Hospital,72.9,19.1,1,valid,disagree_within_coordinate_rounding,public_hospitals.kml,24,Public hospital,True
+HOSP-025,SITE-0374,T,public_hospital,SVD Savarkar Hospital,"Mahatma Phule Road,Opp.C.D.Deshmukh Road Mulund(East).Mumbai-400081",Peripheral Hospital,72.96,19.17,2,valid,agree,public_hospitals.kml,25,Public hospital,True
+HOSP-026,SITE-0375,T,public_hospital,M.T.Agarwal Mun.Gen.Hospital,"Near T Ward office,Mulund(W),Mumbai-400080.",Peripheral Hospital,72.95,19.18,2,valid,agree,public_hospitals.kml,26,Public hospital,True
+HOSP-027,SITE-0376,A,public_hospital,Seth A.J.B.Municipal ENT Hospital,"NearSiddarth College,Maharshi Dadhichi Marg,Fort,Mumbai-400001",Special Hospital,72.83,18.93,2,valid,agree,public_hospitals.kml,27,Public hospital,True
+HOSP-028,SITE-0377,E,public_hospital,Municipal Eye Hospital,"Maulana Shaukat Ali Marg,,Opp.Durga Devi Udyan,Mumbai-400008",Special Hospital,72.83,18.96,2,valid,disagree_within_coordinate_rounding,public_hospitals.kml,28,Public hospital,True
+HOSP-029,SITE-0378,E,public_hospital,Kasturba Hospital (For Infectiou Diseases),"Opp.Central Jail,Sane Guruji Marg (Arthur Road),Mumbai-400011",Special Hospital,72.83,18.98,2,valid,agree,public_hospitals.kml,29,Public hospital,True
+HOSP-030,SITE-0379,F/S,public_hospital,Group Of T.B.Hospital,"Jerbai Wadia Road,Sewri,Mumbai-400015",Special Hospital,72.85,19.01,2,valid,agree,public_hospitals.kml,30,Public hospital,True
+HOSP-031,SITE-0380,F/N,public_hospital,Acworth Leprosy Hospital,"Major Parmeswaran Marg,Wadala,Mumbai-400031",Special Hospital,72.8586,19.0197,4,valid,agree,public_hospitals.kml,31,Public hospital,False
+MAT-001,SITE-0381,C,maternity_hospital,"Suryakant Vagal Maternity Home, Zaobawadi","Suryakant Wagal Mun. Mat. Home, Zaobawadi, Thakurdwar, Girgaon Mumbai – 02",,72.82,18.95,2,valid,agree,maternity_hospitals.kml,1,Maternity home,True
+MAT-002,SITE-0038,F/S,maternity_hospital,Naigaon Maternity Home,"Mun. Mat. Home, Naigaon, Mumbai – 14.",,72.85,19.01,2,valid,agree,maternity_hospitals.kml,2,Maternity home,True
+MAT-003,SITE-0382,F/N,maternity_hospital,Raoli Camp Maternity Home,"Mun. Mat. Home, Rowli Camp, Mumbai – 22",,72.87,19.04,2,valid,agree,maternity_hospitals.kml,3,Maternity home,True
+MAT-004,SITE-0383,G/S,maternity_hospital,"Haji Mohammad Haji Sabu Siddik Maternity Home, Prabhadevi","Mohammad Haji Sabu Siddik Mun. Mat. Home, Swatryantveer Savarkar Road, Prabhadevi, Mumbai – 25",,72.83,19.02,2,valid,agree,maternity_hospitals.kml,4,Maternity home,True
+MAT-005,SITE-0384,G/N,maternity_hospital,Mahim Maternity Home,"Mun. Mat. Home, Lt. Dilip Gupte Marg, Mahim, Mumbai – 400 0016.",,72.8402,19.0328,4,valid,agree,maternity_hospitals.kml,5,Maternity home,False
+MAT-006,SITE-0385,H/E,maternity_hospital,"Bal Gangadhar Kher Maternity Home, Kherwadi","B. G. Kherwadi Mun. Mat. Home, Kherwadi, Bandra (East), Mumbai – 52.",,72.85,19.06,2,valid,agree,maternity_hospitals.kml,6,Maternity home,True
+MAT-007,SITE-0386,K/E,maternity_hospital,Dr. V.N. Shirodkar Maternity Home,"Dr. V. N. Shirodkar Mun. Mat. Home, B-Paranjape Scheme, Hanuman Road, Vile-Parle (E), Mumbai – 54.",,72.85,19.11,2,valid,agree,maternity_hospitals.kml,7,Maternity home,True
+MAT-008,SITE-0387,K/E,maternity_hospital,Squatters Colony Maternity Home,"Squatters Colony Mun. Mat. Home, Gumpha Road, Jogeshwari (East) Mumbai – 60",,72.86,19.14,2,valid,agree,maternity_hospitals.kml,8,Maternity home,True
+MAT-009,SITE-0388,K/E,maternity_hospital,"Mata Ramabai Ambedkar Maternity Home, Marol (Marol Maternity Home)","Marol Mun. Mat. Home, Marol-Maroshi, Andheri (East), Mumbai – 57.",,72.89,19.05,2,valid,disagree_review,maternity_hospitals.kml,9,Maternity home,True
+MAT-010,SITE-0098,K/W,maternity_hospital,Oshiwara Maternity Home,"Oshiwara Mun. Mat. Home, Near Ajit Glass Factory, Oshiwara, Jogeshwari (West) Mumbai – 400102.",,72.85,19.15,2,valid,disagree_within_coordinate_rounding,maternity_hospitals.kml,10,Maternity home,True
+MAT-011,SITE-0219,P/S,maternity_hospital,Topiwala Maternity Home Goregaon,"Topiwala Mun. Mat. Home, Station Road, Goregaon (West), Mumbai – 62.",,72.84,19.16,2,valid,agree,maternity_hospitals.kml,11,Maternity home,True
+MAT-012,SITE-0107,P/N,maternity_hospital,Choksy Maternity Home,"Choksy Mun. Mat. Home, Marvey Road, Malad (West), Mumbai – 64.",,72.84,19.19,2,valid,agree,maternity_hospitals.kml,12,Maternity home,True
+MAT-013,SITE-0389,P/N,maternity_hospital,Maulana Abul Kalam Azhad Malvani Maternity Home,"Malavani Mun. Mat. Home, Gate No.6, Malavani, Malad (West) Mumbai – 95",,72.82,19.19,2,valid,agree,maternity_hospitals.kml,13,Maternity home,True
+MAT-014,SITE-0390,P/N,maternity_hospital,"Savitribai Phule Mata Bal Hospital, Riddhi Garden","Ridhi Garden Maternity Home, General Arunkumar Vaidya Marg, Dindoshi , Goregaon ( E)",,72.87,19.18,2,valid,agree,maternity_hospitals.kml,14,Maternity home,True
+MAT-015,SITE-0118,R/S,maternity_hospital,Akurli Maternity Home,"Akurli Road Mun. Mat. Home, Kandivali (East), Mumbai – 101",,72.85,19.2,2,valid,agree,maternity_hospitals.kml,15,Maternity home,True
+MAT-016,SITE-0391,R/C,maternity_hospital,Charkop Maternity Home,"Charkop Mun. Mat. Home, Kandivali (West), Mumbai – 97",,72.83,19.22,2,valid,agree,maternity_hospitals.kml,16,Maternity home,True
+MAT-017,SITE-0392,R/C,maternity_hospital,"Smt.Kesarbai Chhabildas Lallubhai Bhansali Maternity Home, Borivali","Smt. Bhansali Kesarbai Chhabildas Lallubhai Mun. Mat. Home, Borivali (West), Mumbai – 92.",,72.86,19.23,2,valid,agree,maternity_hospitals.kml,17,Maternity home,True
+MAT-018,SITE-0393,R/C,maternity_hospital,"Mother and Child Hospital, Magthane","Mata Bal Rugnalay, Magathane, Borivali East Mumbai – 66",,72.87,19.22,2,valid,agree,maternity_hospitals.kml,18,Maternity home,True
+MAT-019,SITE-0394,L,maternity_hospital,"Maasaheb Meenatai Thackeray Maternity Home, Chunabhatti","Maa Saheb Minatai Thakare Mun. Mat. Home, V. N. Purav Marg, Sion – Trombay Road, Chunabhatti Mumbai – 22",,72.8846,19.1315,4,valid,disagree_review,maternity_hospitals.kml,19,Maternity home,False
+MAT-020,SITE-0241,L,maternity_hospital,Dr. Anandibai Joshi Maternity Home,"Bail Bazar, Kurla Andheri Rd. Kurla (W) Mumbai – 70",,72.88,19.08,2,valid,agree,maternity_hospitals.kml,20,Maternity home,True
+MAT-021,SITE-0395,M/E,maternity_hospital,Shahaji Nagar Maternity Home Cheeta Camp,"Shajaji Nagar Mun. Mat. Home, Near Trombay Police Station, Cheeta Camp Mumbai – 88",,72.95,19.04,2,valid,agree,maternity_hospitals.kml,21,Maternity home,True
+MAT-022,SITE-0396,M/E,maternity_hospital,Deonar Maternity Home,"R-4 building, Mhada Colony, Annabhau Sathe Nagar, Near Shivam, Mankhurd Mumbai – 73.",,,,,missing,no_valid_coordinates,maternity_hospitals.kml,22,Maternity home,True
+MAT-023,SITE-0397,M/W,maternity_hospital,"Matoshri Ramabai Ambedkar Maternity Home, Chembur Naka","Dr. Ramabai Ambedkar Mun. Mat. Home, Chembur Naka, Mumbai 71.",,72.89,19.05,2,valid,agree,maternity_hospitals.kml,23,Maternity home,True
+MAT-024,SITE-0398,N,maternity_hospital,Matoshri Ramabai Thackeray Maternity Home Ghatkopar,"Matoshree Ramabai Thakrey Mun. Mat. Home, Ganesh Maidan, Poddar Mill Compound, Ghatkopar (West), Mumbai - 86",,72.89,19.05,2,valid,disagree_review,maternity_hospitals.kml,24,Maternity home,True
+MAT-025,SITE-0399,S,maternity_hospital,"Dr.Babasaheb Ambedkar Maternity Home, Tagore Nagar","Dr. Babasaheb Ambedkar Mun. Mat. Home, Ground No.7, Tagore Nagar, Vikhroli (East) Mumbai – 83",,72.94,19.12,2,valid,agree,maternity_hospitals.kml,25,Maternity home,True
+MAT-026,SITE-0400,S,maternity_hospital,"Savitribai Jyotiba Phule Maternity Home, Bhandup","Bhandup Mun. Mat. Home, Motichand Premises, Savitribai Phule Marg, LBS Road, Bhandup (W), Mumbai – 78.",,72.93,19.15,2,valid,agree,maternity_hospitals.kml,26,Maternity home,True
+MAT-027,SITE-0401,S,maternity_hospital,Lal Bahadur Shastri Marg Mat. Home,"Lal Bahadur Shastri Marg Mat. Home, Near S.G. International School, Besides Kockreja Complex, L.B.S. Road, Bhandup (W), Mumbai-78",,72.93,19.15,2,valid,agree,maternity_hospitals.kml,27,Maternity home,True
+MAT-028,SITE-0402,T,maternity_hospital,Smt.Shyamkunwarbai Jatashankar Dosa Chanchani Mulund Maternity Home,"S. J. D. C. Mun. Mat. Home, Paanch Rasta, Mulund (W), Mumbai – 80.",,72.95,19.18,2,valid,agree,maternity_hospitals.kml,28,Maternity home,True

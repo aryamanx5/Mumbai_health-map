@@ -1,0 +1,5 @@
+feature,label,transform,order,missing_in_modelling_table,min,max
+dispensary_per_100k,Dispensaries per 100k,log1p then z-score,1,0,0.6472,3.928
+uphc_per_100k,UPHCs per 100k,log1p then z-score,2,0,1.3357,2.1178
+public_hospital_per_100k,Public hospitals per 100k,log1p then z-score,3,0,0.0,2.162
+maternity_hospital_per_100k,Maternity homes per 100k,log1p then z-score,4,0,0.0,0.6018

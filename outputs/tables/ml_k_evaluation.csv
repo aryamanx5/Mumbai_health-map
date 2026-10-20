@@ -1,0 +1,6 @@
+k,inertia,silhouette,cluster_sizes,min_cluster_size,singleton_clusters,n_iter,converged,warnings,status,seed_ari_min,subsample80_ari_mean,subsample80_ari_p10,noise5pct_ari_mean,max_silhouette_rule_choice,final_choice
+2,68.3425,0.4555,"[22, 2]",2,0,2,True,,ok,1.0,0.599,-0.029,0.963,True,False
+3,46.1844,0.303,"[13, 9, 2]",2,0,3,True,,ok,1.0,0.685,0.369,0.673,False,False
+4,35.0148,0.3162,"[11, 8, 3, 2]",2,0,3,True,,ok,0.888,0.727,0.337,0.64,False,True
+5,27.3508,0.3148,"[10, 7, 3, 2, 2]",2,0,5,True,,ok,0.781,0.752,0.512,0.63,False,False
+6,21.3529,0.3268,"[8, 7, 3, 2, 2, 2]",2,0,4,True,,ok,0.747,0.778,0.559,0.662,False,False

@@ -1,0 +1,47 @@
+// ===== Measures table: create an empty table "_Measures" and add these. =====
+// Facility measures respond to Ward, Cluster and Category slicers. Population measures respond to
+// Ward and Cluster only, because dim_category does not filter dim_ward (single-direction relationships).
+
+Total Distinct Sites = DISTINCTCOUNT ( fact_facility[site_id] )
+
+Facility Records = COUNTROWS ( fact_facility )
+
+Population 2011 = SUM ( dim_ward[population_2011] )
+
+Sites per 100k = DIVIDE ( [Total Distinct Sites], [Population 2011] ) * 100000
+
+// Blank (undefined) when a selection has no sites; never divides by zero.
+Population per Site = DIVIDE ( [Population 2011], [Total Distinct Sites] )
+
+City-wide Sites per 100k =
+    CALCULATE ( [Sites per 100k], ALL ( dim_ward ), ALL ( dim_cluster ) )
+
+Population Share % =
+    DIVIDE ( [Population 2011], CALCULATE ( [Population 2011], ALL ( dim_ward ), ALL ( dim_cluster ) ) ) * 100
+
+Facility Share % =
+    DIVIDE ( [Total Distinct Sites],
+             CALCULATE ( [Total Distinct Sites], ALL ( dim_ward ), ALL ( dim_cluster ) ) ) * 100
+
+// Positive = the ward's share of population exceeds its share of listed sites (distribution indicator only).
+Share Gap (pp) = [Population Share %] - [Facility Share %]
+
+Wards Selected = COUNTROWS ( dim_ward )
+
+Multi-category Sites =
+    CALCULATE ( DISTINCTCOUNT ( fact_facility[site_id] ),
+                FILTER ( VALUES ( fact_facility[site_id] ),
+                         CALCULATE ( DISTINCTCOUNT ( fact_facility[category] ), ALL ( dim_category ) ) > 1 ) )
+
+Category Rate per 100k = DIVIDE ( [Facility Records], [Population 2011] ) * 100000
+
+Records with Approximate Coordinates =
+    CALCULATE ( [Facility Records], fact_facility[coordinates_approximate] = TRUE () )
+
+Selected Ward Label = SELECTEDVALUE ( dim_ward[ward_name], "Multiple wards" )
+
+Cluster Wards = CALCULATE ( COUNTROWS ( dim_ward ) )
+
+Model Note =
+    "Exploratory K-Means (K=4) on 24 wards; clusters describe similarity of listed-facility rates, "
+        & "not adequacy of access. Mean silhouette 0.316."

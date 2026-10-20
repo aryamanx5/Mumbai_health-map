@@ -1,0 +1,27 @@
+facility_id,category,facility_name,ward_id
+HOSP-002,public_hospital,NAIR HOSPITAL DENTAL COLLEGE,E
+HOSP-018,public_hospital,Kasturba Cross Road Hospital,R/C
+HOSP-028,public_hospital,Municipal Eye Hospital,E
+HOSP-031,public_hospital,Acworth Leprosy Hospital,F/N
+MAT-001,maternity_hospital,"Suryakant Vagal Maternity Home, Zaobawadi",C
+MAT-002,maternity_hospital,Naigaon Maternity Home,F/S
+MAT-003,maternity_hospital,Raoli Camp Maternity Home,F/N
+MAT-004,maternity_hospital,"Haji Mohammad Haji Sabu Siddik Maternity Home, Prabhadevi",G/S
+MAT-005,maternity_hospital,Mahim Maternity Home,G/N
+MAT-006,maternity_hospital,"Bal Gangadhar Kher Maternity Home, Kherwadi",H/E
+MAT-007,maternity_hospital,Dr. V.N. Shirodkar Maternity Home,K/E
+MAT-008,maternity_hospital,Squatters Colony Maternity Home,K/E
+MAT-009,maternity_hospital,"Mata Ramabai Ambedkar Maternity Home, Marol (Marol Maternity Home)",K/E
+MAT-010,maternity_hospital,Oshiwara Maternity Home,K/W
+MAT-011,maternity_hospital,Topiwala Maternity Home Goregaon,P/S
+MAT-012,maternity_hospital,Choksy Maternity Home,P/N
+MAT-013,maternity_hospital,Maulana Abul Kalam Azhad Malvani Maternity Home,P/N
+MAT-014,maternity_hospital,"Savitribai Phule Mata Bal Hospital, Riddhi Garden",P/N
+MAT-015,maternity_hospital,Akurli Maternity Home,R/S
+MAT-018,maternity_hospital,"Mother and Child Hospital, Magthane",R/C
+MAT-019,maternity_hospital,"Maasaheb Meenatai Thackeray Maternity Home, Chunabhatti",L
+MAT-020,maternity_hospital,Dr. Anandibai Joshi Maternity Home,L
+MAT-021,maternity_hospital,Shahaji Nagar Maternity Home Cheeta Camp,M/E
+MAT-024,maternity_hospital,Matoshri Ramabai Thackeray Maternity Home Ghatkopar,N
+MAT-027,maternity_hospital,Lal Bahadur Shastri Marg Mat. Home,S
+MAT-028,maternity_hospital,Smt.Shyamkunwarbai Jatashankar Dosa Chanchani Mulund Maternity Home,T
