@@ -254,7 +254,9 @@ fetch("dashboard/static-api/overview.json").then((r) => (r.ok ? r.json() : Promi
   const ms = o.models, cols = ["accuracy", "roc_auc", "recall", "f1"], pctCols = new Set(["accuracy", "recall"]);
   const best = Object.fromEntries(cols.map((c) => [c, Math.max(...ms.map((m) => m[c]))]));
   const label = { logistic_regression: "Logistic regression", random_forest: "Random forest", ann: "Neural network (MLP)" };
-  const cell = (m, c) => `<td${m[c] === best[c] ? ' class="best"' : ""}>${pctCols.has(c) ? (m[c] * 100).toFixed(1) + "%" : m[c].toFixed(3)}</td>`;
+  // Same rounding as the dashboard's formatter (toFixed would show 0.9655 as 96.5% instead of 96.6%).
+  const f = (v, d) => v.toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+  const cell = (m, c) => `<td${m[c] === best[c] ? ' class="best"' : ""}>${pctCols.has(c) ? f(m[c] * 100, 1) + "%" : f(m[c], 3)}</td>`;
   $("#report-rows").innerHTML = ms.map((m) => `<tr><th scope="row">${label[m.key] || m.label}</th>${cols.map((c) => cell(m, c)).join("")}</tr>`).join("");
   $("#r-test").textContent = o.clinical.test;
   $("#r-records").textContent = Number(o.clinical.records).toLocaleString("en-IN");
