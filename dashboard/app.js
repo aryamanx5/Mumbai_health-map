@@ -95,10 +95,10 @@ function renderOverview() {
   const records = S.facilities.length;
   const pop = sum(S.wards, "population_2011");
   const kpis = [
-    ["Distinct facility sites", fmt0(sites), "physical sites after co-location"],
-    ["Facility records", fmt0(records), "dispensary · UPHC · hospital · maternity"],
-    ["Population (Census 2011)", fmt0(pop), "24 wards"],
-    ["Sites per 100,000 residents", fmt(S.cityRate), `ward range ${fmt(min("facilities_per_100k"))} – ${fmt(max("facilities_per_100k"))}`],
+    ["Public health sites", fmt0(sites), "buildings with a government clinic, health centre or hospital"],
+    ["Services listed", fmt0(records), "dispensaries, UPHCs, hospitals, maternity homes (some share a building)"],
+    ["People (Census 2011)", fmt0(pop), "living in the 24 wards"],
+    ["Sites per lakh people", fmt(S.cityRate), `about 1 site for every ${fmt0(1e5 / S.cityRate)} people; wards range ${fmt(min("facilities_per_100k"))} to ${fmt(max("facilities_per_100k"))}`],
   ];
   document.getElementById("kpis").innerHTML = kpis.map(([l, v, f]) =>
     `<div class="kpi"><div class="label">${l}</div><div class="value" data-count="${v}">${v}</div><div class="foot">${f}</div></div>`).join("");
@@ -111,12 +111,14 @@ function renderOverview() {
   const rate = (rows) => sum(rows, "total_distinct_public_facilities") / sum(rows, "population_2011") * 1e5;
   const hosp = [...S.wards].sort((a, b) => b.public_hospital_count - a.public_hospital_count);
   const nHosp = S.facilities.filter((f) => f.category === "public_hospital").length;
+  const per = (w) => `1 site per ${fmt0(w.population_per_facility)} people`;
+  const g = byGap[0];
   const obs = [
-    `Lowest provision per resident: ${byRate.slice(0, 3).map((w) => `<b>${w.ward_id}</b> (${fmt(w.facilities_per_100k)})`).join(", ")} sites per 100k. Highest: ${byRate.slice(-3).reverse().map((w) => `<b>${w.ward_id}</b> (${fmt(w.facilities_per_100k)})`).join(", ")}.`,
-    `Island-city wards (A–G/N) have <b>${fmt(rate(island))}</b> sites per 100k against <b>${fmt(rate(suburb))}</b> in the suburban wards.`,
-    `${byGap.filter((w) => w.population_facility_share_gap > 0).length} of 24 wards have a larger share of population than of listed sites. Largest gaps: ${byGap.slice(0, 3).map((w) => `<b>${w.ward_id}</b> (+${fmt(w.population_facility_share_gap)} pp)`).join(", ")}.`,
-    `Public hospitals are concentrated in ${hosp[0].ward_id} and ${hosp[1].ward_id}, which hold ${hosp[0].public_hospital_count + hosp[1].public_hospital_count} of ${nHosp} hospital records.`,
-    `Caveat: population is from 2011, and counts ignore capacity, staffing and private provision. These are distribution indicators, not proof that a ward is underserved.`,
+    `Fewest public health sites for their population: ${byRate.slice(0, 3).map((w) => `<b>${w.ward_id}</b> (${per(w)})`).join(", ")}. Most: ${byRate.slice(-3).reverse().map((w) => `<b>${w.ward_id}</b> (${per(w)})`).join(", ")}.`,
+    `South Mumbai's island-city wards (A to G/N) have <b>${fmt(rate(island))}</b> sites per lakh people. The suburbs have <b>${fmt(rate(suburb))}</b>.`,
+    `In ${byGap.filter((w) => w.population_facility_share_gap > 0).length} of 24 wards, the ward's share of Mumbai's people is bigger than its share of the health sites. The biggest gap is <b>${g.ward_id}</b>: ${fmt(g.population_share_pct, 1)}% of the people but only ${fmt(g.facility_share_pct, 1)}% of the sites.`,
+    `Big public hospitals are bunched together: ${hosp[0].ward_id} and ${hosp[1].ward_id} have ${hosp[0].public_hospital_count + hosp[1].public_hospital_count} of the ${nHosp} public hospitals.`,
+    `Keep in mind: the population numbers are from 2011, and a count of buildings says nothing about beds, doctors, waiting times or private clinics. A low number is a reason to look closer, not proof that people lack care.`,
   ];
   document.getElementById("observations").innerHTML = obs.map((o) => `<li>${o}</li>`).join("");
 
@@ -155,17 +157,19 @@ function openWard(id) {
   const stat = (l, v) => `<div class="stat"><div class="label">${l}</div><div class="value">${v}</div></div>`;
   document.getElementById("drawer-body").innerHTML = `
     <h2>${wardTitle(id)}</h2>
-    <p class="hint">${w.census_district === "Mumbai" ? "Island city" : "Suburban"} · ${fmt(w.area_km2, 1)} km² · cluster ${clusterPill(w.cluster_label)} ${esc(w.cluster_name)}</p>
+    <p class="hint">${w.census_district === "Mumbai" ? "Island city (south Mumbai)" : "Suburbs"} · ${fmt(w.area_km2, 1)} km² · group ${clusterPill(w.cluster_label)} ${esc(w.cluster_name)}
+      <br><span class="hint">Groups come from K-Means, a method that sorts wards with a similar mix of facilities together.</span></p>
     <div class="stats">
-      ${stat("Population (2011)", fmt0(w.population_2011))}
-      ${stat("Distinct sites", fmt0(w.total_distinct_public_facilities))}
-      ${stat("Sites per 100k", `${fmt(w.facilities_per_100k)} <span class="hint">(${rankLow}/24 low→high)</span>`)}
-      ${stat("Residents per site", fmt0(w.population_per_facility))}
-      ${stat("Population share", `${fmt(w.population_share_pct)}%`)}
-      ${stat("Facility share", `${fmt(w.facility_share_pct)}%`)}
+      ${stat("People (2011)", fmt0(w.population_2011))}
+      ${stat("Public health sites", fmt0(w.total_distinct_public_facilities))}
+      ${stat("Sites per lakh people", `${fmt(w.facilities_per_100k)} <span class="hint">(${rankLow} of 24, lowest first)</span>`)}
+      ${stat("People per site", fmt0(w.population_per_facility))}
+      ${stat("Share of Mumbai's people", `${fmt(w.population_share_pct)}%`)}
+      ${stat("Share of Mumbai's sites", `${fmt(w.facility_share_pct)}%`)}
     </div>
-    <p class="hint">Share gap: <b>${w.population_facility_share_gap > 0 ? "+" : ""}${fmt(w.population_facility_share_gap)} pp</b>
-      ${w.population_facility_share_gap > 0 ? "(larger share of population than of listed sites)" : "(larger share of listed sites than of population)"}</p>
+    <p class="hint">${w.population_facility_share_gap > 0
+      ? `This ward has a bigger share of the city's people than of its public health sites (a gap of ${fmt(w.population_facility_share_gap)} percentage points).`
+      : `This ward has a bigger share of the city's public health sites than of its people (a gap of ${fmt(-w.population_facility_share_gap)} percentage points).`}</p>
     <h3>Facilities (${fac.length} records)</h3>
     <table><thead><tr><th>Name</th><th>Category</th></tr></thead><tbody>
       ${fac.map((f) => `<tr><td>${esc(f.facility_name)}${String(f.assignment_check).includes("review") ? '<div class="flag">location disagrees with ward, flagged for review</div>' : ""}${f.latitude ? "" : '<div class="flag">no coordinates</div>'}</td>

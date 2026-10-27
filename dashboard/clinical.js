@@ -14,6 +14,13 @@ const C = { overview: null, preds: [], hospitals: [], apiError: null, bundle: nu
 // Static copies of the GET endpoints the page uses, for hosts without the backend.
 const STATIC = { "/overview": "static-api/overview.json", "/clinical/test-predictions?limit=1000": "static-api/test-predictions.json" };
 const pct = (v, d = 1) => (v == null ? "–" : `${fmt(v * 100, d)}%`);
+// What each model is, in one plain line.
+const PLAIN = { logistic_regression: "A simple weighted score: each answer adds or takes away points.",
+  random_forest: "300 small decision trees, each asking yes/no questions, then voting.",
+  ann: "A small neural network: layers of simple maths units loosely inspired by the brain.",
+  LR: "logistic_regression", RF: "random_forest", ANN: "ann" };
+const testN = () => (C.overview ? C.overview.clinical.test : 200);
+const rightOf = (acc) => `right for ${Math.round(acc * testN())} of ${testN()} new patients`;
 
 async function fetchJson(url) {
   const r = await fetch(url);
@@ -71,13 +78,14 @@ function showApiError() {
 function renderOverviewModels() {
   const o = C.overview;
   document.getElementById("ov-clin-src").innerHTML =
-    `${fmt0(o.clinical.records)} patients from one hospital in India (${esc(o.clinical.citation)}); ${pct(o.clinical.positive_rate, 0)} with heart disease. Test set: ${o.clinical.test} patients.`;
+    `Trained on records of ${fmt0(o.clinical.records - o.clinical.test)} patients from one hospital in India, then tested on ${o.clinical.test} patients they had never seen (${esc(o.clinical.citation)}). ${pct(o.clinical.positive_rate, 0)} of all patients had heart disease.`;
   document.getElementById("ov-models").innerHTML = o.models.map((m) => `
     <button type="button" class="mcard" style="--c:${MODEL_COLOR[m.key]}" data-go="powerbi">
-      <span class="eyebrow">${esc(m.short)} · test set</span>
+      <span class="eyebrow">${esc(m.short)} · tested on new patients</span>
       <span class="mname">${esc(m.label)}</span>
-      <span class="mval">${pct(m.accuracy)}<small>accuracy</small></span>
-      <span class="mmeta">ROC-AUC ${fmt(m.roc_auc, 3)} · F1 ${fmt(m.f1, 3)} · recall ${pct(m.recall)}</span>
+      <span class="mplain">${esc(PLAIN[m.key])}</span>
+      <span class="mval">${pct(m.accuracy)}<small>${rightOf(m.accuracy)}</small></span>
+      <span class="mmeta">Caught ${pct(m.recall)} of the real heart-disease cases · ROC-AUC ${fmt(m.roc_auc, 3)} · F1 ${fmt(m.f1, 3)}</span>
     </button>`).join("") + `
     <button type="button" class="mcard cta" data-go="predict"><span class="eyebrow">Try it</span>
       <span class="mname">Heart risk predictor</span><span class="mmeta">Enter one patient's values and compare all three models. Experimental, for education only.</span>
@@ -94,17 +102,17 @@ const GROUPS = [["patient", "Patient"], ["symptoms", "Presenting symptoms"], ["v
 const FIELDS = [
   { k: "age", g: "patient", label: "Age", help: "Years", type: "number", min: 18, max: 100, step: 1 },
   { k: "gender", g: "patient", label: "Sex", help: "As recorded in the dataset", options: { 1: "Male", 0: "Female" } },
-  { k: "chestpain", g: "symptoms", label: "Chest pain type", help: "Type of chest pain reported", options: { 0: "Typical angina", 1: "Atypical angina", 2: "Non-anginal pain", 3: "Asymptomatic" } },
-  { k: "restingBP", g: "vitals", label: "Resting blood pressure", help: "Systolic, mm Hg (80–220)", type: "number", min: 80, max: 220, step: 1 },
-  { k: "serumcholestrol", g: "vitals", label: "Serum cholesterol", help: "mg/dl (80–700). Leave blank if unknown: the training median is used", type: "number", min: 80, max: 700, step: 1, optional: true },
-  { k: "fastingbloodsugar", g: "vitals", label: "Fasting blood sugar > 120 mg/dl", help: "Raised fasting glucose", options: { 0: "No", 1: "Yes" } },
-  { k: "restingrelectro", g: "ecg", label: "Resting ECG", help: "Electrocardiogram at rest", options: { 0: "Normal", 1: "ST-T wave abnormality", 2: "Left ventricular hypertrophy" } },
-  { k: "maxheartrate", g: "exercise", label: "Maximum heart rate", help: "Highest rate in the exercise test, bpm (60–220)", type: "number", min: 60, max: 220, step: 1 },
-  { k: "exerciseangia", g: "symptoms", label: "Exercise-induced angina", help: "Chest pain brought on by exercise", options: { 0: "No", 1: "Yes" } },
-  { k: "oldpeak", g: "exercise", label: "ST depression (oldpeak)", help: "ST drop in exercise vs rest, mm (0–7)", type: "number", min: 0, max: 7, step: 0.1 },
-  { k: "slope", g: "exercise", label: "Slope of peak exercise ST segment", help: "Shape of the ST segment at peak exercise. Not recorded for 18% of patients: the training value is used", optional: true,
+  { k: "chestpain", g: "symptoms", label: "Chest pain type", help: "What kind of chest pain the patient described. Angina is chest pain caused by the heart not getting enough blood. Asymptomatic means no chest pain.", options: { 0: "Typical angina", 1: "Atypical angina", 2: "Non-anginal pain", 3: "Asymptomatic" } },
+  { k: "restingBP", g: "vitals", label: "Resting blood pressure", help: "Blood pressure while resting: the top number, in mm Hg (80 to 220). About 120 is typical.", type: "number", min: 80, max: 220, step: 1 },
+  { k: "serumcholestrol", g: "vitals", label: "Serum cholesterol", help: "Total cholesterol from a blood test, in mg/dl (80 to 700). Leave blank if unknown: the usual value from the training data is used.", type: "number", min: 80, max: 700, step: 1, optional: true },
+  { k: "fastingbloodsugar", g: "vitals", label: "Fasting blood sugar > 120 mg/dl", help: "Was blood sugar above 120 mg/dl after not eating overnight? A high value can be a sign of diabetes.", options: { 0: "No", 1: "Yes" } },
+  { k: "restingrelectro", g: "ecg", label: "Resting ECG", help: "Result of an ECG, the heart tracing, taken while the patient was resting.", options: { 0: "Normal", 1: "ST-T wave abnormality", 2: "Left ventricular hypertrophy" } },
+  { k: "maxheartrate", g: "exercise", label: "Maximum heart rate", help: "Fastest heartbeat reached in the exercise (treadmill) test, in beats per minute (60 to 220).", type: "number", min: 60, max: 220, step: 1 },
+  { k: "exerciseangia", g: "symptoms", label: "Exercise-induced angina", help: "Did exercise bring on chest pain?", options: { 0: "No", 1: "Yes" } },
+  { k: "oldpeak", g: "exercise", label: "ST depression in exercise (oldpeak)", help: "How far one part of the ECG line, the ST segment, dropped during exercise compared with rest, in mm (0 to 7). Bigger drops can mean the heart muscle is short of blood.", type: "number", min: 0, max: 7, step: 0.1 },
+  { k: "slope", g: "exercise", label: "Slope of peak exercise ST segment", help: "The shape of that ST segment at peak exercise. Not recorded for 18% of patients: then the usual value from the training data is used.", optional: true,
     options: [["1", "Upsloping"], ["2", "Flat"], ["3", "Downsloping"], ["", "Not recorded"]] },
-  { k: "noofmajorvessels", g: "ecg", label: "Major vessels (fluoroscopy)", help: "Vessels coloured by fluoroscopy, 0–3", options: { 0: "0", 1: "1", 2: "2", 3: "3" } },
+  { k: "noofmajorvessels", g: "ecg", label: "Major heart vessels seen on X-ray", help: "How many of the three main heart arteries showed up on an X-ray dye test (fluoroscopy), 0 to 3.", options: { 0: "0", 1: "1", 2: "2", 3: "3" } },
 ];
 const DEFAULTS = { age: 50, gender: 1, chestpain: 0, restingBP: 130, serumcholestrol: "", fastingbloodsugar: 0, restingrelectro: 0, maxheartrate: 150, exerciseangia: 0, oldpeak: 1.0, slope: 1, noofmajorvessels: 0 };
 
@@ -138,7 +146,7 @@ function renderPredictor() {
     setForm(Object.fromEntries(FIELDS.map((f) => [f.k, p[f.k] == null ? "" : p[f.k]])));
     C.preset = p;
     updateMonitor();
-    document.getElementById("preset-note").innerHTML = `Filled from test patient <b>${p.patientid}</b> (actual: ${p.actual ? "heart disease" : "no heart disease"}). The models never saw this patient during training.`;
+    document.getElementById("preset-note").innerHTML = `Filled from real test patient <b>${p.patientid}</b>, who ${p.actual ? "did have heart disease" : "did not have heart disease"}. The models never saw this patient while learning, so you can check whether they get it right.`;
     runPrediction();
   }));
 }
@@ -246,19 +254,23 @@ function resultHtml(j) {
   const n = j.models_predicting_disease;
   const agree = n === 0 || n === 3;
   const keyOf = { LR: "logistic_regression", RF: "random_forest", ANN: "ann" };
-  const actual = C.preset ? `<div class="actual">Recorded outcome for this test patient: <b>${C.preset.actual ? "heart disease" : "no heart disease"}</b></div>` : "";
+  const actual = C.preset ? `<div class="actual">What really happened: this test patient <b>${C.preset.actual ? "did have heart disease" : "did not have heart disease"}</b>, so you can see whether the models got it right.</div>` : "";
   return `
     <div class="verdict ${n >= 2 ? "pos" : "neg"}"><span class="badge">${n} of 3 models</span>
       <span>${n >= 2 ? "indicate heart disease" : "indicate no heart disease"} at the ${pct(j.threshold, 0)} threshold</span></div>
+    <p class="plain-sum"><b>In simple words:</b> ${n === 3 ? "all three models think" : n === 0 ? "none of the three models think" : `${n} of the 3 models think`}
+      these test results look like those of past patients who had heart disease. Each percentage below is that model's estimated
+      chance of heart disease; above ${pct(j.threshold, 0)} counts as "indicated". This is a learning tool, not a diagnosis.</p>
     ${actual}
     ${j.predictions.map((p) => `<div class="mres" style="--c:${MODEL_COLOR[keyOf[p.model]]}">
       <div class="mres-head"><span class="eyebrow">${esc(p.label)}</span><span class="pill-out ${p.predicted_class ? "pos" : "neg"}">${esc(p.predicted_label)}</span></div>
-      <div class="mres-row"><span class="big">${pct(p.probability)}</span><span class="hint">probability of the heart-disease class · test ROC-AUC ${fmt(p.test_roc_auc, 3)}</span></div>
+      <p class="mplain">${esc(PLAIN[PLAIN[p.model]])}</p>
+      <div class="mres-row"><span class="big">${pct(p.probability)}</span><span class="hint">estimated chance of heart disease · ${rightOf(p.test_accuracy)}</span></div>
       <div class="gauge" role="img" aria-label="${pct(p.probability)}"><i style="width:${(p.probability * 100).toFixed(1)}%"></i><b style="left:${j.threshold * 100}%"></b></div>
-      <div class="ticks"><span>0%</span><span>threshold ${pct(j.threshold, 0)}</span><span>100%</span></div>
+      <div class="ticks"><span>0%</span><span>${pct(j.threshold, 0)} cut-off</span><span>100%</span></div>
     </div>`).join("")}
     <div class="uncert"><b>${agree ? "The models agree." : "The models disagree."}</b>
-      Mean probability ${pct(j.mean_probability)}, spread ${fmt(j.probability_spread * 100, 1)} points between the lowest and highest model.
+      On average they give ${pct(j.mean_probability)}; the highest and lowest are ${fmt(j.probability_spread * 100, 1)} points apart.
       ${agree ? "Agreement only means three models fitted to the same data learned similar patterns; it does not make the result certain." : "Disagreement is a sign this record sits near the models' decision boundary."}
       ${j.imputed_fields.length ? `<br>Not entered, so filled from the training data (median for numbers, most common value for categories): ${j.imputed_fields.join(", ")}.` : ""}</div>
     <p class="disc">${esc(j.disclaimer)}</p>

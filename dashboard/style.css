@@ -430,3 +430,10 @@ label.inline { display: inline-flex; align-items: center; gap: 8px; color: var(-
 .mcard.cta .cta-ecg .bs-wave { animation: bs-scroll 2.4s linear infinite; }
 .mcard.cta .cta-ecg path { fill: none; stroke: var(--accent-ink); stroke-width: 2.2; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
 @media (prefers-reduced-motion: reduce) { .mcard.cta .cta-ecg .bs-wave { animation: none !important; } }
+
+/* Plain-language lines */
+.mcard .mplain { color: var(--ink); font-size: 14px; line-height: 1.4; margin: 2px 0 2px; }
+.mcard .mval small { display: block; margin: 4px 0 0; }
+.mres .mplain { color: var(--muted); font-size: 14px; margin: 4px 0 6px; }
+.plain-sum { background: var(--surface-2); border-radius: 6px; padding: 12px 14px; margin: 10px 0 4px; font-size: 15px; line-height: 1.5; }
+.plain-sum b { color: var(--ink); }

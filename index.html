@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23ff4a1f'/%3E%3Cpath d='M13 6h6v7h7v6h-7v7h-6v-7H6v-6h7z' fill='%2318191b'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="landing/style.css?v=10">
+<link rel="stylesheet" href="landing/style.css?v=12">
 <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
@@ -18,10 +18,11 @@
 <header class="nav">
   <a class="wordmark" href="#top">Mumbai Ward Health</a>
   <nav aria-label="Sections">
+    <a href="#short">In short</a>
     <a href="#pulse">Ward monitor</a>
-    <a href="#findings">Findings</a>
     <a href="#models">Heart models</a>
     <a href="#where">Where to look</a>
+    <a href="#glossary">Glossary</a>
   </nav>
   <a class="btn btn-small" href="dashboard/">Open the dashboard</a>
 </header>
@@ -45,7 +46,7 @@
       </div>
 
       <div class="chip chip-rate" data-ui aria-live="polite">
-        <span class="chip-label">Sites per 100,000</span>
+        <span class="chip-label">Sites per lakh people</span>
         <span class="chip-value"><span id="w-rate">3.23</span><span class="chip-sub" id="w-rank">city-wide</span></span>
       </div>
 
@@ -55,8 +56,8 @@
       </button>
     </div>
 
-    <p class="hero-sub">A data study of where Mumbai's listed public dispensaries, UPHCs, hospitals and maternity homes sit,
-      ward by ward, against the people they serve.</p>
+    <p class="hero-sub">A simple look at where Mumbai's government clinics, health centres and hospitals are, ward by ward,
+      compared with how many people live there.</p>
     <div class="hero-actions">
       <a class="btn" href="dashboard/">Open the dashboard</a>
       <a class="text-link" href="outputs/reports/final_report.pdf">Read the 12-page report</a>
@@ -75,6 +76,32 @@
       <span class="thumb" aria-hidden="true"><img src="landing/assets/the-sir-jamsetjee-hospital-grant-medical-college.jpg" alt="" width="1920" height="1518" loading="lazy" style="object-position: 50% 40%"></span>
       care follows people.
     </p>
+  </section>
+
+  <!-- ========== The short version, in plain words ========== -->
+  <section class="short" id="short" aria-labelledby="short-title">
+    <h2 id="short-title" class="short-title" data-reveal>The short version</h2>
+    <div class="short-grid">
+      <div class="short-item" data-reveal>
+        <h3>What we counted</h3>
+        <p>Every government health service on the city's own maps: 186 dispensaries (small clinics), 211 urban primary
+          health centres, 31 public hospitals and 28 maternity homes. Some share a building, so together they fill
+          402 places.</p>
+      </div>
+      <div class="short-item" data-reveal>
+        <h3>What we found</h3>
+        <p>Across Mumbai there is about one public health site for every 30,951 people. In R South it is one for every
+          46,082 people; in A ward, one for every 16,819. South Mumbai has more sites per person than the suburbs.</p>
+      </div>
+      <div class="short-item" data-reveal>
+        <h3>What it does not mean</h3>
+        <p>Fewer sites per person is a reason to look closer, not proof that people go without care. A count of
+          buildings ignores beds, doctors, opening hours, private clinics and travel time, and the population figures
+          are from 2011.</p>
+      </div>
+    </div>
+    <p class="short-models" data-reveal>We also built three computer models that read a patient's test results and estimate
+      the chance of heart disease. They are a learning exercise, not a doctor. <a class="text-link" href="#models">See how well they did</a></p>
   </section>
 
   <!-- ========== The thumbnails, opened up ========== -->
@@ -97,12 +124,12 @@
   <section class="pulse" id="pulse" aria-labelledby="pulse-title">
     <div class="pulse-head">
       <h2 id="pulse-title" class="pulse-title" data-reveal><span class="soft">The city on</span> <span>a ward monitor</span></h2>
-      <p class="pulse-lede" data-reveal>One beat per ward, A to T. The taller the spike, the more listed public facility sites per
-        100,000 residents. Hover over a beat, or tab through them, to read each ward.</p>
+      <p class="pulse-lede" data-reveal>Each heartbeat is one of Mumbai's 24 wards, A to T. The taller the spike, the more public
+        health sites the ward has for every lakh (1,00,000) people. Hover over a beat, or tab through them, to read each ward.</p>
     </div>
     <figure class="monitor" data-ui data-reveal>
       <div class="mon-top"><span class="mon-title">Ward monitor</span>
-        <span class="mon-meta">Sites per 100,000 residents · 24 wards · facilities 2025, population 2011</span></div>
+        <span class="mon-meta">Public health sites per lakh people · 24 wards · sites 2025, population 2011</span></div>
       <div class="mon-screen">
         <p class="mon-swipe">Swipe the trace to see all 24 wards →</p>
         <div class="mon-scroll"><svg id="mon-svg" class="mon-svg" viewBox="0 0 1200 300" role="group"
@@ -110,12 +137,12 @@
         <div class="mon-read" aria-live="polite">
           <span class="mon-k" id="mon-k">City average</span>
           <span class="mon-v" id="mon-v">3.23</span>
-          <span class="mon-u">sites per 100,000</span>
+          <span class="mon-u">sites per lakh people</span>
           <span class="mon-x" id="mon-x">Lowest: R South, 2.17. Highest: A, 5.95.</span>
         </div>
       </div>
-      <figcaption class="mon-cap">The three lowest wards are drawn in orange, like an alarm on a bedside monitor. A low rate means
-        fewer listed public sites per person; it does not measure beds, staff or private care.</figcaption>
+      <figcaption class="mon-cap">The three lowest wards are drawn in orange, like an alarm on a hospital monitor. A low beat means
+        fewer government health sites for the number of people living there. It does not measure beds, staff or private care.</figcaption>
     </figure>
   </section>
 
@@ -124,17 +151,19 @@
     <h2 id="stats-title" class="stats-title" data-reveal><span class="soft">Six numbers</span> <span>worth knowing</span></h2>
     <dl class="ledger" data-reveal>
       <div class="row"><dt class="whole" data-count="402">402</dt><dd class="dec"></dd><dd class="cap">distinct public facility sites, from 456 records; 54 buildings hold more than one service</dd></div>
-      <div class="row"><dt class="whole" data-count="3">3</dt><dd class="dec" data-count-dec="23">.23</dd><dd class="cap">sites per 100,000 residents across the city</dd></div>
+      <div class="row"><dt class="whole" data-count="3">3</dt><dd class="dec" data-count-dec="23">.23</dd><dd class="cap">public health sites for every lakh people across Mumbai, about one for every 30,951 people</dd></div>
       <div class="row hl"><dt class="whole" data-count="2">2</dt><dd class="dec" data-count-dec="17">.17</dd><dd class="cap">the lowest ward rate, in R South, where one site serves 46,082 people</dd></div>
       <div class="row"><dt class="whole" data-count="5">5</dt><dd class="dec" data-count-dec="95">.95</dd><dd class="cap">the highest ward rate, in A ward, home to four public hospitals</dd></div>
-      <div class="row"><dt class="whole" data-count="4">4</dt><dd class="dec" data-count-dec="2">.02</dd><dd class="cap">sites per 100,000 in the island city, against 2.97 in the suburbs</dd></div>
-      <div class="row"><dt class="whole" data-count="14">14</dt><dd class="dec"></dd><dd class="cap">wards hold a bigger share of the city's people than of its listed sites</dd></div>
+      <div class="row"><dt class="whole" data-count="4">4</dt><dd class="dec" data-count-dec="2">.02</dd><dd class="cap">sites per lakh people in the island city (south Mumbai), against 2.97 in the suburbs</dd></div>
+      <div class="row"><dt class="whole" data-count="14">14</dt><dd class="dec"></dd><dd class="cap">wards have a bigger share of Mumbai's people than of its public health sites</dd></div>
     </dl>
   </section>
 
   <!-- ========== How it works: the pipeline as one bar ========== -->
   <section class="method" id="method" aria-labelledby="method-title">
     <h2 id="method-title" class="method-title" data-reveal><span>Ward pipeline,</span> <span>four stages</span></h2>
+    <p class="method-lede" data-reveal>In plain words: one command turns the raw city maps and census tables into every number, chart and
+      model on this site. The bar shows how long each step takes.</p>
     <div class="stagebar" data-ui data-reveal role="list" aria-label="Pipeline stages, sized by how long each takes">
       <div class="stage s1" role="listitem" style="--grow: 12">
         <div class="seg"><h3 class="dur">Under a second</h3></div>
@@ -185,10 +214,10 @@
     <h2 id="models-title" class="models-title" data-reveal><span class="soft">Three models,</span> <span>one patient</span></h2>
     <div class="models-grid">
       <div class="models-side" data-reveal>
-        <p>Next to the ward study sits a second module. Three classifiers read twelve routine cardiology measurements, among them
-          age, chest pain type, resting blood pressure, cholesterol and the exercise ECG, and each gives a probability of heart disease.</p>
-        <p>They were trained on 800 patients and tested on 200 they never saw. The data come from one hospital in India and have no
-          location, so this module is never joined to the wards.</p>
+        <p>Next to the ward study sits a second, separate part. Three computer models look at twelve routine heart-test results,
+          such as age, type of chest pain, blood pressure, cholesterol and an exercise ECG, and each estimates the chance of heart disease.</p>
+        <p>They learned from 800 patients and were then tested on 200 they had never seen. The patients are from one hospital in
+          India and their records have no addresses, so this part is never linked to Mumbai's wards.</p>
         <figure class="models-photo">
           <img src="landing/assets/instrumentos-medicos-de-uso-en-cardiologia.jpg" alt="A stethoscope resting on an ECG paper printout beside a keyboard" width="1920" height="1253" loading="lazy">
           <figcaption>Stethoscope and ECG printout. Photo by Ivan2010, CC BY-SA 4.0.</figcaption>
@@ -197,15 +226,17 @@
       <article class="report" data-reveal aria-labelledby="report-title">
         <header class="report-head">
           <div class="report-id"><span class="report-cross" aria-hidden="true"></span>
-            <div><h3 id="report-title">Model report</h3><p>Cardiovascular disease · held-out test set</p></div></div>
+            <div><h3 id="report-title">Model report</h3><p>Heart disease · tested on patients the models never saw</p></div></div>
           <dl class="report-meta">
             <div><dt>Specimen</dt><dd><span id="r-test">200</span> test patients, never seen in training</dd></div>
             <div><dt>Source</dt><dd><span id="r-records">1,000</span> patients, one hospital in India. Doppala &amp; Bhattacharyya (2021)</dd></div>
           </dl>
         </header>
+        <p class="report-plain" id="report-plain">In plain words: tested on 200 new patients, the random forest got 191 right,
+          the neural network 187 and the logistic regression 178.</p>
         <table class="report-table">
           <caption class="sr-only">Test-set results of the three heart-disease models</caption>
-          <thead><tr><th scope="col">Model</th><th scope="col">Accuracy</th><th scope="col">ROC-AUC</th><th scope="col">Recall</th><th scope="col">F1</th></tr></thead>
+          <thead><tr><th scope="col">Model</th><th scope="col">Accuracy<small>right answers</small></th><th scope="col">ROC-AUC<small>tells sick from healthy</small></th><th scope="col">Recall<small>sick patients caught</small></th><th scope="col">F1<small>balance of both</small></th></tr></thead>
           <tbody id="report-rows">
             <tr><th scope="row">Logistic regression</th><td>89.0%</td><td>0.968</td><td>91.4%</td><td>0.906</td></tr>
             <tr><th scope="row">Random forest</th><td class="best">95.5%</td><td class="best">0.992</td><td class="best">96.6%</td><td class="best">0.961</td></tr>
@@ -240,22 +271,47 @@
         <span class="table-name">Ward directory</span>
         <table>
           <caption class="sr-only">Wards with the fewest listed public sites per 100,000 residents</caption>
-          <thead class="sr-only"><tr><th>Ward</th><th>Sites per 100k</th><th>Share gap</th></tr></thead>
+          <thead class="sr-only"><tr><th>Ward</th><th>People per public health site</th><th>Share of Mumbai's people and of its sites</th></tr></thead>
           <tbody id="where-rows">
-            <tr><td><a href="dashboard/#ward=R/S"><span class="plate" aria-hidden="true">R/S</span>R South</a></td><td>2.17 per 100k</td><td>+1.82 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=K/W"><span class="plate" aria-hidden="true">K/W</span>K West</a></td><td>2.27 per 100k</td><td>+1.79 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=P/S"><span class="plate" aria-hidden="true">P/S</span>P South</a></td><td>2.59 per 100k</td><td>+0.74 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=F/N"><span class="plate" aria-hidden="true">F/N</span>F North</a></td><td>2.65 per 100k</td><td>+0.77 pp</td></tr>
-            <tr class="gap"><td><a href="dashboard/#ward=P/N"><span class="plate" aria-hidden="true">P/N</span>P North</a></td><td>2.66 per 100k</td><td>+1.35 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=G/N"><span class="plate" aria-hidden="true">G/N</span>G North</a></td><td>2.67 per 100k</td><td>+0.83 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=R/N"><span class="plate" aria-hidden="true">R/N</span>R North</a></td><td>2.78 per 100k</td><td>+0.48 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=H/E"><span class="plate" aria-hidden="true">H/E</span>H East</a></td><td>2.87 per 100k</td><td>+0.50 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=R/S"><span class="plate" aria-hidden="true">R/S</span>R South</a></td><td>1 site per 46,082 people</td><td>5.6% of people, 3.7% of sites</td></tr>
+            <tr><td><a href="dashboard/#ward=K/W"><span class="plate" aria-hidden="true">K/W</span>K West</a></td><td>1 site per 44,040 people</td><td>6.0% of people, 4.2% of sites</td></tr>
+            <tr><td><a href="dashboard/#ward=P/S"><span class="plate" aria-hidden="true">P/S</span>P South</a></td><td>1 site per 38,626 people</td><td>3.7% of people, 3.0% of sites</td></tr>
+            <tr><td><a href="dashboard/#ward=F/N"><span class="plate" aria-hidden="true">F/N</span>F North</a></td><td>1 site per 37,788 people</td><td>4.3% of people, 3.5% of sites</td></tr>
+            <tr class="gap"><td><a href="dashboard/#ward=P/N"><span class="plate" aria-hidden="true">P/N</span>P North</a></td><td>1 site per 37,655 people</td><td>7.6% of people, 6.2% of sites</td></tr>
+            <tr><td><a href="dashboard/#ward=G/N"><span class="plate" aria-hidden="true">G/N</span>G North</a></td><td>1 site per 37,440 people</td><td>4.8% of people, 4.0% of sites</td></tr>
+            <tr><td><a href="dashboard/#ward=R/N"><span class="plate" aria-hidden="true">R/N</span>R North</a></td><td>1 site per 35,947 people</td><td>3.5% of people, 3.0% of sites</td></tr>
+            <tr><td><a href="dashboard/#ward=H/E"><span class="plate" aria-hidden="true">H/E</span>H East</a></td><td>1 site per 34,827 people</td><td>4.5% of people, 4.0% of sites</td></tr>
           </tbody>
         </table>
-        <p class="where-note">Share gap is the ward's share of the city's people minus its share of listed sites. A low rate is a reason to look closer, not a verdict:
-          population is from 2011, counts carry no beds or staff, and 18 public hospitals from the city's hospital list are missing from the facility layers.</p>
+        <p class="where-note">These eight wards have the fewest public health sites for the number of people living in them.
+          The last column compares each ward's share of Mumbai's people with its share of the sites: R South has 5.6% of the people
+          but only 3.7% of the sites. A low place on this list is a reason to look closer, not a verdict: the population is from 2011,
+          a building count says nothing about beds or staff, and 18 public hospitals on the city's hospital list are missing from the maps.</p>
       </div>
     </div>
+  </section>
+
+  <!-- ========== Glossary: every term on the site, in plain English ========== -->
+  <section class="glossary" id="glossary" aria-labelledby="glossary-title">
+    <h2 id="glossary-title" class="glossary-title" data-reveal><span class="soft">Words on this site,</span> <span>in plain English</span></h2>
+    <dl class="gloss" data-reveal>
+      <div><dt>Ward</dt><dd>One of the 24 areas the city corporation (BMC) uses to run Mumbai, named by letters such as A, F North or R South.</dd></div>
+      <div><dt>Dispensary</dt><dd>A small municipal clinic for everyday illness: check-ups, basic medicines and dressings.</dd></div>
+      <div><dt>UPHC</dt><dd>Urban Primary Health Centre: a government neighbourhood health centre with a doctor, vaccinations, and care for mothers and children.</dd></div>
+      <div><dt>Public hospital</dt><dd>A hospital run by the state government or the BMC, from local general hospitals to big teaching hospitals such as KEM and J.J.</dd></div>
+      <div><dt>Maternity home</dt><dd>A municipal hospital for pregnancy and childbirth.</dd></div>
+      <div><dt>Public health site</dt><dd>One building with at least one of the services above. A dispensary and a UPHC in the same building count as one site.</dd></div>
+      <div><dt>Per lakh people</dt><dd>How many sites there are for every 1,00,000 residents. It lets big and small wards be compared fairly.</dd></div>
+      <div><dt>Share gap</dt><dd>A ward's share of Mumbai's people minus its share of the health sites. R South has 5.6% of the people but 3.7% of the sites.</dd></div>
+      <div><dt>Census 2011</dt><dd>India's official population count. It is the most recent one with numbers for each ward, so the populations here are from 2011.</dd></div>
+      <div><dt>Model</dt><dd>A computer program that learned patterns from past patient records and uses them to estimate the chance of heart disease for a new one.</dd></div>
+      <div><dt>Training and testing</dt><dd>The models learned from 800 patients and were then checked on 200 they had never seen, like an exam with new questions.</dd></div>
+      <div><dt>Accuracy</dt><dd>Out of the 200 test patients, the share the model got right. 95.5% means 191 of 200.</dd></div>
+      <div><dt>Recall</dt><dd>Of the test patients who really had heart disease, the share the model caught.</dd></div>
+      <div><dt>ROC-AUC</dt><dd>How well a model ranks sick patients above healthy ones: 0.5 is a coin toss, 1.0 is perfect.</dd></div>
+      <div><dt>F1</dt><dd>One score that balances catching sick patients against raising false alarms. 1.0 is perfect.</dd></div>
+      <div><dt>K-Means clustering</dt><dd>A method that sorts wards into groups with a similar mix of health facilities. It describes, it does not judge.</dd></div>
+    </dl>
   </section>
 
   <!-- ========== Close: the idea again, inverted ========== -->
@@ -300,6 +356,6 @@
   <p class="giant" aria-hidden="true">Mumbai wards</p>
 </footer>
 
-<script src="landing/app.js?v=5"></script>
+<script src="landing/app.js?v=6"></script>
 </body>
 </html>

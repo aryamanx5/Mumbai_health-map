@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23ff4a1f'/%3E%3Cpath d='M13 6h6v7h7v6h-7v7h-6v-7H6v-6h7z' fill='%2318191b'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="style.css?v=13">
+<link rel="stylesheet" href="style.css?v=14">
 </head>
 <body>
 <div class="accent-bar"></div>
@@ -39,7 +39,7 @@
       <span class="hint" id="ov-clin-src"></span></div>
     <div class="model-strip" id="ov-models"><div class="card api-wait">Loading model results from the API…</div></div>
     <div class="module-head"><span class="eyebrow">Module 2 · Mumbai healthcare infrastructure</span>
-      <span class="hint">Two separate analyses: the clinical data has no location and is never joined to wards.</span></div>
+      <span class="hint">Two separate studies: the heart data has no addresses, so it is never linked to any ward.</span></div>
     <div class="kpis" id="kpis"></div>
     <div class="grid two">
       <article class="card">
@@ -48,7 +48,7 @@
       </article>
       <article class="card">
         <h2>Ward lookup</h2>
-        <p class="hint">Pick a ward for its population, sites, share gap and the facilities and hospitals listed in it.</p>
+        <p class="hint">Pick a ward to see how many people live there, its public health sites and how it compares with the rest of Mumbai.</p>
         <label class="inline">Ward <select id="ward-pick"><option value="">Choose a ward</option></select></label>
         <h2 class="mt">All charts are in Power BI</h2>
         <p class="hint">Model comparison, patient data, the facility map, ward rankings and the data-cleaning audit
@@ -66,8 +66,8 @@
     <div class="grid predict-grid">
       <article class="card">
         <div class="card-head">
-          <div><span class="eyebrow">Classification engines · LR · RF · ANN</span><h2>Patient inputs</h2></div>
-          <div class="presets"><span class="hint">Fill from a real test-set patient:</span>
+          <div><span class="eyebrow">Three computer models · LR · RF · ANN</span><h2>Patient inputs</h2></div>
+          <div class="presets"><span class="hint">Try a real patient the models never saw:</span>
             <button type="button" class="chip-btn" data-preset="0">Without disease</button>
             <button type="button" class="chip-btn" data-preset="1">With disease</button></div>
         </div>
@@ -95,8 +95,8 @@
           </div>
         </div>
         <span class="eyebrow">Live model assessment</span>
-        <div id="predict-result" class="presult"><div class="empty">Enter the values, or pick a preset, and run the models.
-          Each model returns the probability that this record belongs to the "heart disease" class.</div></div>
+        <div id="predict-result" class="presult"><div class="empty">Fill in the chart, or try a real patient above, then press
+          <b>Run all three models</b>. Each model gives its own estimated chance of heart disease, from 0% to 100%.</div></div>
       </article>
     </div>
   </section>
@@ -149,8 +149,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <script src="powerbi-config.js?v=2"></script>
-<script src="app.js?v=11"></script>
+<script src="app.js?v=12"></script>
 <script src="model-runtime.js?v=1"></script>
-<script src="clinical.js?v=9"></script>
+<script src="clinical.js?v=11"></script>
 </body>
 </html>

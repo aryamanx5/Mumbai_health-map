@@ -196,7 +196,7 @@ function drawMonitor() {
     const x0 = i * MON.cell, h = height(w.facilities_per_100k), seg = `M${x0} ${MON.base} ` + beatPath(x0, h).slice(0);
     trace += " " + beatPath(x0, h);
     return `<g class="beat${low3.has(w.ward_id) ? " low" : ""}" tabindex="0" role="button" data-ward="${w.ward_id}"
-        aria-label="${name(w)}: ${w.facilities_per_100k.toFixed(2)} sites per 100,000 residents">
+        aria-label="${name(w)}: ${w.facilities_per_100k.toFixed(2)} sites per lakh people, 1 site for every ${Math.round(Number(w.population_per_facility)).toLocaleString("en-IN")} people">
       <rect x="${x0}" y="0" width="${MON.cell}" height="300" fill="transparent"></rect>
       <path class="beat-line" d="${seg}"></path>
       <text class="beat-val" x="${x0 + 25}" y="${MON.base - h - 10}" text-anchor="middle">${w.facilities_per_100k.toFixed(2)}</text>
@@ -209,8 +209,9 @@ function drawMonitor() {
   const lowest = [...W.wards].sort((a, b) => a.facilities_per_100k - b.facilities_per_100k);
   const city = () => {
     k.textContent = "City average"; v.textContent = W.city.rate.toFixed(2);
-    x.textContent = `Lowest: ${lowest[0].ward_name || lowest[0].ward_id}, ${lowest[0].facilities_per_100k.toFixed(2)}. ` +
-      `Highest: ${lowest.at(-1).ward_name || lowest.at(-1).ward_id}, ${lowest.at(-1).facilities_per_100k.toFixed(2)}.`;
+    const ppl = (w) => Math.round(Number(w.population_per_facility)).toLocaleString("en-IN");
+    x.textContent = `About 1 site for every ${Math.round(1e5 / W.city.rate).toLocaleString("en-IN")} people. Fewest: ` +
+      `${lowest[0].ward_name || lowest[0].ward_id}, 1 per ${ppl(lowest[0])}. Most: ${lowest.at(-1).ward_name || lowest.at(-1).ward_id}, 1 per ${ppl(lowest.at(-1))}.`;
     svg.querySelectorAll(".beat.on").forEach((g) => g.classList.remove("on"));
   };
   const pick = (g) => {
@@ -218,8 +219,8 @@ function drawMonitor() {
     svg.querySelectorAll(".beat.on").forEach((b) => b.classList.remove("on"));
     g.classList.add("on");
     k.textContent = name(w); v.textContent = w.facilities_per_100k.toFixed(2);
-    x.textContent = `${w.total_distinct_public_facilities} sites for ${indian(Number(w.population_2011))} people. ` +
-      `${ordinal(rankOf(w.ward_id))} lowest of 24.`;
+    x.textContent = `${w.total_distinct_public_facilities} sites for ${indian(Number(w.population_2011))} people: 1 for every ` +
+      `${Math.round(Number(w.population_per_facility)).toLocaleString("en-IN")}. ${ordinal(rankOf(w.ward_id))} lowest of 24.`;
   };
   svg.querySelectorAll(".beat").forEach((g) => {
     g.addEventListener("mouseenter", () => pick(g));
@@ -261,4 +262,8 @@ fetch("dashboard/static-api/overview.json").then((r) => (r.ok ? r.json() : Promi
   $("#r-test").textContent = o.clinical.test;
   $("#r-records").textContent = Number(o.clinical.records).toLocaleString("en-IN");
   $("#r-base").textContent = `${(o.clinical.majority_baseline_accuracy * 100).toFixed(1)}%`;
+  const right = [...ms].sort((a, b) => b.accuracy - a.accuracy)
+    .map((m) => `the ${{ logistic_regression: "logistic regression", random_forest: "random forest", ann: "neural network" }[m.key] || m.label} ${Math.round(m.accuracy * o.clinical.test)}`);
+  $("#report-plain").textContent = `In plain words: tested on ${o.clinical.test} new patients, ${right[0].replace(/ (\d+)$/, " got $1 right")}, ` +
+    `${right.slice(1).join(" and ")}.`;
 }).catch(() => { /* the static table in the page stays */ });
