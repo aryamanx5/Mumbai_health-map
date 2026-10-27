@@ -63,7 +63,7 @@ document.querySelectorAll(".facts-tabs button").forEach((b) => b.addEventListene
   setTimeout(() => {
     img.src = `landing/assets/dashboard-${key}.png`;
     img.alt = shots[key];
-    obj.href = `dashboard/#${key}`;
+    obj.href = "dashboard/#powerbi"; // the charts now live in the Power BI report
     img.onload = () => img.classList.remove("swap");
   }, reduce ? 0 : 220);
 }));

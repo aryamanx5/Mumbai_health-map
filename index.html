@@ -20,6 +20,7 @@
     <a href="#findings">Findings</a>
     <a href="#method">Method</a>
     <a href="#where">Where to look</a>
+    <a href="dashboard/#predict">Heart risk models</a>
   </nav>
   <a class="btn btn-small" href="dashboard/">Open the dashboard</a>
 </header>
@@ -58,6 +59,7 @@
     <div class="hero-actions">
       <a class="btn" href="dashboard/">Open the dashboard</a>
       <a class="text-link" href="outputs/reports/final_report.pdf">Read the 12-page report</a>
+      <a class="text-link" href="dashboard/#predict">Try the heart risk models</a>
     </div>
   </section>
 
@@ -132,14 +134,15 @@
   <section class="showcase" aria-labelledby="show-title">
     <h2 id="show-title" class="stack" data-reveal><span class="soft">Every ward,</span> one click</h2>
     <div class="show-grid">
-    <a class="object" href="dashboard/" aria-label="Open the dashboard overview">
+    <a class="object" href="dashboard/#powerbi" aria-label="Open the Power BI dashboard">
       <img id="show-img" src="landing/assets/dashboard-overview.png" alt="Dashboard overview: headline figures, facility counts by category and a ward map shaded by sites per 100,000 residents" width="1440" height="1000" loading="lazy">
     </a>
     <div class="facts" data-reveal>
-      <p>The dashboard reads the pipeline's own output files. Its overview maps all 455 located facilities over the 24 ward polygons;
-        the ward page ranks every ward by rate, population share and residents per site, filtered by facility type or cluster.</p>
-      <p>The third page shows the four K-Means clusters, how K was chosen, and how stable each choice was. Click any ward, anywhere, to open
-        its full facility list.</p>
+      <p>These views now live in a five-page Power BI report, embedded in the dashboard's Power BI tab: model
+        performance, patient data, a map of all 455 located facilities, wards ranked by sites per 100,000 residents, and an
+        insights page. The screenshots show the earlier web versions.</p>
+      <p>The web dashboard keeps the headline numbers, the heart risk predictor and a ward lookup that opens any ward's
+        full facility and hospital list.</p>
       <div class="facts-tabs" role="tablist" aria-label="Dashboard pages">
         <button type="button" role="tab" aria-selected="true" data-shot="overview">Overview</button>
         <button type="button" role="tab" aria-selected="false" data-shot="wards">Ward analysis</button>
@@ -186,7 +189,7 @@
     <h2 id="close-title" class="close-title" data-reveal><span>Find your</span> <span>ward's number</span></h2>
     <div class="close-base" data-reveal>
       <p>Pick any of the 24 wards to see its sites, its people, its share gap and the cluster it falls into.</p>
-      <a class="btn" href="dashboard/#wards">Open ward analysis</a>
+      <a class="btn" href="dashboard/#overview">Open the ward lookup</a>
     </div>
   </section>
 </main>
@@ -199,13 +202,18 @@
     </div>
     <ul class="footer-links">
       <li><a href="dashboard/">Dashboard</a></li>
-      <li><a href="docs/model_card.md">Model card</a></li>
+      <li><a href="dashboard/#predict">Heart risk predictor</a></li>
+      <li><a href="dashboard/#powerbi">Power BI dashboard</a></li>
+      <li><a href="/api/docs">API docs (FastAPI)</a></li>
+      <li><a href="docs/ml_methodology.md">ML methodology</a></li>
+      <li><a href="docs/model_card.md">Ward clustering model card</a></li>
       <li><a href="docs/data_quality_report.md">Data quality report</a></li>
       <li><a href="README.md">How to run it</a></li>
     </ul>
   </div>
   <div class="footer-legal">
-    <p class="credits">Data: OpenCity / MCGM facility maps (Nov 2025), OpenCity Mumbai Wards Map, Census of India 2011.
+    <p class="credits">Data: OpenCity / MCGM facility maps (Nov 2025), OpenCity Mumbai Wards Map, Census of India 2011;
+      clinical models: Doppala &amp; Bhattacharyya (2021), Cardiovascular_Disease_Dataset, Mendeley Data, doi:10.17632/dzz48mvjht.1.
       Pictures and footage: <a href="https://commons.wikimedia.org/w/index.php?curid=36466814">“The Sir Jamsetjee hospital, Grant medical college”</a>, Wellcome Collection, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>;
       <a href="https://commons.wikimedia.org/w/index.php?curid=98653677">“Bombay Suburban District Map 1929”</a> by District Inspector Land Records Bombay Suburban Andheri, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>;
       <a href="https://commons.wikimedia.org/w/index.php?curid=108327120">“Mumbai Local Train passing”</a> by Pratishkhedekar, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>;

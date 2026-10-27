@@ -1,0 +1,4 @@
+expression DataFolder = "C:\Users\ASUS\Downloads\dv_powerbi\dv\powerbi\data\" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: ba8554ce-0603-5a55-a27a-c06fa455b08b
+
+	annotation PBI_ResultType = Text

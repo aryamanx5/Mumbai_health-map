@@ -7,8 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="style.css?v=8">
+<link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
 <div class="accent-bar"></div>
@@ -16,12 +15,16 @@
   <div class="brand">
     <a class="home" href="../">← Mumbai ward health study</a>
     <h1>Ward dashboard</h1>
-    <p class="sub">Listed public facilities (MCGM layers, 2025) against Census 2011 population, with exploratory K-Means</p>
+    <p class="sub">Mumbai's listed public facilities against Census 2011 population, plus three cardiovascular risk models trained on an Indian clinical dataset</p>
+  </div>
+  <div class="top-links">
+    <a class="api-link pbi-link" href="#powerbi" data-go="powerbi">Power BI Dashboard</a>
+    <a class="api-link" href="/api/docs" target="_blank" rel="noopener">FastAPI docs ↗</a>
   </div>
   <nav class="tabs" role="tablist">
     <button role="tab" data-page="overview" aria-selected="true">Overview</button>
-    <button role="tab" data-page="wards" aria-selected="false">Ward analysis</button>
-    <button role="tab" data-page="clusters" aria-selected="false">ML clusters</button>
+    <button role="tab" data-page="predict" aria-selected="false">Heart risk predictor</button>
+    <button role="tab" data-page="powerbi" aria-selected="false">Power BI dashboard</button>
   </nav>
 </header>
 
@@ -31,103 +34,87 @@
 
   <!-- ===== Page 1: Overview ===== -->
   <section id="page-overview" class="page" hidden>
+    <div class="module-head"><span class="eyebrow">Module 1 · Cardiovascular risk models</span>
+      <span class="hint" id="ov-clin-src"></span></div>
+    <div class="model-strip" id="ov-models"><div class="card api-wait">Loading model results from the API…</div></div>
+    <div class="module-head"><span class="eyebrow">Module 2 · Mumbai healthcare infrastructure</span>
+      <span class="hint">Two separate analyses: the clinical data has no location and is never joined to wards.</span></div>
     <div class="kpis" id="kpis"></div>
     <div class="grid two">
       <article class="card">
-        <h2>Facility records by category</h2>
-        <p class="hint">Co-located services count once per category, so records (456) exceed distinct sites (402).</p>
-        <div class="chart" style="height:220px"><canvas id="chart-category"></canvas></div>
-        <h2 class="mt">What the data shows</h2>
+        <h2>What the data shows</h2>
         <ul class="obs" id="observations"></ul>
       </article>
       <article class="card">
+        <h2>Ward lookup</h2>
+        <p class="hint">Pick a ward for its population, sites, share gap and the facilities and hospitals listed in it.</p>
+        <label class="inline">Ward <select id="ward-pick"><option value="">Choose a ward</option></select></label>
+        <h2 class="mt">All charts are in Power BI</h2>
+        <p class="hint">Model comparison, patient data, the facility map, ward rankings and the data-cleaning audit
+          are in the five-page Power BI report.</p>
+        <button type="button" class="btn-run" data-go="powerbi">Open the Power BI dashboard</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Heart risk predictor ===== -->
+  <section id="page-predict" class="page" hidden>
+    <div class="note warn"><strong>Experimental, for education only.</strong> Three models trained on 1,000 patients from one
+      hospital in India (Doppala &amp; Bhattacharyya, 2021). Not clinically validated, not a screening or diagnostic tool,
+      and not specific to Mumbai. Agreement between models does not make a result certain.</div>
+    <div class="grid predict-grid">
+      <article class="card">
         <div class="card-head">
-          <h2>Facilities and sites per 100k by ward</h2>
-          <div class="toggles" id="map-toggles"></div>
+          <div><span class="eyebrow">Classification engines · LR · RF · ANN</span><h2>Patient inputs</h2></div>
+          <div class="presets"><span class="hint">Fill from a real test-set patient:</span>
+            <button type="button" class="chip-btn" data-preset="0">Without disease</button>
+            <button type="button" class="chip-btn" data-preset="1">With disease</button></div>
         </div>
-        <div id="map-overview" class="map"></div>
-        <p class="hint">Click a ward for details. Most coordinates are rounded to about 1 km, so points are approximate.</p>
+        <form id="predict-form" class="pform" method="post" action="/predict" novalidate></form>
+        <div class="form-actions">
+          <button type="submit" form="predict-form" class="btn-run" id="run-predict">Run all three models</button>
+          <button type="submit" form="predict-form" class="btn-ghost" id="run-server" formaction="/predict" formmethod="post">Submit as server form</button>
+        </div>
+        <p class="hint" id="preset-note"></p>
+        <p class="hint err-text" id="form-error" role="alert"></p>
+      </article>
+      <article class="card" aria-live="polite">
+        <span class="eyebrow">Live model assessment</span>
+        <div id="predict-result" class="presult"><div class="empty">Enter the values, or pick a preset, and run the models.
+          Each model returns the probability that this record belongs to the "heart disease" class.</div></div>
       </article>
     </div>
   </section>
 
-  <!-- ===== Page 2: Ward analysis ===== -->
-  <section id="page-wards" class="page" hidden>
-    <div class="filters">
-      <label>Category
-        <select id="f-category">
-          <option value="all">All facilities (distinct sites)</option>
-          <option value="dispensary">Dispensary</option>
-          <option value="uphc">UPHC</option>
-          <option value="public_hospital">Public hospital</option>
-          <option value="maternity_hospital">Maternity home</option>
-        </select>
-      </label>
-      <label>Cluster
-        <select id="f-cluster"><option value="all">All clusters</option></select>
-      </label>
-      <span class="hint" id="filter-note"></span>
+  <!-- ===== Power BI dashboard ===== -->
+  <section id="page-powerbi" class="page" hidden>
+    <div class="card-head pbi-head">
+      <div><span class="eyebrow">Power BI · five pages</span>
+        <h2>Home · Model performance · Patient data · Mumbai facilities · Insights</h2></div>
+      <a class="api-link" id="pbi-open" href="#" target="_blank" rel="noopener" hidden>Open in Power BI ↗</a>
     </div>
-    <div class="grid two">
-      <article class="card">
-        <h2 id="t-rate">Sites per 100,000 residents</h2>
-        <p class="hint">Dashed line = city-wide rate. Click a bar to open the ward.</p>
-        <div class="chart" id="wrap-rate"><canvas id="chart-rate"></canvas></div>
-      </article>
-      <article class="card">
-        <h2>Population share minus facility share</h2>
-        <p class="hint"><span class="sw red"></span> population share above facility share · <span class="sw blue"></span> below. A distribution indicator, not a measure of access.</p>
-        <div class="chart" id="wrap-gap"><canvas id="chart-gap"></canvas></div>
-      </article>
-      <article class="card">
-        <h2>Population vs. distinct sites</h2>
-        <p class="hint">Dashed line = city-wide rate; points below it have fewer sites than that rate implies. Colour = ML cluster: <span id="scatter-key"></span></p>
-        <div class="chart" style="height:380px"><canvas id="chart-scatter"></canvas></div>
-      </article>
-      <article class="card">
-        <h2>Residents per distinct site</h2>
-        <p class="hint">Undefined where a ward has no site in the selection.</p>
-        <div class="chart" id="wrap-pps"><canvas id="chart-pps"></canvas></div>
-      </article>
-    </div>
-    <article class="card">
-      <h2>Ward table</h2>
-      <div class="table-wrap"><table id="ward-table"></table></div>
+    <div id="pbi-frame" class="pbi-frame"></div>
+    <article class="card" id="pbi-setup" hidden>
+      <h2>Connect the published report</h2>
+      <ol class="steps">
+        <li>Open <code>powerbi/MumbaiHealth.pbip</code> in Power BI Desktop and click <b>Refresh</b>.</li>
+        <li>Click <b>Publish</b> and choose a workspace.</li>
+        <li>In the Power BI service, open the report and choose <b>File → Embed report → Publish to web (public)</b>.
+          Copy the link that starts with <code>https://app.powerbi.com/view?r=</code>.</li>
+        <li>Paste it into <code>dashboard/powerbi-config.js</code> as <code>embedUrl</code>, save, and reload this page.</li>
+      </ol>
+      <p class="hint">Full steps, including what to do if your organisation blocks Publish to web, are in
+        <a href="../powerbi/POWERBI_GUIDE.md" target="_blank" rel="noopener">powerbi/POWERBI_GUIDE.md</a>.</p>
     </article>
-  </section>
-
-  <!-- ===== Page 3: ML clusters ===== -->
-  <section id="page-clusters" class="page" hidden>
-    <div class="note">
-      <strong>Exploratory model.</strong> K-Means (K = 4) on 24 wards using four category rates per 100k
-      (log1p, standardized). Clusters describe how similar the listed-facility mix is across wards, not whether access is
-      adequate. Mean silhouette 0.316. Results change with the feature set; see the model card.
-    </div>
-    <div class="cluster-cards" id="cluster-cards"></div>
-    <div class="grid two">
-      <article class="card">
-        <h2>Ward-to-cluster map</h2>
-        <div id="map-clusters" class="map"></div>
-      </article>
-      <article class="card">
-        <h2>Cluster profiles</h2>
-        <p class="hint">Cluster mean in standard deviations from the 24-ward mean. Hover for original-scale rates.</p>
-        <div class="chart" style="height:340px"><canvas id="chart-profile"></canvas></div>
-      </article>
-      <article class="card">
-        <h2>Choosing K: inertia (elbow)</h2>
-        <div class="chart" style="height:240px"><canvas id="chart-inertia"></canvas></div>
-      </article>
-      <article class="card">
-        <h2>Choosing K: silhouette and subsample stability</h2>
-        <div class="chart" style="height:240px"><canvas id="chart-silhouette"></canvas></div>
-        <p class="hint">K = 2 scores highest but only separates A and E and is unstable when wards are resampled. K = 4 is a documented judgement call.</p>
-      </article>
-    </div>
-    <article class="card">
-      <h2>Ward assignments</h2>
-      <div class="table-wrap"><table id="cluster-table"></table></div>
-    </article>
+    <article class="card"><h2>Download the data behind the report</h2><ul class="downloads">
+      <li><a href="../data/processed/clinical/clinical_clean.csv" download>clinical_clean.csv</a> <span class="hint">1,000 patients after cleaning, with train/test split</span></li>
+      <li><a href="../data/processed/clinical/test_predictions.csv" download>test_predictions.csv</a> <span class="hint">actual vs predicted, three models</span></li>
+      <li><a href="../outputs/tables/clinical_cleaning_log.csv" download>clinical_cleaning_log.csv</a></li>
+      <li><a href="../data/processed/facility_master.csv" download>facility_master.csv</a> <span class="hint">456 facility records with quality flags</span></li>
+      <li><a href="../data/processed/ward_indicators.csv" download>ward_indicators.csv</a> <span class="hint">24 wards, counts and rates</span></li>
+      <li><a href="../data/processed/hospital_list_clean.csv" download>hospital_list_clean.csv</a> <span class="hint">288 hospitals, ownership and beds</span></li>
+      <li><a href="../data/processed/ward_boundaries.geojson" download>ward_boundaries.geojson</a></li>
+    </ul></article>
   </section>
 </main>
 
@@ -139,14 +126,15 @@
 <div id="scrim" class="scrim" hidden></div>
 
 <footer>
-  Sources: OpenCity / MCGM facility KMLs (Nov 2025) · OpenCity Mumbai Wards Map · Census of India 2011 (ward-wise).
+  Sources: OpenCity / MCGM facility KMLs (Nov 2025) · OpenCity Mumbai Wards Map · Census of India 2011 (ward-wise) ·
+  Doppala &amp; Bhattacharyya (2021), Cardiovascular_Disease_Dataset, Mendeley Data, doi:10.17632/dzz48mvjht.1.
   Data come from <code>run_pipeline.py</code> outputs; re-run it and refresh to update. <a href="../">About this project</a> ·
   <a href="../outputs/reports/final_report.pdf">Full report (PDF)</a>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="app.js?v=11"></script>
+<script src="powerbi-config.js?v=2"></script>
+<script src="app.js?v=10"></script>
+<script src="clinical.js?v=2"></script>
 </body>
 </html>

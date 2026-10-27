@@ -1,0 +1,54 @@
+table fact_ward_category
+	lineageTag: bcd3bf89-c757-5136-a35c-df13f1f5eb73
+
+	column ward_id
+		dataType: string
+		lineageTag: 2dbe1494-53f7-503a-a335-ae2539c0143a
+		summarizeBy: none
+		sourceColumn: ward_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 1a1f2901-b1ad-5b26-b172-f6b4dcf8893d
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column facility_records
+		dataType: int64
+		lineageTag: 0cdb760c-630e-5d0f-80bc-b84f8af37439
+		summarizeBy: none
+		sourceColumn: facility_records
+
+		annotation SummarizationSetBy = Automatic
+
+	column per_100k
+		dataType: double
+		lineageTag: 717fcbb5-ee03-5952-ab07-ed5f60b2e088
+		summarizeBy: none
+		sourceColumn: per_100k
+
+		annotation SummarizationSetBy = Automatic
+
+	column share_of_ward_sites_pct
+		dataType: double
+		lineageTag: a6e5cf56-41a2-5805-86af-2940bf80ae5c
+		summarizeBy: none
+		sourceColumn: share_of_ward_sites_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_ward_category = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_ward_category.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"ward_id", type text}, {"category", type text}, {"facility_records", Int64.Type}, {"per_100k", type number}, {"share_of_ward_sites_pct", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

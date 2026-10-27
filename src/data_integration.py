@@ -138,3 +138,30 @@ def reconcile_hospital_list(master):
                    csv_public_rows=len(pub), csv_wards=sorted(h["ward_id"].dropna().unique()),
                    csv_unmapped_wards=h.loc[h.ward_id.isna(), "csv_ward"].unique().tolist())
     return rec, kml_only, summary
+
+
+OWNERSHIP_CLASS = {"Municipal": "Public", "BMC": "Public", "Government": "Public", "Govt": "Public",
+                   "Defence": "Public", "Private": "Private", "Trust": "Trust"}
+
+
+def clean_hospital_list(rec):
+    """All 288 rows of the hospitals CSV, cleaned for display: ward, ownership class, beds (NaN when blank).
+
+    Ownership comes only from the CSV's own type column. Public rows carry the KML facility they were matched to
+    (from reconcile_hospital_list); private and trust rows have no coordinates, so they are listed, never mapped.
+    """
+    h = read_hospitals_csv()
+    h.columns = ["csv_ward", "csv_type", "csv_name", "csv_address", "csv_beds", "csv_contact"]
+    for c in h.columns:
+        h[c] = h[c].map(clean_text)
+    out = pd.DataFrame({
+        "csv_row": h.index + 2, "ward_id": h["csv_ward"].map(standardize_ward), "source_ward_value": h["csv_ward"],
+        "hospital_name": h["csv_name"], "address": h["csv_address"], "source_type": h["csv_type"],
+        "ownership_type": h["csv_type"].map(lambda t: PUBLIC_TYPES.get(t, t)),
+        "ownership_class": h["csv_type"].map(OWNERSHIP_CLASS).fillna("Unknown"),
+        "beds": pd.to_numeric(h["csv_beds"], errors="coerce").astype("Int64"),
+    })
+    m = rec.set_index("csv_row")
+    out["matched_facility_id"] = out["csv_row"].map(m["matched_facility_id"])
+    out["match_status"] = out["csv_row"].map(m["status"]).fillna("not_applicable_private_or_trust")
+    return out

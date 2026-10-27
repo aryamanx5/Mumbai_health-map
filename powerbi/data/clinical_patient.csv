@@ -1,0 +1,1001 @@
+patientid,split,age,age_band,age_band_order,sex,chest_pain,resting_bp,cholesterol,cholesterol_recorded,fasting_blood_sugar,resting_ecg,max_heart_rate,exercise_angina,st_depression,st_slope,major_vessels,target,outcome
+103368,Train,53,50-59,4,Male,Non-anginal pain,171,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,147,No,5.3,Downsloping,3,1,Heart disease
+119250,Train,40,40-49,3,Male,Typical angina,94,229.0,Recorded,120 mg/dl or less,ST-T wave abnormality,115,No,3.7,Upsloping,1,0,No heart disease
+119372,Test,49,40-49,3,Male,Non-anginal pain,133,142.0,Recorded,120 mg/dl or less,Normal,202,Yes,5.0,Upsloping,0,0,No heart disease
+132514,Train,43,40-49,3,Male,Typical angina,138,295.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,153,No,3.2,Flat,2,1,Heart disease
+146211,Train,31,30-39,2,Male,Atypical angina,199,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,136,No,5.3,Downsloping,2,1,Heart disease
+148462,Train,24,Under 30,1,Male,Atypical angina,173,,Not recorded (code 0),120 mg/dl or less,Normal,161,No,4.7,Downsloping,2,1,Heart disease
+168686,Train,79,70+,6,Male,Non-anginal pain,130,240.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,157,No,2.5,Flat,1,1,Heart disease
+170498,Train,52,50-59,4,Male,Typical angina,127,345.0,Recorded,120 mg/dl or less,Normal,192,Yes,4.9,Upsloping,0,0,No heart disease
+188225,Train,62,60-69,5,Male,Typical angina,121,357.0,Recorded,120 mg/dl or less,ST-T wave abnormality,138,No,2.8,Not recorded (code 0),0,0,No heart disease
+192523,Train,61,60-69,5,Female,Typical angina,190,181.0,Recorded,120 mg/dl or less,ST-T wave abnormality,150,No,2.9,Flat,0,1,Heart disease
+201030,Train,59,50-59,4,Female,Atypical angina,190,529.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,151,Yes,3.2,Flat,2,1,Heart disease
+208877,Train,58,50-59,4,Male,Non-anginal pain,192,409.0,Recorded,Over 120 mg/dl,Normal,138,No,2.3,Downsloping,1,1,Heart disease
+223295,Train,27,Under 30,1,Male,Typical angina,129,135.0,Recorded,120 mg/dl or less,ST-T wave abnormality,192,Yes,1.0,Not recorded (code 0),0,0,No heart disease
+226481,Train,59,50-59,4,Male,Typical angina,98,209.0,Recorded,120 mg/dl or less,Normal,117,Yes,5.6,Upsloping,0,0,No heart disease
+229445,Train,58,50-59,4,Male,Typical angina,170,354.0,Recorded,120 mg/dl or less,Normal,170,No,5.6,Upsloping,0,0,No heart disease
+235344,Train,32,30-39,2,Male,Non-anginal pain,188,,Not recorded (code 0),120 mg/dl or less,Normal,134,Yes,4.5,Flat,3,1,Heart disease
+236763,Train,42,40-49,3,Female,Asymptomatic,137,350.0,Recorded,120 mg/dl or less,ST-T wave abnormality,110,No,3.2,Flat,2,1,Heart disease
+240461,Train,65,60-69,5,Male,Typical angina,200,247.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,194,Yes,3.7,Upsloping,1,0,No heart disease
+247055,Train,59,50-59,4,Male,Non-anginal pain,182,177.0,Recorded,120 mg/dl or less,ST-T wave abnormality,168,No,2.1,Flat,1,1,Heart disease
+260870,Train,35,30-39,2,Male,Typical angina,127,269.0,Recorded,120 mg/dl or less,Normal,87,Yes,3.8,Not recorded (code 0),1,0,No heart disease
+266839,Test,39,30-39,2,Male,Asymptomatic,196,253.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,140,Yes,3.5,Flat,1,1,Heart disease
+322287,Test,72,70+,6,Male,Atypical angina,177,397.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,124,No,5.2,Downsloping,1,1,Heart disease
+327110,Train,24,Under 30,1,Female,Typical angina,136,164.0,Recorded,120 mg/dl or less,Normal,91,Yes,1.8,Upsloping,1,0,No heart disease
+335359,Train,59,50-59,4,Male,Non-anginal pain,156,223.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,184,Yes,2.4,Flat,2,1,Heart disease
+384606,Train,40,40-49,3,Male,Atypical angina,191,349.0,Recorded,Over 120 mg/dl,Normal,177,Yes,4.8,Flat,2,1,Heart disease
+390931,Train,71,70+,6,Male,Atypical angina,101,352.0,Recorded,120 mg/dl or less,ST-T wave abnormality,183,No,3.6,Not recorded (code 0),0,0,No heart disease
+390988,Train,46,40-49,3,Male,Typical angina,198,253.0,Recorded,120 mg/dl or less,Normal,199,Yes,2.1,Not recorded (code 0),0,0,No heart disease
+407924,Test,42,40-49,3,Male,Typical angina,157,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,196,No,4.2,Flat,2,1,Heart disease
+417218,Train,72,70+,6,Female,Non-anginal pain,126,478.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,119,Yes,2.9,Downsloping,2,1,Heart disease
+422067,Train,49,40-49,3,Female,Atypical angina,192,521.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,133,No,2.9,Flat,2,1,Heart disease
+448075,Train,23,Under 30,1,Female,Typical angina,97,175.0,Recorded,120 mg/dl or less,Normal,195,Yes,0.8,Not recorded (code 0),0,0,No heart disease
+463851,Test,20,Under 30,1,Male,Typical angina,199,248.0,Recorded,120 mg/dl or less,Normal,86,Yes,3.2,Not recorded (code 0),0,0,No heart disease
+478864,Test,78,70+,6,Female,Typical angina,186,404.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,195,Yes,2.7,Flat,3,1,Heart disease
+508126,Train,29,Under 30,1,Male,Typical angina,153,357.0,Recorded,120 mg/dl or less,ST-T wave abnormality,202,Yes,3.5,Not recorded (code 0),0,0,No heart disease
+509328,Train,35,30-39,2,Male,Non-anginal pain,164,86.0,Recorded,120 mg/dl or less,ST-T wave abnormality,151,No,0.9,Downsloping,3,1,Heart disease
+539147,Train,75,70+,6,Male,Typical angina,126,357.0,Recorded,120 mg/dl or less,Normal,127,Yes,5.5,Upsloping,1,0,No heart disease
+551769,Train,71,70+,6,Male,Atypical angina,189,231.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,149,No,1.4,Upsloping,2,1,Heart disease
+557682,Train,25,Under 30,1,Male,Typical angina,200,247.0,Recorded,Over 120 mg/dl,Normal,156,Yes,5.6,Flat,3,0,No heart disease
+558602,Train,32,30-39,2,Male,Atypical angina,99,248.0,Recorded,120 mg/dl or less,Normal,125,Yes,0.1,Not recorded (code 0),0,0,No heart disease
+571695,Train,48,40-49,3,Female,Typical angina,132,241.0,Recorded,120 mg/dl or less,ST-T wave abnormality,78,No,2.1,Upsloping,0,0,No heart disease
+572002,Train,27,Under 30,1,Male,Non-anginal pain,159,546.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,135,No,5.0,Downsloping,2,1,Heart disease
+579647,Test,53,50-59,4,Male,Non-anginal pain,123,326.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,185,No,4.3,Flat,2,1,Heart disease
+610164,Train,48,40-49,3,Male,Atypical angina,186,381.0,Recorded,Over 120 mg/dl,Normal,177,Yes,0.1,Upsloping,2,1,Heart disease
+611832,Train,71,70+,6,Male,Non-anginal pain,136,417.0,Recorded,120 mg/dl or less,ST-T wave abnormality,191,Yes,3.3,Downsloping,2,1,Heart disease
+613907,Train,37,30-39,2,Female,Non-anginal pain,198,472.0,Recorded,120 mg/dl or less,Normal,184,No,2.9,Flat,0,1,Heart disease
+630022,Train,66,60-69,5,Male,Non-anginal pain,135,252.0,Recorded,120 mg/dl or less,Normal,83,No,3.4,Upsloping,0,0,No heart disease
+631691,Test,22,Under 30,1,Male,Typical angina,126,296.0,Recorded,120 mg/dl or less,ST-T wave abnormality,175,No,4.3,Upsloping,1,0,No heart disease
+640397,Test,49,40-49,3,Male,Typical angina,193,296.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,108,Yes,5.6,Upsloping,0,0,No heart disease
+643880,Train,26,Under 30,1,Male,Typical angina,124,249.0,Recorded,120 mg/dl or less,Normal,140,No,2.1,Not recorded (code 0),1,0,No heart disease
+654438,Train,51,50-59,4,Male,Typical angina,127,325.0,Recorded,120 mg/dl or less,ST-T wave abnormality,118,Yes,4.1,Not recorded (code 0),1,0,No heart disease
+669013,Train,77,70+,6,Male,Atypical angina,125,135.0,Recorded,120 mg/dl or less,Normal,100,No,1.8,Not recorded (code 0),1,0,No heart disease
+675094,Train,43,40-49,3,Male,Atypical angina,178,389.0,Recorded,120 mg/dl or less,ST-T wave abnormality,137,No,5.7,Downsloping,3,1,Heart disease
+681464,Train,28,Under 30,1,Male,Non-anginal pain,139,536.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,181,Yes,5.3,Flat,2,1,Heart disease
+690148,Train,20,Under 30,1,Male,Non-anginal pain,189,231.0,Recorded,120 mg/dl or less,Normal,114,Yes,2.4,Downsloping,1,1,Heart disease
+691506,Train,54,50-59,4,Male,Non-anginal pain,170,248.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,140,Yes,2.3,Upsloping,2,1,Heart disease
+701164,Train,79,70+,6,Female,Typical angina,186,211.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,97,Yes,1.7,Flat,2,1,Heart disease
+715422,Train,41,40-49,3,Male,Non-anginal pain,128,199.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,176,Yes,0.3,Flat,1,1,Heart disease
+719330,Train,72,70+,6,Male,Non-anginal pain,144,322.0,Recorded,Over 120 mg/dl,Normal,142,No,0.8,Upsloping,2,1,Heart disease
+721772,Train,63,60-69,5,Male,Non-anginal pain,161,208.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,126,No,4.9,Flat,1,1,Heart disease
+727010,Train,28,Under 30,1,Male,Typical angina,142,138.0,Recorded,120 mg/dl or less,Normal,105,No,0.7,Not recorded (code 0),0,0,No heart disease
+732108,Test,73,70+,6,Male,Non-anginal pain,183,431.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,111,No,2.5,Downsloping,3,1,Heart disease
+732479,Test,77,70+,6,Male,Atypical angina,196,491.0,Recorded,120 mg/dl or less,ST-T wave abnormality,154,No,2.2,Downsloping,2,1,Heart disease
+734984,Train,68,60-69,5,Female,Typical angina,140,244.0,Recorded,120 mg/dl or less,ST-T wave abnormality,90,Yes,0.1,Upsloping,0,0,No heart disease
+765974,Train,34,30-39,2,Male,Typical angina,137,199.0,Recorded,120 mg/dl or less,Normal,113,Yes,5.1,Upsloping,1,0,No heart disease
+766664,Test,77,70+,6,Female,Asymptomatic,136,359.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,167,No,2.6,Flat,0,1,Heart disease
+775783,Train,38,30-39,2,Male,Typical angina,151,193.0,Recorded,120 mg/dl or less,ST-T wave abnormality,198,No,1.4,Downsloping,2,1,Heart disease
+783103,Train,79,70+,6,Male,Asymptomatic,200,264.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,167,No,1.1,Downsloping,2,1,Heart disease
+786422,Train,73,70+,6,Male,Typical angina,143,351.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,174,Yes,1.8,Flat,3,1,Heart disease
+804105,Train,61,60-69,5,Male,Non-anginal pain,132,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,172,No,1.1,Downsloping,3,1,Heart disease
+830923,Train,55,50-59,4,Male,Typical angina,111,357.0,Recorded,120 mg/dl or less,Normal,89,Yes,3.6,Not recorded (code 0),0,0,No heart disease
+834829,Train,78,70+,6,Male,Non-anginal pain,172,309.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,173,No,6.0,Flat,1,1,Heart disease
+849997,Test,77,70+,6,Female,Atypical angina,195,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,129,Yes,1.2,Flat,1,1,Heart disease
+873773,Train,73,70+,6,Male,Non-anginal pain,150,176.0,Recorded,120 mg/dl or less,ST-T wave abnormality,165,No,0.2,Flat,2,1,Heart disease
+877884,Train,41,40-49,3,Female,Typical angina,141,410.0,Recorded,120 mg/dl or less,ST-T wave abnormality,124,No,1.9,Upsloping,0,0,No heart disease
+878073,Train,69,60-69,5,Male,Non-anginal pain,153,328.0,Recorded,120 mg/dl or less,ST-T wave abnormality,125,No,5.9,Flat,1,1,Heart disease
+884171,Train,21,Under 30,1,Male,Atypical angina,191,504.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,194,Yes,6.1,Flat,1,1,Heart disease
+891449,Test,57,50-59,4,Male,Atypical angina,189,561.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,116,Yes,4.9,Flat,1,1,Heart disease
+903209,Train,68,60-69,5,Male,Typical angina,137,345.0,Recorded,120 mg/dl or less,ST-T wave abnormality,160,No,3.5,Upsloping,0,0,No heart disease
+914670,Train,63,60-69,5,Female,Non-anginal pain,131,87.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,198,Yes,1.9,Downsloping,0,1,Heart disease
+927975,Train,51,50-59,4,Male,Non-anginal pain,170,177.0,Recorded,120 mg/dl or less,ST-T wave abnormality,155,Yes,5.0,Downsloping,2,1,Heart disease
+946107,Train,41,40-49,3,Female,Typical angina,126,433.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,171,Yes,2.1,Upsloping,0,0,No heart disease
+985463,Train,37,30-39,2,Male,Typical angina,145,257.0,Recorded,Over 120 mg/dl,Normal,126,No,4.7,Upsloping,3,0,No heart disease
+989394,Train,37,30-39,2,Male,Atypical angina,111,345.0,Recorded,120 mg/dl or less,ST-T wave abnormality,195,No,0.0,Not recorded (code 0),0,0,No heart disease
+990245,Train,73,70+,6,Male,Non-anginal pain,126,508.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,185,Yes,5.6,Downsloping,2,1,Heart disease
+1003182,Test,55,50-59,4,Male,Typical angina,99,132.0,Recorded,120 mg/dl or less,Normal,102,No,4.1,Not recorded (code 0),0,0,No heart disease
+1007759,Train,61,60-69,5,Male,Asymptomatic,199,316.0,Recorded,Over 120 mg/dl,Normal,115,No,1.2,Upsloping,2,1,Heart disease
+1012510,Train,60,60-69,5,Male,Non-anginal pain,147,392.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,164,Yes,0.3,Downsloping,2,1,Heart disease
+1017100,Train,23,Under 30,1,Male,Asymptomatic,143,221.0,Recorded,120 mg/dl or less,Normal,152,Yes,2.0,Not recorded (code 0),0,0,No heart disease
+1021093,Train,22,Under 30,1,Male,Typical angina,143,481.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,173,Yes,1.7,Flat,1,1,Heart disease
+1025078,Train,43,40-49,3,Female,Typical angina,189,261.0,Recorded,120 mg/dl or less,ST-T wave abnormality,99,No,0.9,Upsloping,0,1,Heart disease
+1030596,Train,74,70+,6,Male,Asymptomatic,143,299.0,Recorded,120 mg/dl or less,Normal,161,Yes,0.7,Not recorded (code 0),1,0,No heart disease
+1044234,Train,44,40-49,3,Male,Atypical angina,169,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,174,Yes,6.0,Flat,1,1,Heart disease
+1056688,Train,43,40-49,3,Female,Atypical angina,186,236.0,Recorded,120 mg/dl or less,ST-T wave abnormality,79,Yes,1.5,Not recorded (code 0),2,0,No heart disease
+1065902,Train,36,30-39,2,Male,Typical angina,155,336.0,Recorded,120 mg/dl or less,Normal,169,Yes,2.7,Downsloping,3,1,Heart disease
+1084725,Train,34,30-39,2,Male,Non-anginal pain,172,551.0,Recorded,Over 120 mg/dl,Normal,198,Yes,1.0,Flat,3,1,Heart disease
+1084906,Test,43,40-49,3,Female,Typical angina,190,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,101,Yes,0.4,Flat,1,1,Heart disease
+1090987,Train,61,60-69,5,Male,Typical angina,151,305.0,Recorded,120 mg/dl or less,ST-T wave abnormality,191,Yes,3.1,Downsloping,1,1,Heart disease
+1092569,Train,26,Under 30,1,Male,Non-anginal pain,97,502.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,141,Yes,3.5,Flat,2,1,Heart disease
+1095808,Train,77,70+,6,Male,Typical angina,111,133.0,Recorded,120 mg/dl or less,Normal,202,No,3.6,Not recorded (code 0),0,0,No heart disease
+1098402,Train,42,40-49,3,Male,Atypical angina,195,390.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,162,Yes,4.7,Downsloping,1,1,Heart disease
+1124323,Test,21,Under 30,1,Male,Atypical angina,180,467.0,Recorded,120 mg/dl or less,Normal,114,No,0.1,Upsloping,0,1,Heart disease
+1132998,Train,35,30-39,2,Female,Typical angina,104,213.0,Recorded,120 mg/dl or less,Normal,167,Yes,2.6,Upsloping,1,0,No heart disease
+1160678,Train,80,70+,6,Male,Atypical angina,130,342.0,Recorded,120 mg/dl or less,Normal,176,Yes,2.5,Not recorded (code 0),0,0,No heart disease
+1170542,Train,31,30-39,2,Female,Typical angina,190,249.0,Recorded,120 mg/dl or less,ST-T wave abnormality,196,Yes,3.2,Downsloping,1,1,Heart disease
+1175699,Train,27,Under 30,1,Male,Non-anginal pain,184,368.0,Recorded,Over 120 mg/dl,Normal,136,No,3.3,Downsloping,1,1,Heart disease
+1203212,Train,73,70+,6,Male,Typical angina,100,354.0,Recorded,120 mg/dl or less,ST-T wave abnormality,165,No,0.4,Not recorded (code 0),0,0,No heart disease
+1204908,Train,70,70+,6,Male,Typical angina,155,203.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,111,No,4.4,Flat,3,1,Heart disease
+1210253,Train,30,30-39,2,Male,Typical angina,153,268.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,87,Yes,3.8,Upsloping,1,0,No heart disease
+1220488,Train,48,40-49,3,Male,Non-anginal pain,135,286.0,Recorded,Over 120 mg/dl,Normal,194,No,3.9,Downsloping,2,1,Heart disease
+1221099,Train,23,Under 30,1,Male,Non-anginal pain,180,222.0,Recorded,120 mg/dl or less,Normal,201,Yes,2.3,Upsloping,1,1,Heart disease
+1224931,Train,33,30-39,2,Female,Atypical angina,191,363.0,Recorded,120 mg/dl or less,Normal,167,Yes,1.9,Flat,1,1,Heart disease
+1225852,Test,76,70+,6,Male,Typical angina,125,146.0,Recorded,120 mg/dl or less,ST-T wave abnormality,166,No,4.4,Upsloping,0,0,No heart disease
+1226161,Test,31,30-39,2,Male,Typical angina,138,86.0,Recorded,120 mg/dl or less,Normal,145,Yes,0.8,Flat,1,1,Heart disease
+1226373,Train,24,Under 30,1,Male,Typical angina,123,257.0,Recorded,Over 120 mg/dl,Normal,136,No,3.5,Not recorded (code 0),0,0,No heart disease
+1266807,Train,76,70+,6,Female,Typical angina,135,464.0,Recorded,120 mg/dl or less,Normal,90,No,0.8,Upsloping,2,0,No heart disease
+1267468,Train,67,60-69,5,Male,Typical angina,158,325.0,Recorded,120 mg/dl or less,Normal,120,No,2.8,Upsloping,0,0,No heart disease
+1271529,Train,45,40-49,3,Male,Typical angina,160,475.0,Recorded,120 mg/dl or less,ST-T wave abnormality,163,No,5.0,Flat,1,1,Heart disease
+1281255,Train,73,70+,6,Male,Typical angina,123,296.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,172,No,0.4,Not recorded (code 0),1,0,No heart disease
+1281446,Train,30,30-39,2,Female,Non-anginal pain,95,,Not recorded (code 0),120 mg/dl or less,Normal,112,No,2.6,Downsloping,3,1,Heart disease
+1281790,Train,35,30-39,2,Male,Non-anginal pain,167,230.0,Recorded,Over 120 mg/dl,Normal,117,Yes,3.2,Downsloping,2,1,Heart disease
+1285008,Train,46,40-49,3,Male,Atypical angina,170,416.0,Recorded,Over 120 mg/dl,Normal,130,Yes,4.5,Flat,2,1,Heart disease
+1285118,Test,52,50-59,4,Male,Atypical angina,100,336.0,Recorded,120 mg/dl or less,Normal,80,Yes,4.9,Upsloping,3,0,No heart disease
+1304651,Test,21,Under 30,1,Male,Typical angina,126,268.0,Recorded,120 mg/dl or less,Normal,97,Yes,1.3,Upsloping,0,0,No heart disease
+1339562,Test,76,70+,6,Female,Atypical angina,155,433.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,195,Yes,1.7,Not recorded (code 0),0,0,No heart disease
+1350601,Train,70,70+,6,Male,Typical angina,130,353.0,Recorded,120 mg/dl or less,ST-T wave abnormality,189,No,5.5,Not recorded (code 0),0,0,No heart disease
+1353605,Test,76,70+,6,Male,Typical angina,97,269.0,Recorded,120 mg/dl or less,Normal,134,Yes,5.4,Not recorded (code 0),1,0,No heart disease
+1356984,Train,69,60-69,5,Male,Typical angina,154,248.0,Recorded,Over 120 mg/dl,Normal,105,No,2.1,Downsloping,2,1,Heart disease
+1363803,Test,67,60-69,5,Male,Atypical angina,127,139.0,Recorded,120 mg/dl or less,Normal,86,Yes,3.6,Upsloping,0,0,No heart disease
+1386321,Test,60,60-69,5,Female,Atypical angina,197,495.0,Recorded,120 mg/dl or less,ST-T wave abnormality,97,Yes,1.6,Flat,0,1,Heart disease
+1394902,Test,66,60-69,5,Male,Non-anginal pain,131,457.0,Recorded,120 mg/dl or less,ST-T wave abnormality,168,No,4.8,Flat,1,1,Heart disease
+1398714,Test,75,70+,6,Male,Typical angina,198,137.0,Recorded,120 mg/dl or less,Normal,98,Yes,2.8,Not recorded (code 0),0,0,No heart disease
+1399042,Train,44,40-49,3,Male,Atypical angina,100,132.0,Recorded,120 mg/dl or less,Normal,128,No,2.2,Upsloping,0,0,No heart disease
+1403456,Train,73,70+,6,Male,Non-anginal pain,159,212.0,Recorded,120 mg/dl or less,ST-T wave abnormality,190,No,2.9,Flat,3,1,Heart disease
+1409780,Train,65,60-69,5,Male,Non-anginal pain,137,517.0,Recorded,120 mg/dl or less,Normal,113,Yes,0.7,Upsloping,2,1,Heart disease
+1415717,Train,67,60-69,5,Male,Typical angina,147,554.0,Recorded,120 mg/dl or less,Normal,139,Yes,0.6,Flat,3,1,Heart disease
+1424588,Train,32,30-39,2,Male,Typical angina,126,306.0,Recorded,120 mg/dl or less,Normal,150,No,2.2,Not recorded (code 0),0,0,No heart disease
+1455826,Train,42,40-49,3,Male,Atypical angina,175,287.0,Recorded,120 mg/dl or less,ST-T wave abnormality,186,Yes,0.8,Downsloping,3,1,Heart disease
+1471886,Train,46,40-49,3,Male,Non-anginal pain,177,537.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,147,No,4.5,Flat,1,1,Heart disease
+1472578,Train,23,Under 30,1,Male,Typical angina,136,357.0,Recorded,120 mg/dl or less,ST-T wave abnormality,134,Yes,5.1,Not recorded (code 0),0,0,No heart disease
+1485498,Test,25,Under 30,1,Male,Typical angina,158,336.0,Recorded,120 mg/dl or less,ST-T wave abnormality,85,Yes,2.0,Upsloping,2,0,No heart disease
+1493379,Train,43,40-49,3,Male,Typical angina,152,,Not recorded (code 0),120 mg/dl or less,Normal,154,Yes,0.8,Upsloping,0,1,Heart disease
+1506832,Train,66,60-69,5,Male,Typical angina,198,248.0,Recorded,120 mg/dl or less,Normal,73,Yes,1.5,Not recorded (code 0),0,0,No heart disease
+1507043,Train,28,Under 30,1,Male,Atypical angina,175,552.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,159,No,0.6,Upsloping,2,1,Heart disease
+1508993,Train,71,70+,6,Male,Typical angina,122,318.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,156,Yes,0.8,Not recorded (code 0),0,0,No heart disease
+1509256,Test,29,Under 30,1,Female,Atypical angina,191,499.0,Recorded,Over 120 mg/dl,Normal,186,No,1.8,Downsloping,0,1,Heart disease
+1511129,Train,27,Under 30,1,Male,Non-anginal pain,155,478.0,Recorded,120 mg/dl or less,Normal,132,No,4.4,Flat,1,1,Heart disease
+1519340,Test,62,60-69,5,Male,Typical angina,159,269.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,185,Yes,3.9,Flat,2,1,Heart disease
+1524353,Train,37,30-39,2,Female,Non-anginal pain,124,310.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,160,Yes,0.2,Flat,0,1,Heart disease
+1527468,Train,36,30-39,2,Female,Non-anginal pain,104,403.0,Recorded,120 mg/dl or less,Normal,98,Yes,1.9,Flat,2,1,Heart disease
+1585190,Train,51,50-59,4,Male,Non-anginal pain,133,357.0,Recorded,120 mg/dl or less,Normal,113,No,5.5,Upsloping,0,0,No heart disease
+1593079,Train,32,30-39,2,Male,Non-anginal pain,161,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,139,Yes,2.1,Upsloping,2,1,Heart disease
+1597380,Test,32,30-39,2,Male,Non-anginal pain,163,239.0,Recorded,Over 120 mg/dl,Normal,164,Yes,0.7,Downsloping,3,1,Heart disease
+1604440,Train,20,Under 30,1,Male,Atypical angina,163,,Not recorded (code 0),120 mg/dl or less,Normal,147,Yes,5.5,Downsloping,3,1,Heart disease
+1605778,Train,44,40-49,3,Male,Atypical angina,132,330.0,Recorded,120 mg/dl or less,ST-T wave abnormality,194,Yes,4.3,Upsloping,0,0,No heart disease
+1607842,Train,72,70+,6,Male,Non-anginal pain,174,502.0,Recorded,120 mg/dl or less,ST-T wave abnormality,124,Yes,4.3,Flat,1,1,Heart disease
+1610423,Train,66,60-69,5,Male,Atypical angina,108,278.0,Recorded,120 mg/dl or less,Normal,168,No,4.9,Upsloping,0,0,No heart disease
+1614835,Train,63,60-69,5,Male,Typical angina,146,181.0,Recorded,120 mg/dl or less,Normal,169,No,1.0,Flat,1,1,Heart disease
+1627834,Test,60,60-69,5,Male,Non-anginal pain,152,327.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,147,Yes,2.4,Downsloping,3,1,Heart disease
+1639206,Train,45,40-49,3,Male,Typical angina,143,142.0,Recorded,120 mg/dl or less,Normal,72,Yes,1.4,Not recorded (code 0),1,0,No heart disease
+1645412,Train,65,60-69,5,Male,Atypical angina,176,385.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,186,No,2.8,Flat,1,1,Heart disease
+1647479,Train,66,60-69,5,Female,Typical angina,143,209.0,Recorded,120 mg/dl or less,ST-T wave abnormality,103,Yes,1.8,Upsloping,0,0,No heart disease
+1660826,Test,73,70+,6,Male,Non-anginal pain,158,333.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,106,Yes,5.3,Downsloping,2,1,Heart disease
+1665169,Train,22,Under 30,1,Female,Non-anginal pain,132,413.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,145,No,1.9,Downsloping,0,1,Heart disease
+1666741,Train,20,Under 30,1,Female,Typical angina,189,545.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,116,Yes,3.2,Flat,3,1,Heart disease
+1670819,Test,41,40-49,3,Male,Asymptomatic,194,390.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,198,No,5.0,Flat,3,1,Heart disease
+1676337,Train,73,70+,6,Male,Typical angina,121,318.0,Recorded,120 mg/dl or less,ST-T wave abnormality,90,Yes,1.6,Not recorded (code 0),0,0,No heart disease
+1702421,Train,28,Under 30,1,Female,Typical angina,140,166.0,Recorded,120 mg/dl or less,ST-T wave abnormality,132,No,0.4,Upsloping,1,0,No heart disease
+1714963,Test,39,30-39,2,Male,Non-anginal pain,186,540.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,138,No,2.5,Flat,2,1,Heart disease
+1724377,Train,57,50-59,4,Male,Non-anginal pain,190,445.0,Recorded,120 mg/dl or less,ST-T wave abnormality,181,No,2.2,Flat,1,1,Heart disease
+1725239,Train,60,60-69,5,Female,Non-anginal pain,195,225.0,Recorded,120 mg/dl or less,ST-T wave abnormality,192,Yes,0.3,Upsloping,2,0,No heart disease
+1725642,Train,28,Under 30,1,Female,Asymptomatic,137,552.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,174,Yes,0.9,Downsloping,1,1,Heart disease
+1731904,Train,57,50-59,4,Male,Typical angina,125,354.0,Recorded,120 mg/dl or less,Normal,131,Yes,2.1,Upsloping,0,0,No heart disease
+1735652,Train,58,50-59,4,Female,Non-anginal pain,200,239.0,Recorded,120 mg/dl or less,Normal,138,Yes,1.6,Flat,2,1,Heart disease
+1740778,Train,32,30-39,2,Male,Non-anginal pain,135,248.0,Recorded,120 mg/dl or less,Normal,107,Yes,3.9,Upsloping,0,0,No heart disease
+1764503,Train,64,60-69,5,Male,Non-anginal pain,157,179.0,Recorded,120 mg/dl or less,ST-T wave abnormality,186,No,4.7,Flat,1,1,Heart disease
+1765496,Train,23,Under 30,1,Male,Non-anginal pain,184,418.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,201,Yes,4.5,Flat,3,1,Heart disease
+1767879,Train,36,30-39,2,Male,Non-anginal pain,170,498.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,173,No,5.9,Downsloping,3,1,Heart disease
+1780544,Train,80,70+,6,Male,Non-anginal pain,126,427.0,Recorded,Over 120 mg/dl,Normal,145,No,4.1,Flat,2,1,Heart disease
+1783664,Test,59,50-59,4,Female,Typical angina,137,378.0,Recorded,120 mg/dl or less,ST-T wave abnormality,120,No,1.9,Upsloping,1,0,No heart disease
+1806163,Train,68,60-69,5,Female,Non-anginal pain,133,307.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,151,Yes,2.6,Flat,0,1,Heart disease
+1825101,Train,73,70+,6,Male,Typical angina,122,212.0,Recorded,120 mg/dl or less,ST-T wave abnormality,186,No,0.2,Not recorded (code 0),0,0,No heart disease
+1833067,Train,77,70+,6,Male,Non-anginal pain,187,398.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,182,No,4.0,Downsloping,1,1,Heart disease
+1853628,Train,63,60-69,5,Male,Atypical angina,173,412.0,Recorded,Over 120 mg/dl,Normal,151,No,4.3,Flat,3,1,Heart disease
+1868113,Train,43,40-49,3,Female,Typical angina,185,534.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,108,No,3.2,Flat,0,1,Heart disease
+1872361,Train,32,30-39,2,Male,Atypical angina,132,281.0,Recorded,120 mg/dl or less,Normal,83,No,5.4,Upsloping,1,0,No heart disease
+1873272,Train,79,70+,6,Female,Non-anginal pain,193,428.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,168,No,2.4,Flat,0,0,No heart disease
+1889122,Train,20,Under 30,1,Male,Typical angina,156,354.0,Recorded,120 mg/dl or less,Normal,197,Yes,2.1,Downsloping,1,1,Heart disease
+1891230,Train,33,30-39,2,Male,Typical angina,152,372.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,151,Yes,0.6,Upsloping,2,1,Heart disease
+1896631,Train,59,50-59,4,Female,Atypical angina,195,300.0,Recorded,Over 120 mg/dl,Normal,190,No,2.7,Flat,3,1,Heart disease
+1900749,Test,66,60-69,5,Male,Non-anginal pain,178,442.0,Recorded,120 mg/dl or less,Normal,184,Yes,5.9,Downsloping,3,1,Heart disease
+1921320,Train,72,70+,6,Male,Non-anginal pain,180,547.0,Recorded,Over 120 mg/dl,Normal,146,No,5.2,Flat,1,1,Heart disease
+1930416,Train,62,60-69,5,Male,Asymptomatic,198,239.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,188,No,1.5,Downsloping,2,1,Heart disease
+1932417,Test,30,30-39,2,Male,Atypical angina,193,602.0,Recorded,120 mg/dl or less,ST-T wave abnormality,140,No,0.7,Flat,1,1,Heart disease
+1943334,Train,37,30-39,2,Male,Atypical angina,105,132.0,Recorded,120 mg/dl or less,Normal,164,No,5.8,Flat,1,0,No heart disease
+1971606,Train,62,60-69,5,Male,Typical angina,125,264.0,Recorded,120 mg/dl or less,Normal,92,No,2.2,Not recorded (code 0),0,0,No heart disease
+1975294,Train,23,Under 30,1,Male,Non-anginal pain,140,337.0,Recorded,120 mg/dl or less,ST-T wave abnormality,105,Yes,0.9,Upsloping,1,0,No heart disease
+2013933,Train,71,70+,6,Male,Typical angina,160,501.0,Recorded,120 mg/dl or less,Normal,193,No,0.8,Flat,3,1,Heart disease
+2014195,Train,55,50-59,4,Male,Non-anginal pain,174,503.0,Recorded,120 mg/dl or less,Normal,147,Yes,2.2,Upsloping,1,1,Heart disease
+2015060,Train,33,30-39,2,Male,Non-anginal pain,150,279.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,156,Yes,3.4,Downsloping,1,1,Heart disease
+2025910,Train,53,50-59,4,Male,Non-anginal pain,167,373.0,Recorded,120 mg/dl or less,ST-T wave abnormality,145,No,2.2,Downsloping,1,1,Heart disease
+2049957,Train,71,70+,6,Male,Non-anginal pain,174,253.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,141,No,2.4,Upsloping,1,1,Heart disease
+2051366,Train,38,30-39,2,Male,Non-anginal pain,121,271.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,176,Yes,2.7,Downsloping,3,1,Heart disease
+2060446,Train,20,Under 30,1,Female,Typical angina,186,359.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,196,No,2.7,Downsloping,2,1,Heart disease
+2061183,Train,74,70+,6,Male,Non-anginal pain,183,466.0,Recorded,120 mg/dl or less,ST-T wave abnormality,120,No,2.8,Flat,1,1,Heart disease
+2070986,Train,40,40-49,3,Female,Typical angina,139,165.0,Recorded,120 mg/dl or less,ST-T wave abnormality,116,Yes,1.5,Upsloping,2,0,No heart disease
+2080399,Train,34,30-39,2,Male,Non-anginal pain,94,254.0,Recorded,120 mg/dl or less,ST-T wave abnormality,196,Yes,3.7,Flat,2,1,Heart disease
+2090417,Train,27,Under 30,1,Male,Typical angina,160,513.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,172,Yes,3.3,Downsloping,3,1,Heart disease
+2098444,Train,51,50-59,4,Male,Non-anginal pain,187,415.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,176,No,0.8,Downsloping,3,1,Heart disease
+2104974,Train,36,30-39,2,Male,Non-anginal pain,135,342.0,Recorded,120 mg/dl or less,ST-T wave abnormality,187,No,0.9,Upsloping,2,0,No heart disease
+2109351,Train,55,50-59,4,Male,Atypical angina,189,196.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,140,No,1.5,Upsloping,2,1,Heart disease
+2109987,Test,30,30-39,2,Male,Typical angina,195,268.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,195,Yes,1.4,Not recorded (code 0),0,0,No heart disease
+2114615,Train,25,Under 30,1,Male,Typical angina,155,87.0,Recorded,120 mg/dl or less,Normal,148,No,4.4,Flat,1,1,Heart disease
+2116332,Train,40,40-49,3,Male,Atypical angina,190,476.0,Recorded,120 mg/dl or less,Normal,160,No,2.4,Flat,2,1,Heart disease
+2136992,Train,66,60-69,5,Male,Typical angina,138,137.0,Recorded,120 mg/dl or less,Normal,155,Yes,2.4,Upsloping,0,0,No heart disease
+2141002,Train,31,30-39,2,Male,Non-anginal pain,166,393.0,Recorded,120 mg/dl or less,ST-T wave abnormality,131,No,4.7,Flat,1,1,Heart disease
+2167793,Train,71,70+,6,Male,Non-anginal pain,190,439.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,113,No,2.4,Flat,2,1,Heart disease
+2188074,Train,28,Under 30,1,Female,Typical angina,184,321.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,97,Yes,2.7,Downsloping,2,1,Heart disease
+2196659,Train,68,60-69,5,Female,Typical angina,131,465.0,Recorded,120 mg/dl or less,Normal,183,No,0.0,Not recorded (code 0),0,0,No heart disease
+2198377,Train,62,60-69,5,Male,Typical angina,129,325.0,Recorded,120 mg/dl or less,Normal,76,No,3.5,Not recorded (code 0),0,0,No heart disease
+2204893,Train,21,Under 30,1,Male,Typical angina,126,139.0,Recorded,120 mg/dl or less,Normal,150,Yes,1.4,Not recorded (code 0),1,0,No heart disease
+2206421,Train,30,30-39,2,Female,Atypical angina,172,204.0,Recorded,120 mg/dl or less,ST-T wave abnormality,136,No,1.0,Upsloping,1,0,No heart disease
+2245558,Train,63,60-69,5,Male,Atypical angina,181,86.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,146,No,5.3,Flat,2,1,Heart disease
+2246544,Train,31,30-39,2,Male,Typical angina,198,354.0,Recorded,120 mg/dl or less,Normal,173,Yes,1.2,Not recorded (code 0),1,0,No heart disease
+2256210,Train,37,30-39,2,Male,Atypical angina,170,378.0,Recorded,120 mg/dl or less,ST-T wave abnormality,145,Yes,4.2,Flat,2,1,Heart disease
+2260532,Test,31,30-39,2,Male,Atypical angina,105,142.0,Recorded,120 mg/dl or less,Normal,101,No,0.5,Upsloping,1,0,No heart disease
+2283852,Train,61,60-69,5,Female,Typical angina,184,407.0,Recorded,Over 120 mg/dl,Normal,145,Yes,1.2,Upsloping,1,1,Heart disease
+2289299,Train,55,50-59,4,Male,Typical angina,154,545.0,Recorded,120 mg/dl or less,ST-T wave abnormality,135,No,5.8,Flat,1,1,Heart disease
+2297967,Test,74,70+,6,Male,Typical angina,129,257.0,Recorded,120 mg/dl or less,Normal,156,Yes,0.6,Not recorded (code 0),1,0,No heart disease
+2300065,Train,20,Under 30,1,Male,Typical angina,132,345.0,Recorded,120 mg/dl or less,Normal,74,No,2.4,Not recorded (code 0),1,0,No heart disease
+2301297,Train,20,Under 30,1,Female,Typical angina,183,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,175,Yes,1.3,Downsloping,2,1,Heart disease
+2302709,Train,36,30-39,2,Female,Typical angina,139,397.0,Recorded,120 mg/dl or less,Normal,167,Yes,1.4,Upsloping,3,0,No heart disease
+2320467,Test,55,50-59,4,Male,Non-anginal pain,142,325.0,Recorded,120 mg/dl or less,Normal,196,Yes,0.2,Not recorded (code 0),1,0,No heart disease
+2327071,Train,69,60-69,5,Female,Typical angina,133,461.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,109,No,2.4,Upsloping,1,0,No heart disease
+2342132,Train,22,Under 30,1,Female,Typical angina,139,396.0,Recorded,120 mg/dl or less,Normal,194,Yes,0.3,Upsloping,2,0,No heart disease
+2356338,Train,20,Under 30,1,Male,Typical angina,140,498.0,Recorded,120 mg/dl or less,Normal,137,Yes,0.2,Downsloping,2,1,Heart disease
+2373860,Train,78,70+,6,Female,Non-anginal pain,104,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,137,Yes,1.9,Flat,2,1,Heart disease
+2383390,Train,69,60-69,5,Male,Typical angina,126,302.0,Recorded,120 mg/dl or less,ST-T wave abnormality,99,No,1.2,Not recorded (code 0),1,0,No heart disease
+2399026,Train,60,60-69,5,Female,Typical angina,131,164.0,Recorded,120 mg/dl or less,Normal,86,Yes,2.3,Upsloping,2,0,No heart disease
+2406000,Train,49,40-49,3,Male,Non-anginal pain,141,436.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,155,Yes,5.8,Flat,1,1,Heart disease
+2423606,Train,46,40-49,3,Male,Non-anginal pain,137,389.0,Recorded,120 mg/dl or less,ST-T wave abnormality,135,Yes,3.9,Flat,1,1,Heart disease
+2423824,Train,58,50-59,4,Male,Non-anginal pain,135,402.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,111,No,4.0,Flat,1,1,Heart disease
+2424524,Train,67,60-69,5,Male,Non-anginal pain,153,220.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,181,Yes,5.7,Flat,2,1,Heart disease
+2440263,Train,76,70+,6,Male,Non-anginal pain,166,281.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,179,Yes,1.2,Upsloping,0,1,Heart disease
+2455025,Train,25,Under 30,1,Male,Atypical angina,105,333.0,Recorded,120 mg/dl or less,Normal,166,No,2.4,Upsloping,2,0,No heart disease
+2462250,Train,71,70+,6,Female,Typical angina,134,222.0,Recorded,120 mg/dl or less,Normal,106,No,2.4,Upsloping,0,0,No heart disease
+2465120,Train,69,60-69,5,Male,Non-anginal pain,134,415.0,Recorded,Over 120 mg/dl,Normal,138,No,1.0,Downsloping,1,1,Heart disease
+2474565,Train,70,70+,6,Male,Typical angina,196,342.0,Recorded,120 mg/dl or less,Normal,184,No,3.8,Upsloping,0,0,No heart disease
+2490989,Test,52,50-59,4,Male,Typical angina,111,133.0,Recorded,120 mg/dl or less,Normal,93,Yes,0.4,Upsloping,0,0,No heart disease
+2511221,Train,46,40-49,3,Male,Atypical angina,168,424.0,Recorded,120 mg/dl or less,ST-T wave abnormality,152,Yes,2.7,Flat,3,1,Heart disease
+2527921,Train,42,40-49,3,Male,Non-anginal pain,138,478.0,Recorded,120 mg/dl or less,Normal,192,Yes,4.7,Downsloping,2,1,Heart disease
+2539279,Train,78,70+,6,Male,Typical angina,96,277.0,Recorded,120 mg/dl or less,Normal,83,No,3.5,Upsloping,3,0,No heart disease
+2544380,Test,38,30-39,2,Male,Asymptomatic,196,368.0,Recorded,Over 120 mg/dl,Normal,182,Yes,2.1,Downsloping,1,1,Heart disease
+2546996,Test,48,40-49,3,Male,Non-anginal pain,123,297.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,168,No,3.4,Flat,2,1,Heart disease
+2560979,Train,47,40-49,3,Male,Typical angina,127,135.0,Recorded,120 mg/dl or less,Normal,184,No,0.3,Not recorded (code 0),0,0,No heart disease
+2564647,Test,51,50-59,4,Female,Typical angina,135,165.0,Recorded,120 mg/dl or less,Normal,160,Yes,2.3,Upsloping,0,0,No heart disease
+2578161,Train,51,50-59,4,Male,Typical angina,198,318.0,Recorded,120 mg/dl or less,Normal,178,No,4.8,Upsloping,0,0,No heart disease
+2586410,Train,79,70+,6,Male,Non-anginal pain,173,,Not recorded (code 0),120 mg/dl or less,Normal,124,No,5.9,Flat,2,1,Heart disease
+2590815,Train,43,40-49,3,Male,Typical angina,130,352.0,Recorded,120 mg/dl or less,Normal,190,No,3.8,Upsloping,0,0,No heart disease
+2593270,Test,22,Under 30,1,Male,Atypical angina,100,336.0,Recorded,120 mg/dl or less,Normal,108,No,5.5,Upsloping,0,0,No heart disease
+2609277,Test,50,50-59,4,Male,Atypical angina,168,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,105,No,4.5,Flat,1,1,Heart disease
+2616816,Train,43,40-49,3,Male,Atypical angina,200,379.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,169,No,2.3,Upsloping,2,1,Heart disease
+2620203,Train,44,40-49,3,Male,Atypical angina,182,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,146,No,1.3,Flat,1,1,Heart disease
+2651243,Train,47,40-49,3,Male,Typical angina,155,400.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,169,Yes,5.6,Flat,1,1,Heart disease
+2655200,Test,26,Under 30,1,Male,Typical angina,104,289.0,Recorded,120 mg/dl or less,Normal,149,Yes,2.4,Not recorded (code 0),0,0,No heart disease
+2658269,Train,44,40-49,3,Female,Atypical angina,197,289.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,183,No,1.5,Flat,2,1,Heart disease
+2667219,Train,51,50-59,4,Male,Non-anginal pain,169,370.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,154,Yes,1.0,Flat,1,1,Heart disease
+2673741,Test,41,40-49,3,Male,Atypical angina,198,464.0,Recorded,Over 120 mg/dl,Normal,136,Yes,2.0,Downsloping,1,1,Heart disease
+2680013,Train,44,40-49,3,Male,Atypical angina,195,296.0,Recorded,Over 120 mg/dl,Normal,138,Yes,0.1,Upsloping,2,1,Heart disease
+2683380,Train,52,50-59,4,Male,Atypical angina,176,505.0,Recorded,120 mg/dl or less,Normal,161,Yes,1.0,Downsloping,1,1,Heart disease
+2689974,Train,74,70+,6,Male,Non-anginal pain,147,357.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,172,Yes,2.3,Flat,1,1,Heart disease
+2700596,Train,56,50-59,4,Female,Typical angina,139,221.0,Recorded,120 mg/dl or less,Normal,123,No,0.8,Not recorded (code 0),0,0,No heart disease
+2735498,Train,39,30-39,2,Female,Typical angina,125,269.0,Recorded,120 mg/dl or less,Normal,163,No,0.2,Upsloping,0,0,No heart disease
+2746917,Test,61,60-69,5,Male,Non-anginal pain,162,442.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,149,No,1.5,Downsloping,1,1,Heart disease
+2751213,Train,64,60-69,5,Male,Typical angina,102,258.0,Recorded,120 mg/dl or less,Normal,187,Yes,1.3,Not recorded (code 0),0,0,No heart disease
+2754754,Train,51,50-59,4,Male,Non-anginal pain,191,433.0,Recorded,120 mg/dl or less,Normal,175,No,1.8,Upsloping,2,1,Heart disease
+2769536,Train,54,50-59,4,Male,Typical angina,127,139.0,Recorded,120 mg/dl or less,Normal,188,Yes,1.7,Not recorded (code 0),1,0,No heart disease
+2769746,Train,52,50-59,4,Male,Typical angina,143,357.0,Recorded,120 mg/dl or less,Normal,171,Yes,1.0,Not recorded (code 0),1,0,No heart disease
+2774854,Train,49,40-49,3,Male,Atypical angina,110,260.0,Recorded,120 mg/dl or less,Normal,159,No,5.1,Not recorded (code 0),0,0,No heart disease
+2775216,Train,78,70+,6,Male,Atypical angina,166,184.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,174,Yes,3.3,Downsloping,1,1,Heart disease
+2780941,Train,25,Under 30,1,Male,Atypical angina,170,174.0,Recorded,120 mg/dl or less,ST-T wave abnormality,153,Yes,1.0,Upsloping,0,1,Heart disease
+2783097,Test,73,70+,6,Male,Non-anginal pain,162,339.0,Recorded,120 mg/dl or less,Normal,199,Yes,4.1,Flat,1,1,Heart disease
+2798427,Train,65,60-69,5,Male,Non-anginal pain,159,181.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,176,No,3.4,Downsloping,3,1,Heart disease
+2800242,Train,46,40-49,3,Male,Atypical angina,176,239.0,Recorded,Over 120 mg/dl,Normal,196,No,4.2,Flat,1,1,Heart disease
+2810745,Train,39,30-39,2,Male,Non-anginal pain,130,343.0,Recorded,120 mg/dl or less,Normal,126,Yes,0.4,Downsloping,1,1,Heart disease
+2825426,Train,22,Under 30,1,Male,Asymptomatic,195,404.0,Recorded,120 mg/dl or less,ST-T wave abnormality,118,No,1.2,Flat,1,1,Heart disease
+2827785,Train,35,30-39,2,Male,Non-anginal pain,140,354.0,Recorded,120 mg/dl or less,Normal,179,Yes,3.7,Upsloping,0,0,No heart disease
+2833999,Train,23,Under 30,1,Male,Atypical angina,183,534.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,190,Yes,3.8,Downsloping,2,1,Heart disease
+2843029,Train,56,50-59,4,Male,Non-anginal pain,133,469.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,127,No,0.3,Upsloping,2,1,Heart disease
+2852742,Train,40,40-49,3,Male,Typical angina,121,138.0,Recorded,120 mg/dl or less,Normal,83,No,1.1,Not recorded (code 0),1,0,No heart disease
+2860134,Train,52,50-59,4,Male,Typical angina,148,540.0,Recorded,120 mg/dl or less,ST-T wave abnormality,136,Yes,0.9,Flat,2,1,Heart disease
+2879204,Train,80,70+,6,Male,Atypical angina,197,194.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,168,No,5.9,Downsloping,1,1,Heart disease
+2879288,Train,39,30-39,2,Male,Typical angina,122,135.0,Recorded,120 mg/dl or less,Normal,177,Yes,5.0,Upsloping,0,0,No heart disease
+2892852,Train,68,60-69,5,Female,Atypical angina,155,169.0,Recorded,120 mg/dl or less,ST-T wave abnormality,91,Yes,0.1,Not recorded (code 0),0,0,No heart disease
+2893921,Train,53,50-59,4,Female,Non-anginal pain,195,335.0,Recorded,120 mg/dl or less,Normal,117,Yes,2.3,Upsloping,1,0,No heart disease
+2898136,Train,67,60-69,5,Female,Typical angina,126,405.0,Recorded,120 mg/dl or less,ST-T wave abnormality,115,No,2.3,Upsloping,0,0,No heart disease
+2901847,Train,67,60-69,5,Female,Typical angina,138,165.0,Recorded,120 mg/dl or less,ST-T wave abnormality,148,Yes,1.0,Upsloping,1,0,No heart disease
+2907188,Train,39,30-39,2,Male,Typical angina,147,142.0,Recorded,120 mg/dl or less,Normal,74,Yes,0.7,Not recorded (code 0),0,0,No heart disease
+2923886,Test,54,50-59,4,Male,Non-anginal pain,126,172.0,Recorded,120 mg/dl or less,Normal,156,No,6.0,Flat,2,1,Heart disease
+2952866,Train,47,40-49,3,Female,Non-anginal pain,129,186.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,191,Yes,3.2,Downsloping,0,1,Heart disease
+2956524,Test,70,70+,6,Male,Typical angina,94,258.0,Recorded,120 mg/dl or less,ST-T wave abnormality,129,No,0.1,Not recorded (code 0),0,0,No heart disease
+2962309,Train,73,70+,6,Male,Asymptomatic,199,515.0,Recorded,120 mg/dl or less,Normal,141,Yes,0.5,Upsloping,0,1,Heart disease
+2965235,Test,71,70+,6,Female,Typical angina,187,488.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,139,Yes,1.4,Flat,0,1,Heart disease
+2970677,Train,46,40-49,3,Male,Non-anginal pain,178,237.0,Recorded,120 mg/dl or less,Normal,115,Yes,4.3,Flat,2,1,Heart disease
+2971800,Train,38,30-39,2,Male,Typical angina,120,342.0,Recorded,Over 120 mg/dl,Normal,136,Yes,2.5,Upsloping,1,0,No heart disease
+2972485,Train,38,30-39,2,Female,Atypical angina,153,428.0,Recorded,120 mg/dl or less,Normal,157,Yes,0.0,Upsloping,0,0,No heart disease
+2976277,Train,42,40-49,3,Female,Typical angina,187,547.0,Recorded,Over 120 mg/dl,Normal,181,No,0.9,Flat,0,1,Heart disease
+2981038,Test,68,60-69,5,Male,Non-anginal pain,164,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,145,No,0.4,Downsloping,2,1,Heart disease
+2988034,Train,51,50-59,4,Male,Typical angina,126,139.0,Recorded,120 mg/dl or less,Normal,149,No,3.7,Upsloping,1,0,No heart disease
+2990495,Train,62,60-69,5,Male,Non-anginal pain,153,501.0,Recorded,Over 120 mg/dl,Normal,142,No,0.2,Flat,2,1,Heart disease
+2991520,Train,66,60-69,5,Male,Asymptomatic,198,472.0,Recorded,Over 120 mg/dl,Normal,148,No,2.6,Flat,2,1,Heart disease
+2994643,Train,68,60-69,5,Female,Typical angina,125,411.0,Recorded,120 mg/dl or less,Normal,178,No,0.0,Not recorded (code 0),1,0,No heart disease
+3011851,Train,75,70+,6,Male,Atypical angina,198,272.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,138,No,5.6,Downsloping,2,1,Heart disease
+3021396,Train,41,40-49,3,Male,Typical angina,137,238.0,Recorded,120 mg/dl or less,Normal,98,Yes,1.1,Not recorded (code 0),0,0,No heart disease
+3049410,Test,42,40-49,3,Female,Non-anginal pain,127,225.0,Recorded,120 mg/dl or less,ST-T wave abnormality,101,No,2.4,Flat,1,1,Heart disease
+3063398,Train,48,40-49,3,Male,Typical angina,127,146.0,Recorded,120 mg/dl or less,ST-T wave abnormality,85,Yes,2.3,Not recorded (code 0),0,0,No heart disease
+3108856,Train,76,70+,6,Male,Typical angina,149,142.0,Recorded,120 mg/dl or less,Normal,143,Yes,2.0,Not recorded (code 0),0,0,No heart disease
+3113609,Train,50,50-59,4,Female,Typical angina,142,250.0,Recorded,120 mg/dl or less,ST-T wave abnormality,128,No,1.0,Upsloping,0,0,No heart disease
+3123488,Train,34,30-39,2,Male,Non-anginal pain,178,332.0,Recorded,120 mg/dl or less,ST-T wave abnormality,174,No,1.9,Flat,2,1,Heart disease
+3129660,Test,76,70+,6,Male,Typical angina,122,134.0,Recorded,120 mg/dl or less,Normal,96,Yes,4.7,Upsloping,0,0,No heart disease
+3140902,Test,25,Under 30,1,Male,Atypical angina,169,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,164,Yes,4.9,Flat,3,1,Heart disease
+3142651,Test,39,30-39,2,Male,Non-anginal pain,156,602.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,145,No,3.4,Flat,1,1,Heart disease
+3146687,Train,47,40-49,3,Male,Atypical angina,165,255.0,Recorded,120 mg/dl or less,Normal,185,No,5.9,Flat,1,1,Heart disease
+3157999,Test,72,70+,6,Male,Atypical angina,194,307.0,Recorded,Over 120 mg/dl,Normal,157,No,5.7,Flat,1,1,Heart disease
+3168369,Train,79,70+,6,Female,Typical angina,180,561.0,Recorded,Over 120 mg/dl,Normal,175,No,0.0,Flat,1,1,Heart disease
+3178004,Train,20,Under 30,1,Male,Non-anginal pain,136,264.0,Recorded,120 mg/dl or less,ST-T wave abnormality,162,No,5.0,Downsloping,3,1,Heart disease
+3178400,Train,28,Under 30,1,Male,Non-anginal pain,180,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,112,No,1.0,Upsloping,1,1,Heart disease
+3180614,Train,75,70+,6,Female,Typical angina,129,168.0,Recorded,120 mg/dl or less,Normal,116,Yes,1.9,Upsloping,2,0,No heart disease
+3185677,Test,51,50-59,4,Male,Atypical angina,179,367.0,Recorded,120 mg/dl or less,Normal,131,No,4.4,Flat,1,1,Heart disease
+3188178,Train,20,Under 30,1,Male,Typical angina,143,139.0,Recorded,120 mg/dl or less,Normal,94,No,4.4,Upsloping,0,0,No heart disease
+3205528,Train,57,50-59,4,Male,Atypical angina,180,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,183,Yes,5.4,Flat,1,1,Heart disease
+3225267,Train,54,50-59,4,Male,Atypical angina,169,470.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,129,No,3.2,Flat,1,1,Heart disease
+3237314,Train,73,70+,6,Male,Typical angina,127,343.0,Recorded,120 mg/dl or less,Normal,118,No,3.2,Not recorded (code 0),1,0,No heart disease
+3245660,Test,21,Under 30,1,Female,Typical angina,139,213.0,Recorded,120 mg/dl or less,ST-T wave abnormality,71,Yes,2.3,Upsloping,1,0,No heart disease
+3258752,Train,68,60-69,5,Female,Non-anginal pain,132,494.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,198,Yes,2.6,Downsloping,3,1,Heart disease
+3318641,Train,31,30-39,2,Male,Typical angina,127,248.0,Recorded,120 mg/dl or less,Normal,128,No,4.3,Upsloping,0,0,No heart disease
+3322620,Train,26,Under 30,1,Male,Atypical angina,190,276.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,162,Yes,0.5,Downsloping,1,1,Heart disease
+3328780,Train,33,30-39,2,Male,Typical angina,195,345.0,Recorded,120 mg/dl or less,Normal,194,Yes,3.9,Upsloping,1,0,No heart disease
+3329303,Train,45,40-49,3,Male,Non-anginal pain,163,182.0,Recorded,120 mg/dl or less,ST-T wave abnormality,175,Yes,0.1,Upsloping,1,1,Heart disease
+3336723,Train,58,50-59,4,Female,Atypical angina,191,386.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,162,Yes,0.6,Flat,1,1,Heart disease
+3347947,Train,55,50-59,4,Male,Non-anginal pain,142,357.0,Recorded,120 mg/dl or less,Normal,165,No,5.0,Upsloping,0,0,No heart disease
+3353178,Train,70,70+,6,Male,Typical angina,121,316.0,Recorded,120 mg/dl or less,Normal,143,No,0.4,Not recorded (code 0),1,0,No heart disease
+3374737,Train,22,Under 30,1,Male,Non-anginal pain,164,419.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,156,No,1.3,Downsloping,3,1,Heart disease
+3378132,Test,44,40-49,3,Male,Asymptomatic,197,282.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,202,No,5.2,Downsloping,3,1,Heart disease
+3384315,Train,51,50-59,4,Female,Atypical angina,191,537.0,Recorded,120 mg/dl or less,ST-T wave abnormality,124,No,0.4,Upsloping,2,1,Heart disease
+3388345,Train,29,Under 30,1,Male,Typical angina,197,316.0,Recorded,120 mg/dl or less,ST-T wave abnormality,162,No,1.6,Not recorded (code 0),1,0,No heart disease
+3388908,Train,29,Under 30,1,Male,Non-anginal pain,171,277.0,Recorded,Over 120 mg/dl,Normal,161,Yes,4.8,Flat,3,1,Heart disease
+3389011,Train,45,40-49,3,Male,Non-anginal pain,169,367.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,177,No,0.6,Flat,2,1,Heart disease
+3389865,Train,53,50-59,4,Male,Non-anginal pain,96,430.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,155,No,4.6,Flat,2,1,Heart disease
+3399270,Train,24,Under 30,1,Male,Non-anginal pain,130,266.0,Recorded,Over 120 mg/dl,Normal,157,Yes,5.2,Downsloping,2,1,Heart disease
+3399666,Train,67,60-69,5,Female,Non-anginal pain,120,479.0,Recorded,Over 120 mg/dl,Normal,101,Yes,2.7,Flat,1,1,Heart disease
+3400055,Train,64,60-69,5,Male,Typical angina,100,331.0,Recorded,120 mg/dl or less,Normal,77,No,5.4,Upsloping,1,0,No heart disease
+3414000,Train,70,70+,6,Male,Non-anginal pain,192,452.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,120,Yes,1.8,Upsloping,0,1,Heart disease
+3452125,Train,27,Under 30,1,Male,Atypical angina,108,347.0,Recorded,120 mg/dl or less,Normal,74,Yes,5.9,Flat,0,0,No heart disease
+3461196,Train,50,50-59,4,Male,Atypical angina,178,491.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,153,Yes,5.5,Flat,2,1,Heart disease
+3491565,Train,42,40-49,3,Male,Typical angina,153,263.0,Recorded,120 mg/dl or less,ST-T wave abnormality,81,No,3.2,Not recorded (code 0),0,0,No heart disease
+3511554,Train,75,70+,6,Male,Atypical angina,171,404.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,105,No,5.0,Flat,3,1,Heart disease
+3513074,Train,70,70+,6,Male,Non-anginal pain,130,197.0,Recorded,120 mg/dl or less,Normal,173,No,3.7,Flat,1,1,Heart disease
+3531299,Train,66,60-69,5,Male,Non-anginal pain,138,345.0,Recorded,120 mg/dl or less,ST-T wave abnormality,199,No,5.5,Upsloping,0,0,No heart disease
+3536654,Train,37,30-39,2,Male,Typical angina,197,199.0,Recorded,120 mg/dl or less,Normal,135,Yes,4.3,Upsloping,1,0,No heart disease
+3547317,Train,21,Under 30,1,Male,Typical angina,96,354.0,Recorded,120 mg/dl or less,Normal,162,No,5.2,Upsloping,0,0,No heart disease
+3547923,Train,24,Under 30,1,Male,Non-anginal pain,142,203.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,119,No,5.3,Downsloping,2,1,Heart disease
+3559768,Train,46,40-49,3,Male,Atypical angina,177,303.0,Recorded,120 mg/dl or less,ST-T wave abnormality,138,No,0.4,Downsloping,3,1,Heart disease
+3570955,Train,25,Under 30,1,Male,Typical angina,140,345.0,Recorded,120 mg/dl or less,Normal,122,Yes,1.9,Upsloping,1,0,No heart disease
+3575578,Train,63,60-69,5,Male,Atypical angina,100,343.0,Recorded,120 mg/dl or less,Normal,152,Yes,1.7,Upsloping,0,0,No heart disease
+3579280,Test,70,70+,6,Female,Atypical angina,192,390.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,99,Yes,3.2,Flat,1,1,Heart disease
+3579884,Test,59,50-59,4,Male,Non-anginal pain,193,463.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,139,No,0.3,Upsloping,2,1,Heart disease
+3585136,Train,63,60-69,5,Female,Typical angina,126,356.0,Recorded,120 mg/dl or less,Normal,75,Yes,0.3,Upsloping,1,0,No heart disease
+3628782,Train,66,60-69,5,Male,Typical angina,140,489.0,Recorded,120 mg/dl or less,Normal,151,Yes,3.1,Downsloping,1,1,Heart disease
+3637194,Test,23,Under 30,1,Male,Typical angina,147,268.0,Recorded,120 mg/dl or less,Normal,152,Yes,2.3,Upsloping,1,0,No heart disease
+3638403,Test,65,60-69,5,Male,Typical angina,151,444.0,Recorded,Over 120 mg/dl,Normal,143,Yes,0.0,Flat,3,1,Heart disease
+3647193,Train,74,70+,6,Female,Non-anginal pain,127,420.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,113,Yes,2.7,Flat,1,1,Heart disease
+3652870,Train,24,Under 30,1,Female,Typical angina,141,433.0,Recorded,120 mg/dl or less,Normal,183,No,1.9,Upsloping,0,0,No heart disease
+3657921,Test,20,Under 30,1,Male,Typical angina,197,341.0,Recorded,120 mg/dl or less,ST-T wave abnormality,122,No,0.1,Not recorded (code 0),0,0,No heart disease
+3671441,Train,66,60-69,5,Female,Typical angina,135,432.0,Recorded,120 mg/dl or less,Normal,121,Yes,0.0,Upsloping,2,0,No heart disease
+3671823,Train,52,50-59,4,Female,Non-anginal pain,128,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,97,Yes,2.6,Downsloping,3,1,Heart disease
+3674307,Test,66,60-69,5,Male,Non-anginal pain,159,349.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,156,No,3.1,Downsloping,2,1,Heart disease
+3682320,Test,67,60-69,5,Female,Atypical angina,190,297.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,133,No,1.6,Flat,1,1,Heart disease
+3683503,Train,44,40-49,3,Male,Typical angina,124,248.0,Recorded,120 mg/dl or less,Normal,183,No,5.1,Upsloping,0,0,No heart disease
+3687703,Train,27,Under 30,1,Male,Atypical angina,200,194.0,Recorded,120 mg/dl or less,ST-T wave abnormality,118,No,0.5,Downsloping,2,1,Heart disease
+3697520,Train,56,50-59,4,Male,Atypical angina,167,526.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,123,No,3.4,Downsloping,2,1,Heart disease
+3726537,Train,32,30-39,2,Male,Typical angina,122,319.0,Recorded,120 mg/dl or less,ST-T wave abnormality,140,No,3.9,Upsloping,1,0,No heart disease
+3735574,Test,42,40-49,3,Male,Non-anginal pain,177,249.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,187,No,4.8,Flat,2,1,Heart disease
+3739931,Train,62,60-69,5,Male,Typical angina,130,248.0,Recorded,120 mg/dl or less,ST-T wave abnormality,108,Yes,1.1,Upsloping,2,0,No heart disease
+3758189,Train,41,40-49,3,Male,Atypical angina,180,245.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,169,Yes,6.0,Flat,1,1,Heart disease
+3788670,Train,63,60-69,5,Male,Typical angina,198,336.0,Recorded,120 mg/dl or less,ST-T wave abnormality,95,No,5.4,Not recorded (code 0),0,0,No heart disease
+3803902,Train,22,Under 30,1,Male,Atypical angina,125,268.0,Recorded,Over 120 mg/dl,Normal,198,No,1.6,Not recorded (code 0),0,0,No heart disease
+3809040,Train,38,30-39,2,Male,Non-anginal pain,129,404.0,Recorded,120 mg/dl or less,ST-T wave abnormality,169,Yes,4.1,Flat,2,1,Heart disease
+3821944,Train,36,30-39,2,Male,Atypical angina,162,279.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,144,No,1.1,Upsloping,2,1,Heart disease
+3829047,Train,22,Under 30,1,Male,Atypical angina,165,193.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,157,No,4.4,Flat,1,1,Heart disease
+3842005,Train,21,Under 30,1,Male,Atypical angina,102,257.0,Recorded,120 mg/dl or less,ST-T wave abnormality,139,Yes,3.1,Not recorded (code 0),1,0,No heart disease
+3854020,Train,23,Under 30,1,Male,Non-anginal pain,127,431.0,Recorded,Over 120 mg/dl,Normal,131,Yes,1.0,Upsloping,2,1,Heart disease
+3863873,Train,30,30-39,2,Female,Typical angina,126,432.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,176,Yes,2.1,Upsloping,1,0,No heart disease
+3874384,Test,58,50-59,4,Male,Non-anginal pain,134,209.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,133,Yes,1.6,Downsloping,1,1,Heart disease
+3878653,Test,30,30-39,2,Male,Typical angina,105,352.0,Recorded,120 mg/dl or less,Normal,72,Yes,1.0,Not recorded (code 0),0,0,No heart disease
+3884097,Test,78,70+,6,Male,Atypical angina,105,267.0,Recorded,120 mg/dl or less,Normal,164,No,0.3,Not recorded (code 0),1,0,No heart disease
+3916403,Train,59,50-59,4,Male,Non-anginal pain,162,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,177,No,5.3,Downsloping,2,1,Heart disease
+3936656,Train,36,30-39,2,Male,Typical angina,149,475.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,145,Yes,4.2,Flat,1,1,Heart disease
+3937416,Train,40,40-49,3,Male,Typical angina,125,345.0,Recorded,120 mg/dl or less,Normal,124,No,2.9,Upsloping,0,0,No heart disease
+3939568,Train,32,30-39,2,Male,Non-anginal pain,139,316.0,Recorded,120 mg/dl or less,Normal,108,Yes,3.5,Upsloping,0,0,No heart disease
+3939848,Train,55,50-59,4,Female,Typical angina,135,355.0,Recorded,120 mg/dl or less,Normal,158,Yes,2.1,Upsloping,2,0,No heart disease
+3943939,Train,35,30-39,2,Male,Typical angina,121,336.0,Recorded,120 mg/dl or less,ST-T wave abnormality,191,Yes,5.7,Upsloping,0,0,No heart disease
+3966249,Test,53,50-59,4,Male,Typical angina,125,214.0,Recorded,120 mg/dl or less,Normal,161,Yes,0.2,Not recorded (code 0),0,0,No heart disease
+3979358,Train,43,40-49,3,Male,Non-anginal pain,150,353.0,Recorded,120 mg/dl or less,ST-T wave abnormality,149,Yes,3.2,Flat,1,1,Heart disease
+4007824,Train,30,30-39,2,Male,Typical angina,111,235.0,Recorded,120 mg/dl or less,Normal,134,Yes,2.3,Upsloping,0,0,No heart disease
+4025602,Test,59,50-59,4,Female,Atypical angina,196,433.0,Recorded,Over 120 mg/dl,Normal,164,No,1.9,Flat,2,1,Heart disease
+4052742,Train,76,70+,6,Male,Non-anginal pain,120,464.0,Recorded,120 mg/dl or less,ST-T wave abnormality,116,No,3.2,Flat,1,1,Heart disease
+4071119,Train,33,30-39,2,Male,Typical angina,127,325.0,Recorded,120 mg/dl or less,Normal,129,Yes,0.3,Upsloping,0,0,No heart disease
+4073678,Train,78,70+,6,Male,Asymptomatic,195,338.0,Recorded,Over 120 mg/dl,Normal,108,No,1.4,Upsloping,0,1,Heart disease
+4074097,Train,52,50-59,4,Male,Non-anginal pain,132,287.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,136,Yes,5.1,Downsloping,1,1,Heart disease
+4085974,Train,74,70+,6,Male,Non-anginal pain,124,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,159,No,3.3,Flat,1,1,Heart disease
+4091830,Train,45,40-49,3,Female,Typical angina,182,403.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,182,No,1.3,Upsloping,0,1,Heart disease
+4102655,Train,64,60-69,5,Female,Non-anginal pain,97,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,186,Yes,1.8,Downsloping,1,1,Heart disease
+4102682,Train,31,30-39,2,Female,Atypical angina,194,498.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,106,Yes,0.2,Upsloping,1,1,Heart disease
+4111303,Test,53,50-59,4,Male,Atypical angina,101,354.0,Recorded,120 mg/dl or less,ST-T wave abnormality,131,No,5.1,Not recorded (code 0),0,0,No heart disease
+4117516,Train,63,60-69,5,Male,Non-anginal pain,139,414.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,202,Yes,2.4,Flat,1,1,Heart disease
+4120616,Train,51,50-59,4,Male,Non-anginal pain,193,546.0,Recorded,Over 120 mg/dl,Normal,153,Yes,4.4,Downsloping,2,1,Heart disease
+4148732,Test,45,40-49,3,Male,Non-anginal pain,188,278.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,145,Yes,5.3,Flat,2,1,Heart disease
+4157602,Train,63,60-69,5,Male,Atypical angina,186,209.0,Recorded,120 mg/dl or less,ST-T wave abnormality,146,No,1.3,Upsloping,2,1,Heart disease
+4162595,Train,33,30-39,2,Female,Typical angina,131,408.0,Recorded,120 mg/dl or less,Normal,163,Yes,0.6,Not recorded (code 0),0,0,No heart disease
+4166725,Train,45,40-49,3,Female,Atypical angina,169,436.0,Recorded,120 mg/dl or less,Normal,78,Yes,1.0,Not recorded (code 0),0,0,No heart disease
+4172260,Train,72,70+,6,Male,Typical angina,108,133.0,Recorded,120 mg/dl or less,Normal,133,No,2.8,Not recorded (code 0),1,0,No heart disease
+4194115,Train,55,50-59,4,Male,Typical angina,193,142.0,Recorded,120 mg/dl or less,Normal,78,No,1.6,Upsloping,1,0,No heart disease
+4203414,Test,36,30-39,2,Male,Atypical angina,132,307.0,Recorded,120 mg/dl or less,Normal,175,No,5.3,Not recorded (code 0),0,0,No heart disease
+4227540,Test,73,70+,6,Male,Typical angina,152,,Not recorded (code 0),120 mg/dl or less,Normal,168,Yes,0.1,Downsloping,1,1,Heart disease
+4238486,Train,26,Under 30,1,Female,Non-anginal pain,199,536.0,Recorded,120 mg/dl or less,ST-T wave abnormality,162,No,2.9,Flat,2,1,Heart disease
+4241151,Train,33,30-39,2,Female,Typical angina,132,348.0,Recorded,120 mg/dl or less,ST-T wave abnormality,181,Yes,0.4,Upsloping,2,0,No heart disease
+4254963,Train,64,60-69,5,Male,Atypical angina,190,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,128,Yes,5.4,Flat,1,1,Heart disease
+4257213,Train,50,50-59,4,Male,Non-anginal pain,163,470.0,Recorded,120 mg/dl or less,ST-T wave abnormality,131,No,4.3,Downsloping,2,1,Heart disease
+4276632,Train,52,50-59,4,Male,Typical angina,145,354.0,Recorded,120 mg/dl or less,ST-T wave abnormality,192,No,0.4,Not recorded (code 0),1,0,No heart disease
+4282206,Test,31,30-39,2,Male,Typical angina,149,334.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,119,Yes,0.4,Upsloping,2,1,Heart disease
+4287435,Test,26,Under 30,1,Female,Non-anginal pain,131,559.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,131,Yes,2.6,Downsloping,3,1,Heart disease
+4296400,Train,35,30-39,2,Male,Non-anginal pain,192,209.0,Recorded,120 mg/dl or less,Normal,126,No,4.9,Flat,2,1,Heart disease
+4297588,Train,79,70+,6,Male,Atypical angina,175,487.0,Recorded,120 mg/dl or less,Normal,145,No,3.3,Flat,1,1,Heart disease
+4302180,Train,26,Under 30,1,Male,Atypical angina,185,255.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,105,Yes,6.0,Flat,2,1,Heart disease
+4308276,Train,45,40-49,3,Male,Typical angina,100,269.0,Recorded,120 mg/dl or less,ST-T wave abnormality,73,No,5.3,Upsloping,0,0,No heart disease
+4315129,Train,64,60-69,5,Male,Typical angina,198,137.0,Recorded,120 mg/dl or less,ST-T wave abnormality,71,Yes,2.5,Upsloping,0,0,No heart disease
+4362345,Test,71,70+,6,Male,Non-anginal pain,128,546.0,Recorded,120 mg/dl or less,ST-T wave abnormality,117,No,3.9,Flat,1,1,Heart disease
+4378765,Train,27,Under 30,1,Male,Typical angina,149,,Not recorded (code 0),120 mg/dl or less,Normal,194,No,0.6,Flat,2,1,Heart disease
+4383279,Train,72,70+,6,Male,Non-anginal pain,185,212.0,Recorded,120 mg/dl or less,Normal,126,No,1.3,Downsloping,1,1,Heart disease
+4396278,Train,61,60-69,5,Male,Typical angina,140,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,121,Yes,0.2,Upsloping,0,1,Heart disease
+4401333,Train,70,70+,6,Male,Atypical angina,196,404.0,Recorded,Over 120 mg/dl,Normal,130,Yes,1.2,Downsloping,1,1,Heart disease
+4411066,Train,21,Under 30,1,Female,Non-anginal pain,195,272.0,Recorded,120 mg/dl or less,ST-T wave abnormality,129,No,1.7,Upsloping,3,0,No heart disease
+4420753,Train,67,60-69,5,Male,Typical angina,111,266.0,Recorded,120 mg/dl or less,ST-T wave abnormality,109,Yes,5.3,Upsloping,1,0,No heart disease
+4434234,Train,57,50-59,4,Male,Typical angina,157,367.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,157,No,0.4,Flat,2,1,Heart disease
+4441075,Train,43,40-49,3,Male,Atypical angina,130,308.0,Recorded,120 mg/dl or less,ST-T wave abnormality,106,Yes,0.1,Not recorded (code 0),0,0,No heart disease
+4441115,Train,29,Under 30,1,Male,Typical angina,158,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,120,No,1.4,Upsloping,0,1,Heart disease
+4441233,Train,34,30-39,2,Female,Non-anginal pain,131,497.0,Recorded,120 mg/dl or less,Normal,162,Yes,1.7,Flat,1,1,Heart disease
+4496967,Train,54,50-59,4,Male,Non-anginal pain,130,214.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,179,Yes,5.8,Flat,3,1,Heart disease
+4501426,Train,20,Under 30,1,Male,Typical angina,150,146.0,Recorded,120 mg/dl or less,ST-T wave abnormality,165,No,1.2,Not recorded (code 0),0,0,No heart disease
+4502159,Train,36,30-39,2,Male,Non-anginal pain,170,183.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,145,Yes,4.3,Downsloping,2,1,Heart disease
+4503480,Test,77,70+,6,Male,Non-anginal pain,169,601.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,199,Yes,6.2,Downsloping,2,1,Heart disease
+4507674,Train,80,70+,6,Male,Non-anginal pain,134,277.0,Recorded,120 mg/dl or less,Normal,154,No,0.7,Downsloping,3,1,Heart disease
+4507830,Train,23,Under 30,1,Female,Atypical angina,197,243.0,Recorded,120 mg/dl or less,Normal,144,No,0.1,Flat,2,1,Heart disease
+4526019,Train,67,60-69,5,Male,Atypical angina,177,499.0,Recorded,Over 120 mg/dl,Normal,153,No,0.8,Flat,3,1,Heart disease
+4526296,Test,38,30-39,2,Female,Atypical angina,194,358.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,175,Yes,1.9,Flat,1,1,Heart disease
+4527408,Train,57,50-59,4,Female,Typical angina,124,333.0,Recorded,120 mg/dl or less,ST-T wave abnormality,200,Yes,2.3,Upsloping,2,0,No heart disease
+4528311,Train,60,60-69,5,Male,Atypical angina,100,132.0,Recorded,120 mg/dl or less,Normal,165,No,5.3,Not recorded (code 0),0,0,No heart disease
+4544336,Test,37,30-39,2,Female,Non-anginal pain,130,385.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,190,No,1.9,Flat,1,1,Heart disease
+4559274,Train,76,70+,6,Female,Non-anginal pain,193,327.0,Recorded,120 mg/dl or less,ST-T wave abnormality,143,Yes,2.4,Flat,2,0,No heart disease
+4560058,Train,31,30-39,2,Male,Typical angina,101,270.0,Recorded,120 mg/dl or less,Normal,133,Yes,2.2,Upsloping,1,0,No heart disease
+4575169,Test,44,40-49,3,Male,Typical angina,147,292.0,Recorded,120 mg/dl or less,ST-T wave abnormality,126,Yes,0.9,Not recorded (code 0),1,0,No heart disease
+4612336,Train,80,70+,6,Male,Atypical angina,197,246.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,158,Yes,3.5,Flat,2,1,Heart disease
+4614578,Train,45,40-49,3,Male,Atypical angina,195,535.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,175,Yes,6.0,Downsloping,3,1,Heart disease
+4618195,Test,46,40-49,3,Male,Typical angina,128,336.0,Recorded,120 mg/dl or less,Normal,191,No,1.6,Upsloping,0,0,No heart disease
+4649810,Train,26,Under 30,1,Female,Non-anginal pain,125,268.0,Recorded,120 mg/dl or less,Normal,152,No,2.4,Downsloping,1,1,Heart disease
+4655982,Test,58,50-59,4,Male,Non-anginal pain,133,356.0,Recorded,120 mg/dl or less,ST-T wave abnormality,103,Yes,5.6,Upsloping,0,0,No heart disease
+4657167,Test,76,70+,6,Male,Typical angina,140,139.0,Recorded,120 mg/dl or less,Normal,144,Yes,2.0,Upsloping,1,0,No heart disease
+4662836,Test,42,40-49,3,Male,Atypical angina,120,316.0,Recorded,120 mg/dl or less,Normal,188,Yes,2.9,Not recorded (code 0),1,0,No heart disease
+4679050,Test,58,50-59,4,Male,Typical angina,153,,Not recorded (code 0),120 mg/dl or less,Normal,201,Yes,5.8,Flat,3,1,Heart disease
+4688023,Train,28,Under 30,1,Female,Typical angina,139,409.0,Recorded,120 mg/dl or less,Normal,124,Yes,2.6,Flat,0,0,No heart disease
+4693889,Train,39,30-39,2,Female,Typical angina,133,164.0,Recorded,120 mg/dl or less,Normal,132,No,1.2,Upsloping,1,0,No heart disease
+4696338,Train,43,40-49,3,Male,Atypical angina,173,446.0,Recorded,120 mg/dl or less,Normal,177,Yes,3.8,Downsloping,2,1,Heart disease
+4704955,Test,25,Under 30,1,Male,Asymptomatic,196,492.0,Recorded,120 mg/dl or less,Normal,117,No,1.9,Downsloping,3,1,Heart disease
+4709771,Train,34,30-39,2,Male,Atypical angina,167,457.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,179,Yes,1.7,Upsloping,2,1,Heart disease
+4709978,Train,76,70+,6,Male,Non-anginal pain,157,361.0,Recorded,120 mg/dl or less,ST-T wave abnormality,141,Yes,3.9,Flat,1,1,Heart disease
+4726752,Train,55,50-59,4,Male,Typical angina,157,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,173,No,4.2,Flat,1,1,Heart disease
+4730381,Train,42,40-49,3,Male,Typical angina,145,354.0,Recorded,120 mg/dl or less,Normal,191,Yes,3.2,Flat,1,1,Heart disease
+4735832,Train,52,50-59,4,Male,Typical angina,143,325.0,Recorded,120 mg/dl or less,Normal,192,Yes,1.1,Upsloping,1,0,No heart disease
+4736052,Train,20,Under 30,1,Male,Typical angina,200,248.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,154,Yes,1.9,Not recorded (code 0),0,0,No heart disease
+4739479,Train,73,70+,6,Female,Typical angina,183,517.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,99,No,1.4,Downsloping,0,1,Heart disease
+4750273,Test,33,30-39,2,Male,Non-anginal pain,126,180.0,Recorded,120 mg/dl or less,Normal,181,No,1.3,Upsloping,0,1,Heart disease
+4753307,Train,74,70+,6,Female,Typical angina,142,465.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,86,No,0.6,Upsloping,1,0,No heart disease
+4756686,Train,77,70+,6,Male,Typical angina,110,254.0,Recorded,120 mg/dl or less,Normal,186,No,2.0,Upsloping,1,0,No heart disease
+4758670,Test,58,50-59,4,Male,Non-anginal pain,98,275.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,201,Yes,3.9,Downsloping,1,1,Heart disease
+4759302,Train,45,40-49,3,Male,Typical angina,195,247.0,Recorded,Over 120 mg/dl,Normal,192,No,3.2,Upsloping,1,0,No heart disease
+4769326,Train,22,Under 30,1,Female,Non-anginal pain,125,386.0,Recorded,120 mg/dl or less,Normal,174,Yes,2.9,Flat,2,1,Heart disease
+4771856,Train,55,50-59,4,Male,Typical angina,127,249.0,Recorded,120 mg/dl or less,ST-T wave abnormality,85,No,0.2,Not recorded (code 0),0,0,No heart disease
+4772855,Train,40,40-49,3,Male,Non-anginal pain,137,248.0,Recorded,Over 120 mg/dl,Normal,187,No,1.5,Not recorded (code 0),0,0,No heart disease
+4819001,Test,76,70+,6,Female,Typical angina,142,397.0,Recorded,120 mg/dl or less,Normal,128,No,0.6,Not recorded (code 0),1,0,No heart disease
+4833645,Train,51,50-59,4,Female,Asymptomatic,133,438.0,Recorded,120 mg/dl or less,Normal,98,Yes,2.9,Downsloping,1,1,Heart disease
+4837302,Test,31,30-39,2,Male,Non-anginal pain,164,268.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,169,No,1.4,Downsloping,3,1,Heart disease
+4838705,Train,25,Under 30,1,Male,Typical angina,143,354.0,Recorded,120 mg/dl or less,Normal,138,No,2.1,Not recorded (code 0),0,0,No heart disease
+4857553,Train,45,40-49,3,Male,Typical angina,121,134.0,Recorded,120 mg/dl or less,Normal,73,No,2.8,Upsloping,0,0,No heart disease
+4863691,Train,26,Under 30,1,Male,Non-anginal pain,180,208.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,142,Yes,3.1,Downsloping,1,1,Heart disease
+4883404,Train,79,70+,6,Male,Typical angina,111,134.0,Recorded,120 mg/dl or less,Normal,85,No,3.8,Upsloping,1,0,No heart disease
+4891485,Test,72,70+,6,Female,Typical angina,136,410.0,Recorded,120 mg/dl or less,Normal,170,No,1.0,Upsloping,2,0,No heart disease
+4920284,Train,66,60-69,5,Male,Non-anginal pain,142,230.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,156,Yes,6.2,Flat,2,1,Heart disease
+4922593,Train,23,Under 30,1,Male,Typical angina,143,203.0,Recorded,120 mg/dl or less,Normal,172,No,1.5,Upsloping,1,0,No heart disease
+4947244,Test,76,70+,6,Male,Non-anginal pain,142,257.0,Recorded,120 mg/dl or less,ST-T wave abnormality,135,Yes,0.7,Not recorded (code 0),0,0,No heart disease
+4948589,Train,47,40-49,3,Male,Non-anginal pain,150,205.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,143,Yes,3.5,Downsloping,3,1,Heart disease
+4956428,Train,58,50-59,4,Female,Typical angina,135,201.0,Recorded,120 mg/dl or less,ST-T wave abnormality,190,Yes,1.8,Upsloping,0,0,No heart disease
+4959730,Train,26,Under 30,1,Male,Typical angina,137,354.0,Recorded,120 mg/dl or less,Normal,72,Yes,1.0,Not recorded (code 0),0,0,No heart disease
+4975266,Train,63,60-69,5,Female,Atypical angina,153,436.0,Recorded,Over 120 mg/dl,Normal,166,Yes,1.2,Upsloping,0,0,No heart disease
+4975620,Train,34,30-39,2,Male,Non-anginal pain,132,448.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,154,No,0.8,Flat,1,1,Heart disease
+4983604,Train,25,Under 30,1,Female,Typical angina,142,165.0,Recorded,120 mg/dl or less,ST-T wave abnormality,186,No,1.0,Upsloping,3,0,No heart disease
+4989253,Test,57,50-59,4,Male,Typical angina,143,137.0,Recorded,120 mg/dl or less,ST-T wave abnormality,167,No,1.8,Upsloping,2,0,No heart disease
+4994167,Train,35,30-39,2,Female,Non-anginal pain,94,368.0,Recorded,120 mg/dl or less,Normal,196,No,2.4,Downsloping,0,1,Heart disease
+5005117,Train,57,50-59,4,Male,Typical angina,149,494.0,Recorded,120 mg/dl or less,Normal,141,No,6.1,Flat,1,1,Heart disease
+5015938,Train,73,70+,6,Female,Atypical angina,169,432.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,170,No,0.0,Upsloping,0,0,No heart disease
+5022940,Test,74,70+,6,Female,Atypical angina,186,194.0,Recorded,120 mg/dl or less,Normal,94,No,1.8,Upsloping,1,0,No heart disease
+5036282,Train,48,40-49,3,Male,Typical angina,121,257.0,Recorded,120 mg/dl or less,Normal,149,Yes,0.0,Not recorded (code 0),1,0,No heart disease
+5045860,Train,37,30-39,2,Female,Asymptomatic,135,522.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,184,Yes,3.2,Flat,1,1,Heart disease
+5057439,Train,76,70+,6,Male,Typical angina,143,264.0,Recorded,120 mg/dl or less,Normal,131,No,1.3,Not recorded (code 0),1,0,No heart disease
+5072642,Train,34,30-39,2,Male,Typical angina,158,,Not recorded (code 0),120 mg/dl or less,Normal,172,No,1.4,Upsloping,0,1,Heart disease
+5076312,Train,66,60-69,5,Female,Non-anginal pain,99,539.0,Recorded,Over 120 mg/dl,Normal,189,No,3.2,Flat,2,1,Heart disease
+5082393,Test,46,40-49,3,Male,Typical angina,199,313.0,Recorded,120 mg/dl or less,Normal,184,No,2.9,Upsloping,3,0,No heart disease
+5089635,Train,25,Under 30,1,Male,Atypical angina,174,,Not recorded (code 0),120 mg/dl or less,Normal,175,No,5.4,Downsloping,2,1,Heart disease
+5096857,Train,30,30-39,2,Male,Typical angina,125,281.0,Recorded,120 mg/dl or less,Normal,187,No,5.6,Flat,0,0,No heart disease
+5098750,Train,43,40-49,3,Male,Atypical angina,198,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,120,No,1.5,Flat,2,1,Heart disease
+5102529,Train,21,Under 30,1,Male,Typical angina,101,268.0,Recorded,120 mg/dl or less,Normal,144,Yes,0.8,Upsloping,0,0,No heart disease
+5110254,Train,64,60-69,5,Male,Atypical angina,190,535.0,Recorded,Over 120 mg/dl,Normal,169,No,5.6,Downsloping,2,1,Heart disease
+5125568,Test,44,40-49,3,Male,Typical angina,147,487.0,Recorded,120 mg/dl or less,ST-T wave abnormality,179,No,3.1,Flat,1,1,Heart disease
+5130129,Train,22,Under 30,1,Male,Typical angina,121,328.0,Recorded,120 mg/dl or less,ST-T wave abnormality,106,No,2.5,Upsloping,2,0,No heart disease
+5158666,Train,71,70+,6,Male,Typical angina,126,336.0,Recorded,120 mg/dl or less,Normal,142,No,1.2,Not recorded (code 0),1,0,No heart disease
+5221954,Train,34,30-39,2,Male,Asymptomatic,195,421.0,Recorded,120 mg/dl or less,Normal,142,Yes,5.3,Flat,1,1,Heart disease
+5229155,Train,34,30-39,2,Male,Typical angina,158,198.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,149,Yes,0.5,Downsloping,2,1,Heart disease
+5232864,Train,78,70+,6,Male,Atypical angina,130,268.0,Recorded,120 mg/dl or less,Normal,176,No,5.6,Not recorded (code 0),0,0,No heart disease
+5233281,Train,22,Under 30,1,Male,Typical angina,140,220.0,Recorded,120 mg/dl or less,ST-T wave abnormality,180,No,3.1,Not recorded (code 0),0,0,No heart disease
+5243818,Train,23,Under 30,1,Male,Atypical angina,195,201.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,187,No,4.6,Flat,2,1,Heart disease
+5252644,Train,62,60-69,5,Male,Non-anginal pain,180,346.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,175,Yes,2.4,Flat,2,1,Heart disease
+5263217,Train,44,40-49,3,Female,Non-anginal pain,129,376.0,Recorded,120 mg/dl or less,ST-T wave abnormality,130,Yes,2.6,Flat,0,1,Heart disease
+5265202,Train,65,60-69,5,Male,Typical angina,138,137.0,Recorded,120 mg/dl or less,Normal,89,Yes,3.9,Upsloping,0,0,No heart disease
+5265394,Train,69,60-69,5,Female,Asymptomatic,134,274.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,110,Yes,3.2,Flat,1,1,Heart disease
+5267837,Train,69,60-69,5,Male,Asymptomatic,198,,Not recorded (code 0),120 mg/dl or less,Normal,131,No,5.1,Downsloping,3,1,Heart disease
+5288766,Train,59,50-59,4,Male,Non-anginal pain,104,371.0,Recorded,120 mg/dl or less,Normal,193,Yes,1.2,Upsloping,2,1,Heart disease
+5295100,Train,57,50-59,4,Male,Typical angina,130,318.0,Recorded,120 mg/dl or less,Normal,139,No,2.3,Not recorded (code 0),1,0,No heart disease
+5321195,Train,48,40-49,3,Male,Non-anginal pain,131,501.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,152,Yes,5.7,Downsloping,2,1,Heart disease
+5322317,Train,55,50-59,4,Male,Typical angina,181,296.0,Recorded,Over 120 mg/dl,Normal,125,No,1.0,Not recorded (code 0),1,0,No heart disease
+5331000,Train,52,50-59,4,Female,Non-anginal pain,192,410.0,Recorded,120 mg/dl or less,Normal,136,No,0.3,Not recorded (code 0),2,0,No heart disease
+5335257,Train,32,30-39,2,Male,Non-anginal pain,161,521.0,Recorded,120 mg/dl or less,ST-T wave abnormality,118,Yes,0.9,Downsloping,1,1,Heart disease
+5349634,Train,31,30-39,2,Male,Typical angina,129,296.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,136,No,0.3,Upsloping,0,0,No heart disease
+5354471,Train,71,70+,6,Male,Non-anginal pain,186,544.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,150,Yes,4.3,Downsloping,3,1,Heart disease
+5385924,Train,57,50-59,4,Male,Typical angina,102,268.0,Recorded,Over 120 mg/dl,Normal,140,Yes,0.0,Upsloping,0,0,No heart disease
+5402020,Train,21,Under 30,1,Male,Typical angina,183,268.0,Recorded,120 mg/dl or less,Normal,178,Yes,3.7,Upsloping,1,0,No heart disease
+5406062,Train,29,Under 30,1,Male,Non-anginal pain,144,211.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,181,Yes,2.8,Downsloping,1,1,Heart disease
+5409963,Train,26,Under 30,1,Female,Atypical angina,198,412.0,Recorded,120 mg/dl or less,Normal,193,No,3.2,Downsloping,2,1,Heart disease
+5423987,Train,58,50-59,4,Female,Asymptomatic,135,338.0,Recorded,Over 120 mg/dl,Normal,116,No,0.8,Downsloping,2,1,Heart disease
+5446017,Train,80,70+,6,Female,Atypical angina,191,433.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,154,Yes,3.2,Downsloping,3,1,Heart disease
+5460604,Train,34,30-39,2,Male,Asymptomatic,198,368.0,Recorded,120 mg/dl or less,ST-T wave abnormality,192,No,4.1,Downsloping,3,1,Heart disease
+5468790,Train,24,Under 30,1,Male,Non-anginal pain,181,180.0,Recorded,120 mg/dl or less,Normal,106,No,5.1,Flat,1,1,Heart disease
+5492014,Train,20,Under 30,1,Female,Atypical angina,198,280.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,183,No,3.2,Downsloping,0,1,Heart disease
+5499156,Train,37,30-39,2,Male,Non-anginal pain,192,237.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,107,Yes,2.0,Upsloping,2,1,Heart disease
+5536346,Train,50,50-59,4,Male,Typical angina,121,316.0,Recorded,120 mg/dl or less,Normal,191,No,2.9,Not recorded (code 0),1,0,No heart disease
+5564669,Train,47,40-49,3,Male,Typical angina,155,352.0,Recorded,120 mg/dl or less,Normal,199,Yes,1.1,Not recorded (code 0),0,0,No heart disease
+5576229,Train,54,50-59,4,Male,Atypical angina,110,322.0,Recorded,120 mg/dl or less,Normal,80,No,3.6,Not recorded (code 0),0,0,No heart disease
+5577626,Train,54,50-59,4,Female,Atypical angina,191,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,186,Yes,1.5,Flat,2,1,Heart disease
+5587450,Train,46,40-49,3,Male,Atypical angina,174,560.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,186,Yes,3.1,Flat,2,1,Heart disease
+5604410,Train,58,50-59,4,Male,Typical angina,108,133.0,Recorded,120 mg/dl or less,Normal,171,Yes,0.8,Upsloping,2,0,No heart disease
+5607193,Train,63,60-69,5,Male,Typical angina,144,177.0,Recorded,120 mg/dl or less,ST-T wave abnormality,166,No,5.7,Downsloping,3,1,Heart disease
+5610737,Test,62,60-69,5,Male,Typical angina,150,397.0,Recorded,120 mg/dl or less,ST-T wave abnormality,134,No,2.7,Flat,2,1,Heart disease
+5636929,Train,63,60-69,5,Male,Non-anginal pain,141,520.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,152,No,0.5,Flat,3,1,Heart disease
+5638903,Train,22,Under 30,1,Male,Non-anginal pain,174,262.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,135,Yes,0.8,Downsloping,3,1,Heart disease
+5646401,Test,30,30-39,2,Male,Typical angina,128,296.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,98,No,2.3,Upsloping,0,0,No heart disease
+5661764,Test,38,30-39,2,Male,Non-anginal pain,139,258.0,Recorded,Over 120 mg/dl,Normal,72,No,0.7,Not recorded (code 0),0,0,No heart disease
+5668661,Train,31,30-39,2,Male,Atypical angina,186,242.0,Recorded,120 mg/dl or less,Normal,168,Yes,4.8,Downsloping,2,1,Heart disease
+5671580,Train,31,30-39,2,Male,Typical angina,159,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,146,No,3.7,Downsloping,2,1,Heart disease
+5677289,Train,34,30-39,2,Male,Typical angina,127,286.0,Recorded,120 mg/dl or less,Normal,186,No,3.2,Not recorded (code 0),0,0,No heart disease
+5681001,Train,36,30-39,2,Male,Non-anginal pain,178,274.0,Recorded,Over 120 mg/dl,Normal,106,No,0.6,Flat,3,1,Heart disease
+5685698,Train,23,Under 30,1,Female,Atypical angina,190,225.0,Recorded,120 mg/dl or less,Normal,72,No,0.2,Upsloping,0,0,No heart disease
+5692860,Train,62,60-69,5,Male,Non-anginal pain,176,495.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,155,Yes,6.0,Flat,1,1,Heart disease
+5705297,Train,38,30-39,2,Male,Typical angina,189,356.0,Recorded,120 mg/dl or less,Normal,91,Yes,0.6,Upsloping,2,0,No heart disease
+5708857,Train,33,30-39,2,Male,Non-anginal pain,155,301.0,Recorded,Over 120 mg/dl,Normal,138,No,6.0,Flat,2,1,Heart disease
+5731759,Train,55,50-59,4,Male,Atypical angina,187,291.0,Recorded,120 mg/dl or less,ST-T wave abnormality,184,No,3.1,Downsloping,1,1,Heart disease
+5753300,Train,44,40-49,3,Male,Typical angina,136,352.0,Recorded,120 mg/dl or less,Normal,200,Yes,1.6,Not recorded (code 0),0,0,No heart disease
+5765194,Train,65,60-69,5,Male,Non-anginal pain,137,193.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,197,No,4.0,Flat,2,1,Heart disease
+5783786,Train,23,Under 30,1,Male,Typical angina,150,376.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,162,No,4.3,Downsloping,1,1,Heart disease
+5788201,Test,36,30-39,2,Female,Typical angina,104,366.0,Recorded,120 mg/dl or less,Normal,109,Yes,0.6,Not recorded (code 0),1,0,No heart disease
+5805898,Train,24,Under 30,1,Female,Typical angina,141,178.0,Recorded,120 mg/dl or less,Normal,168,Yes,0.2,Not recorded (code 0),2,0,No heart disease
+5815625,Test,25,Under 30,1,Male,Atypical angina,101,268.0,Recorded,120 mg/dl or less,Normal,73,Yes,2.6,Not recorded (code 0),1,0,No heart disease
+5816203,Train,29,Under 30,1,Male,Typical angina,138,268.0,Recorded,120 mg/dl or less,ST-T wave abnormality,112,Yes,0.3,Upsloping,0,0,No heart disease
+5817785,Test,69,60-69,5,Male,Non-anginal pain,170,298.0,Recorded,Over 120 mg/dl,Normal,201,No,0.5,Upsloping,1,1,Heart disease
+5839336,Train,54,50-59,4,Male,Typical angina,158,281.0,Recorded,120 mg/dl or less,ST-T wave abnormality,80,No,1.1,Upsloping,2,0,No heart disease
+5845395,Train,59,50-59,4,Male,Non-anginal pain,154,299.0,Recorded,120 mg/dl or less,Normal,155,No,0.6,Flat,2,1,Heart disease
+5852585,Train,59,50-59,4,Male,Non-anginal pain,154,429.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,157,Yes,3.4,Flat,1,1,Heart disease
+5853030,Train,71,70+,6,Male,Atypical angina,108,203.0,Recorded,120 mg/dl or less,Normal,176,Yes,3.1,Not recorded (code 0),0,0,No heart disease
+5858219,Train,53,50-59,4,Female,Asymptomatic,135,435.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,124,No,1.3,Downsloping,0,1,Heart disease
+5872559,Train,77,70+,6,Female,Non-anginal pain,131,246.0,Recorded,120 mg/dl or less,ST-T wave abnormality,99,Yes,2.9,Downsloping,1,1,Heart disease
+5883899,Test,64,60-69,5,Male,Typical angina,145,553.0,Recorded,Over 120 mg/dl,Normal,180,Yes,4.2,Flat,3,1,Heart disease
+5983501,Test,61,60-69,5,Male,Non-anginal pain,174,372.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,149,Yes,0.8,Flat,3,1,Heart disease
+6018567,Train,36,30-39,2,Male,Typical angina,143,401.0,Recorded,Over 120 mg/dl,Normal,138,Yes,4.6,Downsloping,2,1,Heart disease
+6023895,Train,42,40-49,3,Female,Non-anginal pain,132,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,176,No,2.4,Flat,2,1,Heart disease
+6027553,Train,32,30-39,2,Male,Non-anginal pain,145,211.0,Recorded,120 mg/dl or less,ST-T wave abnormality,125,Yes,3.1,Flat,2,1,Heart disease
+6029679,Train,67,60-69,5,Female,Atypical angina,172,461.0,Recorded,120 mg/dl or less,ST-T wave abnormality,134,No,0.8,Upsloping,1,0,No heart disease
+6039277,Train,64,60-69,5,Male,Typical angina,97,132.0,Recorded,120 mg/dl or less,Normal,185,No,1.1,Not recorded (code 0),1,0,No heart disease
+6040211,Train,63,60-69,5,Male,Non-anginal pain,161,334.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,148,No,5.7,Flat,1,1,Heart disease
+6041661,Train,61,60-69,5,Female,Non-anginal pain,199,284.0,Recorded,120 mg/dl or less,ST-T wave abnormality,98,No,1.3,Downsloping,2,1,Heart disease
+6067302,Train,22,Under 30,1,Male,Typical angina,196,313.0,Recorded,120 mg/dl or less,ST-T wave abnormality,106,No,3.0,Not recorded (code 0),0,0,No heart disease
+6071279,Train,52,50-59,4,Male,Non-anginal pain,129,389.0,Recorded,120 mg/dl or less,ST-T wave abnormality,142,Yes,5.5,Downsloping,2,1,Heart disease
+6078916,Train,20,Under 30,1,Male,Atypical angina,168,383.0,Recorded,Over 120 mg/dl,Normal,128,No,2.3,Upsloping,0,1,Heart disease
+6081734,Train,46,40-49,3,Female,Asymptomatic,133,546.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,150,Yes,2.4,Flat,2,1,Heart disease
+6088804,Train,27,Under 30,1,Male,Atypical angina,182,488.0,Recorded,120 mg/dl or less,Normal,111,Yes,2.6,Flat,2,1,Heart disease
+6096299,Train,24,Under 30,1,Male,Non-anginal pain,156,324.0,Recorded,Over 120 mg/dl,Normal,189,No,4.8,Downsloping,3,1,Heart disease
+6110727,Train,76,70+,6,Female,Atypical angina,186,461.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,138,No,1.8,Upsloping,3,0,No heart disease
+6127786,Train,20,Under 30,1,Male,Atypical angina,193,512.0,Recorded,Over 120 mg/dl,Normal,156,No,0.5,Downsloping,3,1,Heart disease
+6138356,Test,24,Under 30,1,Male,Typical angina,128,234.0,Recorded,120 mg/dl or less,Normal,89,No,0.3,Upsloping,1,0,No heart disease
+6145418,Train,45,40-49,3,Male,Non-anginal pain,177,352.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,147,Yes,2.7,Flat,2,1,Heart disease
+6148429,Test,20,Under 30,1,Male,Typical angina,132,356.0,Recorded,120 mg/dl or less,Normal,127,No,4.3,Upsloping,1,0,No heart disease
+6173545,Test,39,30-39,2,Male,Non-anginal pain,157,260.0,Recorded,120 mg/dl or less,ST-T wave abnormality,179,Yes,3.4,Downsloping,3,1,Heart disease
+6196587,Train,57,50-59,4,Male,Typical angina,133,136.0,Recorded,120 mg/dl or less,Normal,118,No,4.7,Upsloping,1,0,No heart disease
+6214475,Train,48,40-49,3,Male,Typical angina,126,247.0,Recorded,Over 120 mg/dl,Normal,137,No,5.6,Upsloping,0,0,No heart disease
+6214769,Train,29,Under 30,1,Female,Asymptomatic,135,523.0,Recorded,120 mg/dl or less,ST-T wave abnormality,104,No,2.6,Flat,2,1,Heart disease
+6219254,Test,33,30-39,2,Male,Atypical angina,184,350.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,108,Yes,5.2,Flat,1,1,Heart disease
+6230129,Train,33,30-39,2,Male,Typical angina,97,354.0,Recorded,120 mg/dl or less,Normal,160,No,2.1,Not recorded (code 0),1,0,No heart disease
+6231193,Train,29,Under 30,1,Female,Atypical angina,193,226.0,Recorded,120 mg/dl or less,Normal,147,No,0.8,Flat,2,1,Heart disease
+6245902,Train,46,40-49,3,Male,Atypical angina,190,341.0,Recorded,120 mg/dl or less,ST-T wave abnormality,172,No,3.8,Flat,2,1,Heart disease
+6264164,Train,44,40-49,3,Female,Typical angina,129,404.0,Recorded,120 mg/dl or less,Normal,187,No,0.1,Upsloping,1,0,No heart disease
+6266067,Train,43,40-49,3,Male,Atypical angina,187,241.0,Recorded,120 mg/dl or less,ST-T wave abnormality,192,No,4.4,Flat,1,1,Heart disease
+6276764,Test,80,70+,6,Female,Atypical angina,155,461.0,Recorded,Over 120 mg/dl,Normal,163,Yes,0.8,Upsloping,1,0,No heart disease
+6289484,Test,50,50-59,4,Male,Typical angina,147,223.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,174,No,1.3,Downsloping,2,1,Heart disease
+6294295,Train,39,30-39,2,Female,Typical angina,189,406.0,Recorded,Over 120 mg/dl,Normal,185,Yes,1.8,Downsloping,2,1,Heart disease
+6295781,Train,58,50-59,4,Male,Typical angina,120,258.0,Recorded,120 mg/dl or less,Normal,184,No,3.0,Not recorded (code 0),1,0,No heart disease
+6296438,Train,47,40-49,3,Male,Non-anginal pain,148,456.0,Recorded,Over 120 mg/dl,Normal,144,Yes,4.3,Downsloping,2,1,Heart disease
+6299657,Train,45,40-49,3,Male,Asymptomatic,199,484.0,Recorded,Over 120 mg/dl,Normal,108,No,4.5,Downsloping,2,1,Heart disease
+6316727,Train,80,70+,6,Female,Non-anginal pain,98,460.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,139,Yes,2.6,Downsloping,3,1,Heart disease
+6329988,Test,27,Under 30,1,Male,Typical angina,149,239.0,Recorded,120 mg/dl or less,ST-T wave abnormality,194,Yes,3.5,Upsloping,0,0,No heart disease
+6330462,Train,45,40-49,3,Male,Non-anginal pain,123,559.0,Recorded,120 mg/dl or less,ST-T wave abnormality,154,No,2.8,Downsloping,1,1,Heart disease
+6361033,Train,20,Under 30,1,Male,Typical angina,139,231.0,Recorded,120 mg/dl or less,ST-T wave abnormality,108,Yes,2.6,Upsloping,1,0,No heart disease
+6372073,Train,20,Under 30,1,Male,Typical angina,137,291.0,Recorded,120 mg/dl or less,Normal,131,Yes,3.8,Upsloping,0,0,No heart disease
+6376430,Train,79,70+,6,Male,Atypical angina,188,418.0,Recorded,120 mg/dl or less,ST-T wave abnormality,192,Yes,4.9,Flat,1,1,Heart disease
+6430572,Train,43,40-49,3,Male,Typical angina,145,207.0,Recorded,120 mg/dl or less,Normal,186,No,0.6,Upsloping,0,0,No heart disease
+6459603,Test,37,30-39,2,Male,Typical angina,128,135.0,Recorded,120 mg/dl or less,Normal,72,Yes,4.1,Not recorded (code 0),0,0,No heart disease
+6492190,Test,26,Under 30,1,Male,Non-anginal pain,185,194.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,147,No,2.0,Upsloping,2,1,Heart disease
+6496854,Test,73,70+,6,Male,Non-anginal pain,136,440.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,142,Yes,4.6,Flat,2,1,Heart disease
+6503267,Train,37,30-39,2,Male,Non-anginal pain,174,313.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,156,No,3.5,Flat,1,1,Heart disease
+6505912,Test,20,Under 30,1,Female,Atypical angina,143,432.0,Recorded,120 mg/dl or less,ST-T wave abnormality,113,No,1.8,Upsloping,0,0,No heart disease
+6515641,Train,30,30-39,2,Female,Non-anginal pain,125,306.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,145,No,2.9,Flat,2,1,Heart disease
+6544543,Train,50,50-59,4,Male,Non-anginal pain,142,483.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,140,No,3.2,Downsloping,1,1,Heart disease
+6545358,Train,56,50-59,4,Male,Typical angina,126,354.0,Recorded,120 mg/dl or less,ST-T wave abnormality,200,Yes,1.3,Not recorded (code 0),1,0,No heart disease
+6557056,Train,70,70+,6,Male,Atypical angina,166,215.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,117,Yes,5.5,Flat,2,1,Heart disease
+6566981,Train,35,30-39,2,Male,Typical angina,100,132.0,Recorded,120 mg/dl or less,Normal,110,No,5.7,Not recorded (code 0),1,0,No heart disease
+6567983,Train,32,30-39,2,Male,Atypical angina,108,354.0,Recorded,120 mg/dl or less,Normal,196,No,3.1,Not recorded (code 0),0,0,No heart disease
+6595502,Train,57,50-59,4,Male,Typical angina,136,215.0,Recorded,120 mg/dl or less,Normal,166,Yes,3.9,Upsloping,0,0,No heart disease
+6596175,Test,33,30-39,2,Male,Typical angina,126,316.0,Recorded,120 mg/dl or less,ST-T wave abnormality,156,Yes,5.7,Flat,1,0,No heart disease
+6601064,Test,32,30-39,2,Male,Typical angina,98,213.0,Recorded,120 mg/dl or less,Normal,80,No,2.8,Not recorded (code 0),1,0,No heart disease
+6614078,Train,53,50-59,4,Female,Non-anginal pain,125,430.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,96,No,0.5,Downsloping,3,1,Heart disease
+6622120,Train,74,70+,6,Male,Non-anginal pain,175,367.0,Recorded,120 mg/dl or less,Normal,145,Yes,2.4,Flat,2,1,Heart disease
+6632544,Train,25,Under 30,1,Female,Typical angina,134,400.0,Recorded,120 mg/dl or less,Normal,122,Yes,1.5,Upsloping,1,0,No heart disease
+6644369,Test,63,60-69,5,Male,Typical angina,140,242.0,Recorded,Over 120 mg/dl,Normal,187,Yes,1.9,Flat,1,1,Heart disease
+6649323,Train,59,50-59,4,Male,Typical angina,140,345.0,Recorded,120 mg/dl or less,Normal,81,No,2.4,Upsloping,2,0,No heart disease
+6657140,Test,39,30-39,2,Male,Atypical angina,110,257.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,177,Yes,2.6,Upsloping,0,0,No heart disease
+6659115,Train,54,50-59,4,Male,Typical angina,130,247.0,Recorded,120 mg/dl or less,ST-T wave abnormality,199,No,0.9,Not recorded (code 0),0,0,No heart disease
+6668906,Train,56,50-59,4,Male,Non-anginal pain,185,486.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,145,Yes,5.0,Flat,1,1,Heart disease
+6680365,Train,60,60-69,5,Male,Atypical angina,196,179.0,Recorded,120 mg/dl or less,Normal,190,No,5.4,Downsloping,3,1,Heart disease
+6685146,Train,41,40-49,3,Male,Non-anginal pain,140,85.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,160,No,5.2,Downsloping,2,1,Heart disease
+6694019,Test,59,50-59,4,Male,Non-anginal pain,140,389.0,Recorded,120 mg/dl or less,ST-T wave abnormality,168,No,2.9,Flat,1,1,Heart disease
+6708190,Train,60,60-69,5,Female,Non-anginal pain,104,381.0,Recorded,120 mg/dl or less,ST-T wave abnormality,147,Yes,0.3,Upsloping,0,1,Heart disease
+6716921,Train,30,30-39,2,Male,Non-anginal pain,149,306.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,129,Yes,2.6,Downsloping,3,1,Heart disease
+6725750,Train,41,40-49,3,Male,Non-anginal pain,95,299.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,201,Yes,2.8,Downsloping,2,1,Heart disease
+6757890,Train,55,50-59,4,Male,Non-anginal pain,167,200.0,Recorded,Over 120 mg/dl,Normal,169,Yes,1.0,Downsloping,3,1,Heart disease
+6769686,Train,46,40-49,3,Male,Non-anginal pain,165,323.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,145,Yes,1.9,Flat,1,1,Heart disease
+6781392,Train,67,60-69,5,Male,Typical angina,165,234.0,Recorded,120 mg/dl or less,Normal,168,Yes,5.6,Upsloping,1,0,No heart disease
+6784916,Test,24,Under 30,1,Male,Non-anginal pain,137,247.0,Recorded,Over 120 mg/dl,Normal,92,No,2.0,Upsloping,2,0,No heart disease
+6814546,Train,56,50-59,4,Male,Non-anginal pain,163,295.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,175,No,1.9,Upsloping,1,1,Heart disease
+6828182,Train,35,30-39,2,Male,Atypical angina,167,198.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,139,Yes,0.2,Upsloping,2,1,Heart disease
+6833440,Train,46,40-49,3,Male,Typical angina,127,341.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,128,Yes,5.3,Upsloping,1,0,No heart disease
+6839487,Train,33,30-39,2,Female,Typical angina,130,329.0,Recorded,120 mg/dl or less,Normal,200,Yes,0.2,Not recorded (code 0),1,0,No heart disease
+6845987,Train,50,50-59,4,Male,Non-anginal pain,124,504.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,123,No,1.5,Upsloping,0,1,Heart disease
+6848949,Train,31,30-39,2,Male,Typical angina,127,139.0,Recorded,120 mg/dl or less,Normal,128,Yes,5.7,Upsloping,1,0,No heart disease
+6859171,Train,34,30-39,2,Male,Typical angina,142,287.0,Recorded,120 mg/dl or less,Normal,135,Yes,6.0,Downsloping,1,1,Heart disease
+6861063,Train,50,50-59,4,Female,Non-anginal pain,125,505.0,Recorded,120 mg/dl or less,ST-T wave abnormality,104,Yes,2.7,Downsloping,2,1,Heart disease
+6863138,Train,60,60-69,5,Male,Non-anginal pain,183,367.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,156,Yes,2.9,Flat,1,1,Heart disease
+6865627,Train,22,Under 30,1,Male,Atypical angina,127,275.0,Recorded,120 mg/dl or less,ST-T wave abnormality,73,No,4.3,Upsloping,1,0,No heart disease
+6873102,Train,36,30-39,2,Female,Atypical angina,190,388.0,Recorded,120 mg/dl or less,Normal,118,No,1.9,Flat,2,1,Heart disease
+6895349,Train,69,60-69,5,Male,Typical angina,127,231.0,Recorded,120 mg/dl or less,Normal,184,Yes,5.3,Upsloping,1,0,No heart disease
+6906010,Train,80,70+,6,Male,Typical angina,194,265.0,Recorded,120 mg/dl or less,Normal,191,No,4.7,Not recorded (code 0),0,0,No heart disease
+6908751,Train,20,Under 30,1,Male,Non-anginal pain,135,276.0,Recorded,120 mg/dl or less,ST-T wave abnormality,126,No,3.7,Flat,3,1,Heart disease
+6909573,Train,67,60-69,5,Female,Typical angina,128,403.0,Recorded,120 mg/dl or less,Normal,182,No,0.0,Upsloping,2,0,No heart disease
+6920071,Test,71,70+,6,Female,Typical angina,183,530.0,Recorded,120 mg/dl or less,Normal,110,Yes,0.5,Downsloping,2,1,Heart disease
+6923834,Train,76,70+,6,Male,Typical angina,130,357.0,Recorded,120 mg/dl or less,Normal,83,No,0.5,Not recorded (code 0),1,0,No heart disease
+6924884,Train,26,Under 30,1,Female,Typical angina,182,350.0,Recorded,120 mg/dl or less,ST-T wave abnormality,195,Yes,1.8,Flat,1,1,Heart disease
+6929488,Test,33,30-39,2,Female,Non-anginal pain,123,545.0,Recorded,120 mg/dl or less,Normal,127,No,3.2,Flat,3,1,Heart disease
+6937534,Train,50,50-59,4,Male,Atypical angina,105,133.0,Recorded,120 mg/dl or less,ST-T wave abnormality,129,Yes,4.9,Upsloping,1,0,No heart disease
+6938965,Train,62,60-69,5,Male,Typical angina,96,257.0,Recorded,120 mg/dl or less,Normal,108,Yes,1.1,Not recorded (code 0),1,0,No heart disease
+6941564,Test,45,40-49,3,Male,Typical angina,155,238.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,134,Yes,3.1,Flat,1,1,Heart disease
+6965501,Train,40,40-49,3,Male,Typical angina,154,559.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,168,Yes,4.5,Flat,2,1,Heart disease
+6978769,Train,49,40-49,3,Male,Atypical angina,173,246.0,Recorded,120 mg/dl or less,ST-T wave abnormality,187,No,2.3,Flat,1,1,Heart disease
+6981324,Train,30,30-39,2,Male,Typical angina,199,346.0,Recorded,120 mg/dl or less,Normal,177,No,5.7,Not recorded (code 0),0,0,No heart disease
+6981961,Train,57,50-59,4,Female,Typical angina,180,517.0,Recorded,120 mg/dl or less,ST-T wave abnormality,191,No,1.9,Downsloping,3,1,Heart disease
+6998797,Train,34,30-39,2,Male,Typical angina,143,316.0,Recorded,120 mg/dl or less,Normal,99,Yes,3.6,Upsloping,0,0,No heart disease
+7010584,Train,71,70+,6,Male,Non-anginal pain,135,336.0,Recorded,120 mg/dl or less,ST-T wave abnormality,134,Yes,3.8,Upsloping,0,0,No heart disease
+7042002,Train,47,40-49,3,Male,Non-anginal pain,168,477.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,178,No,4.8,Downsloping,2,1,Heart disease
+7043420,Train,51,50-59,4,Male,Non-anginal pain,157,457.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,154,No,5.3,Flat,2,1,Heart disease
+7053504,Train,47,40-49,3,Male,Typical angina,105,233.0,Recorded,120 mg/dl or less,Normal,195,No,5.7,Upsloping,0,0,No heart disease
+7060962,Train,36,30-39,2,Male,Typical angina,124,270.0,Recorded,120 mg/dl or less,Normal,111,No,3.5,Not recorded (code 0),0,0,No heart disease
+7105018,Test,50,50-59,4,Female,Atypical angina,190,552.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,107,No,2.7,Flat,2,1,Heart disease
+7127580,Train,62,60-69,5,Female,Typical angina,187,314.0,Recorded,Over 120 mg/dl,Normal,139,Yes,1.9,Downsloping,2,1,Heart disease
+7128147,Train,40,40-49,3,Male,Atypical angina,105,284.0,Recorded,120 mg/dl or less,Normal,164,Yes,5.4,Upsloping,0,0,No heart disease
+7132968,Train,24,Under 30,1,Female,Asymptomatic,136,486.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,99,Yes,0.7,Downsloping,3,1,Heart disease
+7162284,Test,43,40-49,3,Female,Atypical angina,144,303.0,Recorded,120 mg/dl or less,Normal,111,Yes,1.8,Upsloping,1,0,No heart disease
+7162945,Train,43,40-49,3,Male,Asymptomatic,194,392.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,138,No,5.9,Downsloping,2,1,Heart disease
+7163536,Train,34,30-39,2,Male,Typical angina,126,268.0,Recorded,Over 120 mg/dl,Normal,148,Yes,3.9,Upsloping,1,0,No heart disease
+7189185,Test,59,50-59,4,Female,Typical angina,129,169.0,Recorded,120 mg/dl or less,ST-T wave abnormality,129,No,0.4,Not recorded (code 0),1,0,No heart disease
+7190341,Train,23,Under 30,1,Male,Non-anginal pain,180,489.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,185,No,1.8,Upsloping,2,1,Heart disease
+7208720,Test,44,40-49,3,Male,Non-anginal pain,186,427.0,Recorded,120 mg/dl or less,ST-T wave abnormality,166,No,2.8,Downsloping,1,1,Heart disease
+7213292,Train,71,70+,6,Male,Non-anginal pain,143,368.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,141,No,4.7,Flat,1,1,Heart disease
+7217573,Train,22,Under 30,1,Male,Non-anginal pain,186,334.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,167,Yes,4.1,Flat,3,1,Heart disease
+7218033,Train,42,40-49,3,Female,Typical angina,185,440.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,120,Yes,2.4,Flat,2,1,Heart disease
+7218240,Train,32,30-39,2,Male,Non-anginal pain,150,324.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,191,No,2.4,Flat,1,1,Heart disease
+7236209,Train,61,60-69,5,Female,Atypical angina,154,168.0,Recorded,120 mg/dl or less,ST-T wave abnormality,128,No,1.2,Upsloping,2,0,No heart disease
+7238526,Test,38,30-39,2,Male,Non-anginal pain,155,469.0,Recorded,120 mg/dl or less,Normal,148,Yes,6.2,Flat,1,1,Heart disease
+7245486,Train,24,Under 30,1,Male,Typical angina,145,342.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,202,No,1.2,Not recorded (code 0),0,0,No heart disease
+7245712,Train,64,60-69,5,Male,Typical angina,127,336.0,Recorded,120 mg/dl or less,ST-T wave abnormality,115,No,0.0,Not recorded (code 0),1,0,No heart disease
+7249323,Train,34,30-39,2,Male,Typical angina,146,272.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,169,No,4.2,Downsloping,2,1,Heart disease
+7258757,Train,77,70+,6,Male,Typical angina,127,248.0,Recorded,120 mg/dl or less,ST-T wave abnormality,171,Yes,4.4,Upsloping,0,0,No heart disease
+7265302,Train,78,70+,6,Female,Typical angina,133,393.0,Recorded,120 mg/dl or less,Normal,160,No,1.9,Upsloping,1,0,No heart disease
+7266028,Train,41,40-49,3,Female,Non-anginal pain,199,452.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,183,Yes,2.4,Flat,0,1,Heart disease
+7266995,Train,59,50-59,4,Female,Typical angina,133,433.0,Recorded,120 mg/dl or less,Normal,140,Yes,1.7,Upsloping,3,0,No heart disease
+7292661,Train,20,Under 30,1,Female,Atypical angina,155,194.0,Recorded,120 mg/dl or less,Normal,189,No,0.4,Not recorded (code 0),0,0,No heart disease
+7295902,Test,21,Under 30,1,Male,Non-anginal pain,142,139.0,Recorded,120 mg/dl or less,Normal,200,No,5.5,Flat,0,0,No heart disease
+7315894,Train,37,30-39,2,Male,Atypical angina,179,519.0,Recorded,120 mg/dl or less,Normal,186,Yes,1.8,Flat,3,1,Heart disease
+7319588,Test,29,Under 30,1,Male,Atypical angina,169,437.0,Recorded,120 mg/dl or less,ST-T wave abnormality,149,No,2.1,Upsloping,2,1,Heart disease
+7347233,Test,67,60-69,5,Male,Atypical angina,191,455.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,171,No,2.6,Flat,1,1,Heart disease
+7351956,Train,75,70+,6,Male,Typical angina,122,325.0,Recorded,120 mg/dl or less,Normal,128,No,2.1,Upsloping,0,0,No heart disease
+7359727,Train,33,30-39,2,Male,Typical angina,96,268.0,Recorded,Over 120 mg/dl,Normal,111,Yes,3.6,Upsloping,0,0,No heart disease
+7361732,Train,55,50-59,4,Female,Asymptomatic,134,316.0,Recorded,120 mg/dl or less,ST-T wave abnormality,118,No,1.3,Downsloping,1,1,Heart disease
+7364623,Test,38,30-39,2,Female,Typical angina,182,234.0,Recorded,120 mg/dl or less,Normal,98,No,1.7,Flat,0,1,Heart disease
+7367562,Test,48,40-49,3,Male,Atypical angina,110,339.0,Recorded,120 mg/dl or less,Normal,101,No,2.2,Not recorded (code 0),0,0,No heart disease
+7396769,Train,45,40-49,3,Male,Non-anginal pain,97,234.0,Recorded,120 mg/dl or less,Normal,184,No,3.8,Flat,1,1,Heart disease
+7406027,Train,23,Under 30,1,Male,Typical angina,129,296.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,115,Yes,2.5,Not recorded (code 0),1,0,No heart disease
+7414428,Test,25,Under 30,1,Male,Typical angina,133,354.0,Recorded,120 mg/dl or less,Normal,127,Yes,3.7,Not recorded (code 0),0,0,No heart disease
+7431122,Train,73,70+,6,Male,Non-anginal pain,189,367.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,139,No,2.9,Flat,2,1,Heart disease
+7435759,Test,58,50-59,4,Female,Typical angina,139,375.0,Recorded,120 mg/dl or less,Normal,142,No,1.4,Upsloping,1,0,No heart disease
+7463748,Train,31,30-39,2,Male,Typical angina,139,170.0,Recorded,120 mg/dl or less,Normal,141,No,4.1,Downsloping,2,1,Heart disease
+7464436,Train,63,60-69,5,Male,Non-anginal pain,193,491.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,115,No,5.3,Flat,3,1,Heart disease
+7475206,Train,76,70+,6,Male,Typical angina,130,334.0,Recorded,120 mg/dl or less,Normal,98,Yes,2.3,Not recorded (code 0),0,0,No heart disease
+7488420,Train,20,Under 30,1,Female,Atypical angina,191,261.0,Recorded,120 mg/dl or less,Normal,133,Yes,2.4,Flat,2,1,Heart disease
+7526692,Train,20,Under 30,1,Male,Typical angina,140,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,149,No,0.9,Flat,1,1,Heart disease
+7527664,Train,29,Under 30,1,Male,Typical angina,152,138.0,Recorded,120 mg/dl or less,Normal,199,Yes,0.0,Not recorded (code 0),0,0,No heart disease
+7532111,Train,46,40-49,3,Female,Non-anginal pain,194,432.0,Recorded,120 mg/dl or less,ST-T wave abnormality,111,No,2.4,Upsloping,0,0,No heart disease
+7539535,Test,72,70+,6,Male,Typical angina,97,345.0,Recorded,120 mg/dl or less,ST-T wave abnormality,104,No,1.1,Upsloping,1,0,No heart disease
+7585452,Train,72,70+,6,Female,Atypical angina,156,411.0,Recorded,120 mg/dl or less,Normal,186,No,0.1,Upsloping,2,0,No heart disease
+7597931,Test,52,50-59,4,Male,Non-anginal pain,145,471.0,Recorded,120 mg/dl or less,ST-T wave abnormality,146,No,4.3,Flat,2,1,Heart disease
+7607165,Test,26,Under 30,1,Male,Typical angina,99,322.0,Recorded,120 mg/dl or less,ST-T wave abnormality,114,Yes,2.8,Upsloping,1,0,No heart disease
+7618628,Train,80,70+,6,Male,Non-anginal pain,177,452.0,Recorded,120 mg/dl or less,ST-T wave abnormality,157,No,0.4,Downsloping,1,1,Heart disease
+7626189,Train,79,70+,6,Female,Atypical angina,191,532.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,149,Yes,1.8,Flat,1,1,Heart disease
+7633136,Train,61,60-69,5,Male,Atypical angina,127,261.0,Recorded,120 mg/dl or less,Normal,136,Yes,0.5,Not recorded (code 0),0,0,No heart disease
+7644731,Train,64,60-69,5,Male,Typical angina,156,213.0,Recorded,120 mg/dl or less,Normal,156,No,6.1,Flat,2,1,Heart disease
+7671918,Train,78,70+,6,Female,Typical angina,185,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,169,Yes,0.6,Upsloping,0,1,Heart disease
+7674180,Test,78,70+,6,Male,Typical angina,155,431.0,Recorded,Over 120 mg/dl,Normal,137,No,0.9,Flat,3,1,Heart disease
+7678399,Train,70,70+,6,Male,Typical angina,124,273.0,Recorded,120 mg/dl or less,ST-T wave abnormality,148,Yes,4.9,Upsloping,3,0,No heart disease
+7692311,Train,65,60-69,5,Female,Typical angina,180,464.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,137,No,2.4,Downsloping,2,1,Heart disease
+7694642,Train,29,Under 30,1,Male,Typical angina,124,135.0,Recorded,120 mg/dl or less,Normal,93,No,3.1,Not recorded (code 0),0,0,No heart disease
+7700276,Train,58,50-59,4,Male,Atypical angina,191,252.0,Recorded,120 mg/dl or less,ST-T wave abnormality,113,No,4.1,Flat,2,1,Heart disease
+7712383,Test,68,60-69,5,Female,Typical angina,94,269.0,Recorded,120 mg/dl or less,Normal,110,No,0.0,Upsloping,0,0,No heart disease
+7719396,Train,30,30-39,2,Male,Typical angina,105,142.0,Recorded,120 mg/dl or less,Normal,110,No,4.1,Not recorded (code 0),0,0,No heart disease
+7724139,Test,37,30-39,2,Female,Non-anginal pain,133,311.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,97,No,1.6,Downsloping,0,1,Heart disease
+7736296,Train,74,70+,6,Male,Typical angina,198,137.0,Recorded,120 mg/dl or less,ST-T wave abnormality,104,Yes,2.7,Not recorded (code 0),0,0,No heart disease
+7737774,Train,62,60-69,5,Male,Non-anginal pain,166,459.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,195,No,1.3,Flat,2,1,Heart disease
+7739948,Train,51,50-59,4,Male,Typical angina,143,356.0,Recorded,120 mg/dl or less,Normal,80,No,1.0,Upsloping,0,0,No heart disease
+7744114,Train,61,60-69,5,Male,Typical angina,160,553.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,112,No,5.8,Flat,3,1,Heart disease
+7764967,Train,25,Under 30,1,Male,Non-anginal pain,187,298.0,Recorded,120 mg/dl or less,Normal,175,No,1.8,Flat,3,1,Heart disease
+7767235,Train,59,50-59,4,Male,Atypical angina,111,247.0,Recorded,Over 120 mg/dl,Normal,71,No,3.5,Upsloping,0,0,No heart disease
+7770217,Train,69,60-69,5,Male,Non-anginal pain,104,356.0,Recorded,Over 120 mg/dl,Normal,138,No,4.1,Downsloping,2,1,Heart disease
+7797411,Train,52,50-59,4,Male,Non-anginal pain,149,601.0,Recorded,Over 120 mg/dl,Normal,156,No,1.8,Flat,2,1,Heart disease
+7818937,Train,50,50-59,4,Female,Non-anginal pain,200,279.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,122,No,1.0,Upsloping,0,1,Heart disease
+7827665,Test,65,60-69,5,Female,Non-anginal pain,127,328.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,184,Yes,2.6,Downsloping,3,1,Heart disease
+7866305,Train,23,Under 30,1,Male,Atypical angina,98,357.0,Recorded,120 mg/dl or less,Normal,117,No,1.4,Not recorded (code 0),1,0,No heart disease
+7878685,Train,27,Under 30,1,Female,Typical angina,135,187.0,Recorded,120 mg/dl or less,Normal,172,No,2.4,Upsloping,1,0,No heart disease
+7896510,Train,73,70+,6,Male,Typical angina,96,248.0,Recorded,120 mg/dl or less,Normal,71,Yes,1.7,Upsloping,2,0,No heart disease
+7900461,Train,65,60-69,5,Male,Typical angina,127,258.0,Recorded,120 mg/dl or less,Normal,158,No,4.1,Upsloping,3,0,No heart disease
+7905830,Train,27,Under 30,1,Male,Non-anginal pain,94,174.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,186,Yes,5.7,Flat,1,1,Heart disease
+7911205,Train,23,Under 30,1,Male,Atypical angina,191,406.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,185,Yes,1.8,Upsloping,1,1,Heart disease
+7912779,Test,43,40-49,3,Male,Typical angina,111,248.0,Recorded,Over 120 mg/dl,Normal,93,No,3.2,Upsloping,1,0,No heart disease
+7919293,Test,62,60-69,5,Male,Atypical angina,197,377.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,145,No,0.9,Flat,1,1,Heart disease
+7921468,Train,69,60-69,5,Male,Atypical angina,191,375.0,Recorded,Over 120 mg/dl,Normal,165,Yes,0.0,Downsloping,1,1,Heart disease
+7938936,Test,70,70+,6,Male,Atypical angina,183,556.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,154,Yes,2.7,Flat,1,1,Heart disease
+7944298,Train,54,50-59,4,Male,Typical angina,149,86.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,141,No,1.9,Downsloping,1,1,Heart disease
+7958553,Train,41,40-49,3,Male,Typical angina,123,349.0,Recorded,120 mg/dl or less,ST-T wave abnormality,107,Yes,3.4,Not recorded (code 0),0,0,No heart disease
+7981620,Test,76,70+,6,Male,Non-anginal pain,135,325.0,Recorded,120 mg/dl or less,Normal,120,No,2.3,Not recorded (code 0),0,0,No heart disease
+7989403,Train,75,70+,6,Male,Typical angina,130,279.0,Recorded,120 mg/dl or less,ST-T wave abnormality,201,No,0.0,Not recorded (code 0),1,0,No heart disease
+7991574,Train,74,70+,6,Male,Typical angina,130,136.0,Recorded,120 mg/dl or less,Normal,181,No,3.8,Upsloping,3,0,No heart disease
+7992881,Train,24,Under 30,1,Male,Typical angina,124,350.0,Recorded,120 mg/dl or less,Normal,181,Yes,3.9,Upsloping,1,0,No heart disease
+7998203,Train,72,70+,6,Male,Typical angina,99,304.0,Recorded,120 mg/dl or less,Normal,142,Yes,2.1,Not recorded (code 0),1,0,No heart disease
+8004696,Train,52,50-59,4,Male,Atypical angina,163,348.0,Recorded,120 mg/dl or less,ST-T wave abnormality,178,No,5.0,Downsloping,2,1,Heart disease
+8006938,Train,67,60-69,5,Male,Typical angina,129,230.0,Recorded,120 mg/dl or less,Normal,162,No,5.1,Not recorded (code 0),0,0,No heart disease
+8024106,Train,70,70+,6,Male,Atypical angina,170,261.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,167,Yes,6.1,Flat,1,1,Heart disease
+8038703,Train,64,60-69,5,Male,Atypical angina,196,501.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,168,No,3.4,Flat,3,1,Heart disease
+8048831,Train,72,70+,6,Male,Non-anginal pain,130,517.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,122,Yes,0.2,Flat,1,1,Heart disease
+8086036,Train,62,60-69,5,Male,Typical angina,122,268.0,Recorded,Over 120 mg/dl,Normal,121,Yes,1.5,Not recorded (code 0),0,0,No heart disease
+8096857,Test,24,Under 30,1,Male,Atypical angina,170,517.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,187,No,0.6,Upsloping,2,1,Heart disease
+8104279,Train,51,50-59,4,Male,Non-anginal pain,163,601.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,168,Yes,0.8,Downsloping,1,1,Heart disease
+8126774,Train,61,60-69,5,Male,Typical angina,137,268.0,Recorded,Over 120 mg/dl,Normal,96,No,5.4,Not recorded (code 0),0,0,No heart disease
+8134957,Train,45,40-49,3,Male,Non-anginal pain,187,447.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,105,No,1.8,Flat,1,1,Heart disease
+8146787,Train,34,30-39,2,Male,Typical angina,125,248.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,101,No,3.5,Not recorded (code 0),1,0,No heart disease
+8150158,Test,49,40-49,3,Male,Typical angina,102,248.0,Recorded,Over 120 mg/dl,Normal,85,No,4.4,Not recorded (code 0),1,0,No heart disease
+8153544,Train,40,40-49,3,Male,Atypical angina,195,390.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,149,No,4.3,Downsloping,3,1,Heart disease
+8159412,Test,63,60-69,5,Male,Asymptomatic,195,347.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,107,No,2.4,Flat,1,1,Heart disease
+8164041,Train,22,Under 30,1,Female,Asymptomatic,200,264.0,Recorded,120 mg/dl or less,Normal,75,No,0.3,Not recorded (code 0),0,0,No heart disease
+8166838,Train,22,Under 30,1,Female,Typical angina,127,330.0,Recorded,120 mg/dl or less,ST-T wave abnormality,193,Yes,1.4,Upsloping,1,0,No heart disease
+8167072,Train,58,50-59,4,Male,Atypical angina,132,136.0,Recorded,120 mg/dl or less,Normal,181,Yes,5.4,Not recorded (code 0),0,0,No heart disease
+8170505,Train,72,70+,6,Male,Non-anginal pain,126,555.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,186,Yes,1.6,Flat,1,1,Heart disease
+8177391,Test,44,40-49,3,Male,Typical angina,96,258.0,Recorded,120 mg/dl or less,Normal,128,Yes,3.3,Upsloping,0,0,No heart disease
+8182993,Test,56,50-59,4,Male,Typical angina,133,268.0,Recorded,Over 120 mg/dl,Normal,79,No,5.3,Upsloping,1,0,No heart disease
+8196169,Train,46,40-49,3,Female,Atypical angina,197,465.0,Recorded,120 mg/dl or less,ST-T wave abnormality,99,No,1.5,Flat,2,1,Heart disease
+8215125,Test,47,40-49,3,Female,Typical angina,123,311.0,Recorded,120 mg/dl or less,ST-T wave abnormality,139,Yes,0.6,Upsloping,1,0,No heart disease
+8218229,Train,36,30-39,2,Male,Typical angina,105,138.0,Recorded,120 mg/dl or less,ST-T wave abnormality,138,No,5.5,Upsloping,0,0,No heart disease
+8226331,Train,53,50-59,4,Female,Atypical angina,195,493.0,Recorded,120 mg/dl or less,ST-T wave abnormality,131,No,1.7,Downsloping,3,1,Heart disease
+8231451,Train,59,50-59,4,Female,Non-anginal pain,199,235.0,Recorded,120 mg/dl or less,ST-T wave abnormality,124,Yes,2.7,Flat,1,1,Heart disease
+8242762,Train,40,40-49,3,Female,Non-anginal pain,199,283.0,Recorded,Over 120 mg/dl,Normal,99,Yes,1.8,Flat,2,1,Heart disease
+8254901,Train,75,70+,6,Male,Asymptomatic,198,241.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,136,Yes,1.0,Upsloping,2,1,Heart disease
+8268855,Train,26,Under 30,1,Male,Atypical angina,193,259.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,159,Yes,4.3,Flat,1,1,Heart disease
+8281970,Train,40,40-49,3,Female,Typical angina,130,288.0,Recorded,120 mg/dl or less,Normal,86,No,1.2,Upsloping,0,0,No heart disease
+8295793,Train,62,60-69,5,Female,Typical angina,189,188.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,135,Yes,2.6,Flat,0,1,Heart disease
+8319026,Test,44,40-49,3,Female,Typical angina,134,461.0,Recorded,120 mg/dl or less,Normal,135,Yes,1.5,Upsloping,1,0,No heart disease
+8321242,Test,45,40-49,3,Male,Non-anginal pain,125,191.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,169,No,5.7,Flat,3,1,Heart disease
+8333098,Train,54,50-59,4,Male,Non-anginal pain,163,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,142,No,3.3,Flat,1,1,Heart disease
+8343222,Train,60,60-69,5,Male,Typical angina,100,248.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,93,Yes,5.2,Not recorded (code 0),1,0,No heart disease
+8347295,Train,75,70+,6,Female,Atypical angina,193,417.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,184,No,3.2,Downsloping,2,1,Heart disease
+8360478,Train,50,50-59,4,Male,Non-anginal pain,190,531.0,Recorded,120 mg/dl or less,ST-T wave abnormality,186,Yes,5.7,Flat,2,1,Heart disease
+8362380,Train,24,Under 30,1,Male,Typical angina,124,268.0,Recorded,120 mg/dl or less,Normal,75,Yes,5.2,Upsloping,1,0,No heart disease
+8367432,Train,62,60-69,5,Male,Atypical angina,105,302.0,Recorded,120 mg/dl or less,ST-T wave abnormality,150,Yes,4.8,Not recorded (code 0),1,0,No heart disease
+8384411,Train,46,40-49,3,Male,Typical angina,123,248.0,Recorded,Over 120 mg/dl,Normal,96,No,0.0,Not recorded (code 0),0,0,No heart disease
+8391593,Train,74,70+,6,Male,Non-anginal pain,123,390.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,129,No,2.5,Flat,1,1,Heart disease
+8392103,Train,42,40-49,3,Male,Typical angina,124,342.0,Recorded,Over 120 mg/dl,Normal,127,Yes,3.7,Upsloping,3,0,No heart disease
+8397705,Train,52,50-59,4,Female,Non-anginal pain,123,331.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,181,No,0.9,Flat,1,1,Heart disease
+8403091,Train,74,70+,6,Female,Non-anginal pain,98,340.0,Recorded,Over 120 mg/dl,Normal,99,Yes,1.9,Flat,2,1,Heart disease
+8406605,Train,21,Under 30,1,Male,Non-anginal pain,104,278.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,174,No,3.4,Flat,1,1,Heart disease
+8416171,Train,56,50-59,4,Male,Typical angina,121,252.0,Recorded,120 mg/dl or less,Normal,185,Yes,1.9,Not recorded (code 0),1,0,No heart disease
+8421635,Test,32,30-39,2,Female,Asymptomatic,136,489.0,Recorded,Over 120 mg/dl,Normal,168,No,1.9,Flat,0,1,Heart disease
+8432538,Test,67,60-69,5,Male,Non-anginal pain,170,319.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,111,No,3.6,Flat,1,1,Heart disease
+8462428,Train,53,50-59,4,Male,Non-anginal pain,136,214.0,Recorded,120 mg/dl or less,Normal,81,No,5.4,Not recorded (code 0),1,0,No heart disease
+8464219,Train,52,50-59,4,Male,Non-anginal pain,183,282.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,135,Yes,0.8,Flat,2,1,Heart disease
+8477254,Train,45,40-49,3,Male,Typical angina,153,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,176,No,1.0,Flat,1,1,Heart disease
+8486543,Train,49,40-49,3,Female,Non-anginal pain,123,277.0,Recorded,120 mg/dl or less,ST-T wave abnormality,148,No,1.4,Flat,0,1,Heart disease
+8492997,Train,68,60-69,5,Male,Atypical angina,196,433.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,145,Yes,3.7,Flat,1,1,Heart disease
+8493413,Train,51,50-59,4,Male,Non-anginal pain,154,470.0,Recorded,120 mg/dl or less,ST-T wave abnormality,124,Yes,4.9,Flat,1,1,Heart disease
+8494876,Train,42,40-49,3,Male,Typical angina,152,348.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,125,No,2.5,Downsloping,1,1,Heart disease
+8503044,Train,47,40-49,3,Female,Atypical angina,195,487.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,193,No,1.5,Flat,0,1,Heart disease
+8519674,Train,34,30-39,2,Male,Typical angina,155,352.0,Recorded,120 mg/dl or less,ST-T wave abnormality,76,Yes,1.0,Upsloping,0,0,No heart disease
+8519801,Train,39,30-39,2,Male,Atypical angina,173,326.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,187,No,3.7,Downsloping,2,1,Heart disease
+8535399,Train,73,70+,6,Male,Non-anginal pain,164,342.0,Recorded,Over 120 mg/dl,Normal,132,Yes,4.9,Flat,2,1,Heart disease
+8558705,Test,26,Under 30,1,Male,Non-anginal pain,164,511.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,186,No,6.1,Flat,3,1,Heart disease
+8562651,Train,76,70+,6,Male,Atypical angina,101,352.0,Recorded,120 mg/dl or less,Normal,127,Yes,4.4,Upsloping,3,0,No heart disease
+8565988,Train,32,30-39,2,Male,Typical angina,127,256.0,Recorded,120 mg/dl or less,Normal,121,No,3.3,Not recorded (code 0),0,0,No heart disease
+8566537,Test,26,Under 30,1,Female,Typical angina,130,180.0,Recorded,120 mg/dl or less,Normal,202,Yes,0.8,Upsloping,0,0,No heart disease
+8570719,Train,70,70+,6,Male,Typical angina,132,268.0,Recorded,Over 120 mg/dl,Normal,103,No,3.3,Upsloping,3,0,No heart disease
+8571735,Train,75,70+,6,Female,Typical angina,142,169.0,Recorded,120 mg/dl or less,ST-T wave abnormality,124,No,1.9,Upsloping,1,0,No heart disease
+8576509,Train,68,60-69,5,Male,Atypical angina,170,422.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,113,No,1.4,Flat,1,1,Heart disease
+8576605,Test,38,30-39,2,Male,Atypical angina,176,520.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,202,Yes,5.1,Flat,1,1,Heart disease
+8579046,Test,77,70+,6,Male,Non-anginal pain,186,418.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,155,No,2.5,Downsloping,2,1,Heart disease
+8583955,Test,49,40-49,3,Female,Typical angina,182,331.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,180,Yes,0.3,Upsloping,2,1,Heart disease
+8638224,Train,58,50-59,4,Male,Typical angina,105,325.0,Recorded,120 mg/dl or less,Normal,122,Yes,4.4,Not recorded (code 0),0,0,No heart disease
+8647082,Train,62,60-69,5,Male,Non-anginal pain,157,456.0,Recorded,120 mg/dl or less,Normal,149,No,2.9,Downsloping,3,1,Heart disease
+8650475,Train,69,60-69,5,Female,Atypical angina,196,367.0,Recorded,Over 120 mg/dl,Normal,114,No,1.6,Flat,1,1,Heart disease
+8651418,Train,58,50-59,4,Male,Non-anginal pain,140,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,199,No,0.9,Upsloping,0,1,Heart disease
+8654478,Test,76,70+,6,Male,Non-anginal pain,138,237.0,Recorded,Over 120 mg/dl,Normal,174,Yes,2.9,Downsloping,2,1,Heart disease
+8658005,Test,43,40-49,3,Male,Typical angina,128,228.0,Recorded,120 mg/dl or less,Normal,199,Yes,1.2,Not recorded (code 0),0,0,No heart disease
+8661474,Train,25,Under 30,1,Male,Non-anginal pain,142,194.0,Recorded,120 mg/dl or less,Normal,142,Yes,0.5,Upsloping,2,1,Heart disease
+8664761,Train,74,70+,6,Male,Typical angina,101,345.0,Recorded,120 mg/dl or less,Normal,127,Yes,2.1,Not recorded (code 0),0,0,No heart disease
+8665500,Train,79,70+,6,Male,Atypical angina,185,,Not recorded (code 0),120 mg/dl or less,Normal,138,No,1.6,Flat,1,1,Heart disease
+8667937,Train,44,40-49,3,Female,Asymptomatic,200,465.0,Recorded,120 mg/dl or less,ST-T wave abnormality,100,No,1.9,Upsloping,1,0,No heart disease
+8671909,Train,77,70+,6,Male,Typical angina,167,279.0,Recorded,120 mg/dl or less,Normal,130,No,2.9,Upsloping,0,0,No heart disease
+8673421,Train,29,Under 30,1,Female,Typical angina,140,432.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,180,No,0.8,Upsloping,2,0,No heart disease
+8676287,Train,74,70+,6,Male,Atypical angina,108,268.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,91,Yes,3.8,Upsloping,3,0,No heart disease
+8681940,Train,54,50-59,4,Male,Non-anginal pain,138,139.0,Recorded,120 mg/dl or less,Normal,176,Yes,0.2,Upsloping,0,0,No heart disease
+8693007,Test,28,Under 30,1,Male,Non-anginal pain,184,526.0,Recorded,Over 120 mg/dl,Normal,190,Yes,5.6,Downsloping,2,1,Heart disease
+8699600,Test,58,50-59,4,Female,Typical angina,190,200.0,Recorded,120 mg/dl or less,Normal,98,Yes,1.8,Flat,2,1,Heart disease
+8704054,Train,79,70+,6,Male,Non-anginal pain,143,219.0,Recorded,120 mg/dl or less,ST-T wave abnormality,90,Yes,1.3,Upsloping,2,0,No heart disease
+8708251,Train,71,70+,6,Female,Typical angina,132,410.0,Recorded,120 mg/dl or less,ST-T wave abnormality,120,Yes,1.7,Upsloping,1,0,No heart disease
+8712130,Train,59,50-59,4,Male,Non-anginal pain,151,212.0,Recorded,120 mg/dl or less,Normal,198,Yes,4.1,Downsloping,3,1,Heart disease
+8727657,Test,44,40-49,3,Male,Typical angina,138,471.0,Recorded,Over 120 mg/dl,Normal,142,No,4.5,Downsloping,2,1,Heart disease
+8733102,Test,43,40-49,3,Female,Atypical angina,155,410.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,116,No,0.2,Not recorded (code 0),2,0,No heart disease
+8750970,Train,26,Under 30,1,Male,Typical angina,193,304.0,Recorded,120 mg/dl or less,Normal,160,Yes,3.6,Upsloping,0,0,No heart disease
+8755883,Train,37,30-39,2,Male,Typical angina,142,529.0,Recorded,120 mg/dl or less,ST-T wave abnormality,119,Yes,0.2,Upsloping,0,1,Heart disease
+8766028,Test,39,30-39,2,Male,Non-anginal pain,125,477.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,190,No,3.5,Flat,1,1,Heart disease
+8775862,Train,46,40-49,3,Female,Non-anginal pain,130,445.0,Recorded,120 mg/dl or less,ST-T wave abnormality,160,Yes,2.9,Downsloping,2,1,Heart disease
+8778337,Train,77,70+,6,Male,Typical angina,122,251.0,Recorded,120 mg/dl or less,ST-T wave abnormality,76,Yes,2.5,Upsloping,2,0,No heart disease
+8785318,Test,33,30-39,2,Male,Asymptomatic,196,338.0,Recorded,120 mg/dl or less,Normal,105,No,4.1,Downsloping,1,1,Heart disease
+8815746,Train,49,40-49,3,Male,Atypical angina,190,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,157,No,5.1,Flat,3,1,Heart disease
+8820134,Train,55,50-59,4,Male,Non-anginal pain,192,276.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,188,No,0.0,Flat,2,1,Heart disease
+8827190,Train,79,70+,6,Male,Non-anginal pain,133,303.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,122,Yes,1.8,Upsloping,0,1,Heart disease
+8838315,Train,77,70+,6,Male,Typical angina,198,325.0,Recorded,120 mg/dl or less,ST-T wave abnormality,111,Yes,3.6,Not recorded (code 0),1,0,No heart disease
+8841123,Train,38,30-39,2,Male,Atypical angina,195,320.0,Recorded,Over 120 mg/dl,Normal,175,Yes,2.1,Flat,1,1,Heart disease
+8859288,Train,38,30-39,2,Female,Atypical angina,196,211.0,Recorded,120 mg/dl or less,Normal,189,Yes,2.9,Flat,0,1,Heart disease
+8859682,Test,57,50-59,4,Male,Typical angina,159,370.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,107,No,5.3,Flat,3,1,Heart disease
+8865478,Train,61,60-69,5,Male,Asymptomatic,195,420.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,149,Yes,2.2,Flat,2,1,Heart disease
+8913109,Train,39,30-39,2,Male,Non-anginal pain,158,408.0,Recorded,Over 120 mg/dl,Normal,183,Yes,2.0,Downsloping,3,1,Heart disease
+8916472,Train,38,30-39,2,Female,Asymptomatic,135,379.0,Recorded,120 mg/dl or less,Normal,159,Yes,1.0,Flat,2,1,Heart disease
+8945180,Train,56,50-59,4,Female,Typical angina,124,461.0,Recorded,120 mg/dl or less,Normal,166,No,2.3,Upsloping,0,0,No heart disease
+8945920,Test,78,70+,6,Female,Atypical angina,191,385.0,Recorded,120 mg/dl or less,Normal,127,Yes,1.2,Downsloping,2,1,Heart disease
+8949999,Train,69,60-69,5,Male,Non-anginal pain,142,137.0,Recorded,120 mg/dl or less,Normal,112,No,5.4,Upsloping,3,0,No heart disease
+8959842,Train,48,40-49,3,Male,Non-anginal pain,181,327.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,135,Yes,3.6,Flat,2,1,Heart disease
+8973770,Train,33,30-39,2,Male,Non-anginal pain,156,545.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,105,Yes,2.3,Flat,2,1,Heart disease
+8976590,Train,47,40-49,3,Female,Typical angina,94,433.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,180,No,1.4,Not recorded (code 0),0,0,No heart disease
+8991878,Test,34,30-39,2,Male,Non-anginal pain,175,511.0,Recorded,Over 120 mg/dl,Normal,190,No,0.3,Flat,3,1,Heart disease
+8993950,Train,74,70+,6,Female,Atypical angina,191,506.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,180,Yes,2.4,Flat,0,1,Heart disease
+8998508,Train,24,Under 30,1,Male,Typical angina,110,268.0,Recorded,Over 120 mg/dl,Normal,192,Yes,4.3,Not recorded (code 0),0,0,No heart disease
+9002324,Train,39,30-39,2,Male,Atypical angina,178,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,139,No,0.4,Flat,2,1,Heart disease
+9018353,Train,55,50-59,4,Male,Non-anginal pain,165,365.0,Recorded,120 mg/dl or less,ST-T wave abnormality,169,Yes,3.6,Flat,1,1,Heart disease
+9020025,Train,27,Under 30,1,Male,Atypical angina,168,253.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,176,No,6.2,Flat,1,1,Heart disease
+9024169,Train,74,70+,6,Female,Typical angina,141,436.0,Recorded,120 mg/dl or less,ST-T wave abnormality,145,Yes,0.4,Upsloping,2,0,No heart disease
+9025927,Train,58,50-59,4,Female,Typical angina,129,465.0,Recorded,120 mg/dl or less,Normal,135,Yes,2.6,Flat,0,0,No heart disease
+9051284,Train,71,70+,6,Male,Typical angina,124,349.0,Recorded,120 mg/dl or less,Normal,165,Yes,2.7,Upsloping,2,0,No heart disease
+9068025,Test,50,50-59,4,Male,Non-anginal pain,138,137.0,Recorded,120 mg/dl or less,Normal,191,Yes,5.8,Upsloping,1,0,No heart disease
+9080286,Test,56,50-59,4,Male,Typical angina,200,248.0,Recorded,Over 120 mg/dl,Normal,174,Yes,5.0,Upsloping,3,0,No heart disease
+9092194,Test,51,50-59,4,Female,Non-anginal pain,198,436.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,78,Yes,2.3,Upsloping,1,0,No heart disease
+9094509,Train,29,Under 30,1,Male,Atypical angina,187,185.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,186,No,0.3,Downsloping,2,1,Heart disease
+9109666,Test,70,70+,6,Female,Typical angina,184,271.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,99,No,1.7,Flat,1,1,Heart disease
+9129177,Train,28,Under 30,1,Male,Atypical angina,181,393.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,169,No,0.7,Flat,1,1,Heart disease
+9150731,Train,74,70+,6,Male,Typical angina,125,232.0,Recorded,120 mg/dl or less,ST-T wave abnormality,110,Yes,5.5,Flat,0,0,No heart disease
+9151008,Train,62,60-69,5,Male,Typical angina,148,215.0,Recorded,Over 120 mg/dl,Normal,105,No,0.6,Downsloping,2,1,Heart disease
+9159795,Train,73,70+,6,Male,Typical angina,139,345.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,141,No,4.9,Flat,1,1,Heart disease
+9164657,Train,44,40-49,3,Male,Atypical angina,184,267.0,Recorded,120 mg/dl or less,ST-T wave abnormality,168,No,3.6,Downsloping,2,1,Heart disease
+9175692,Train,69,60-69,5,Male,Atypical angina,120,231.0,Recorded,120 mg/dl or less,Normal,77,No,4.4,Not recorded (code 0),0,0,No heart disease
+9178385,Train,79,70+,6,Male,Non-anginal pain,133,137.0,Recorded,120 mg/dl or less,ST-T wave abnormality,185,Yes,2.5,Not recorded (code 0),1,0,No heart disease
+9184885,Train,48,40-49,3,Female,Atypical angina,190,410.0,Recorded,120 mg/dl or less,ST-T wave abnormality,142,Yes,2.6,Upsloping,0,0,No heart disease
+9196333,Train,37,30-39,2,Male,Atypical angina,120,211.0,Recorded,120 mg/dl or less,Normal,115,No,3.5,Not recorded (code 0),0,0,No heart disease
+9212375,Train,77,70+,6,Male,Asymptomatic,197,273.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,156,Yes,2.4,Flat,2,1,Heart disease
+9219991,Train,64,60-69,5,Male,Typical angina,128,313.0,Recorded,120 mg/dl or less,ST-T wave abnormality,139,No,0.7,Not recorded (code 0),1,0,No heart disease
+9225387,Train,44,40-49,3,Female,Typical angina,189,277.0,Recorded,120 mg/dl or less,ST-T wave abnormality,99,Yes,2.9,Flat,0,1,Heart disease
+9238529,Test,24,Under 30,1,Male,Atypical angina,196,527.0,Recorded,120 mg/dl or less,Normal,187,Yes,1.8,Downsloping,1,1,Heart disease
+9243626,Train,29,Under 30,1,Male,Non-anginal pain,185,277.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,174,No,4.2,Downsloping,2,1,Heart disease
+9252549,Train,32,30-39,2,Male,Asymptomatic,200,300.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,188,Yes,0.5,Flat,2,1,Heart disease
+9262290,Train,80,70+,6,Male,Non-anginal pain,171,356.0,Recorded,Over 120 mg/dl,Normal,175,Yes,2.4,Flat,1,1,Heart disease
+9262423,Train,20,Under 30,1,Male,Typical angina,129,336.0,Recorded,120 mg/dl or less,Normal,103,Yes,6.2,Flat,1,0,No heart disease
+9266696,Train,22,Under 30,1,Male,Typical angina,121,342.0,Recorded,120 mg/dl or less,Normal,135,Yes,5.5,Upsloping,1,0,No heart disease
+9267357,Train,24,Under 30,1,Male,Typical angina,130,354.0,Recorded,120 mg/dl or less,ST-T wave abnormality,129,Yes,1.6,Not recorded (code 0),0,0,No heart disease
+9271301,Train,24,Under 30,1,Male,Atypical angina,164,414.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,126,No,4.5,Flat,1,1,Heart disease
+9276841,Test,39,30-39,2,Female,Asymptomatic,134,507.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,162,Yes,2.9,Flat,0,1,Heart disease
+9281021,Train,66,60-69,5,Male,Non-anginal pain,140,195.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,132,No,4.6,Downsloping,2,1,Heart disease
+9284170,Train,44,40-49,3,Male,Typical angina,139,265.0,Recorded,120 mg/dl or less,Normal,200,Yes,4.1,Not recorded (code 0),0,0,No heart disease
+9285359,Train,37,30-39,2,Male,Atypical angina,179,278.0,Recorded,120 mg/dl or less,ST-T wave abnormality,135,Yes,1.1,Downsloping,1,1,Heart disease
+9294150,Train,51,50-59,4,Male,Non-anginal pain,176,346.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,160,Yes,2.0,Downsloping,3,1,Heart disease
+9316636,Train,70,70+,6,Male,Non-anginal pain,163,433.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,157,Yes,5.0,Flat,3,1,Heart disease
+9316752,Test,27,Under 30,1,Male,Non-anginal pain,149,275.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,188,Yes,2.8,Downsloping,1,1,Heart disease
+9317240,Train,39,30-39,2,Male,Non-anginal pain,95,385.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,184,Yes,1.5,Downsloping,3,1,Heart disease
+9320062,Train,76,70+,6,Male,Typical angina,102,240.0,Recorded,120 mg/dl or less,ST-T wave abnormality,170,No,0.9,Not recorded (code 0),1,0,No heart disease
+9394940,Train,38,30-39,2,Female,Typical angina,130,411.0,Recorded,120 mg/dl or less,Normal,148,Yes,0.0,Not recorded (code 0),0,0,No heart disease
+9402200,Train,37,30-39,2,Male,Typical angina,156,499.0,Recorded,120 mg/dl or less,ST-T wave abnormality,117,Yes,4.2,Flat,2,1,Heart disease
+9403337,Train,23,Under 30,1,Male,Non-anginal pain,155,558.0,Recorded,120 mg/dl or less,Normal,139,No,5.3,Flat,2,1,Heart disease
+9403770,Train,27,Under 30,1,Female,Typical angina,183,326.0,Recorded,120 mg/dl or less,Normal,181,Yes,2.9,Flat,0,1,Heart disease
+9411745,Train,35,30-39,2,Male,Atypical angina,190,408.0,Recorded,120 mg/dl or less,ST-T wave abnormality,138,No,6.2,Flat,2,1,Heart disease
+9412747,Train,45,40-49,3,Male,Typical angina,161,354.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,114,Yes,1.4,Flat,3,1,Heart disease
+9417116,Train,78,70+,6,Male,Typical angina,143,258.0,Recorded,120 mg/dl or less,Normal,110,Yes,0.2,Not recorded (code 0),1,0,No heart disease
+9448824,Train,29,Under 30,1,Male,Non-anginal pain,142,480.0,Recorded,Over 120 mg/dl,Normal,146,Yes,1.8,Upsloping,2,1,Heart disease
+9451192,Train,58,50-59,4,Male,Atypical angina,102,357.0,Recorded,120 mg/dl or less,ST-T wave abnormality,76,Yes,1.8,Not recorded (code 0),0,0,No heart disease
+9456526,Train,50,50-59,4,Female,Typical angina,129,255.0,Recorded,120 mg/dl or less,ST-T wave abnormality,85,No,1.7,Not recorded (code 0),0,0,No heart disease
+9466309,Train,51,50-59,4,Female,Non-anginal pain,133,218.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,171,Yes,0.8,Upsloping,2,1,Heart disease
+9469066,Train,76,70+,6,Male,Typical angina,121,241.0,Recorded,120 mg/dl or less,ST-T wave abnormality,192,Yes,3.9,Upsloping,0,0,No heart disease
+9473206,Test,63,60-69,5,Male,Asymptomatic,197,348.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,164,Yes,1.8,Upsloping,1,1,Heart disease
+9478617,Train,78,70+,6,Male,Atypical angina,101,352.0,Recorded,120 mg/dl or less,Normal,85,Yes,4.4,Not recorded (code 0),0,0,No heart disease
+9480386,Test,37,30-39,2,Male,Typical angina,121,142.0,Recorded,120 mg/dl or less,Normal,115,No,2.9,Not recorded (code 0),0,0,No heart disease
+9480725,Train,75,70+,6,Male,Typical angina,122,231.0,Recorded,120 mg/dl or less,Normal,176,Yes,2.5,Upsloping,0,0,No heart disease
+9488072,Train,74,70+,6,Female,Typical angina,183,365.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,99,No,1.5,Downsloping,3,1,Heart disease
+9489544,Train,58,50-59,4,Male,Non-anginal pain,125,336.0,Recorded,120 mg/dl or less,ST-T wave abnormality,139,No,2.2,Downsloping,1,1,Heart disease
+9497570,Test,46,40-49,3,Male,Non-anginal pain,162,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,135,Yes,1.3,Downsloping,1,1,Heart disease
+9501186,Train,43,40-49,3,Male,Non-anginal pain,135,384.0,Recorded,120 mg/dl or less,Normal,182,No,0.8,Downsloping,2,1,Heart disease
+9521986,Train,60,60-69,5,Male,Non-anginal pain,184,295.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,168,No,1.0,Downsloping,2,1,Heart disease
+9533393,Train,39,30-39,2,Male,Typical angina,143,146.0,Recorded,120 mg/dl or less,ST-T wave abnormality,170,No,0.4,Upsloping,0,0,No heart disease
+9557042,Test,52,50-59,4,Male,Atypical angina,161,415.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,138,Yes,3.9,Flat,2,1,Heart disease
+9559845,Train,20,Under 30,1,Male,Atypical angina,170,352.0,Recorded,Over 120 mg/dl,Normal,138,No,1.4,Upsloping,0,1,Heart disease
+9560710,Train,64,60-69,5,Female,Typical angina,188,288.0,Recorded,Over 120 mg/dl,Normal,119,No,1.2,Upsloping,2,1,Heart disease
+9579019,Train,48,40-49,3,Male,Non-anginal pain,184,219.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,192,No,2.7,Downsloping,2,1,Heart disease
+9598599,Train,72,70+,6,Male,Typical angina,139,539.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,182,No,1.7,Upsloping,2,1,Heart disease
+9626182,Train,24,Under 30,1,Male,Non-anginal pain,183,513.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,155,No,2.1,Flat,1,1,Heart disease
+9657376,Train,78,70+,6,Male,Atypical angina,97,319.0,Recorded,120 mg/dl or less,Normal,117,Yes,0.7,Upsloping,0,0,No heart disease
+9658676,Test,38,30-39,2,Male,Atypical angina,161,361.0,Recorded,Over 120 mg/dl,Normal,156,Yes,4.4,Flat,2,1,Heart disease
+9661522,Train,80,70+,6,Male,Atypical angina,199,212.0,Recorded,120 mg/dl or less,ST-T wave abnormality,113,No,0.6,Upsloping,0,1,Heart disease
+9668804,Train,66,60-69,5,Female,Atypical angina,197,,Not recorded (code 0),120 mg/dl or less,ST-T wave abnormality,196,Yes,2.6,Flat,2,1,Heart disease
+9673101,Train,56,50-59,4,Male,Atypical angina,110,354.0,Recorded,120 mg/dl or less,Normal,186,Yes,1.3,Upsloping,0,0,No heart disease
+9673918,Train,31,30-39,2,Male,Typical angina,143,232.0,Recorded,120 mg/dl or less,Normal,198,Yes,5.4,Flat,1,1,Heart disease
+9688369,Train,25,Under 30,1,Male,Typical angina,126,142.0,Recorded,120 mg/dl or less,Normal,156,No,2.9,Upsloping,1,0,No heart disease
+9694500,Train,54,50-59,4,Male,Non-anginal pain,176,,Not recorded (code 0),120 mg/dl or less,Left ventricular hypertrophy,176,No,6.1,Flat,1,1,Heart disease
+9694810,Test,25,Under 30,1,Male,Non-anginal pain,145,488.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,148,Yes,3.6,Flat,2,1,Heart disease
+9703245,Train,56,50-59,4,Male,Atypical angina,194,250.0,Recorded,120 mg/dl or less,Normal,133,No,4.1,Flat,2,1,Heart disease
+9718692,Train,64,60-69,5,Female,Typical angina,94,428.0,Recorded,120 mg/dl or less,Normal,159,Yes,1.5,Not recorded (code 0),2,0,No heart disease
+9732542,Train,53,50-59,4,Male,Atypical angina,184,368.0,Recorded,120 mg/dl or less,Normal,170,Yes,2.2,Upsloping,1,1,Heart disease
+9736370,Test,65,60-69,5,Male,Typical angina,125,346.0,Recorded,120 mg/dl or less,ST-T wave abnormality,93,Yes,3.9,Not recorded (code 0),0,0,No heart disease
+9740359,Train,77,70+,6,Male,Typical angina,196,354.0,Recorded,120 mg/dl or less,Normal,99,Yes,1.1,Upsloping,2,0,No heart disease
+9759249,Train,50,50-59,4,Male,Typical angina,160,310.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,165,No,0.3,Upsloping,2,1,Heart disease
+9782088,Test,46,40-49,3,Male,Non-anginal pain,147,,Not recorded (code 0),120 mg/dl or less,Normal,159,Yes,3.2,Flat,1,1,Heart disease
+9791031,Train,20,Under 30,1,Female,Typical angina,136,259.0,Recorded,120 mg/dl or less,Normal,93,Yes,2.3,Upsloping,1,0,No heart disease
+9799509,Train,28,Under 30,1,Male,Typical angina,158,336.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,122,No,4.6,Flat,2,1,Heart disease
+9810820,Train,28,Under 30,1,Female,Atypical angina,193,177.0,Recorded,120 mg/dl or less,Normal,97,Yes,1.4,Flat,2,1,Heart disease
+9819009,Test,33,30-39,2,Female,Typical angina,124,182.0,Recorded,120 mg/dl or less,Normal,130,Yes,1.8,Upsloping,0,0,No heart disease
+9837223,Train,58,50-59,4,Male,Typical angina,150,429.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,168,No,3.4,Flat,3,1,Heart disease
+9846037,Train,33,30-39,2,Male,Non-anginal pain,120,416.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,153,Yes,3.4,Downsloping,2,1,Heart disease
+9856541,Train,30,30-39,2,Male,Non-anginal pain,169,316.0,Recorded,120 mg/dl or less,Normal,109,Yes,6.1,Flat,1,1,Heart disease
+9870657,Train,74,70+,6,Male,Typical angina,136,279.0,Recorded,120 mg/dl or less,ST-T wave abnormality,122,No,1.2,Not recorded (code 0),0,0,No heart disease
+9876043,Train,56,50-59,4,Female,Typical angina,142,230.0,Recorded,120 mg/dl or less,ST-T wave abnormality,188,Yes,1.4,Upsloping,2,0,No heart disease
+9888918,Train,63,60-69,5,Female,Atypical angina,196,367.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,96,Yes,3.2,Flat,0,1,Heart disease
+9896438,Train,24,Under 30,1,Male,Typical angina,170,354.0,Recorded,120 mg/dl or less,Normal,90,Yes,1.5,Not recorded (code 0),0,0,No heart disease
+9911700,Train,77,70+,6,Female,Typical angina,183,298.0,Recorded,Over 120 mg/dl,Left ventricular hypertrophy,142,Yes,2.4,Downsloping,3,1,Heart disease
+9921653,Train,25,Under 30,1,Female,Atypical angina,197,,Not recorded (code 0),120 mg/dl or less,Normal,195,No,1.0,Downsloping,0,1,Heart disease
+9937998,Test,62,60-69,5,Male,Atypical angina,125,342.0,Recorded,120 mg/dl or less,Normal,128,Yes,2.1,Not recorded (code 0),0,0,No heart disease
+9949544,Test,48,40-49,3,Male,Non-anginal pain,139,349.0,Recorded,120 mg/dl or less,Left ventricular hypertrophy,183,Yes,5.6,Flat,2,1,Heart disease
+9953423,Train,47,40-49,3,Male,Asymptomatic,143,258.0,Recorded,Over 120 mg/dl,ST-T wave abnormality,98,Yes,5.7,Upsloping,0,0,No heart disease
+9965859,Train,69,60-69,5,Male,Typical angina,156,434.0,Recorded,Over 120 mg/dl,Normal,196,No,1.4,Downsloping,1,1,Heart disease
+9988507,Train,45,40-49,3,Male,Atypical angina,186,417.0,Recorded,120 mg/dl or less,ST-T wave abnormality,117,Yes,5.9,Downsloping,2,1,Heart disease
+9990855,Test,25,Under 30,1,Male,Typical angina,158,270.0,Recorded,120 mg/dl or less,Normal,143,Yes,4.7,Not recorded (code 0),0,0,No heart disease

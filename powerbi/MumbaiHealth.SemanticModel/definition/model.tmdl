@@ -1,0 +1,27 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["DataFolder", "dim_ward", "dim_category", "dim_site", "fact_facility", "fact_ward_category", "hospital_list", "clinical_patient", "dim_model", "model_metric", "model_confusion", "model_roc", "model_importance", "test_prediction", "cleaning_log", "missing_values"]
+
+ref table dim_ward
+ref table dim_category
+ref table dim_site
+ref table fact_facility
+ref table fact_ward_category
+ref table hospital_list
+ref table clinical_patient
+ref table dim_model
+ref table model_metric
+ref table model_confusion
+ref table model_roc
+ref table model_importance
+ref table test_prediction
+ref table cleaning_log
+ref table missing_values

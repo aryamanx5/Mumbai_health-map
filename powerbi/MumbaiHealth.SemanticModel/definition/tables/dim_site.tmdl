@@ -1,0 +1,112 @@
+table dim_site
+	lineageTag: 825c29c9-505e-5049-b563-a92766c38b44
+
+	column site_id
+		dataType: string
+		lineageTag: a37f9854-b431-56fb-a783-d41d61c34a55
+		summarizeBy: none
+		sourceColumn: site_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column ward_id
+		dataType: string
+		lineageTag: eaf3a6c2-5685-50bc-b37b-eede4ae3095b
+		summarizeBy: none
+		sourceColumn: ward_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column site_name
+		dataType: string
+		lineageTag: f2eb2c05-ac06-57c2-8bc7-4a808eaeafc6
+		summarizeBy: none
+		sourceColumn: site_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column categories
+		dataType: string
+		lineageTag: 4a512a33-b7af-5bc8-8ed8-4dfc3f6d4028
+		summarizeBy: none
+		sourceColumn: categories
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_records
+		dataType: int64
+		lineageTag: 6288db9e-122a-5632-9ffe-3e376d092500
+		summarizeBy: none
+		sourceColumn: n_records
+
+		annotation SummarizationSetBy = Automatic
+
+	column longitude
+		dataType: double
+		dataCategory: Longitude
+		lineageTag: 686df821-ac1f-5909-bd95-e816bb65bb09
+		summarizeBy: none
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		dataCategory: Latitude
+		lineageTag: d6f87cd2-16c4-5330-986f-35c8f1f47e41
+		summarizeBy: none
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_dispensary
+		dataType: boolean
+		lineageTag: 4ac8a84b-1231-5e01-b2fc-15803931f4ef
+		summarizeBy: none
+		sourceColumn: is_dispensary
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_uphc
+		dataType: boolean
+		lineageTag: a76d7dce-2ef7-57c2-b55c-158d4fc5d674
+		summarizeBy: none
+		sourceColumn: is_uphc
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_public_hospital
+		dataType: boolean
+		lineageTag: 1b9ca573-8e94-5b9b-a52e-60bb3ff24733
+		summarizeBy: none
+		sourceColumn: is_public_hospital
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_maternity_hospital
+		dataType: boolean
+		lineageTag: 6eadeb06-08d6-562c-abbc-052cb770f2de
+		summarizeBy: none
+		sourceColumn: is_maternity_hospital
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_labels
+		dataType: string
+		lineageTag: 968a67f1-1a28-500e-8fbe-cd7ee2e5dd3f
+		summarizeBy: none
+		sourceColumn: category_labels
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_site = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_site.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"site_id", type text}, {"ward_id", type text}, {"site_name", type text}, {"categories", type text}, {"n_records", Int64.Type}, {"longitude", type number}, {"latitude", type number}, {"is_dispensary", type logical}, {"is_uphc", type logical}, {"is_public_hospital", type logical}, {"is_maternity_hospital", type logical}, {"category_labels", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

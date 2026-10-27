@@ -105,5 +105,12 @@
     "not_found_in_kml_layers": 18,
     "matched_in_kml_ward_conflict": 1
   },
-  "kml_hospital_records_not_in_csv": 26
+  "kml_hospital_records_not_in_csv": 26,
+  "hospital_list_ownership": {
+    "Private": 235,
+    "Public": 51,
+    "Trust": 2
+  },
+  "hospital_list_beds_missing": 2,
+  "hospital_list_unmapped_wards": 0
 }

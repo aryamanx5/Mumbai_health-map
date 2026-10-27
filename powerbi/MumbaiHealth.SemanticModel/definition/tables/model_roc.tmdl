@@ -1,0 +1,50 @@
+table model_roc
+	lineageTag: 7417ad54-549d-543a-88a3-53f035789cde
+
+	measure 'True Positive Rate' = MAX ( model_roc[tpr] )
+		formatString: 0.00
+		lineageTag: c6c3ac34-66f5-52e3-8481-9a810d505238
+
+	column model
+		dataType: string
+		lineageTag: 8b8e9046-b9d4-5eef-b148-0952d82842ce
+		summarizeBy: none
+		sourceColumn: model
+
+		annotation SummarizationSetBy = Automatic
+
+	column point
+		dataType: int64
+		lineageTag: 0f2e26eb-aaf4-59ec-800a-5af2eb5358e2
+		summarizeBy: none
+		sourceColumn: point
+
+		annotation SummarizationSetBy = Automatic
+
+	column fpr
+		dataType: double
+		lineageTag: 8e2734a6-7995-5271-8ac4-a86ede9c7864
+		summarizeBy: none
+		sourceColumn: fpr
+
+		annotation SummarizationSetBy = Automatic
+
+	column tpr
+		dataType: double
+		lineageTag: 17ab4168-ecff-508c-a1a4-397b8480522e
+		summarizeBy: none
+		sourceColumn: tpr
+
+		annotation SummarizationSetBy = Automatic
+
+	partition model_roc = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "model_roc.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"model", type text}, {"point", Int64.Type}, {"fpr", type number}, {"tpr", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

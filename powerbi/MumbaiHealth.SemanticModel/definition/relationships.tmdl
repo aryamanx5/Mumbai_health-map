@@ -1,0 +1,43 @@
+relationship a4f30624-50e7-57c1-8532-e3e04ea6eb60
+	fromColumn: fact_facility.ward_id
+	toColumn: dim_ward.ward_id
+
+relationship e6e9e25c-069c-5d58-85db-7567c6b03473
+	fromColumn: fact_ward_category.ward_id
+	toColumn: dim_ward.ward_id
+
+relationship 2c0fb390-a1d1-5612-99d1-02f35f783567
+	fromColumn: hospital_list.ward_id
+	toColumn: dim_ward.ward_id
+
+relationship e35c94c1-553d-57e6-b52e-4c5d849aa252
+	fromColumn: fact_facility.category
+	toColumn: dim_category.category
+
+relationship 62bd12d3-5b5f-5afe-a432-2e63c380ca94
+	fromColumn: fact_ward_category.category
+	toColumn: dim_category.category
+
+relationship e13e3e3c-c371-5c67-a456-a7df1b7a710e
+	fromColumn: fact_facility.site_id
+	toColumn: dim_site.site_id
+
+relationship 73132ce0-8d1b-548b-b280-e125dde5b685
+	fromColumn: model_metric.model
+	toColumn: dim_model.model
+
+relationship 2eb7adaf-7594-5678-b054-a753f00a1247
+	fromColumn: model_confusion.model
+	toColumn: dim_model.model
+
+relationship 8ff3c8d5-d742-5736-bab1-4dd36694e45a
+	fromColumn: model_roc.model
+	toColumn: dim_model.model
+
+relationship 9b76bd82-ce54-5af5-8b0c-216e1121d6da
+	fromColumn: model_importance.model
+	toColumn: dim_model.model
+
+relationship 1811efc9-6b77-52e9-8566-c8c15337ec54
+	fromColumn: test_prediction.model
+	toColumn: dim_model.model

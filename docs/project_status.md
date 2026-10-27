@@ -1,6 +1,6 @@
 # Project status
 
-_Last updated: 2026-10-19_
+_Last updated: 2026-10-20_
 
 ## Done and verified
 | Stage | Evidence |
@@ -17,16 +17,22 @@ _Last updated: 2026-10-19_
 | Landing page | `index.html` + `landing/` at http://localhost:8050/; the live ward sentence was tested in a browser; design lint and inspector pass at 1440, 768 and 390 px |
 | Web dashboard | `dashboard/` at http://localhost:8050/dashboard/; graphite/orange theme; all three pages, filters, ward deep links and the drill-down panel checked in a browser |
 | Report | `outputs/reports/final_report.pdf` (12 pages, numbers generated from outputs) |
-| Tests | `pytest`: 37 passed |
+| Tests | `pytest`: 68 passed (37 original, 25 for the clinical models and API, 6 for the Power BI project) |
+| Cardiovascular models | LR / RF / ANN on the Doppala & Bhattacharyya (2021) Indian dataset; test ROC-AUC 0.968 / 0.992 / 0.986; see `docs/ml_methodology.md` |
+| FastAPI backend | `backend/`; serves the site, `/api/*` and Swagger at `/api/docs` |
+| Dashboard | Overview (KPIs, model cards, ward lookup), Heart risk predictor, Power BI dashboard (embedded report). Charts and the map moved to Power BI |
+| Power BI report | `powerbi/MumbaiHealth.pbip`: 5 pages, 101 visuals, own navy/heart-red/teal theme, 15 tables, 35 measures. Passes Microsoft's TMDL parser and PBIR schemas; not yet opened in Desktop |
+| Boundary cross-check | OpenCity wards vs `BMC_admin_wards.geojson`: median IoU 0.986 |
 
 ## Blockers and gaps
-* **Power BI PBIX not built.** Power BI Desktop is not available on macOS. The spec, DAX and acceptance checks are
-  ready, so the build must be done on Windows.
+* **Clinical CSV provenance.** Mendeley and Kaggle were blocked during the build, so a public GitHub copy was used. Replace it with the Mendeley download and re-run to confirm.
+* **Power BI not yet opened in Desktop or published.** The project is generated and validated, but Power BI Desktop
+  runs only on Windows. Publishing needs the user's Power BI account; see `powerbi/POWERBI_GUIDE.md`.
 * **2023 population not available.** Census 2011 is used instead; drop a newer table into `src/population.py` to
   update everything.
 * 24 ward-assignment records and 9 manual hospital-list matches would benefit from a human review against ground
   truth.
 
 ## Next action
-Build the three-page report in Power BI Desktop on Windows, following `powerbi/powerbi_spec.md`, and run its
-acceptance checks.
+Open `powerbi/MumbaiHealth.pbip` in Power BI Desktop, refresh and check the Home page numbers. Then publish it, and paste the
+embed link into `dashboard/powerbi-config.js` (`powerbi/POWERBI_GUIDE.md`).

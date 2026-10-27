@@ -1,0 +1,4 @@
+model,short,sort_order,color,why,chosen_settings
+Logistic Regression,LR,1,#3987E5,Linear baseline; coefficients are directly interpretable as log-odds effects.,C = 10.0
+Random Forest,RF,2,#D95926,Non-linear ensemble of trees; captures interactions and gives feature importances.,"max_depth = 8, min_samples_leaf = 1, n_estimators = 300"
+Artificial Neural Network (MLP),ANN,3,#199E70,Small feed-forward network (one or two hidden layers) suited to ~800 training rows.,"alpha = 0.1, hidden_layer_sizes = [32]"

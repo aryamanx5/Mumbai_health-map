@@ -1,0 +1,13 @@
+model,cell,cell_order,actual,predicted,patients
+Logistic Regression,True negative,1,No heart disease,No heart disease,72
+Logistic Regression,False positive,2,No heart disease,Heart disease,12
+Logistic Regression,False negative,3,Heart disease,No heart disease,10
+Logistic Regression,True positive,4,Heart disease,Heart disease,106
+Random Forest,True negative,1,No heart disease,No heart disease,79
+Random Forest,False positive,2,No heart disease,Heart disease,5
+Random Forest,False negative,3,Heart disease,No heart disease,4
+Random Forest,True positive,4,Heart disease,Heart disease,112
+Artificial Neural Network (MLP),True negative,1,No heart disease,No heart disease,78
+Artificial Neural Network (MLP),False positive,2,No heart disease,Heart disease,6
+Artificial Neural Network (MLP),False negative,3,Heart disease,No heart disease,7
+Artificial Neural Network (MLP),True positive,4,Heart disease,Heart disease,109

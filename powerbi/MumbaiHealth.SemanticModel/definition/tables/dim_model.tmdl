@@ -1,0 +1,64 @@
+table dim_model
+	lineageTag: 6422c488-7355-5673-83c5-e7797004d4ed
+
+	column model
+		dataType: string
+		lineageTag: 53652b1f-6a8a-56ad-b16b-2acae8ff359e
+		summarizeBy: none
+		sourceColumn: model
+		sortByColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column short
+		dataType: string
+		lineageTag: 948f6b76-0841-519f-a04c-1072205452b3
+		summarizeBy: none
+		sourceColumn: short
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_order
+		dataType: int64
+		isHidden
+		lineageTag: ec5d5b35-f808-50d9-aa02-3eb55687f26a
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column color
+		dataType: string
+		lineageTag: 5ca412e1-3bc3-54d1-8868-65dcdb13933a
+		summarizeBy: none
+		sourceColumn: color
+
+		annotation SummarizationSetBy = Automatic
+
+	column why
+		dataType: string
+		lineageTag: f9347549-a489-5dd5-8b60-39082fd52b12
+		summarizeBy: none
+		sourceColumn: why
+
+		annotation SummarizationSetBy = Automatic
+
+	column chosen_settings
+		dataType: string
+		lineageTag: 7fadf6ee-bd4f-5865-b371-0938fef0a0c7
+		summarizeBy: none
+		sourceColumn: chosen_settings
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_model = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_model.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"model", type text}, {"short", type text}, {"sort_order", Int64.Type}, {"color", type text}, {"why", type text}, {"chosen_settings", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

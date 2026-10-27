@@ -1,0 +1,91 @@
+table test_prediction
+	lineageTag: 3d066e0c-b4f5-5ec2-ad9e-18e0c6a93774
+
+	measure 'Test Predictions' = COUNTROWS ( test_prediction )
+		formatString: #,0
+		lineageTag: 9a5c188d-ef3a-516b-a803-bccc13d1a87b
+
+	measure 'Correct Share' = DIVIDE ( CALCULATE ( COUNTROWS ( test_prediction ), test_prediction[correct] = "Correct" ), COUNTROWS ( test_prediction ) )
+		formatString: 0.0%
+		lineageTag: dcbf35eb-fde6-58ed-8c8e-2e811f3dac86
+
+	measure 'Patients All Models Right' =
+			CALCULATE (
+			    COUNTROWS (
+			        FILTER (
+			            VALUES ( test_prediction[patientid] ),
+			            CALCULATE ( COUNTROWS ( test_prediction ), test_prediction[correct] = "Correct" ) = 3
+			        )
+			    ),
+			    REMOVEFILTERS ( dim_model )
+			)
+		formatString: #,0
+		lineageTag: 09400f74-7de5-5e6b-a4e4-19dc1b821b43
+
+	column patientid
+		dataType: int64
+		lineageTag: fe88694a-4ff2-5354-b576-1b634c4ce823
+		summarizeBy: none
+		sourceColumn: patientid
+
+		annotation SummarizationSetBy = Automatic
+
+	column model
+		dataType: string
+		lineageTag: 84e789d1-9ebf-5f41-bedb-11bb3e35ae7b
+		summarizeBy: none
+		sourceColumn: model
+
+		annotation SummarizationSetBy = Automatic
+
+	column actual
+		dataType: string
+		lineageTag: 62284e25-dca6-5cec-a553-b8bd3f0257d3
+		summarizeBy: none
+		sourceColumn: actual
+
+		annotation SummarizationSetBy = Automatic
+
+	column probability
+		dataType: double
+		lineageTag: 7051693a-92a4-5d05-aa08-9d6ab5779db7
+		summarizeBy: none
+		sourceColumn: probability
+
+		annotation SummarizationSetBy = Automatic
+
+	column predicted
+		dataType: string
+		lineageTag: 7045b262-5009-5e36-b214-c63be5a11b43
+		summarizeBy: none
+		sourceColumn: predicted
+
+		annotation SummarizationSetBy = Automatic
+
+	column correct
+		dataType: string
+		lineageTag: 29047963-81f4-5e6a-86ef-f52ad761f254
+		summarizeBy: none
+		sourceColumn: correct
+
+		annotation SummarizationSetBy = Automatic
+
+	column models_predicting_disease
+		dataType: int64
+		lineageTag: 4bb7f6cb-c7e6-5508-a22f-b12e40f4c6d3
+		summarizeBy: none
+		sourceColumn: models_predicting_disease
+
+		annotation SummarizationSetBy = Automatic
+
+	partition test_prediction = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "test_prediction.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"patientid", Int64.Type}, {"model", type text}, {"actual", type text}, {"probability", type number}, {"predicted", type text}, {"correct", type text}, {"models_predicting_disease", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

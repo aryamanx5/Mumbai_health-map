@@ -1,4 +1,6 @@
+fastapi==0.156.3
 geopandas==1.2.0
+httpx==0.28.1
 joblib==1.6.0
 Markdown==3.11.1
 matplotlib==3.11.2
@@ -7,5 +9,7 @@ pandas==3.0.6
 pyogrio==0.13.0
 pyproj==3.8.0
 pytest==9.1.1
+python-multipart==0.0.32
 scikit-learn==1.9.1
 shapely==2.2.0
+uvicorn==0.54.0

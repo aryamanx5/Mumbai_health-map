@@ -1,0 +1,7 @@
+field,stage,stage_order,missing
+Cholesterol,Raw file,1,0
+ST slope,Raw file,1,0
+Cholesterol,After recoding 0 codes,2,53
+ST slope,After recoding 0 codes,2,180
+Cholesterol,After imputation (in pipeline),3,0
+ST slope,After imputation (in pipeline),3,0

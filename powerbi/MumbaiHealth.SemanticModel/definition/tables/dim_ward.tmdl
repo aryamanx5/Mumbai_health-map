@@ -1,0 +1,296 @@
+table dim_ward
+	lineageTag: f380278c-e784-5bc3-8fa1-aa9a61742937
+
+	measure 'Population 2011' = SUM ( dim_ward[population_2011] )
+		formatString: #,0
+		lineageTag: addbd257-4553-5294-8c8f-3a0495536e86
+
+	measure 'Sites per 100k' = DIVIDE ( [Total Distinct Sites], [Population 2011] ) * 100000
+		formatString: 0.00
+		lineageTag: 317f0f0e-4f84-58f9-b742-0b5000d0ef86
+
+	measure 'City-wide Sites per 100k' = CALCULATE ( [Sites per 100k], ALL ( dim_ward ) )
+		formatString: 0.00
+		lineageTag: a3837a67-a4d7-5d5d-aee2-1c3055bc75e0
+
+	measure 'Population Share %' = DIVIDE ( [Population 2011], CALCULATE ( [Population 2011], ALL ( dim_ward ) ) ) * 100
+		formatString: 0.00
+		lineageTag: 46c0a1ba-0841-5a0a-acc4-b9072333770f
+
+	measure 'Facility Share %' = DIVIDE ( [Total Distinct Sites], CALCULATE ( [Total Distinct Sites], ALL ( dim_ward ) ) ) * 100
+		formatString: 0.00
+		lineageTag: b8de977b-9e13-51fa-9ca0-b6b5ca33dc63
+
+	measure 'Share Gap (pp)' = [Population Share %] - [Facility Share %]
+		formatString: +0.00;-0.00;0.00
+		lineageTag: 92598017-e62c-59d9-a575-9e6d345a9d88
+
+	column ward_id
+		dataType: string
+		lineageTag: 2e9b0ce7-0728-5721-9b22-cd7385e2cca6
+		summarizeBy: none
+		sourceColumn: ward_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column area_km2
+		dataType: double
+		lineageTag: 2a3c539e-37e7-58c4-9396-6fe233acb57d
+		summarizeBy: none
+		sourceColumn: area_km2
+
+		annotation SummarizationSetBy = Automatic
+
+	column population_2011
+		dataType: int64
+		lineageTag: 70dff801-47f7-5357-af51-ba595b6fd089
+		summarizeBy: none
+		sourceColumn: population_2011
+
+		annotation SummarizationSetBy = Automatic
+
+	column census_wards
+		dataType: int64
+		lineageTag: a6d8ce80-bdc4-5aa5-9bf6-74c400ca843b
+		summarizeBy: none
+		sourceColumn: census_wards
+
+		annotation SummarizationSetBy = Automatic
+
+	column census_district
+		dataType: string
+		lineageTag: b6557719-f7c0-5ebb-aca4-b78bb54a5503
+		summarizeBy: none
+		sourceColumn: census_district
+
+		annotation SummarizationSetBy = Automatic
+
+	column ward_name
+		dataType: string
+		lineageTag: 52c88f7f-6c3e-5801-9257-da5722fb3c71
+		summarizeBy: none
+		sourceColumn: ward_name
+		sortByColumn: ward_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column ward_order
+		dataType: int64
+		isHidden
+		lineageTag: 81707a27-1ada-557d-ade7-5e5a36f207c0
+		summarizeBy: none
+		sourceColumn: ward_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column population_density_per_km2
+		dataType: double
+		lineageTag: d99fde84-4e14-5102-817b-a3d9955b9db2
+		summarizeBy: none
+		sourceColumn: population_density_per_km2
+
+		annotation SummarizationSetBy = Automatic
+
+	column dispensary_count
+		dataType: int64
+		lineageTag: 9912b7a5-d5c1-5907-ab37-e109bc38b13b
+		summarizeBy: none
+		sourceColumn: dispensary_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column uphc_count
+		dataType: int64
+		lineageTag: 00a9b293-def4-5843-950e-ae23a7a8e222
+		summarizeBy: none
+		sourceColumn: uphc_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column public_hospital_count
+		dataType: int64
+		lineageTag: 781c1411-1fce-5e02-8eab-fc57d4c7bbd3
+		summarizeBy: none
+		sourceColumn: public_hospital_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column maternity_hospital_count
+		dataType: int64
+		lineageTag: 392f9d11-5107-545e-b69e-72f137f2b1f5
+		summarizeBy: none
+		sourceColumn: maternity_hospital_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_distinct_public_facilities
+		dataType: int64
+		lineageTag: 2432c840-07d8-5e46-895d-0789261fa90d
+		summarizeBy: none
+		sourceColumn: total_distinct_public_facilities
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_facility_records
+		dataType: int64
+		lineageTag: e990f4e2-e4fa-542e-9506-257d30ab16fb
+		summarizeBy: none
+		sourceColumn: total_facility_records
+
+		annotation SummarizationSetBy = Automatic
+
+	column facilities_per_100k
+		dataType: double
+		lineageTag: fe4aecdd-30ce-58a8-a46c-4ff9fa789ca1
+		summarizeBy: none
+		sourceColumn: facilities_per_100k
+
+		annotation SummarizationSetBy = Automatic
+
+	column population_per_facility
+		dataType: double
+		lineageTag: 48e61064-8bd4-564d-be66-7309cbb615ea
+		summarizeBy: none
+		sourceColumn: population_per_facility
+
+		annotation SummarizationSetBy = Automatic
+
+	column dispensary_per_100k
+		dataType: double
+		lineageTag: 092ba769-9a78-586a-b895-a81e5bc10572
+		summarizeBy: none
+		sourceColumn: dispensary_per_100k
+
+		annotation SummarizationSetBy = Automatic
+
+	column dispensary_share_pct
+		dataType: double
+		lineageTag: d81a038d-49c4-58f7-834b-cf3433de6b9f
+		summarizeBy: none
+		sourceColumn: dispensary_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column uphc_per_100k
+		dataType: double
+		lineageTag: b9d68b6c-7587-59a7-95f4-7074874efe34
+		summarizeBy: none
+		sourceColumn: uphc_per_100k
+
+		annotation SummarizationSetBy = Automatic
+
+	column uphc_share_pct
+		dataType: double
+		lineageTag: 02c478f8-e327-5fbc-810e-e53d7bfb0b3a
+		summarizeBy: none
+		sourceColumn: uphc_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column public_hospital_per_100k
+		dataType: double
+		lineageTag: c84d1e74-e54d-51f2-aaf2-19bc1587533c
+		summarizeBy: none
+		sourceColumn: public_hospital_per_100k
+
+		annotation SummarizationSetBy = Automatic
+
+	column public_hospital_share_pct
+		dataType: double
+		lineageTag: a8e9d8fa-663b-586a-a03a-98d5cb98062e
+		summarizeBy: none
+		sourceColumn: public_hospital_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column maternity_hospital_per_100k
+		dataType: double
+		lineageTag: dcf760e5-6400-5924-a6a0-6f1ab16920da
+		summarizeBy: none
+		sourceColumn: maternity_hospital_per_100k
+
+		annotation SummarizationSetBy = Automatic
+
+	column maternity_hospital_share_pct
+		dataType: double
+		lineageTag: da825a15-c802-5e19-8720-6b74deb47fb4
+		summarizeBy: none
+		sourceColumn: maternity_hospital_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column population_share_pct
+		dataType: double
+		lineageTag: 825dcd79-e4cd-51fa-9178-1abb5ed42527
+		summarizeBy: none
+		sourceColumn: population_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column facility_share_pct
+		dataType: double
+		lineageTag: e13d9aaa-47ea-5b58-924a-204bc5ff6962
+		summarizeBy: none
+		sourceColumn: facility_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column population_facility_share_gap
+		dataType: double
+		lineageTag: afebf5be-1b8a-52c3-870a-2745145e7a58
+		summarizeBy: none
+		sourceColumn: population_facility_share_gap
+
+		annotation SummarizationSetBy = Automatic
+
+	column cluster_label
+		dataType: int64
+		lineageTag: d3d95d59-c6bf-5348-8146-99333e23e0a8
+		summarizeBy: none
+		sourceColumn: cluster_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column cluster_name
+		dataType: string
+		lineageTag: 67fcbfba-1dbb-50c4-993c-1da5ff09d0fc
+		summarizeBy: none
+		sourceColumn: cluster_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column cluster_k2_label
+		dataType: int64
+		lineageTag: 8b00c847-a2cb-5966-88cf-f5cc2e176c65
+		summarizeBy: none
+		sourceColumn: cluster_k2_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column silhouette_sample
+		dataType: double
+		lineageTag: 350a13dc-1cfb-5ac2-919b-f169dd153b33
+		summarizeBy: none
+		sourceColumn: silhouette_sample
+
+		annotation SummarizationSetBy = Automatic
+
+	column rank_sites_per_100k_low_to_high
+		dataType: int64
+		lineageTag: c4595904-9584-5b24-b2b6-d475e5532233
+		summarizeBy: none
+		sourceColumn: rank_sites_per_100k_low_to_high
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_ward = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_ward.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"ward_id", type text}, {"area_km2", type number}, {"population_2011", Int64.Type}, {"census_wards", Int64.Type}, {"census_district", type text}, {"ward_name", type text}, {"ward_order", Int64.Type}, {"population_density_per_km2", type number}, {"dispensary_count", Int64.Type}, {"uphc_count", Int64.Type}, {"public_hospital_count", Int64.Type}, {"maternity_hospital_count", Int64.Type}, {"total_distinct_public_facilities", Int64.Type}, {"total_facility_records", Int64.Type}, {"facilities_per_100k", type number}, {"population_per_facility", type number}, {"dispensary_per_100k", type number}, {"dispensary_share_pct", type number}, {"uphc_per_100k", type number}, {"uphc_share_pct", type number}, {"public_hospital_per_100k", type number}, {"public_hospital_share_pct", type number}, {"maternity_hospital_per_100k", type number}, {"maternity_hospital_share_pct", type number}, {"population_share_pct", type number}, {"facility_share_pct", type number}, {"population_facility_share_gap", type number}, {"cluster_label", Int64.Type}, {"cluster_name", type text}, {"cluster_k2_label", Int64.Type}, {"silhouette_sample", type number}, {"rank_sites_per_100k_low_to_high", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

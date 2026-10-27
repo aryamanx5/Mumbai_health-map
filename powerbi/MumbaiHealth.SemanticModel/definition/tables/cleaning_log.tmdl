@@ -1,0 +1,54 @@
+table cleaning_log
+	lineageTag: db28e4d3-3ed4-512c-abe5-b3649af76ad6
+
+	column dataset
+		dataType: string
+		lineageTag: 8b6a3b61-a704-573e-9d14-3a0334a93bf8
+		summarizeBy: none
+		sourceColumn: dataset
+
+		annotation SummarizationSetBy = Automatic
+
+	column step
+		dataType: int64
+		lineageTag: 8290fd2a-741b-553f-937a-f354e6b62933
+		summarizeBy: none
+		sourceColumn: step
+
+		annotation SummarizationSetBy = Automatic
+
+	column action
+		dataType: string
+		lineageTag: b0a94855-b3fa-5da1-b833-7faf7ffef7f9
+		summarizeBy: none
+		sourceColumn: action
+
+		annotation SummarizationSetBy = Automatic
+
+	column records
+		dataType: int64
+		lineageTag: f704afc9-308f-5b44-909d-bfa3a4ce168e
+		summarizeBy: none
+		sourceColumn: records
+
+		annotation SummarizationSetBy = Automatic
+
+	column detail
+		dataType: string
+		lineageTag: b1f58624-c46a-5d61-a460-da3a74cbb97c
+		summarizeBy: none
+		sourceColumn: detail
+
+		annotation SummarizationSetBy = Automatic
+
+	partition cleaning_log = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "cleaning_log.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"dataset", type text}, {"step", Int64.Type}, {"action", type text}, {"records", Int64.Type}, {"detail", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

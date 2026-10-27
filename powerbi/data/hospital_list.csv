@@ -1,0 +1,289 @@
+csv_row,ward_id,hospital_name,address,ownership_type,ownership_class,beds,match_status
+2,A,"Gokuldas Tejpal Hospital, Fort","Chhatrapati Shivaji Terminus Area, Fort",Government,Public,621,matched_in_kml
+3,A,ENT Hospital,"Maharshi Dadhichi Marg, Azad Maidan",Municipal (BMC),Public,100,matched_in_kml
+4,A,St George Hospital,"Chhatrapati Shivaji Terminus Area, Fort",Government,Public,467,matched_in_kml
+5,A,Cama & Albless Hospital,"Dhobi Talao, Chhatrapati Shivaji Terminus Area",Government,Public,505,matched_in_kml
+6,A,INS Ashwini Hospital,"Navy Nagar, Colaba,",Government (Defence),Public,101,not_found_in_kml_layers
+7,A,Bombay Hospital,"Near Liberty Cinema, New Marine Lines,",Private,Private,732,not_applicable_private_or_trust
+8,A,Indu Clinic,"Wodehouse Road, Colaba",Private,Private,12,not_applicable_private_or_trust
+9,B,Noor Hospital,Masjid Bunder,Private,Private,92,not_applicable_private_or_trust
+10,B,Habib Hospital,"Jail Road, Near Imam Husain Chowk",Private,Private,76,not_applicable_private_or_trust
+11,B,Dholkawala Maternity and Nursing Home,"Mohammed Ali Rd, Masjid Bandar",Private,Private,25,not_applicable_private_or_trust
+12,B,M H Saboo Siddique Hospital,"Imamwada Road, Opp. Mughal Masjid",Private,Private,95,not_applicable_private_or_trust
+13,B,Haji Karim Maternity and Child Care,"Mohammed Ali Rd, Masjid Banda",Private,Private,14,not_applicable_private_or_trust
+14,D,Breach Candy Hospital Trust,"Breach Candy, Cumballa Hill",Private,Private,213,not_applicable_private_or_trust
+15,D,Bhatia Hospital Multidisciplinary,"Tardeo Road,",Private,Private,155,not_applicable_private_or_trust
+16,D,Jaslok Hospital & Research Centre,"IT Colony, Tardeo",Private,Private,448,not_applicable_private_or_trust
+17,D,Saifee Hospital,"15/17, Maharshi Karve Rd, opposite Charni Road, Charni Road East",Private,Private,254,not_applicable_private_or_trust
+18,D,Sir H.N.Hospital & Research Centre,Girgaon,Private,Private,350,not_applicable_private_or_trust
+19,D,The B.D.Petit Parsee Gen Hosp,"Bomanji Petit Marg, Cumballa Hill",Private,Private,220,not_applicable_private_or_trust
+20,D,Apollo Speciaity Hospitals Pvt Ltd,"Behind Everest Building, Tardeo",Private,Private,24,not_applicable_private_or_trust
+21,D,Bay-View Clinic,,Private,Private,22,not_applicable_private_or_trust
+22,D,Beramji's Hospital,,Private,Private,32,not_applicable_private_or_trust
+23,D,Bombay City Eye Institute And Research Centre,,Private,Private,3,not_applicable_private_or_trust
+24,D,Bombay Maternity And Nursing Home,,Private,Private,12,not_applicable_private_or_trust
+25,D,Brahman Sabha Mhaskar Sutika Gruha & Gen N,,Private,Private,41,not_applicable_private_or_trust
+26,D,Chowpatty Maternity & Gyn Hospital,,Private,Private,15,not_applicable_private_or_trust
+27,D,Comfort Clinic Nursing Home,,Private,Private,8,not_applicable_private_or_trust
+28,D,Conwest Jain Clinic Group Of Hosp,,Private,Private,94,not_applicable_private_or_trust
+29,D,Cumballa Hill Hospital & Heart Inst,,Private,Private,53,not_applicable_private_or_trust
+30,D,Dr Amonkar Hospital-Managed By P Patil Nurs. Home,,Private,Private,15,not_applicable_private_or_trust
+31,D,Dr Duru Shah Gynaec World,,Private,Private,5,not_applicable_private_or_trust
+32,D,Dr Gala's Nursing Home,,Private,Private,2,not_applicable_private_or_trust
+33,D,Dr Garg Medical Centre,,Private,Private,3,not_applicable_private_or_trust
+34,D,Dr H D Gandhi Memorial Hospital,,Private,Private,10,not_applicable_private_or_trust
+35,D,Dr Pathak Nursing Home,,Private,Private,3,not_applicable_private_or_trust
+36,D,Dr Vora's Maternity And Gynaecological Hosp,,Private,Private,5,not_applicable_private_or_trust
+37,D,Dr Vora's Nursing Home,,Private,Private,5,not_applicable_private_or_trust
+38,D,Dr. N K Shah One Day Surgery Centre,,Private,Private,15,not_applicable_private_or_trust
+39,D,Drushti Eye & Retina Centre,,Private,Private,14,not_applicable_private_or_trust
+40,D,Fauziya Maternity & Nursing Home,,Private,Private,24,not_applicable_private_or_trust
+41,D,Foresight Eye Centre,,Private,Private,3,not_applicable_private_or_trust
+42,D,Healing Hands Nursing Home,,Private,Private,9,not_applicable_private_or_trust
+43,D,Hospital For Women Care Maternity And Gynaec Hosp,,Private,Private,7,not_applicable_private_or_trust
+44,D,Infiniti Eye Hospital,,Private,Private,6,not_applicable_private_or_trust
+45,D,Inkus Ivf Centre,,Private,Private,7,not_applicable_private_or_trust
+46,D,Joshi Nursing Home,,Private,Private,6,not_applicable_private_or_trust
+47,D,Kamala Polyclinic & Nusing Home,,Private,Private,10,not_applicable_private_or_trust
+48,D,Mehta Clinic,,Private,Private,5,not_applicable_private_or_trust
+49,D,Motiben B Dalvi Hospital,,Private,Private,57,not_applicable_private_or_trust
+50,D,Narvekar Clinic,,Private,Private,10,not_applicable_private_or_trust
+51,D,Nicholson Eye Clinic,,Private,Private,3,not_applicable_private_or_trust
+52,D,Nisar Eye Hospital,,Private,Private,2,not_applicable_private_or_trust
+53,D,Pai-Dhungat Nursing Home,,Private,Private,9,not_applicable_private_or_trust
+54,D,Punjani Nursing Home,,Private,Private,6,not_applicable_private_or_trust
+55,D,SP Nursing Home And Polyclinic,,Private,Private,4,not_applicable_private_or_trust
+56,D,Sadhu-Kamal Eye Hospital,,Private,Private,2,not_applicable_private_or_trust
+57,D,Shah Eye Clinic & Nursing Home,,Private,Private,2,not_applicable_private_or_trust
+58,D,St Elizabeth's Hospital,,Private,Private,100,not_applicable_private_or_trust
+59,D,Ruxmani Lying-In Hospital,,Private,Private,25,not_applicable_private_or_trust
+60,D,VADT Nursing Home,,Private,Private,16,not_applicable_private_or_trust
+61,D,Vasani Eye Clinic/Eyes Rvs,,Private,Private,3,not_applicable_private_or_trust
+62,D,Vital Diagnostic Centre And Nursing Home,,Private,Private,15,not_applicable_private_or_trust
+63,D,Yogeshwar Surgical Nursing Home,,Private,Private,11,not_applicable_private_or_trust
+64,D,Fertility Clinic,,Private,Private,4,not_applicable_private_or_trust
+65,D,Vascular Clinic,,Private,Private,2,not_applicable_private_or_trust
+66,E,Kasturba Hospital,"Sane Guruji Marg, Arya Nagar, Chinchpokli",Municipal (BMC),Public,515,matched_in_kml
+67,E,BYL Nair Hospital,"Topiwala National Medical College, RTO Colony, Mumbai Central",Municipal (BMC),Public,1229,matched_in_kml
+68,E,JJ Hospital,"J J Marg, Nagpada-Mumbai Central",Government,Public,1352,matched_in_kml
+69,E,"Ambedkar Hospital (Central Railway Hospital), Byculla","Dr. Baba Saheb Ambedkar Road, Byculla East",Government,Public,366,not_found_in_kml_layers
+70,E,"Jagjivanram Hospital, Western Rly","Maratha Mandir Marg, RBI Staff Colony, Mumbai Central",Government,Public,342,not_found_in_kml_layers
+71,E,Prince Ali Khan Hospital,"Prince Ally Khan Hospital Rd, Tara Bagh, Mazgaon",Private,Private,153,not_applicable_private_or_trust
+72,E,Masina Hospital,"Sant Savata Mali Marg, near Byculla, Mustafa Bazar, Byculla",Private,Private,278,not_applicable_private_or_trust
+73,E,Kedar Hospital,"2nd Floor, Mazgaon Apartment, Mazgaon",Private,Private,10,not_applicable_private_or_trust
+74,E,"Balaji Hospital, Byculla (E)","Balaji House, 3rd Cross Lane, Victoria Road, Byculla East",Private,Private,100,not_applicable_private_or_trust
+75,E,Wockhardt Hospital,"Agripada, Mumbai Central",Private,Private,45,not_applicable_private_or_trust
+76,F/N,"Lokmanya Tilak Hospital, Sion","Dr. Babasaheb Ambedkar Road, Sion (West)",Municipal (BMC),Public,1422,matched_in_kml
+77,F/N,Dr Shilpa Abhyankar Nursing Home,"Hindu Colony, Dadar East",Private,Private,3,not_applicable_private_or_trust
+78,F/N,Mata Laxmi Trust Hospital,"Tamil Sangh Hall, Sion East",Private,Private,21,not_applicable_private_or_trust
+79,F/N,Mumbai Bunder Port Trust,"Nadkarni Park, Wadala",Private,Private,241,not_applicable_private_or_trust
+80,F/S,King Edward Memorial (KEM) Hospital,"Acharya Donde Marg, Parel",Municipal (BMC),Public,2250,matched_in_kml
+81,F/S,GTB Hospital,"Jerbai Wadia Marg, Sewri",Municipal (BMC),Public,1000,matched_in_kml
+82,F/S,Tata Memorial Hospital,"Dr Ernest Borges Rd, Parel East",Government,Public,469,not_found_in_kml_layers
+83,F/S,Mahatma Gandhi Memorial Hospital,"Dr SS Rao Marg, Parel East",Government,Public,120,not_found_in_kml_layers
+84,F/S,Navroji Wadia Maternity Hospital,"Acharya Donde Marg, Parel East",Private,Private,450,not_applicable_private_or_trust
+85,F/S,Bai Jerbai Wadia Hospital For Children,"Acharya Donde Marg, Parel",Private,Private,525,not_applicable_private_or_trust
+86,F/S,Dr Gadre's Nursing & Maternity Hospital,"Govindji Keni Road, Dadar East",Private,Private,10,not_applicable_private_or_trust
+87,F/S,Sobti Hospital,"Ambedkar Road, Matunga East",Private,Private,11,not_applicable_private_or_trust
+88,F/S,Parel Hospital Pvt Ltd,"Jerbai Wadia Road, Parel",Private,Private,40,not_applicable_private_or_trust
+89,F/S,"Global Hospital, Parel","Dr Ernest Borges Rd, opp. Shirodkar High School, Parel East",Private,Private,245,not_applicable_private_or_trust
+90,F/S,Sewree Nursing Home,"Rafi Ahmed Kidwai Rd, Sewri West",Private,Private,20,not_applicable_private_or_trust
+91,F/S,"Desai Memorial Hospital, Parel","Parmar Guruji Marg, Parel East",Private,Private,13,not_applicable_private_or_trust
+92,F/S,"KB HB Charitable E N T Hospital, Parel","J Merwanji Street, Parel East,",Private,Private,45,not_applicable_private_or_trust
+93,F/S,"Life Care Nursing Home, Sewree","Rafi Ahmed Kidwai Rd, Sewri West",Private,Private,15,not_applicable_private_or_trust
+94,F/S,"Maru Hospital, Parel","Railway Chawl, Pare",Private,Private,26,not_applicable_private_or_trust
+95,F/S,Aryan Hospital & ICU,"Kalachowki, Ambawadi",Private,Private,17,not_applicable_private_or_trust
+96,F/S,"Ashvini Nursing & Maternity Home, Dadar (E)","Dadasaheb Phalke Road, Dadar East",Private,Private,6,not_applicable_private_or_trust
+97,F/S,"Dr B K Nadkarni Memorial Maternity & Surgical Hospital, Parel","Doctor BA Road, Aai Mai Merwanji St, Parel East",Private,Private,15,not_applicable_private_or_trust
+98,F/S,Sadguru Maternity & Nursing Home,"Dr Baba Saheb Ambedkar Rd, next to Chitra Cinema, Dadar East",Private,Private,5,not_applicable_private_or_trust
+99,F/S,Dr. Shivdikar Hospital,"Tata Mill Chawl, Parel East",Private,Private,16,not_applicable_private_or_trust
+100,F/S,Rakhumai Hospital,"Merwanji Road, Parel",Private,Private,15,not_applicable_private_or_trust
+101,F/S,Dr. Shanbaug Children Hospital,"Merwanji Road, Parel",Private,Private,3,not_applicable_private_or_trust
+102,F/S,Dr. Niranjn Unesh Joshi Nursing Home,Parel East,Private,Private,24,not_applicable_private_or_trust
+103,F/S,Sprash Children Hospital,"Acharya Donde Marg, Parel",Private,Private,26,not_applicable_private_or_trust
+104,G/N,Shushrusha Hospital,"Ranade Road, Dadar(W)",Private,Private,43,not_applicable_private_or_trust
+105,G/N,Dhanvantari Hospital,"Shivaji Park, Dadar West",Private,Private,18,not_applicable_private_or_trust
+106,G/N,Hinduja Hospital,"Near Shivaji Park, Mahim",Private,Private,337,not_applicable_private_or_trust
+107,G/N,Raheja Hospital,"Raheja Rugnalaya Marg, Mahim",Private,Private,180,not_applicable_private_or_trust
+108,G/N,Life Care Hospital,"Sion Bandra Link Road, Dharavi",Private,Private,52,not_applicable_private_or_trust
+109,G/N,Shobhana Nursing Home,"A.S Gaya Marg, Mahim",Private,Private,5,not_applicable_private_or_trust
+110,G/N,North Bombay Clinic,"Lady Jamshedji Rd, Mahim",Private,Private,10,not_applicable_private_or_trust
+111,G/N,Dr Prabhu Eye Clinic and Nursing Home,"Joshi Vadi, Mahim West",Private,Private,9,not_applicable_private_or_trust
+112,G/N,Citrus Nursing Home,"Sheshwadi, Dharavi",Private,Private,9,not_applicable_private_or_trust
+113,G/N,Dr Gandhi's Nursing Home Pvt Ltd,"NM Kale Marg, Dadar",Private,Private,23,not_applicable_private_or_trust
+114,G/N,Shree Nursing Home,"Pathare Prabhu Gokhale Road, Dadar West",Private,Private,53,not_applicable_private_or_trust
+115,G/N,Aayush Hospital,"90 Feet Road, Dharavi",Private,Private,60,not_applicable_private_or_trust
+116,G/N,Gupte Maternity Home,"Lt Dilip Gupte Marg, Mahim",Private,Private,16,not_applicable_private_or_trust
+117,G/N,Dr J M Purandare Hopsital,"Dr Madhukar B Raut Marg, Dadar West",Private,Private,17,not_applicable_private_or_trust
+118,G/S,Tilak Hospital,"B.D.D Chawl, N.M Joshi Marg, Worli",Trust,Trust,40,not_applicable_private_or_trust
+119,G/S,ESIS Hospital,"BDD Chawl, Worli",Government,Public,300,not_found_in_kml_layers
+120,G/S,Poddar Hospital,"Dr. Annie Besant Road, Worli",Government,Public,210,not_found_in_kml_layers
+121,G/S,Siddhivinayak Health Care,"Khed Galli, Prabhadevi",Private,Private,15,not_applicable_private_or_trust
+122,G/S,"Parekh Nursing Home, Century Bazar","Adarsh Nagar, Prabhadevi",Private,Private,15,not_applicable_private_or_trust
+123,G/S,Sportsmed Mumbai Pvt Ltd,"Gokhale road, Parel West",Private,Private,16,not_applicable_private_or_trust
+124,G/S,JC Diagnostic Centre,"Ganapatrao Kadam Marg, Worli Naka",Private,Private,15,not_applicable_private_or_trust
+125,G/S,Asha Surgical & Maternity Home,Gyaneshwar Apartment New Prabhadevi Road,Private,Private,12,not_applicable_private_or_trust
+126,G/S,Dr. Punamiya Hospital,"near Tilak Bhavan, Dadar West",Private,Private,20,not_applicable_private_or_trust
+127,G/S,Priyank Nursing Home,"Sayani Rd, Prabhadevi",Private,Private,7,not_applicable_private_or_trust
+128,G/S,Worli Hospital for Women,"Dr. Annie Besant Rd, Worli",Private,Private,8,not_applicable_private_or_trust
+129,G/S,Nirmala Maternity & Surgical Hospital,"NM Joshi Marg, Subhash Nagar",Private,Private,25,not_applicable_private_or_trust
+130,H/E,V N Desai Municipal Gen Hospital,"Rd Number 11, Golibar, Santacruz East",Municipal (BMC),Public,276,matched_in_kml
+131,H/E,Urban Health Centre,"60 Feet Road, Dharavi",Government,Public,,not_found_in_kml_layers
+132,H/E,Asian Heart Institute & Research Centre,Bandra Kurla Complex,Private,Private,230,not_applicable_private_or_trust
+133,H/E,Guru Nanak Hospital & Research Centre,"Gandhi Nagar, Bandra East",Private,Private,120,not_applicable_private_or_trust
+134,H/E,Shivam Nursing Hospital,"Hari Mandir Road, Bandra East",Private,Private,18,not_applicable_private_or_trust
+135,H/E,Shakuntala Chitra Nursing Home,"Kherwadi, Bandra East",Private,Private,20,not_applicable_private_or_trust
+136,H/E,Agarwal Children Hospital,"Gandhi Nagar, Bandra East",Private,Private,15,not_applicable_private_or_trust
+137,H/E,M S Niron Hospital Pvt Ltd,"Vakola, Santacruz East",Private,Private,30,not_applicable_private_or_trust
+138,H/E,RK Hospital,"Near Railway Station Santacruz, Santacruz East",Private,Private,25,not_applicable_private_or_trust
+139,H/E,Sona Hospital,"Vakola Bridge, Santacruz East",Private,Private,15,not_applicable_private_or_trust
+140,H/E,Asha Pediatric Hospital,"Vidya Nagari, Kalina, Santacruz East",Private,Private,8,not_applicable_private_or_trust
+141,H/E,Wellcare Hospital,"Kalina, Santacruz East",Private,Private,18,not_applicable_private_or_trust
+142,H/E,Ashwin Maternity And Surgical Nursing Home,"Sen Nagar, Santacruz East",Private,Private,10,not_applicable_private_or_trust
+143,H/E,Astha Surgical Clinic,"Sen Nagar, Santacruz East",Private,Private,8,not_applicable_private_or_trust
+144,H/E,Dattatray Nursing Home,"Vakola, Santacruz East",Private,Private,25,not_applicable_private_or_trust
+145,H/E,Deepak Sheth Nursing Home,"Sen Nagar, Santacruz East",Private,Private,6,not_applicable_private_or_trust
+146,H/E,Durga Maternity Surgical Home,"Kolivery Village, Kalina",Private,Private,9,not_applicable_private_or_trust
+147,H/E,Laxmi Surgical Clinic & Nursing Home,"Kherwadi, Bandra East",Private,Private,10,not_applicable_private_or_trust
+148,H/E,M.S.Pallavi Maternity and Mothercare Centre,"Khernagar, Bandra East",Private,Private,6,not_applicable_private_or_trust
+149,H/E,M.S.Saideep Nursing Home,Santacruz East,Private,Private,4,not_applicable_private_or_trust
+150,H/E,Poojari Nursing Home,"Government Colony, Bandra East",Private,Private,10,not_applicable_private_or_trust
+151,H/E,Prashanti Medical Centre and Nursing Home,"Kalina, Santacruz East",Private,Private,10,not_applicable_private_or_trust
+152,H/E,Prathamesh Maternity and Nursing Home,"Gandhi Nagar, Bandra East",Private,Private,6,not_applicable_private_or_trust
+153,H/E,Prerna Nursing Home,"Gomes co-op housing society, Santacruz East",Private,Private,6,not_applicable_private_or_trust
+154,H/E,Pushpakunj Nursing Home,"Sen Nagar, Santacruz East",Private,Private,5,not_applicable_private_or_trust
+155,H/E,Raut Maternity Home,"Kalina village, Santacruz East",Private,Private,10,not_applicable_private_or_trust
+156,H/E,Sai Sanjeevani Hospital,"Shastri Colony, Santacruz East",Private,Private,18,not_applicable_private_or_trust
+157,H/E,Shastri Nursing Home,"Shanti Nagar, Vakola, Santacruz East",Private,Private,20,not_applicable_private_or_trust
+158,H/E,Sherekar Nursing Home,"Kalina, Santacruz East",Private,Private,8,not_applicable_private_or_trust
+159,H/E,Siddhi Nursing Home,"Sahar Road, Andheri East",Private,Private,5,not_applicable_private_or_trust
+160,H/E,Silver Coin Nursing Home,Vakola Pipeline Santacruz East,Private,Private,10,not_applicable_private_or_trust
+161,H/E,Upadhyay Nursing Home,"Moiz Apartment, 12th Rd, Santacruz East",Private,Private,11,not_applicable_private_or_trust
+162,H/E,Visual Eyez Clinic,"Kalina CHS, Santacruz East",Private,Private,1,not_applicable_private_or_trust
+163,H/E,M/s. Samarth Eye Care And Laser Centre,"Vakola, Santacruz East",Private,Private,4,not_applicable_private_or_trust
+164,H/E,Aastha Eye Care,"Old Anand Nagar, 4th Road, Santacruz East",Private,Private,2,not_applicable_private_or_trust
+165,H/E,Tanaya Nursing Home,"Jagat Vidya Marg, Bandra East",Private,Private,8,not_applicable_private_or_trust
+166,H/E,Sparsh Nursing Home,"7th Road, Khar, Golibar, Khar East",Private,Private,8,not_applicable_private_or_trust
+167,H/W,K B Bhabha Hospital,"Water Field Road, Bandra (W)",Municipal (BMC),Public,436,matched_in_kml
+168,H/W,Lilavati Hospital,"Bandra Reclamation Rd, Bandra West",Private,Private,320,not_applicable_private_or_trust
+169,H/W,Holy Family Hospital,"Hill Road, Bandra West",Private,Private,232,not_applicable_private_or_trust
+170,H/W,Agrawal Nursing Home,"Ann Ville, Bandra West",Private,Private,16,not_applicable_private_or_trust
+171,H/W,Pali Nursing Home,"Manuel Gonsalves Rd, Bandra West",Private,Private,12,not_applicable_private_or_trust
+172,H/W,GM Medical Centre,"S.V. Road, Khar (W)",Private,Private,22,not_applicable_private_or_trust
+173,H/W,Mahavir Medical Research Centre,"Ahimsa Marg, Khar West",Private,Private,49,not_applicable_private_or_trust
+174,H/W,Dr. Gupte Surgical Hospital Ltd,"S V Road, Khar West",Private,Private,16,not_applicable_private_or_trust
+175,H/W,Shri Mangal Nursing Home,"Besant Rd, Santacruz West",Private,Private,22,not_applicable_private_or_trust
+176,H/W,Shanti Nursing Home,"Santosh Nagar, Bandra West",Private,Private,19,not_applicable_private_or_trust
+177,H/W,Surya Children's Nursing Home,"Swami Vivekananda Rd, Santacruz West",Private,Private,109,not_applicable_private_or_trust
+178,H/W,Mahatma Gandhi Seva Mandir,"S.V. Road, Bandra West",Private,Private,20,not_applicable_private_or_trust
+179,K/E,ESIS Hospital,"MIDC, Andheri East",Government,Public,325,not_found_in_kml_layers
+180,K/E,HBT (Thackeray) Trauma Care,"Sai Siddhi complex, Jogeshwari East",Municipal (BMC),Public,180,matched_in_kml
+181,K/E,Seven Hills Hospital,"Marol, Andheri East",Private,Private,350,not_applicable_private_or_trust
+182,K/E,Rainbow Women's Hospital,"Chakala, Andheri East",Private,Private,15,not_applicable_private_or_trust
+183,K/E,Dhanwantri Kerala Ayurved,"Chakala, Andheri East",Private,Private,,not_applicable_private_or_trust
+184,K/E,Sanghvi Hospital,Lokhandwala Complex,Private,Private,2,not_applicable_private_or_trust
+185,K/E,Kiran Care & Cure Hospital,"JB Nagar, Andheri East",Private,Private,35,not_applicable_private_or_trust
+186,K/E,Holy Spirit Hospital,"Sher E Punjab Colony, Andheri East",Private,Private,161,not_applicable_private_or_trust
+187,K/E,Mangala Hospital,"Bamandaya pada, Andheri East",Private,Private,46,not_applicable_private_or_trust
+188,K/E,Sanjeevani Hospital,"Sahar Rd, Andheri East",Private,Private,17,not_applicable_private_or_trust
+189,K/E,Sir H N Reliance Hospital,"Raja Ram Mohan Roy Rd, Girgaon",Private,Private,10,not_applicable_private_or_trust
+190,K/E,Sugun Hospital,"Marol, Andheri East",Private,Private,35,not_applicable_private_or_trust
+191,K/E,All Cure Super Speciality Hospital,"Station Road, Jogeshwari East",Private,Private,45,not_applicable_private_or_trust
+192,K/E,Criticare Multi Speciality Hospital,"Teli Gali, Andheri East",Private,Private,45,not_applicable_private_or_trust
+193,K/E,Goel Hospital,"J B Nagar, Andheri East",Private,Private,43,not_applicable_private_or_trust
+194,K/E,Hashir Hospital,"Marol, Andheri East",Private,Private,20,not_applicable_private_or_trust
+195,K/W,BSES Municipal Gen Hospital,"Lohana Colony, Andheri West",Municipal (BMC),Public,100,not_found_in_kml_layers
+196,K/W,Dr. R N Cooper Hospital,"JVPD Scheme, Juhu",Municipal (BMC),Public,700,matched_in_kml
+197,K/W,Sanghvi Hospital,"Lokhandwala Complex, Andheri West",Private,Private,14,not_applicable_private_or_trust
+198,K/W,Cozy Clinic & Nursing Home,"Seven Bungalow, Andheri West",Private,Private,14,not_applicable_private_or_trust
+199,L,Dr Bhabha Hospital,"Waterfield Road, Bandra West",Municipal (BMC),Public,307,matched_in_kml
+200,L,Arpan General Hospital,"Brahmanwadi, Kurla West",Private,Private,35,not_applicable_private_or_trust
+201,L,Dr. Zikruallah Khan Habib Hospital,"Lal Bahadur Shastri Marg, Kurla West",Private,Private,15,not_applicable_private_or_trust
+202,L,Neelam Nursing Home,"Lal Bahadur Shastri Marg, Kurla West",Private,Private,20,not_applicable_private_or_trust
+203,L,Kohinoor Hospital,"Lal Bahadur Shastri Marg, Kurla West",Private,Private,35,not_applicable_private_or_trust
+204,L,Aryan Hospital,"Nehru Nagar, Station Road, Kurla",Private,Private,25,not_applicable_private_or_trust
+205,L,Disha Hospital,"Bhagwat Bhavan Building, Kurla West",Private,Private,25,not_applicable_private_or_trust
+206,L,Paramount Nursing Home,"Andheri Kurla Road, Andheri East",Private,Private,55,not_applicable_private_or_trust
+207,M/E,Shatabdi Hospital,"Govandi East, Chembur",Municipal (BMC),Public,120,matched_in_kml
+208,M/E,Maa Hospital,"Ramakrishna Chemburkar Marg, Chembur East",Municipal (BMC),Public,74,matched_in_kml_ward_conflict
+209,M/E,Deonar Maternity Home,"Deonar Municipal Colony, Govandi East",Municipal (BMC),Public,14,matched_in_kml
+210,M/E,RCF Hospital,"Aziz Baug, Chembur East",Government,Public,150,not_found_in_kml_layers
+211,M/E,Noor Hospital,"Shivaji Nagar, Market Road, Govandi West",Private,Private,16,not_applicable_private_or_trust
+212,M/E,Nova Medical Centre,"Swastik Chamber,Chembur",Private,Private,16,not_applicable_private_or_trust
+213,M/E,Jagannath Maternity & Nursing Home,"Baiganwadi, Govandi East",Private,Private,12,not_applicable_private_or_trust
+214,M/E,Saibaba Nursing Home,Akurli Nagar,Private,Private,8,not_applicable_private_or_trust
+215,M/E,Meenaz Hospital,"Shivaji Nagar, Govandi West",Private,Private,7,not_applicable_private_or_trust
+216,M/E,Charu Nursing Home,"Azad Nagar, Chembur",Private,Private,8,not_applicable_private_or_trust
+217,M/E,Sandhya Nursing Home,"Gulab Park Colony, Chembur",Private,Private,14,not_applicable_private_or_trust
+218,M/E,Vikas Nursing Home,"Shivaji Nagar, Govandi West",Private,Private,10,not_applicable_private_or_trust
+219,M/W,Dr. Das Hospital,"Chembur Gaothan, Chembur",Municipal (BMC),Public,45,not_found_in_kml_layers
+220,M/W,Inlaks General Hospital,"Indira Nagar, Chembur",Municipal (BMC),Public,94,not_found_in_kml_layers
+221,M/W,Sushrut Hospital & Research Centre,"Swastik Park, Chembur (East)",Municipal (BMC),Public,70,not_found_in_kml_layers
+222,M/W,Kher Hospital,"Chembur Gaothan, Chembur",Government,Public,19,not_found_in_kml_layers
+223,M/W,Mangal Anand Hospital,"Sion-Trombay Road, Chembur,",Private,Private,36,not_applicable_private_or_trust
+224,M/W,Dr. Sanjay Kedare Hospital,"DK Sandu Marg, Chembur",Private,Private,13,not_applicable_private_or_trust
+225,M/W,Ameeta Nursing Home,"Chembur Gaothan, Chembur",Private,Private,26,not_applicable_private_or_trust
+226,M/W,Amarnath Children Hospital,"Sion - Trombay Rd, Chembur",Private,Private,12,not_applicable_private_or_trust
+227,M/W,Ashirwad Hospital & Polyclinic,"Ghatla, Chembur",Private,Private,20,not_applicable_private_or_trust
+228,M/W,Matoshree Ramabai Ambedkar Maternity Home,"Postal Colony, Chembur",Municipal (BMC),Public,50,matched_in_kml
+229,M/W,Disha Polyclinic & Nursing Home,"Opposite Bmc M Ward Office, Chembur",Private,Private,35,not_applicable_private_or_trust
+230,M/W,Kolekar Hospital,"Ambedkar Garden, Chembur",Private,Private,50,not_applicable_private_or_trust
+231,M/W,Lakshmi Maternity Home,"11th Rd, Sampoorna, Chembur",Private,Private,16,not_applicable_private_or_trust
+232,M/W,"Manju Nursing Home, Sindhi Society","Sindhi Society, Chembur",Private,Private,16,not_applicable_private_or_trust
+233,M/W,Markar Hospital,"Sanduwadi, Chembur",Private,Private,15,not_applicable_private_or_trust
+234,M/W,Shree Hosptial,"Ambedkar Garden, Chembur",Private,Private,22,not_applicable_private_or_trust
+235,M/W,Sunny Hospital,"Sunny Estate, Chembur",Private,Private,20,not_applicable_private_or_trust
+236,M/W,Swastik Hospital,"Swastik Park, Chembur",Private,Private,29,not_applicable_private_or_trust
+237,N,Rajawadi Hospital,"Rajawadi Colony, Ghatkopar East",Municipal (BMC),Public,596,matched_in_kml
+238,N,Sant Muktabai Hospital,"Barve Nagar, Ghatkopar West",Municipal (BMC),Public,104,matched_in_kml
+239,N,Sarvoday Hospital,"L B S Marg, Ghatkopar West",Private,Private,80,not_applicable_private_or_trust
+240,N,Nulife Hospital,"Jivdaya Lane, Ghatkopar West",Private,Private,47,not_applicable_private_or_trust
+241,N,Satyam Nursing Home,"L B S Marg, Ghatkopar West",Private,Private,29,not_applicable_private_or_trust
+242,N,Parekh Hospital,"Khokani Lane, Ghatkopar East",Private,Private,57,not_applicable_private_or_trust
+243,N,Pancholi Hospital,"Garodia Nagar, Ghatkopar East",Private,Private,24,not_applicable_private_or_trust
+244,P/N,M W Desai Hospital,"Lower Govind Nagar, Malad East",Municipal (BMC),Public,180,matched_in_kml
+245,P/N,SK Patil Hospital,"Pushpa Park, Malad East",Municipal (BMC),Public,50,matched_in_kml
+246,P/N,Veena Nursing Home,"Poddar Rd, Malad East",Private,Private,25,not_applicable_private_or_trust
+247,P/N,Raj Nursing Home,"Pushpa Park, Malad East",Private,Private,20,not_applicable_private_or_trust
+248,P/N,Ever Shine Nursing Home,"New Link Road, Malad West",Private,Private,25,not_applicable_private_or_trust
+249,P/S,"Siddharth Hospital, Goregaon (W)","Aarey Rd, Goregaon West",Municipal (BMC),Public,172,matched_in_kml
+250,P/S,Gokuldham Medical Centre,"Gokuldham Colony, Goregaon",Private,Private,15,not_applicable_private_or_trust
+251,P/S,Vasudha Hospital,"Film City Road, Goregaon",Private,Private,10,not_applicable_private_or_trust
+252,P/S,Vaidya Hospital,"Film City Road, Goregaon",Private,Private,10,not_applicable_private_or_trust
+253,P/S,Life Line Medicare Hosp,"Gokuldham Medical Center, Goregaon East",Private,Private,15,not_applicable_private_or_trust
+254,P/S,Matoshree Gomati Hospital,"Mahatma Gandhi Road, Goregaon West",Private,Private,34,not_applicable_private_or_trust
+255,R/N,"Bhagwati Hospital, Borivali","Mandapeshwar, Borivali West",Municipal (BMC),Public,500,matched_in_kml
+256,R/N,Karuna Hospital,"LIC Colony Rd, Borivali West",Trust,Trust,156,not_applicable_private_or_trust
+257,R/N,Mandapeshwar Hospital,"Near Sudhir Phadke Flyover, Borivali West",Private,Private,21,not_applicable_private_or_trust
+258,R/N,Sanjeevani Hospital,"Near Ravindra Hotel, Dahisar",Private,Private,15,not_applicable_private_or_trust
+259,R/N,Gandhi Nursing Home,"Mandpeshwar Road, Borivali West",Private,Private,15,not_applicable_private_or_trust
+260,R/N,Silverline Hospital,"Mhatre Wadi, Dahisar West",Private,Private,11,not_applicable_private_or_trust
+261,R/S,Dr Babasaheb Ambedkar Hospital (Shatabdi Hospital),"Parekh Nagar, Kandivali West,",Municipal (BMC),Public,427,matched_in_kml
+262,R/S,ESIS Hospital,Kandivali,Government,Public,85,not_found_in_kml_layers
+263,R/S,Mangalmurti Hospital,"Malwani Police Station Road, Malad West",Private,Private,25,not_applicable_private_or_trust
+264,R/S,Sanchaiti,"Akurli Rd, Kandivali",Private,Private,35,not_applicable_private_or_trust
+265,R/C,KCS Bansali Maternity Home,"Mhatre Wadi, Borivali West",Municipal (BMC),Public,40,matched_in_kml
+266,R/C,Charkop Maternity Home,"Charkop Gaon, Kandivali West",Municipal (BMC),Public,20,matched_in_kml
+267,R/C,Krantijyoti Savitribai Phule Maternity Home,"L.B.S, Maruti Mandir Road",Municipal (BMC),Public,40,not_found_in_kml_layers
+268,R/C,Dr. Ajmera Hospital,SV Road,Private,Private,18,not_applicable_private_or_trust
+269,R/C,Dr. Patel Nursing Home,"Mhatre Wadi, Borivali West",Private,Private,16,not_applicable_private_or_trust
+270,R/C,Aanand Nursing Home,"Near Sona Theater, Borivali",Private,Private,20,not_applicable_private_or_trust
+271,R/C,Purnima Hospital,"Daulat Nagar, Borivali",Private,Private,16,not_applicable_private_or_trust
+272,R/C,Mata Balak Maternity Home,"Siddharth Nagar, Kandivali",Private,Private,70,not_applicable_private_or_trust
+273,S,Savitribai Phule Maternity Home,"Maruti Mandir Rd, Bhandup",Municipal (BMC),Public,40,matched_in_kml
+274,S,Ambedkar Maternity Home,"Tagore Nagar, Vikhroli",Municipal (BMC),Public,24,matched_in_kml
+275,S,Jyotiba Phule General Hospital,"Kannamwar Nagar II, Vikhroli",Municipal (BMC),Public,110,matched_in_kml
+276,S,L.B.S Maternity Home,"Dina Bama Estate, Bhandup",Private,Private,10,not_applicable_private_or_trust
+277,S,Fortis Hospital,"Nahur West, Industrial Area, Bhandup West",Private,Private,440,not_applicable_private_or_trust
+278,S,Madhu Polyclinic and Nursing Home,"Sarvodaya Nagar, Bhandup West",Private,Private,18,not_applicable_private_or_trust
+279,S,Central Health Home Hospital,"Dreams Building, Bhandup",Private,Private,16,not_applicable_private_or_trust
+280,S,Dr. Malwankar Romeen Nursing Home,"Gamdevi Road, Bhandup West",Private,Private,16,not_applicable_private_or_trust
+281,S,Gaurav Maternity and Surgical Hospital,"Jaydev Singh Nagar, Bhandup West",Private,Private,17,not_applicable_private_or_trust
+282,S,Dr Badwaik Hospital,"Bhandup Village Rd, Nahur West",Private,Private,28,not_applicable_private_or_trust
+283,S,Powai Polyclinic and Hospital,"Near South Indian Bank, Powai",Private,Private,25,not_applicable_private_or_trust
+284,T,Agarwal Municipal General Hospital,Panch Rasta-Mulund West,Municipal (BMC),Public,110,matched_in_kml
+285,T,Veer Savarkar Hospital,"Hanuman Chowk, Mulund East",Municipal (BMC),Public,105,matched_in_kml
+286,T,ESIS Hospital,Mulund,Government,Public,400,not_found_in_kml_layers
+287,T,Heera Monghi Hospital,"Near Kalidas Natya Gruh, Mulund West,",Private,Private,120,not_applicable_private_or_trust
+288,T,Dhanvantari Hospital,"Siddharth Nagar, Mulund West",Private,Private,28,not_applicable_private_or_trust
+289,T,Sushrusha Hospital,"Shreenat Plaza L.T Road, Mulund East",Private,Private,20,not_applicable_private_or_trust

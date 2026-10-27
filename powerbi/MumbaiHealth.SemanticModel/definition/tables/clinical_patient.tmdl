@@ -1,0 +1,204 @@
+table clinical_patient
+	lineageTag: a807ac2a-6561-5c7c-903c-f2ceddb13046
+
+	measure Patients = COUNTROWS ( clinical_patient )
+		formatString: #,0
+		lineageTag: abd55b70-bdf4-5282-aa1a-b9e6a0a1a7c5
+
+	measure 'Heart Disease Patients' = CALCULATE ( COUNTROWS ( clinical_patient ), clinical_patient[target] = 1 )
+		formatString: #,0
+		lineageTag: 3af337c4-77e8-528f-abec-11a34f644d23
+
+	measure 'Heart Disease Rate' = DIVIDE ( [Heart Disease Patients], [Patients] )
+		formatString: 0.0%
+		lineageTag: 0473a7d5-830d-5608-b6c3-68f1726cd0eb
+
+	measure 'Average Age' = AVERAGE ( clinical_patient[age] )
+		formatString: 0.0
+		lineageTag: 357572e0-84d3-548f-92bd-9bd4a3bbc283
+
+	measure 'Average Max Heart Rate' = AVERAGE ( clinical_patient[max_heart_rate] )
+		formatString: 0
+		lineageTag: a78aad26-1949-5a49-bc51-a54e6370bcc9
+
+	measure 'Average Cholesterol' = AVERAGE ( clinical_patient[cholesterol] )
+		formatString: 0
+		lineageTag: 53cbe157-86fa-5060-b9dd-42bd24e39f5b
+
+	measure 'Cholesterol Not Recorded' = CALCULATE ( COUNTROWS ( clinical_patient ), ISBLANK ( clinical_patient[cholesterol] ) )
+		formatString: #,0
+		lineageTag: fe17e094-9470-53c3-ad64-089a975d4331
+
+	measure 'Male Share' = DIVIDE ( CALCULATE ( COUNTROWS ( clinical_patient ), clinical_patient[sex] = "Male" ), [Patients] )
+		formatString: 0.0%
+		lineageTag: 2d545b83-bb05-5aa0-9717-4a3d33cc475b
+
+	measure 'Majority Baseline Accuracy' = DIVIDE ( CALCULATE ( COUNTROWS ( clinical_patient ), clinical_patient[split] = "Test", clinical_patient[target] = 1 ), CALCULATE ( COUNTROWS ( clinical_patient ), clinical_patient[split] = "Test" ) )
+		formatString: 0.000
+		lineageTag: 4b2a22f1-5f04-55b8-b5d0-6c1e72e96f39
+
+	column patientid
+		dataType: int64
+		lineageTag: 4834788f-8ec2-5134-87e1-9902ddb40e7a
+		summarizeBy: none
+		sourceColumn: patientid
+
+		annotation SummarizationSetBy = Automatic
+
+	column split
+		dataType: string
+		lineageTag: e8fa935a-ad5e-59f3-b680-cc02fc72b407
+		summarizeBy: none
+		sourceColumn: split
+
+		annotation SummarizationSetBy = Automatic
+
+	column age
+		dataType: int64
+		lineageTag: 8434651f-f182-5887-a6a3-abcffdb6f3e2
+		summarizeBy: none
+		sourceColumn: age
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_band
+		dataType: string
+		lineageTag: 139465d8-dab5-5e1f-bb05-5766f88b7a86
+		summarizeBy: none
+		sourceColumn: age_band
+		sortByColumn: age_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_band_order
+		dataType: int64
+		isHidden
+		lineageTag: 6e577f6f-b4d0-5e7d-9426-9be4048d00b4
+		summarizeBy: none
+		sourceColumn: age_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sex
+		dataType: string
+		lineageTag: 0c6e90a5-9b5f-56aa-8a8f-21a0143a15c0
+		summarizeBy: none
+		sourceColumn: sex
+
+		annotation SummarizationSetBy = Automatic
+
+	column chest_pain
+		dataType: string
+		lineageTag: 7c1c1268-fd1f-5e16-8866-f17747311b56
+		summarizeBy: none
+		sourceColumn: chest_pain
+
+		annotation SummarizationSetBy = Automatic
+
+	column resting_bp
+		dataType: int64
+		lineageTag: a35b5b65-e065-5502-b1ae-c8b7aae5daec
+		summarizeBy: none
+		sourceColumn: resting_bp
+
+		annotation SummarizationSetBy = Automatic
+
+	column cholesterol
+		dataType: double
+		lineageTag: 8be2fe96-880f-55c4-80e2-0a2088614e57
+		summarizeBy: none
+		sourceColumn: cholesterol
+
+		annotation SummarizationSetBy = Automatic
+
+	column cholesterol_recorded
+		dataType: string
+		lineageTag: 03cf8d80-322f-5fd5-a3ee-a754c15c94f8
+		summarizeBy: none
+		sourceColumn: cholesterol_recorded
+
+		annotation SummarizationSetBy = Automatic
+
+	column fasting_blood_sugar
+		dataType: string
+		lineageTag: 0424dc51-4fff-5b87-96f5-e733280e498c
+		summarizeBy: none
+		sourceColumn: fasting_blood_sugar
+
+		annotation SummarizationSetBy = Automatic
+
+	column resting_ecg
+		dataType: string
+		lineageTag: 7ce7b5af-a344-5809-8cf6-9a0e7fbb8b28
+		summarizeBy: none
+		sourceColumn: resting_ecg
+
+		annotation SummarizationSetBy = Automatic
+
+	column max_heart_rate
+		dataType: int64
+		lineageTag: 2ec3d684-cc82-5764-ac99-3934cf603f1f
+		summarizeBy: none
+		sourceColumn: max_heart_rate
+
+		annotation SummarizationSetBy = Automatic
+
+	column exercise_angina
+		dataType: string
+		lineageTag: 643834fa-cfd9-5a87-8d17-ce23357eeaaf
+		summarizeBy: none
+		sourceColumn: exercise_angina
+
+		annotation SummarizationSetBy = Automatic
+
+	column st_depression
+		dataType: double
+		lineageTag: 3b0c7762-c0f3-5240-a357-ad108b4472cf
+		summarizeBy: none
+		sourceColumn: st_depression
+
+		annotation SummarizationSetBy = Automatic
+
+	column st_slope
+		dataType: string
+		lineageTag: 33997278-4ec1-53a6-9fdc-ead6f322a89d
+		summarizeBy: none
+		sourceColumn: st_slope
+
+		annotation SummarizationSetBy = Automatic
+
+	column major_vessels
+		dataType: int64
+		lineageTag: 46843f55-fcd6-501b-abb2-89d9b08461c9
+		summarizeBy: none
+		sourceColumn: major_vessels
+
+		annotation SummarizationSetBy = Automatic
+
+	column target
+		dataType: int64
+		lineageTag: 50fcc08e-d138-5acd-b2fa-efa7fecc0ead
+		summarizeBy: none
+		sourceColumn: target
+
+		annotation SummarizationSetBy = Automatic
+
+	column outcome
+		dataType: string
+		lineageTag: 333e4c90-8cd1-5f96-aaf6-82ebcb83eaab
+		summarizeBy: none
+		sourceColumn: outcome
+
+		annotation SummarizationSetBy = Automatic
+
+	partition clinical_patient = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "clinical_patient.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"patientid", Int64.Type}, {"split", type text}, {"age", Int64.Type}, {"age_band", type text}, {"age_band_order", Int64.Type}, {"sex", type text}, {"chest_pain", type text}, {"resting_bp", Int64.Type}, {"cholesterol", type number}, {"cholesterol_recorded", type text}, {"fasting_blood_sugar", type text}, {"resting_ecg", type text}, {"max_heart_rate", Int64.Type}, {"exercise_angina", type text}, {"st_depression", type number}, {"st_slope", type text}, {"major_vessels", Int64.Type}, {"target", Int64.Type}, {"outcome", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

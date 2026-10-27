@@ -1,0 +1,90 @@
+table hospital_list
+	lineageTag: 71869d3b-7f58-5a14-8a04-4e5217fe0788
+
+	measure 'Hospitals Listed' = COUNTROWS ( hospital_list )
+		formatString: #,0
+		lineageTag: c84a3317-b1a4-5139-ae37-7bac032e7dee
+
+	measure 'Beds Listed' = SUM ( hospital_list[beds] )
+		formatString: #,0
+		lineageTag: 8e1f5fbd-6c73-5be5-9883-be6499560b54
+
+	measure 'Public Hospitals Listed' = CALCULATE ( COUNTROWS ( hospital_list ), hospital_list[ownership_class] = "Public" )
+		formatString: #,0
+		lineageTag: 3f3f0ca3-1699-50e9-9784-ad27f67c17a4
+
+	column csv_row
+		dataType: int64
+		lineageTag: 8341047a-eb47-5157-b799-e51aa38deb93
+		summarizeBy: none
+		sourceColumn: csv_row
+
+		annotation SummarizationSetBy = Automatic
+
+	column ward_id
+		dataType: string
+		lineageTag: f7d0cd52-5c24-5491-afb6-09862e9e4e14
+		summarizeBy: none
+		sourceColumn: ward_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column hospital_name
+		dataType: string
+		lineageTag: 6eea67ee-1de6-5db4-9c94-d9af6124d63e
+		summarizeBy: none
+		sourceColumn: hospital_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column address
+		dataType: string
+		lineageTag: 3a43a66c-c5fa-513f-ac3e-b9719da612da
+		summarizeBy: none
+		sourceColumn: address
+
+		annotation SummarizationSetBy = Automatic
+
+	column ownership_type
+		dataType: string
+		lineageTag: eb87d2d8-f4af-5bf1-ac2d-ce10bd2ff2ba
+		summarizeBy: none
+		sourceColumn: ownership_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column ownership_class
+		dataType: string
+		lineageTag: f17fe362-eeb8-5613-b9b4-15866eb42122
+		summarizeBy: none
+		sourceColumn: ownership_class
+
+		annotation SummarizationSetBy = Automatic
+
+	column beds
+		dataType: double
+		lineageTag: 67530989-4eac-591d-8513-43f46ee1c59d
+		summarizeBy: none
+		sourceColumn: beds
+
+		annotation SummarizationSetBy = Automatic
+
+	column match_status
+		dataType: string
+		lineageTag: 0e9bcd20-cda7-5f0b-b76a-cb8d40de9e47
+		summarizeBy: none
+		sourceColumn: match_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition hospital_list = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "hospital_list.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"csv_row", Int64.Type}, {"ward_id", type text}, {"hospital_name", type text}, {"address", type text}, {"ownership_type", type text}, {"ownership_class", type text}, {"beds", type number}, {"match_status", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

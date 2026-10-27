@@ -1,0 +1,17 @@
+dataset,step,action,records,detail
+Clinical,1,Validate schema,0,14 columns match the published data dictionary
+Clinical,2,Exact duplicate rows,0,none removed
+Clinical,3,Duplicate patient ids,0,patient-level leakage check across train/test
+Clinical,4,Duplicate predictor+target rows (ignoring id),0,no identical records
+Clinical,5,Recode serumcholestrol = [0] to missing,53,"outside the documented range; target rate among these rows = 1.00 (vs 0.58 overall), so the code looks like a recording artifact"
+Clinical,6,Recode slope = [0] to missing,180,"outside the documented range; target rate among these rows = 0.00 (vs 0.58 overall), so the code looks like a recording artifact"
+Clinical,7,Drop identifier,0,'patientid' is not a predictor
+Clinical,8,Binary target,0,"target: 1 = heart disease present, 0 = absent (as published)"
+Clinical,9,Stratified train/test split,1000,"800 train / 200 test, seed 42; 0 patient ids shared. Imputation, scaling and encoding are fitted on training folds only."
+Mumbai facilities,1,Read the four MCGM facility layers,456,"dispensaries, UPHCs, public hospitals, maternity homes"
+Mumbai facilities,2,Exclude invalid records,0,none excluded
+Mumbai facilities,3,Merge co-located facilities into sites,54,456 records become 402 distinct sites
+Mumbai facilities,4,Records with no coordinates,1,"kept, ward taken from the source"
+Mumbai facilities,5,Ward assignment needing review,24,point-in-polygon check against the source ward
+Mumbai facilities,6,Read the MCGM hospitals list,288,ownership types grouped to Public / Private / Trust
+Mumbai facilities,7,Hospitals list rows with no bed count,2,"kept, beds left blank"

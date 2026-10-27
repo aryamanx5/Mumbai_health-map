@@ -1,0 +1,73 @@
+model,point,fpr,tpr
+Logistic Regression,0,0.0,0.0
+Logistic Regression,1,0.0,0.0086
+Logistic Regression,2,0.0,0.6293
+Logistic Regression,3,0.0119,0.6293
+Logistic Regression,4,0.0119,0.7328
+Logistic Regression,5,0.0238,0.7328
+Logistic Regression,6,0.0238,0.7672
+Logistic Regression,7,0.0357,0.7672
+Logistic Regression,8,0.0357,0.7759
+Logistic Regression,9,0.0476,0.7759
+Logistic Regression,10,0.0476,0.8707
+Logistic Regression,11,0.0595,0.8707
+Logistic Regression,12,0.0595,0.8793
+Logistic Regression,13,0.0833,0.8793
+Logistic Regression,14,0.0833,0.9052
+Logistic Regression,15,0.1071,0.9052
+Logistic Regression,16,0.1071,0.9138
+Logistic Regression,17,0.1548,0.9138
+Logistic Regression,18,0.1548,0.9224
+Logistic Regression,19,0.1667,0.9224
+Logistic Regression,20,0.1667,0.9569
+Logistic Regression,21,0.1905,0.9569
+Logistic Regression,22,0.1905,0.9655
+Logistic Regression,23,0.2262,0.9655
+Logistic Regression,24,0.2262,0.9741
+Logistic Regression,25,0.2976,0.9741
+Logistic Regression,26,0.2976,0.9828
+Logistic Regression,27,0.4524,0.9828
+Logistic Regression,28,0.4524,0.9914
+Logistic Regression,29,0.5238,0.9914
+Logistic Regression,30,0.5238,1.0
+Logistic Regression,31,1.0,1.0
+Random Forest,0,0.0,0.0
+Random Forest,1,0.0,0.0086
+Random Forest,2,0.0,0.8362
+Random Forest,3,0.0119,0.8362
+Random Forest,4,0.0119,0.8621
+Random Forest,5,0.0238,0.8621
+Random Forest,6,0.0238,0.9569
+Random Forest,7,0.0476,0.9569
+Random Forest,8,0.0476,0.9655
+Random Forest,9,0.0714,0.9655
+Random Forest,10,0.0714,0.9828
+Random Forest,11,0.119,0.9828
+Random Forest,12,0.119,0.9914
+Random Forest,13,0.3214,0.9914
+Random Forest,14,0.3214,1.0
+Random Forest,15,1.0,1.0
+Artificial Neural Network (MLP),0,0.0,0.0
+Artificial Neural Network (MLP),1,0.0,0.0086
+Artificial Neural Network (MLP),2,0.0,0.7845
+Artificial Neural Network (MLP),3,0.0119,0.7845
+Artificial Neural Network (MLP),4,0.0119,0.8793
+Artificial Neural Network (MLP),5,0.0238,0.8793
+Artificial Neural Network (MLP),6,0.0238,0.9138
+Artificial Neural Network (MLP),7,0.0357,0.9138
+Artificial Neural Network (MLP),8,0.0357,0.9224
+Artificial Neural Network (MLP),9,0.0595,0.9224
+Artificial Neural Network (MLP),10,0.0595,0.931
+Artificial Neural Network (MLP),11,0.0714,0.931
+Artificial Neural Network (MLP),12,0.0714,0.9569
+Artificial Neural Network (MLP),13,0.0952,0.9569
+Artificial Neural Network (MLP),14,0.0952,0.9655
+Artificial Neural Network (MLP),15,0.1429,0.9655
+Artificial Neural Network (MLP),16,0.1429,0.9741
+Artificial Neural Network (MLP),17,0.2024,0.9741
+Artificial Neural Network (MLP),18,0.2024,0.9828
+Artificial Neural Network (MLP),19,0.2976,0.9828
+Artificial Neural Network (MLP),20,0.2976,0.9914
+Artificial Neural Network (MLP),21,0.3929,0.9914
+Artificial Neural Network (MLP),22,0.3929,1.0
+Artificial Neural Network (MLP),23,1.0,1.0

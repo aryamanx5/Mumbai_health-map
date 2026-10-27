@@ -1,0 +1,1200 @@
+{
+ "source": {
+  "title": "Cardiovascular_Disease_Dataset",
+  "authors": "Bhanu Prakash Doppala; Debnath Bhattacharyya",
+  "year": 2021,
+  "publisher": "Mendeley Data, V1",
+  "doi": "10.17632/dzz48mvjht.1",
+  "url": "https://data.mendeley.com/datasets/dzz48mvjht/1",
+  "mirror_used": "https://raw.githubusercontent.com/Tayebbb/cardiovascular-disease-classification/master/cardiovascular_disease_dataset.csv",
+  "note": "Mendeley and Kaggle were unreachable from the build environment, so the file was taken from a public GitHub copy and checked against the published schema (1,000 rows, 14 columns, documented codes). Replace data/raw/clinical/Cardiovascular_Disease_Dataset.csv with the Mendeley download and re-run to confirm; the SHA-256 is recorded in the quality report."
+ },
+ "sha256": "db6fdd9250e1717037cc3daa2b38f7e42451fd8e655b802985d28d7fcbf78110",
+ "rows": {
+  "raw": 1000,
+  "clean": 1000,
+  "train": 800,
+  "test": 200
+ },
+ "missing_before": {
+  "age": 0,
+  "gender": 0,
+  "chestpain": 0,
+  "restingBP": 0,
+  "serumcholestrol": 0,
+  "fastingbloodsugar": 0,
+  "restingrelectro": 0,
+  "maxheartrate": 0,
+  "exerciseangia": 0,
+  "oldpeak": 0,
+  "slope": 0,
+  "noofmajorvessels": 0
+ },
+ "missing_after_recode": {
+  "age": 0,
+  "gender": 0,
+  "chestpain": 0,
+  "restingBP": 0,
+  "serumcholestrol": 53,
+  "fastingbloodsugar": 0,
+  "restingrelectro": 0,
+  "maxheartrate": 0,
+  "exerciseangia": 0,
+  "oldpeak": 0,
+  "slope": 180,
+  "noofmajorvessels": 0
+ },
+ "missing_after_imputation": {
+  "age": 0,
+  "gender": 0,
+  "chestpain": 0,
+  "restingBP": 0,
+  "serumcholestrol": 0,
+  "fastingbloodsugar": 0,
+  "restingrelectro": 0,
+  "maxheartrate": 0,
+  "exerciseangia": 0,
+  "oldpeak": 0,
+  "slope": 0,
+  "noofmajorvessels": 0
+ },
+ "profile_raw": [
+  {
+   "column": "patientid",
+   "label": "patientid",
+   "kind": "id",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 0,
+   "distinct": 1000,
+   "min": 103368.0,
+   "max": 9990855.0,
+   "mean": 5048704.412,
+   "std": 2895904.5,
+   "median": 4952508.5,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "age",
+   "label": "Age (years)",
+   "kind": "numeric",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 0,
+   "distinct": 61,
+   "min": 20.0,
+   "max": 80.0,
+   "mean": 49.242,
+   "std": 17.865,
+   "median": 49.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "gender",
+   "label": "Sex (0 = female, 1 = male)",
+   "kind": "binary",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 235,
+   "distinct": 2,
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.765,
+   "std": 0.424,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "chestpain",
+   "label": "Chest pain type",
+   "kind": "nominal",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 420,
+   "distinct": 4,
+   "min": 0.0,
+   "max": 3.0,
+   "mean": 0.98,
+   "std": 0.953,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "restingBP",
+   "label": "Resting blood pressure (mm Hg)",
+   "kind": "numeric",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 0,
+   "distinct": 95,
+   "min": 94.0,
+   "max": 200.0,
+   "mean": 151.747,
+   "std": 29.965,
+   "median": 147.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "serumcholestrol",
+   "label": "Serum cholesterol (mg/dl)",
+   "kind": "numeric",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 53,
+   "distinct": 344,
+   "min": 0.0,
+   "max": 602.0,
+   "mean": 311.447,
+   "std": 132.444,
+   "median": 318.0,
+   "out_of_documented_range": 53
+  },
+  {
+   "column": "fastingbloodsugar",
+   "label": "Fasting blood sugar > 120 mg/dl",
+   "kind": "binary",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 704,
+   "distinct": 2,
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.296,
+   "std": 0.457,
+   "median": 0.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "restingrelectro",
+   "label": "Resting ECG",
+   "kind": "nominal",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 454,
+   "distinct": 3,
+   "min": 0.0,
+   "max": 2.0,
+   "mean": 0.748,
+   "std": 0.77,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "maxheartrate",
+   "label": "Maximum heart rate achieved (bpm)",
+   "kind": "numeric",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 0,
+   "distinct": 129,
+   "min": 71.0,
+   "max": 202.0,
+   "mean": 145.477,
+   "std": 34.19,
+   "median": 146.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "exerciseangia",
+   "label": "Exercise-induced angina",
+   "kind": "binary",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 502,
+   "distinct": 2,
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.498,
+   "std": 0.5,
+   "median": 0.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "oldpeak",
+   "label": "ST depression induced by exercise (oldpeak)",
+   "kind": "numeric",
+   "dtype": "float64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 19,
+   "distinct": 63,
+   "min": 0.0,
+   "max": 6.2,
+   "mean": 2.708,
+   "std": 1.721,
+   "median": 2.4,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "slope",
+   "label": "Slope of peak exercise ST segment",
+   "kind": "nominal",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 180,
+   "distinct": 4,
+   "min": 0.0,
+   "max": 3.0,
+   "mean": 1.54,
+   "std": 1.004,
+   "median": 2.0,
+   "out_of_documented_range": 180
+  },
+  {
+   "column": "noofmajorvessels",
+   "label": "Major vessels coloured by fluoroscopy (0-3)",
+   "kind": "count",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 275,
+   "distinct": 4,
+   "min": 0.0,
+   "max": 3.0,
+   "mean": 1.222,
+   "std": 0.978,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "target",
+   "label": "target",
+   "kind": "target",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 420,
+   "distinct": 2,
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.58,
+   "std": 0.494,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  }
+ ],
+ "profile_clean": [
+  {
+   "column": "age",
+   "label": "Age (years)",
+   "kind": "numeric",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 0,
+   "distinct": 61,
+   "min": 20.0,
+   "max": 80.0,
+   "mean": 49.242,
+   "std": 17.865,
+   "median": 49.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "gender",
+   "label": "Sex (0 = female, 1 = male)",
+   "kind": "binary",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 235,
+   "distinct": 2,
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.765,
+   "std": 0.424,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "chestpain",
+   "label": "Chest pain type",
+   "kind": "nominal",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 420,
+   "distinct": 4,
+   "min": 0.0,
+   "max": 3.0,
+   "mean": 0.98,
+   "std": 0.953,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "restingBP",
+   "label": "Resting blood pressure (mm Hg)",
+   "kind": "numeric",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 0,
+   "distinct": 95,
+   "min": 94.0,
+   "max": 200.0,
+   "mean": 151.747,
+   "std": 29.965,
+   "median": 147.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "serumcholestrol",
+   "label": "Serum cholesterol (mg/dl)",
+   "kind": "numeric",
+   "dtype": "float64",
+   "n": 1000,
+   "missing": 53,
+   "zeros": 0,
+   "distinct": 343,
+   "min": 85.0,
+   "max": 602.0,
+   "mean": 328.878,
+   "std": 113.073,
+   "median": 326.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "fastingbloodsugar",
+   "label": "Fasting blood sugar > 120 mg/dl",
+   "kind": "binary",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 704,
+   "distinct": 2,
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.296,
+   "std": 0.457,
+   "median": 0.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "restingrelectro",
+   "label": "Resting ECG",
+   "kind": "nominal",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 454,
+   "distinct": 3,
+   "min": 0.0,
+   "max": 2.0,
+   "mean": 0.748,
+   "std": 0.77,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "maxheartrate",
+   "label": "Maximum heart rate achieved (bpm)",
+   "kind": "numeric",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 0,
+   "distinct": 129,
+   "min": 71.0,
+   "max": 202.0,
+   "mean": 145.477,
+   "std": 34.19,
+   "median": 146.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "exerciseangia",
+   "label": "Exercise-induced angina",
+   "kind": "binary",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 502,
+   "distinct": 2,
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.498,
+   "std": 0.5,
+   "median": 0.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "oldpeak",
+   "label": "ST depression induced by exercise (oldpeak)",
+   "kind": "numeric",
+   "dtype": "float64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 19,
+   "distinct": 63,
+   "min": 0.0,
+   "max": 6.2,
+   "mean": 2.708,
+   "std": 1.721,
+   "median": 2.4,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "slope",
+   "label": "Slope of peak exercise ST segment",
+   "kind": "nominal",
+   "dtype": "float64",
+   "n": 1000,
+   "missing": 180,
+   "zeros": 0,
+   "distinct": 3,
+   "min": 1.0,
+   "max": 3.0,
+   "mean": 1.878,
+   "std": 0.77,
+   "median": 2.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "noofmajorvessels",
+   "label": "Major vessels coloured by fluoroscopy (0-3)",
+   "kind": "count",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 275,
+   "distinct": 4,
+   "min": 0.0,
+   "max": 3.0,
+   "mean": 1.222,
+   "std": 0.978,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  },
+  {
+   "column": "target",
+   "label": "target",
+   "kind": "target",
+   "dtype": "int64",
+   "n": 1000,
+   "missing": 0,
+   "zeros": 420,
+   "distinct": 2,
+   "min": 0.0,
+   "max": 1.0,
+   "mean": 0.58,
+   "std": 0.494,
+   "median": 1.0,
+   "out_of_documented_range": 0
+  }
+ ],
+ "cleaning_log": [
+  {
+   "step": 1,
+   "action": "Validate schema",
+   "records_affected": 0,
+   "detail": "14 columns match the published data dictionary"
+  },
+  {
+   "step": 2,
+   "action": "Exact duplicate rows",
+   "records_affected": 0,
+   "detail": "none removed"
+  },
+  {
+   "step": 3,
+   "action": "Duplicate patient ids",
+   "records_affected": 0,
+   "detail": "patient-level leakage check across train/test"
+  },
+  {
+   "step": 4,
+   "action": "Duplicate predictor+target rows (ignoring id)",
+   "records_affected": 0,
+   "detail": "no identical records"
+  },
+  {
+   "step": 5,
+   "action": "Recode serumcholestrol = [0] to missing",
+   "records_affected": 53,
+   "detail": "outside the documented range; target rate among these rows = 1.00 (vs 0.58 overall), so the code looks like a recording artifact"
+  },
+  {
+   "step": 6,
+   "action": "Recode slope = [0] to missing",
+   "records_affected": 180,
+   "detail": "outside the documented range; target rate among these rows = 0.00 (vs 0.58 overall), so the code looks like a recording artifact"
+  },
+  {
+   "step": 7,
+   "action": "Drop identifier",
+   "records_affected": 0,
+   "detail": "'patientid' is not a predictor"
+  },
+  {
+   "step": 8,
+   "action": "Binary target",
+   "records_affected": 0,
+   "detail": "target: 1 = heart disease present, 0 = absent (as published)"
+  },
+  {
+   "step": 9,
+   "action": "Stratified train/test split",
+   "records_affected": 1000,
+   "detail": "800 train / 200 test, seed 42; 0 patient ids shared. Imputation, scaling and encoding are fitted on training folds only."
+  }
+ ],
+ "distributions": {
+  "age": {
+   "kind": "numeric",
+   "edges": [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    52.0,
+    56.0,
+    60.0,
+    64.0,
+    68.0,
+    72.0,
+    76.0,
+    80.0
+   ],
+   "raw": [
+    78,
+    75,
+    60,
+    66,
+    69,
+    59,
+    76,
+    59,
+    60,
+    69,
+    64,
+    58,
+    60,
+    67,
+    80
+   ],
+   "clean": [
+    78,
+    75,
+    60,
+    66,
+    69,
+    59,
+    76,
+    59,
+    60,
+    69,
+    64,
+    58,
+    60,
+    67,
+    80
+   ]
+  },
+  "gender": {
+   "kind": "binary",
+   "codes": [
+    0,
+    1
+   ],
+   "labels": [
+    "code 0",
+    "code 1"
+   ],
+   "raw": [
+    235,
+    765
+   ],
+   "clean": [
+    235,
+    765
+   ],
+   "target_rate": [
+    0.566,
+    0.584
+   ]
+  },
+  "chestpain": {
+   "kind": "nominal",
+   "codes": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "labels": [
+    "Typical angina",
+    "Atypical angina",
+    "Non-anginal pain",
+    "Asymptomatic"
+   ],
+   "raw": [
+    420,
+    224,
+    312,
+    44
+   ],
+   "clean": [
+    420,
+    224,
+    312,
+    44
+   ],
+   "target_rate": [
+    0.257,
+    0.688,
+    0.894,
+    0.886
+   ]
+  },
+  "restingBP": {
+   "kind": "numeric",
+   "edges": [
+    94.0,
+    101.07,
+    108.13,
+    115.2,
+    122.27,
+    129.33,
+    136.4,
+    143.47,
+    150.53,
+    157.6,
+    164.67,
+    171.73,
+    178.8,
+    185.87,
+    192.93,
+    200.0
+   ],
+   "raw": [
+    56,
+    34,
+    16,
+    31,
+    124,
+    111,
+    109,
+    46,
+    61,
+    50,
+    51,
+    44,
+    61,
+    85,
+    121
+   ],
+   "clean": [
+    56,
+    34,
+    16,
+    31,
+    124,
+    111,
+    109,
+    46,
+    61,
+    50,
+    51,
+    44,
+    61,
+    85,
+    121
+   ]
+  },
+  "serumcholestrol": {
+   "kind": "numeric",
+   "edges": [
+    0.0,
+    40.13,
+    80.27,
+    120.4,
+    160.53,
+    200.67,
+    240.8,
+    280.93,
+    321.07,
+    361.2,
+    401.33,
+    441.47,
+    481.6,
+    521.73,
+    561.87,
+    602.0
+   ],
+   "raw": [
+    53,
+    0,
+    7,
+    58,
+    60,
+    85,
+    158,
+    87,
+    165,
+    67,
+    90,
+    57,
+    59,
+    49,
+    5
+   ],
+   "clean": [
+    0,
+    0,
+    7,
+    58,
+    60,
+    85,
+    158,
+    87,
+    165,
+    67,
+    90,
+    57,
+    59,
+    49,
+    5
+   ]
+  },
+  "fastingbloodsugar": {
+   "kind": "binary",
+   "codes": [
+    0,
+    1
+   ],
+   "labels": [
+    "code 0",
+    "code 1"
+   ],
+   "raw": [
+    704,
+    296
+   ],
+   "clean": [
+    704,
+    296
+   ],
+   "target_rate": [
+    0.483,
+    0.811
+   ]
+  },
+  "restingrelectro": {
+   "kind": "nominal",
+   "codes": [
+    0,
+    1,
+    2
+   ],
+   "labels": [
+    "Normal",
+    "ST-T wave abnormality",
+    "Left ventricular hypertrophy"
+   ],
+   "raw": [
+    454,
+    344,
+    202
+   ],
+   "clean": [
+    454,
+    344,
+    202
+   ],
+   "target_rate": [
+    0.392,
+    0.605,
+    0.96
+   ]
+  },
+  "maxheartrate": {
+   "kind": "numeric",
+   "edges": [
+    71.0,
+    79.73,
+    88.47,
+    97.2,
+    105.93,
+    114.67,
+    123.4,
+    132.13,
+    140.87,
+    149.6,
+    158.33,
+    167.07,
+    175.8,
+    184.53,
+    193.27,
+    202.0
+   ],
+   "raw": [
+    33,
+    27,
+    35,
+    51,
+    65,
+    64,
+    76,
+    91,
+    93,
+    73,
+    68,
+    83,
+    81,
+    93,
+    67
+   ],
+   "clean": [
+    33,
+    27,
+    35,
+    51,
+    65,
+    64,
+    76,
+    91,
+    93,
+    73,
+    68,
+    83,
+    81,
+    93,
+    67
+   ]
+  },
+  "exerciseangia": {
+   "kind": "binary",
+   "codes": [
+    0,
+    1
+   ],
+   "labels": [
+    "code 0",
+    "code 1"
+   ],
+   "raw": [
+    502,
+    498
+   ],
+   "clean": [
+    502,
+    498
+   ],
+   "target_rate": [
+    0.6,
+    0.56
+   ]
+  },
+  "oldpeak": {
+   "kind": "numeric",
+   "edges": [
+    0.0,
+    0.41,
+    0.83,
+    1.24,
+    1.65,
+    2.07,
+    2.48,
+    2.89,
+    3.31,
+    3.72,
+    4.13,
+    4.55,
+    4.96,
+    5.37,
+    5.79,
+    6.2
+   ],
+   "raw": [
+    93,
+    73,
+    78,
+    78,
+    87,
+    92,
+    69,
+    83,
+    57,
+    49,
+    53,
+    39,
+    53,
+    58,
+    38
+   ],
+   "clean": [
+    93,
+    73,
+    78,
+    78,
+    87,
+    92,
+    69,
+    83,
+    57,
+    49,
+    53,
+    39,
+    53,
+    58,
+    38
+   ]
+  },
+  "slope": {
+   "kind": "nominal",
+   "codes": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "labels": [
+    "code 0",
+    "Upsloping",
+    "Flat",
+    "Downsloping"
+   ],
+   "raw": [
+    180,
+    299,
+    322,
+    199
+   ],
+   "clean": [
+    0,
+    299,
+    322,
+    199
+   ],
+   "target_rate": [
+    0.0,
+    0.237,
+    0.963,
+    1.0
+   ]
+  },
+  "noofmajorvessels": {
+   "kind": "count",
+   "codes": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "labels": [
+    "code 0",
+    "code 1",
+    "code 2",
+    "code 3"
+   ],
+   "raw": [
+    275,
+    344,
+    265,
+    116
+   ],
+   "clean": [
+    275,
+    344,
+    265,
+    116
+   ],
+   "target_rate": [
+    0.2,
+    0.587,
+    0.853,
+    0.836
+   ]
+  }
+ },
+ "dictionary": {
+  "age": {
+   "label": "Age (years)",
+   "kind": "numeric",
+   "codes": null,
+   "range": [
+    18,
+    100
+   ]
+  },
+  "gender": {
+   "label": "Sex (0 = female, 1 = male)",
+   "kind": "binary",
+   "codes": null,
+   "range": [
+    0,
+    1
+   ]
+  },
+  "chestpain": {
+   "label": "Chest pain type",
+   "kind": "nominal",
+   "codes": {
+    "0": "Typical angina",
+    "1": "Atypical angina",
+    "2": "Non-anginal pain",
+    "3": "Asymptomatic"
+   },
+   "range": null
+  },
+  "restingBP": {
+   "label": "Resting blood pressure (mm Hg)",
+   "kind": "numeric",
+   "codes": null,
+   "range": [
+    94,
+    200
+   ]
+  },
+  "serumcholestrol": {
+   "label": "Serum cholesterol (mg/dl)",
+   "kind": "numeric",
+   "codes": null,
+   "range": [
+    80,
+    700
+   ]
+  },
+  "fastingbloodsugar": {
+   "label": "Fasting blood sugar > 120 mg/dl",
+   "kind": "binary",
+   "codes": null,
+   "range": [
+    0,
+    1
+   ]
+  },
+  "restingrelectro": {
+   "label": "Resting ECG",
+   "kind": "nominal",
+   "codes": {
+    "0": "Normal",
+    "1": "ST-T wave abnormality",
+    "2": "Left ventricular hypertrophy"
+   },
+   "range": null
+  },
+  "maxheartrate": {
+   "label": "Maximum heart rate achieved (bpm)",
+   "kind": "numeric",
+   "codes": null,
+   "range": [
+    71,
+    202
+   ]
+  },
+  "exerciseangia": {
+   "label": "Exercise-induced angina",
+   "kind": "binary",
+   "codes": null,
+   "range": [
+    0,
+    1
+   ]
+  },
+  "oldpeak": {
+   "label": "ST depression induced by exercise (oldpeak)",
+   "kind": "numeric",
+   "codes": null,
+   "range": [
+    0,
+    6.2
+   ]
+  },
+  "slope": {
+   "label": "Slope of peak exercise ST segment",
+   "kind": "nominal",
+   "codes": {
+    "1": "Upsloping",
+    "2": "Flat",
+    "3": "Downsloping"
+   },
+   "range": null
+  },
+  "noofmajorvessels": {
+   "label": "Major vessels coloured by fluoroscopy (0-3)",
+   "kind": "count",
+   "codes": null,
+   "range": [
+    0,
+    3
+   ]
+  }
+ },
+ "encoding": {
+  "numeric_scaled": [
+   "age",
+   "restingBP",
+   "serumcholestrol",
+   "maxheartrate",
+   "oldpeak",
+   "noofmajorvessels",
+   "hr_reserve_pct"
+  ],
+  "binary_passthrough": [
+   "gender",
+   "fastingbloodsugar",
+   "exerciseangia"
+  ],
+  "one_hot": [
+   "chestpain",
+   "restingrelectro",
+   "slope"
+  ],
+  "encoded_features": [
+   "age",
+   "restingBP",
+   "serumcholestrol",
+   "maxheartrate",
+   "oldpeak",
+   "noofmajorvessels",
+   "hr_reserve_pct",
+   "gender",
+   "fastingbloodsugar",
+   "exerciseangia",
+   "chestpain_0.0",
+   "chestpain_1.0",
+   "chestpain_2.0",
+   "chestpain_3.0",
+   "restingrelectro_0.0",
+   "restingrelectro_1.0",
+   "restingrelectro_2.0",
+   "slope_1.0",
+   "slope_2.0",
+   "slope_3.0"
+  ],
+  "imputation": "median for numeric, most frequent for binary/nominal; fitted on training folds only",
+  "scaling": "StandardScaler (z-score) on numeric fields, fitted on training folds only",
+  "engineered": "hr_reserve_pct = maxheartrate / (220 - age) x 100"
+ },
+ "class_balance": {
+  "raw": {
+   "0": 420,
+   "1": 580
+  },
+  "train": {
+   "0": 336,
+   "1": 464
+  },
+  "test": {
+   "0": 84,
+   "1": 116
+  }
+ }
+}

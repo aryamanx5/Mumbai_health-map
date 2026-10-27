@@ -1,0 +1,14 @@
+column,label,kind,dtype,n,missing,zeros,distinct,min,max,mean,std,median,out_of_documented_range
+age,Age (years),numeric,int64,1000,0,0,61,20.0,80.0,49.242,17.865,49.0,0
+gender,"Sex (0 = female, 1 = male)",binary,int64,1000,0,235,2,0.0,1.0,0.765,0.424,1.0,0
+chestpain,Chest pain type,nominal,int64,1000,0,420,4,0.0,3.0,0.98,0.953,1.0,0
+restingBP,Resting blood pressure (mm Hg),numeric,int64,1000,0,0,95,94.0,200.0,151.747,29.965,147.0,0
+serumcholestrol,Serum cholesterol (mg/dl),numeric,float64,1000,53,0,343,85.0,602.0,328.878,113.073,326.0,0
+fastingbloodsugar,Fasting blood sugar > 120 mg/dl,binary,int64,1000,0,704,2,0.0,1.0,0.296,0.457,0.0,0
+restingrelectro,Resting ECG,nominal,int64,1000,0,454,3,0.0,2.0,0.748,0.77,1.0,0
+maxheartrate,Maximum heart rate achieved (bpm),numeric,int64,1000,0,0,129,71.0,202.0,145.477,34.19,146.0,0
+exerciseangia,Exercise-induced angina,binary,int64,1000,0,502,2,0.0,1.0,0.498,0.5,0.0,0
+oldpeak,ST depression induced by exercise (oldpeak),numeric,float64,1000,0,19,63,0.0,6.2,2.708,1.721,2.4,0
+slope,Slope of peak exercise ST segment,nominal,float64,1000,180,0,3,1.0,3.0,1.878,0.77,2.0,0
+noofmajorvessels,Major vessels coloured by fluoroscopy (0-3),count,int64,1000,0,275,4,0.0,3.0,1.222,0.978,1.0,0
+target,target,target,int64,1000,0,420,2,0.0,1.0,0.58,0.494,1.0,0

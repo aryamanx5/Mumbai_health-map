@@ -66,7 +66,8 @@ def test_fit_recovers_synthetic_clusters_and_dimensions():
 def test_reproducible_with_fixed_seed():
     X, _ = modelling_table(synthetic(), FEATS)
     a, b = fit_k(X, 3, True), fit_k(X, 3, True)
-    assert (a["labels"] == b["labels"]).all() and a["inertia"] == b["inertia"]
+    # Labels must match exactly; inertia can differ in the last bits because OpenMP sums in a varying order.
+    assert (a["labels"] == b["labels"]).all() and a["inertia"] == pytest.approx(b["inertia"], rel=1e-9)
 
 
 def test_invalid_k_raises_and_degenerate_k_flagged():

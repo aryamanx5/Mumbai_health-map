@@ -1,0 +1,10 @@
+step,action,records_affected,detail
+1,Validate schema,0,14 columns match the published data dictionary
+2,Exact duplicate rows,0,none removed
+3,Duplicate patient ids,0,patient-level leakage check across train/test
+4,Duplicate predictor+target rows (ignoring id),0,no identical records
+5,Recode serumcholestrol = [0] to missing,53,"outside the documented range; target rate among these rows = 1.00 (vs 0.58 overall), so the code looks like a recording artifact"
+6,Recode slope = [0] to missing,180,"outside the documented range; target rate among these rows = 0.00 (vs 0.58 overall), so the code looks like a recording artifact"
+7,Drop identifier,0,'patientid' is not a predictor
+8,Binary target,0,"target: 1 = heart disease present, 0 = absent (as published)"
+9,Stratified train/test split,1000,"800 train / 200 test, seed 42; 0 patient ids shared. Imputation, scaling and encoding are fitted on training folds only."

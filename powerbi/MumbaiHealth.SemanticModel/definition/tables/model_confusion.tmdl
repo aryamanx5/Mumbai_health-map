@@ -1,0 +1,68 @@
+table model_confusion
+	lineageTag: bd02e044-5c98-580c-a197-ef7d679ea650
+
+	measure 'Confusion Patients' = SUM ( model_confusion[patients] )
+		formatString: #,0
+		lineageTag: b38a26f4-8671-5689-97e4-3d7b05d1dbaf
+
+	column model
+		dataType: string
+		lineageTag: a54095b9-c39e-5310-82e9-82d1b11355ea
+		summarizeBy: none
+		sourceColumn: model
+
+		annotation SummarizationSetBy = Automatic
+
+	column cell
+		dataType: string
+		lineageTag: ef2f812e-7d14-598d-8d51-c88d59e6038a
+		summarizeBy: none
+		sourceColumn: cell
+		sortByColumn: cell_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column cell_order
+		dataType: int64
+		isHidden
+		lineageTag: 8111a59c-113a-5dce-b01c-bc519d39d5de
+		summarizeBy: none
+		sourceColumn: cell_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column actual
+		dataType: string
+		lineageTag: f727904b-4e29-5361-b456-253bd0753a4d
+		summarizeBy: none
+		sourceColumn: actual
+
+		annotation SummarizationSetBy = Automatic
+
+	column predicted
+		dataType: string
+		lineageTag: 035b7f8c-6647-51bf-bbfe-a885ba32327b
+		summarizeBy: none
+		sourceColumn: predicted
+
+		annotation SummarizationSetBy = Automatic
+
+	column patients
+		dataType: int64
+		lineageTag: de227703-5cb2-5c4c-89b5-b5adfddd53f4
+		summarizeBy: none
+		sourceColumn: patients
+
+		annotation SummarizationSetBy = Automatic
+
+	partition model_confusion = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "model_confusion.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"model", type text}, {"cell", type text}, {"cell_order", Int64.Type}, {"actual", type text}, {"predicted", type text}, {"patients", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

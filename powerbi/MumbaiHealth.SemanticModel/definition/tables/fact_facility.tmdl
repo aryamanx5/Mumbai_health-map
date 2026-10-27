@@ -1,0 +1,152 @@
+table fact_facility
+	lineageTag: 2e674c4a-fb63-5756-a24e-3c15ce321702
+
+	measure 'Total Distinct Sites' = DISTINCTCOUNT ( fact_facility[site_id] )
+		formatString: #,0
+		lineageTag: daa0cdb7-3576-5dc0-bb2a-fb8791d0489b
+
+	measure 'Facility Records' = COUNTROWS ( fact_facility )
+		formatString: #,0
+		lineageTag: 610ef9e3-95da-590e-8ffc-0a27dd48fecd
+
+	column facility_id
+		dataType: string
+		lineageTag: 8fc1b675-a5d0-53fc-83f2-d0595e8b92e7
+		summarizeBy: none
+		sourceColumn: facility_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column site_id
+		dataType: string
+		lineageTag: 1024240b-1693-57b7-b45b-f814bebbf0ce
+		summarizeBy: none
+		sourceColumn: site_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column ward_id
+		dataType: string
+		lineageTag: 376923a6-2615-5790-b85d-0d5b63c0594a
+		summarizeBy: none
+		sourceColumn: ward_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 565890c8-e9dc-5f77-830d-b7b1f65d84fc
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column facility_name
+		dataType: string
+		lineageTag: 71a3c472-6e59-544c-bd4a-f187a1056a37
+		summarizeBy: none
+		sourceColumn: facility_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column address
+		dataType: string
+		lineageTag: a979e297-4202-5382-b7a5-9e8e4c27caf5
+		summarizeBy: none
+		sourceColumn: address
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_subtype
+		dataType: string
+		lineageTag: ad5cc5c0-3a75-5ced-b417-b3bd4c056011
+		summarizeBy: none
+		sourceColumn: source_subtype
+
+		annotation SummarizationSetBy = Automatic
+
+	column longitude
+		dataType: double
+		dataCategory: Longitude
+		lineageTag: b1e4197a-6535-587b-8564-0ce538a0b026
+		summarizeBy: none
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		dataCategory: Latitude
+		lineageTag: 443ef2d0-636f-5a9f-b9c5-a3e6683427f8
+		summarizeBy: none
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column coordinate_decimals
+		dataType: double
+		lineageTag: a40f2d79-42ea-5a40-9b06-4506b68e5104
+		summarizeBy: none
+		sourceColumn: coordinate_decimals
+
+		annotation SummarizationSetBy = Automatic
+
+	column coordinate_status
+		dataType: string
+		lineageTag: 237a5756-2427-5d80-9526-bff1432ebee3
+		summarizeBy: none
+		sourceColumn: coordinate_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column assignment_check
+		dataType: string
+		lineageTag: 1e6d125f-b9f0-59a1-86b0-b074f909236a
+		summarizeBy: none
+		sourceColumn: assignment_check
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_file
+		dataType: string
+		lineageTag: 8502a117-dc17-5c85-a716-3dc53e76c12f
+		summarizeBy: none
+		sourceColumn: source_file
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_record_id
+		dataType: int64
+		lineageTag: feb0c1fc-8e17-5ea3-9d3c-e1d3308f1b4a
+		summarizeBy: none
+		sourceColumn: source_record_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column category_label
+		dataType: string
+		lineageTag: baf56ece-efd2-5a41-9025-827e51425417
+		summarizeBy: none
+		sourceColumn: category_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column coordinates_approximate
+		dataType: boolean
+		lineageTag: 922583ef-e473-5014-9f04-f4bbbe8533af
+		summarizeBy: none
+		sourceColumn: coordinates_approximate
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_facility = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_facility.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"facility_id", type text}, {"site_id", type text}, {"ward_id", type text}, {"category", type text}, {"facility_name", type text}, {"address", type text}, {"source_subtype", type text}, {"longitude", type number}, {"latitude", type number}, {"coordinate_decimals", type number}, {"coordinate_status", type text}, {"assignment_check", type text}, {"source_file", type text}, {"source_record_id", Int64.Type}, {"category_label", type text}, {"coordinates_approximate", type logical}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

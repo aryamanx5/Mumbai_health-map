@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,specificity,f1,roc_auc,brier,cv_accuracy_mean,cv_precision_mean,cv_recall_mean,cv_f1_mean,cv_roc_auc_mean
+Logistic Regression,0.89,0.8983,0.9138,0.8571,0.906,0.9679,0.0704,0.9325,0.9454,0.9374,0.9414,0.974
+Random Forest,0.955,0.9573,0.9655,0.9405,0.9614,0.992,0.0399,0.9625,0.9618,0.9741,0.9678,0.9921
+Artificial Neural Network (MLP),0.935,0.9478,0.9397,0.9286,0.9437,0.9856,0.047,0.9462,0.9488,0.959,0.9538,0.9833

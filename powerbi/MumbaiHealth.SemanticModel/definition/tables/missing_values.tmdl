@@ -1,0 +1,52 @@
+table missing_values
+	lineageTag: 90fa8e57-e293-5ae4-a17d-a70fbd0ec581
+
+	measure 'Missing Values' = SUM ( missing_values[missing] )
+		formatString: #,0
+		lineageTag: ff4a7f5c-de58-577f-aa46-520f3e4c4e00
+
+	column field
+		dataType: string
+		lineageTag: 9ee4890b-1fcc-5a91-84d6-7a8b90bf75f4
+		summarizeBy: none
+		sourceColumn: field
+
+		annotation SummarizationSetBy = Automatic
+
+	column stage
+		dataType: string
+		lineageTag: daa06bb5-98ff-55e1-8fbb-0975cda061a1
+		summarizeBy: none
+		sourceColumn: stage
+		sortByColumn: stage_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column stage_order
+		dataType: int64
+		isHidden
+		lineageTag: 3f342980-2fca-55ab-8a50-c1d2c16241eb
+		summarizeBy: none
+		sourceColumn: stage_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column missing
+		dataType: int64
+		lineageTag: 837cc49b-f68b-5102-b817-1a3660811eb9
+		summarizeBy: none
+		sourceColumn: missing
+
+		annotation SummarizationSetBy = Automatic
+
+	partition missing_values = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "missing_values.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"field", type text}, {"stage", type text}, {"stage_order", Int64.Type}, {"missing", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

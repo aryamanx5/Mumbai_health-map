@@ -5,7 +5,7 @@ import pandas as pd
 
 from .config import CATEGORIES, INTERIM, PROCESSED, ROOT, TABLES, WARD_ORDER
 from .data_ingestion import file_inventory
-from .data_integration import build_facility_master, reconcile_hospital_list
+from .data_integration import build_facility_master, clean_hospital_list, reconcile_hospital_list
 from .geospatial_processing import load_ward_polygons, validate_assignments
 from .indicators import compute_indicators, ward_counts
 from .population import build_population_table
@@ -73,6 +73,8 @@ def run():
                  on="facility_id").query("assignment_check != 'agree'").to_csv(
         TABLES / "ward_assignment_review.csv", index=False)
     rec.to_csv(TABLES / "hospital_list_reconciliation.csv", index=False)
+    hospital_list = clean_hospital_list(rec)
+    hospital_list.to_csv(PROCESSED / "hospital_list_clean.csv", index=False)
     kml_only.to_csv(TABLES / "kml_hospitals_not_in_csv.csv", index=False)
 
     summary = dict(
@@ -93,6 +95,9 @@ def run():
         population_checks_passed=bool(pop_checks["passed"].all()),
         hospital_csv=csv_summary, hospital_csv_reconciliation=rec["status"].value_counts().to_dict(),
         kml_hospital_records_not_in_csv=len(kml_only),
+        hospital_list_ownership=hospital_list["ownership_class"].value_counts().to_dict(),
+        hospital_list_beds_missing=int(hospital_list["beds"].isna().sum()),
+        hospital_list_unmapped_wards=int(hospital_list["ward_id"].isna().sum()),
     )
     (TABLES / "data_summary.json").write_text(json.dumps(summary, indent=2, default=str))
     return dict(master=master, sites=sites, ward_table=ward_table, wards=wards, log=log,

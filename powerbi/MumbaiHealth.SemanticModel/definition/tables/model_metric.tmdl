@@ -1,0 +1,90 @@
+table model_metric
+	lineageTag: 828d5469-36be-5cef-8fdb-155437744972
+
+	measure 'Test Metric' = CALCULATE ( AVERAGE ( model_metric[value] ), model_metric[set] = "Test" )
+		formatString: 0.000
+		lineageTag: 6997d07f-3301-5ce0-ad53-ba484f6e38ae
+
+	measure 'CV Metric' = CALCULATE ( AVERAGE ( model_metric[value] ), model_metric[set] = "5-fold CV" )
+		formatString: 0.000
+		lineageTag: 5b5381db-ea2f-55a4-8036-4b772fbdb081
+
+	measure 'Test Accuracy' = CALCULATE ( [Test Metric], model_metric[metric] = "Accuracy" )
+		formatString: 0.0%
+		lineageTag: 6efdc938-bba5-5234-aedf-30b2de69eb3e
+
+	measure 'Test ROC-AUC' = CALCULATE ( [Test Metric], model_metric[metric] = "ROC-AUC" )
+		formatString: 0.000
+		lineageTag: a83a71f5-ce3f-53df-87dd-d0af5830ae91
+
+	measure 'Test F1' = CALCULATE ( [Test Metric], model_metric[metric] = "F1" )
+		formatString: 0.000
+		lineageTag: 4cab4368-b236-5a6a-85fa-77f73411eaec
+
+	measure 'Test Recall' = CALCULATE ( [Test Metric], model_metric[metric] = "Recall" )
+		formatString: 0.0%
+		lineageTag: 0298db9a-3330-5595-9865-7eb0fc0e6c0a
+
+	measure 'Best Test ROC-AUC' = CALCULATE ( MAX ( model_metric[value] ), model_metric[set] = "Test", model_metric[metric] = "ROC-AUC" )
+		formatString: 0.000
+		lineageTag: 2443622f-3d3e-54ef-981a-1e9a9603ffe7
+
+	measure 'Best Model' =
+			VAR scores = FILTER ( ALL ( model_metric ), model_metric[set] = "Test" && model_metric[metric] = "ROC-AUC" )
+			VAR top = MAXX ( scores, model_metric[value] )
+			RETURN MAXX ( FILTER ( scores, model_metric[value] = top ), model_metric[model] )
+		lineageTag: 84975050-8261-5f8f-9c9b-f15478500037
+
+	column model
+		dataType: string
+		lineageTag: e2cf3d68-71cf-5041-a34d-c3399f6ca5be
+		summarizeBy: none
+		sourceColumn: model
+
+		annotation SummarizationSetBy = Automatic
+
+	column set
+		dataType: string
+		lineageTag: 0f1b0e3f-f3e1-59dc-b0e6-7e48d0fa286d
+		summarizeBy: none
+		sourceColumn: set
+
+		annotation SummarizationSetBy = Automatic
+
+	column metric
+		dataType: string
+		lineageTag: d91a13a7-211a-5684-9b8d-4a7538f7f902
+		summarizeBy: none
+		sourceColumn: metric
+		sortByColumn: metric_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column metric_order
+		dataType: int64
+		isHidden
+		lineageTag: 323ffaf0-3096-577a-a95d-b96ac771860a
+		summarizeBy: none
+		sourceColumn: metric_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: double
+		lineageTag: 728fbfbe-465a-513e-8e5b-13f912f7dc61
+		summarizeBy: none
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+	partition model_metric = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "model_metric.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"model", type text}, {"set", type text}, {"metric", type text}, {"metric_order", Int64.Type}, {"value", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

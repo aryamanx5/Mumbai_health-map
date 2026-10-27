@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/sanjanakrishnan/mumbai_spatial_data/blob/master/BMC_admin_wards.geojson",
+  "wards": 24,
+  "problems": [],
+  "median_iou": 0.9864999999999999,
+  "min_iou": 0.8395,
+  "min_iou_ward": "N",
+  "total_area_opencity_km2": 474.4,
+  "total_area_bmc_layer_km2": 458.28,
+  "facility_points": {
+    "points": 455,
+    "same_as_source_ward": 383,
+    "outside_bmc_layer": 5
+  }
+}
