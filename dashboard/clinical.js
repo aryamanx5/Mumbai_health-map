@@ -55,6 +55,8 @@ async function initExtra() {
   }
   renderOverviewModels();
   renderPredictor();
+  // Fetch the browser copy of the models now, so predictions still work if the server stops later.
+  modelBundle().catch((e) => console.warn("model bundle not preloaded", e));
 }
 
 function showApiError() {
@@ -161,8 +163,18 @@ async function runPrediction() {
     const j = C.mode === "api" ? await predictOnServer(body) : null;
     out.innerHTML = resultHtml(j || ModelRuntime.predict(await modelBundle(), body));
   } catch (e) {
-    out.innerHTML = `<div class="error-box">Prediction failed: ${esc(e.message)}</div>`;
+    const offline = e instanceof TypeError && /fetch/i.test(e.message);
+    out.innerHTML = `<div class="error-box">Prediction failed: ${offline
+      ? "the page cannot reach the server that loaded it. If you started it with uvicorn or http.server, that server has stopped. Start it again and reload this page."
+      : esc(e.message)}</div>`;
   } finally { out.classList.remove("busy"); }
+}
+
+// The server went away (or never existed): run the models in the browser and hide the server-only form button.
+function goStatic() {
+  C.mode = "static";
+  const srv = document.getElementById("run-server");
+  if (srv) srv.hidden = true;
 }
 
 // Returns null when there is no backend to answer, so the caller can run the models in the browser instead.
@@ -170,8 +182,8 @@ async function predictOnServer(body) {
   let r;
   try {
     r = await fetch(`${API}/predict`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
-  } catch (e) { C.mode = "static"; return null; }
-  if ([404, 405, 501].includes(r.status)) { C.mode = "static"; return null; }
+  } catch (e) { goStatic(); return null; }
+  if ([404, 405, 501].includes(r.status)) { goStatic(); return null; }
   const j = await r.json();
   if (!r.ok) throw new Error(Array.isArray(j.detail) ? j.detail.map((d) => `${d.loc.at(-1)}: ${d.msg}`).join("; ") : j.detail);
   return j;
