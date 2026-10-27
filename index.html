@@ -8,7 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="landing/style.css?v=6">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23ff4a1f'/%3E%3Cpath d='M13 6h6v7h7v6h-7v7h-6v-7H6v-6h7z' fill='%2318191b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="landing/style.css?v=10">
 <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
@@ -17,10 +18,10 @@
 <header class="nav">
   <a class="wordmark" href="#top">Mumbai Ward Health</a>
   <nav aria-label="Sections">
+    <a href="#pulse">Ward monitor</a>
     <a href="#findings">Findings</a>
-    <a href="#method">Method</a>
+    <a href="#models">Heart models</a>
     <a href="#where">Where to look</a>
-    <a href="dashboard/#predict">Heart risk models</a>
   </nav>
   <a class="btn btn-small" href="dashboard/">Open the dashboard</a>
 </header>
@@ -92,6 +93,32 @@
     </figure>
   </section>
 
+  <!-- ========== The city on a ward monitor: one beat per ward ========== -->
+  <section class="pulse" id="pulse" aria-labelledby="pulse-title">
+    <div class="pulse-head">
+      <h2 id="pulse-title" class="pulse-title" data-reveal><span class="soft">The city on</span> <span>a ward monitor</span></h2>
+      <p class="pulse-lede" data-reveal>One beat per ward, A to T. The taller the spike, the more listed public facility sites per
+        100,000 residents. Hover over a beat, or tab through them, to read each ward.</p>
+    </div>
+    <figure class="monitor" data-ui data-reveal>
+      <div class="mon-top"><span class="mon-title">Ward monitor</span>
+        <span class="mon-meta">Sites per 100,000 residents · 24 wards · facilities 2025, population 2011</span></div>
+      <div class="mon-screen">
+        <p class="mon-swipe">Swipe the trace to see all 24 wards →</p>
+        <div class="mon-scroll"><svg id="mon-svg" class="mon-svg" viewBox="0 0 1200 300" role="group"
+          aria-label="Listed public sites per 100,000 residents for each of Mumbai's 24 wards, drawn as heartbeats"></svg></div>
+        <div class="mon-read" aria-live="polite">
+          <span class="mon-k" id="mon-k">City average</span>
+          <span class="mon-v" id="mon-v">3.23</span>
+          <span class="mon-u">sites per 100,000</span>
+          <span class="mon-x" id="mon-x">Lowest: R South, 2.17. Highest: A, 5.95.</span>
+        </div>
+      </div>
+      <figcaption class="mon-cap">The three lowest wards are drawn in orange, like an alarm on a bedside monitor. A low rate means
+        fewer listed public sites per person; it does not measure beds, staff or private care.</figcaption>
+    </figure>
+  </section>
+
   <!-- ========== Stats ledger ========== -->
   <section class="stats" id="findings" aria-labelledby="stats-title">
     <h2 id="stats-title" class="stats-title" data-reveal><span class="soft">Six numbers</span> <span>worth knowing</span></h2>
@@ -107,7 +134,7 @@
 
   <!-- ========== How it works: the pipeline as one bar ========== -->
   <section class="method" id="method" aria-labelledby="method-title">
-    <h2 id="method-title" class="method-title" data-reveal>One command, four stages</h2>
+    <h2 id="method-title" class="method-title" data-reveal><span>Ward pipeline,</span> <span>four stages</span></h2>
     <div class="stagebar" data-ui data-reveal role="list" aria-label="Pipeline stages, sized by how long each takes">
       <div class="stage s1" role="listitem" style="--grow: 12">
         <div class="seg"><h3 class="dur">Under a second</h3></div>
@@ -126,29 +153,76 @@
         <p>Last, write the Power BI tables that feed the dashboard.</p>
       </div>
     </div>
-    <p class="method-note" data-reveal>Segment widths follow the measured run time (0.6 s, 3.0 s, 32.2 s, under 0.1 s), with a floor so the short stages stay
-      readable. 37 automated tests check the counts, the formulas and that the saved model reproduces every exported cluster.</p>
+    <p class="method-note" data-reveal>Segment widths follow the measured run time of the ward stages (0.6 s, 3.0 s, 32.2 s, under 0.1 s), with a
+      floor so the short stages stay readable. The same command then trains and tunes the three heart-risk models, writes the Power BI
+      tables and exports the models for the browser. 73 automated tests check the counts, the formulas, the classifiers, and that
+      the browser copy of the models gives the same answers as Python.</p>
   </section>
 
   <!-- ========== Showcase: the dashboard in front of the type ========== -->
   <section class="showcase" aria-labelledby="show-title">
     <h2 id="show-title" class="stack" data-reveal><span class="soft">Every ward,</span> one click</h2>
     <div class="show-grid">
-    <a class="object" href="dashboard/#powerbi" aria-label="Open the Power BI dashboard">
-      <img id="show-img" src="landing/assets/dashboard-overview.png" alt="Dashboard overview: headline figures, facility counts by category and a ward map shaded by sites per 100,000 residents" width="1440" height="1000" loading="lazy">
+    <a class="object" href="dashboard/#predict" aria-label="Open the heart risk predictor">
+      <img id="show-img" src="landing/assets/dashboard-predictor.png" alt="Heart risk predictor: a patient chart beside a bedside monitor with a live ECG, and the three model results" width="1440" height="1000" loading="lazy">
     </a>
     <div class="facts" data-reveal>
-      <p>These views now live in a five-page Power BI report, embedded in the dashboard's Power BI tab: model
-        performance, patient data, a map of all 455 located facilities, wards ranked by sites per 100,000 residents, and an
-        insights page. The screenshots show the earlier web versions.</p>
-      <p>The web dashboard keeps the headline numbers, the heart risk predictor and a ward lookup that opens any ward's
-        full facility and hospital list.</p>
+      <p>The heart risk predictor reads like a patient chart: five sections, from the patient to the ECG and imaging. As you type,
+        a bedside monitor shows the vitals and runs its ECG at the heart rate you entered. One click runs all three models.</p>
+      <p>The overview keeps the headline numbers and a ward lookup that opens any ward's facilities and hospitals list. The charts
+        and the facility map live in a five-page Power BI report, embedded in the dashboard.</p>
       <div class="facts-tabs" role="tablist" aria-label="Dashboard pages">
-        <button type="button" role="tab" aria-selected="true" data-shot="overview">Overview</button>
-        <button type="button" role="tab" aria-selected="false" data-shot="wards">Ward analysis</button>
-        <button type="button" role="tab" aria-selected="false" data-shot="clusters">ML clusters</button>
+        <button type="button" role="tab" aria-selected="true" data-shot="predictor">Heart risk predictor</button>
+        <button type="button" role="tab" aria-selected="false" data-shot="overview-2">Overview</button>
+        <button type="button" role="tab" aria-selected="false" data-shot="overview">Earlier map view</button>
       </div>
     </div>
+    </div>
+  </section>
+
+  <!-- ========== Heart risk models, presented as a lab report ========== -->
+  <section class="models" id="models" aria-labelledby="models-title">
+    <h2 id="models-title" class="models-title" data-reveal><span class="soft">Three models,</span> <span>one patient</span></h2>
+    <div class="models-grid">
+      <div class="models-side" data-reveal>
+        <p>Next to the ward study sits a second module. Three classifiers read twelve routine cardiology measurements, among them
+          age, chest pain type, resting blood pressure, cholesterol and the exercise ECG, and each gives a probability of heart disease.</p>
+        <p>They were trained on 800 patients and tested on 200 they never saw. The data come from one hospital in India and have no
+          location, so this module is never joined to the wards.</p>
+        <figure class="models-photo">
+          <img src="landing/assets/instrumentos-medicos-de-uso-en-cardiologia.jpg" alt="A stethoscope resting on an ECG paper printout beside a keyboard" width="1920" height="1253" loading="lazy">
+          <figcaption>Stethoscope and ECG printout. Photo by Ivan2010, CC BY-SA 4.0.</figcaption>
+        </figure>
+      </div>
+      <article class="report" data-reveal aria-labelledby="report-title">
+        <header class="report-head">
+          <div class="report-id"><span class="report-cross" aria-hidden="true"></span>
+            <div><h3 id="report-title">Model report</h3><p>Cardiovascular disease · held-out test set</p></div></div>
+          <dl class="report-meta">
+            <div><dt>Specimen</dt><dd><span id="r-test">200</span> test patients, never seen in training</dd></div>
+            <div><dt>Source</dt><dd><span id="r-records">1,000</span> patients, one hospital in India. Doppala &amp; Bhattacharyya (2021)</dd></div>
+          </dl>
+        </header>
+        <table class="report-table">
+          <caption class="sr-only">Test-set results of the three heart-disease models</caption>
+          <thead><tr><th scope="col">Model</th><th scope="col">Accuracy</th><th scope="col">ROC-AUC</th><th scope="col">Recall</th><th scope="col">F1</th></tr></thead>
+          <tbody id="report-rows">
+            <tr><th scope="row">Logistic regression</th><td>89.0%</td><td>0.968</td><td>91.4%</td><td>0.906</td></tr>
+            <tr><th scope="row">Random forest</th><td class="best">95.5%</td><td class="best">0.992</td><td class="best">96.6%</td><td class="best">0.961</td></tr>
+            <tr><th scope="row">Neural network (MLP)</th><td>93.5%</td><td>0.986</td><td>94.0%</td><td>0.944</td></tr>
+          </tbody>
+        </table>
+        <p class="report-note">Highlighted: the best result in each column. For comparison, always answering "heart disease" scores
+          <span id="r-base">58.0%</span> accuracy. Experimental and for education only: not clinically validated, not a diagnostic tool.</p>
+        <figure class="report-ecg">
+          <img src="landing/assets/12-lead-ecg.jpg" alt="A printed 12-lead electrocardiogram on pink grid paper" width="1920" height="1259" loading="lazy">
+          <figcaption>A 12-lead ECG printout, the kind of test behind the models' resting-ECG and ST-segment inputs. By Peterhcharlton, CC BY 4.0.</figcaption>
+        </figure>
+      </article>
+    </div>
+    <div class="models-actions" data-reveal>
+      <a class="btn" href="dashboard/#predict">Run the three models</a>
+      <a class="text-link" href="docs/ml_methodology.md">How they were built and tested</a>
     </div>
   </section>
 
@@ -163,19 +237,19 @@
         <figcaption>A Mumbai street, 2016. Footage by Nicolas Vigier, CC0.</figcaption>
       </figure>
       <div class="where-table" data-reveal>
-        <span class="table-name">Wards</span>
+        <span class="table-name">Ward directory</span>
         <table>
           <caption class="sr-only">Wards with the fewest listed public sites per 100,000 residents</caption>
           <thead class="sr-only"><tr><th>Ward</th><th>Sites per 100k</th><th>Share gap</th></tr></thead>
           <tbody id="where-rows">
-            <tr><td><a href="dashboard/#ward=R/S">R South</a></td><td>2.17 per 100k</td><td>+1.82 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=K/W">K West</a></td><td>2.27 per 100k</td><td>+1.79 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=P/S">P South</a></td><td>2.59 per 100k</td><td>+0.74 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=F/N">F North</a></td><td>2.65 per 100k</td><td>+0.77 pp</td></tr>
-            <tr class="gap"><td><a href="dashboard/#ward=P/N">P North</a></td><td>2.66 per 100k</td><td>+1.35 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=G/N">G North</a></td><td>2.67 per 100k</td><td>+0.83 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=R/N">R North</a></td><td>2.78 per 100k</td><td>+0.48 pp</td></tr>
-            <tr><td><a href="dashboard/#ward=H/E">H East</a></td><td>2.87 per 100k</td><td>+0.50 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=R/S"><span class="plate" aria-hidden="true">R/S</span>R South</a></td><td>2.17 per 100k</td><td>+1.82 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=K/W"><span class="plate" aria-hidden="true">K/W</span>K West</a></td><td>2.27 per 100k</td><td>+1.79 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=P/S"><span class="plate" aria-hidden="true">P/S</span>P South</a></td><td>2.59 per 100k</td><td>+0.74 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=F/N"><span class="plate" aria-hidden="true">F/N</span>F North</a></td><td>2.65 per 100k</td><td>+0.77 pp</td></tr>
+            <tr class="gap"><td><a href="dashboard/#ward=P/N"><span class="plate" aria-hidden="true">P/N</span>P North</a></td><td>2.66 per 100k</td><td>+1.35 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=G/N"><span class="plate" aria-hidden="true">G/N</span>G North</a></td><td>2.67 per 100k</td><td>+0.83 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=R/N"><span class="plate" aria-hidden="true">R/N</span>R North</a></td><td>2.78 per 100k</td><td>+0.48 pp</td></tr>
+            <tr><td><a href="dashboard/#ward=H/E"><span class="plate" aria-hidden="true">H/E</span>H East</a></td><td>2.87 per 100k</td><td>+0.50 pp</td></tr>
           </tbody>
         </table>
         <p class="where-note">Share gap is the ward's share of the city's people minus its share of listed sites. A low rate is a reason to look closer, not a verdict:
@@ -217,13 +291,15 @@
       Pictures and footage: <a href="https://commons.wikimedia.org/w/index.php?curid=36466814">“The Sir Jamsetjee hospital, Grant medical college”</a>, Wellcome Collection, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>;
       <a href="https://commons.wikimedia.org/w/index.php?curid=98653677">“Bombay Suburban District Map 1929”</a> by District Inspector Land Records Bombay Suburban Andheri, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>;
       <a href="https://commons.wikimedia.org/w/index.php?curid=108327120">“Mumbai Local Train passing”</a> by Pratishkhedekar, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>;
-      <a href="https://commons.wikimedia.org/wiki/File:Street_in_Mumbai_(video)_01.webm">“Street in Mumbai (video) 01”</a> by Nicolas Vigier, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>; all via Wikimedia Commons.
+      <a href="https://commons.wikimedia.org/wiki/File:Street_in_Mumbai_(video)_01.webm">“Street in Mumbai (video) 01”</a> by Nicolas Vigier, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>;
+      <a href="https://commons.wikimedia.org/wiki/File:Instrumentos_medicos_de_uso_en_Cardiolog%C3%ADa.jpg">“Instrumentos medicos de uso en Cardiología”</a> by Ivan2010, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>;
+      <a href="https://commons.wikimedia.org/wiki/File:12_lead_ECG.jpg">“12 lead ECG”</a> by Peterhcharlton, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; all via Wikimedia Commons.
       Map tiles in the dashboard © OpenStreetMap contributors.</p>
     <p>Academic project · 2026</p>
   </div>
   <p class="giant" aria-hidden="true">Mumbai wards</p>
 </footer>
 
-<script src="landing/app.js?v=2"></script>
+<script src="landing/app.js?v=4"></script>
 </body>
 </html>

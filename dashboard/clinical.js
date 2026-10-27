@@ -54,6 +54,7 @@ async function initExtra() {
     if (srv) srv.hidden = true;
   }
   renderOverviewModels();
+  initMonitor();
   renderPredictor();
   // Fetch the browser copy of the models now, so predictions still work if the server stops later.
   modelBundle().catch((e) => console.warn("model bundle not preloaded", e));
@@ -79,33 +80,42 @@ function renderOverviewModels() {
       <span class="mmeta">ROC-AUC ${fmt(m.roc_auc, 3)} · F1 ${fmt(m.f1, 3)} · recall ${pct(m.recall)}</span>
     </button>`).join("") + `
     <button type="button" class="mcard cta" data-go="predict"><span class="eyebrow">Try it</span>
-      <span class="mname">Heart risk predictor</span><span class="mmeta">Enter one patient's values and compare all three models. Experimental, for education only.</span></button>`;
+      <span class="mname">Heart risk predictor</span><span class="mmeta">Enter one patient's values and compare all three models. Experimental, for education only.</span>
+      <svg class="cta-ecg" viewBox="0 0 400 90" preserveAspectRatio="none" aria-hidden="true"><g class="bs-wave">${(() => {
+        const d = `M0 60 ${[0, 100, 200, 300].map(ecgBeat).join(" ")}`;
+        return `<path d="${d}"></path><path d="${d}" transform="translate(400 0)"></path>`; })()}</g></svg></button>`;
   document.querySelectorAll("#ov-models [data-go]").forEach((b) => b.addEventListener("click", () => showPage(b.dataset.go)));
 }
 
 /* ---------------- Predictor ---------------- */
+// Grouped like the sections of a clinical chart.
+const GROUPS = [["patient", "Patient"], ["symptoms", "Presenting symptoms"], ["vitals", "Vitals and bloods"],
+  ["exercise", "Exercise stress test"], ["ecg", "ECG and imaging"]];
 const FIELDS = [
-  { k: "age", label: "Age", help: "Years", type: "number", min: 18, max: 100, step: 1 },
-  { k: "gender", label: "Sex", help: "As recorded in the dataset", options: { 1: "Male", 0: "Female" } },
-  { k: "chestpain", label: "Chest pain type", help: "Type of chest pain reported", options: { 0: "Typical angina", 1: "Atypical angina", 2: "Non-anginal pain", 3: "Asymptomatic" } },
-  { k: "restingBP", label: "Resting blood pressure", help: "Systolic, mm Hg (80–220)", type: "number", min: 80, max: 220, step: 1 },
-  { k: "serumcholestrol", label: "Serum cholesterol", help: "mg/dl (80–700). Leave blank if unknown: the training median is used", type: "number", min: 80, max: 700, step: 1, optional: true },
-  { k: "fastingbloodsugar", label: "Fasting blood sugar > 120 mg/dl", help: "Raised fasting glucose", options: { 0: "No", 1: "Yes" } },
-  { k: "restingrelectro", label: "Resting ECG", help: "Electrocardiogram at rest", options: { 0: "Normal", 1: "ST-T wave abnormality", 2: "Left ventricular hypertrophy" } },
-  { k: "maxheartrate", label: "Maximum heart rate", help: "Highest rate in the exercise test, bpm (60–220)", type: "number", min: 60, max: 220, step: 1 },
-  { k: "exerciseangia", label: "Exercise-induced angina", help: "Chest pain brought on by exercise", options: { 0: "No", 1: "Yes" } },
-  { k: "oldpeak", label: "ST depression (oldpeak)", help: "ST drop in exercise vs rest, mm (0–7)", type: "number", min: 0, max: 7, step: 0.1 },
-  { k: "slope", label: "Slope of peak exercise ST segment", help: "Shape of the ST segment at peak exercise", options: { 1: "Upsloping", 2: "Flat", 3: "Downsloping" } },
-  { k: "noofmajorvessels", label: "Major vessels (fluoroscopy)", help: "Vessels coloured by fluoroscopy, 0–3", options: { 0: "0", 1: "1", 2: "2", 3: "3" } },
+  { k: "age", g: "patient", label: "Age", help: "Years", type: "number", min: 18, max: 100, step: 1 },
+  { k: "gender", g: "patient", label: "Sex", help: "As recorded in the dataset", options: { 1: "Male", 0: "Female" } },
+  { k: "chestpain", g: "symptoms", label: "Chest pain type", help: "Type of chest pain reported", options: { 0: "Typical angina", 1: "Atypical angina", 2: "Non-anginal pain", 3: "Asymptomatic" } },
+  { k: "restingBP", g: "vitals", label: "Resting blood pressure", help: "Systolic, mm Hg (80–220)", type: "number", min: 80, max: 220, step: 1 },
+  { k: "serumcholestrol", g: "vitals", label: "Serum cholesterol", help: "mg/dl (80–700). Leave blank if unknown: the training median is used", type: "number", min: 80, max: 700, step: 1, optional: true },
+  { k: "fastingbloodsugar", g: "vitals", label: "Fasting blood sugar > 120 mg/dl", help: "Raised fasting glucose", options: { 0: "No", 1: "Yes" } },
+  { k: "restingrelectro", g: "ecg", label: "Resting ECG", help: "Electrocardiogram at rest", options: { 0: "Normal", 1: "ST-T wave abnormality", 2: "Left ventricular hypertrophy" } },
+  { k: "maxheartrate", g: "exercise", label: "Maximum heart rate", help: "Highest rate in the exercise test, bpm (60–220)", type: "number", min: 60, max: 220, step: 1 },
+  { k: "exerciseangia", g: "symptoms", label: "Exercise-induced angina", help: "Chest pain brought on by exercise", options: { 0: "No", 1: "Yes" } },
+  { k: "oldpeak", g: "exercise", label: "ST depression (oldpeak)", help: "ST drop in exercise vs rest, mm (0–7)", type: "number", min: 0, max: 7, step: 0.1 },
+  { k: "slope", g: "exercise", label: "Slope of peak exercise ST segment", help: "Shape of the ST segment at peak exercise. Not recorded for 18% of patients: the training value is used", optional: true,
+    options: [["1", "Upsloping"], ["2", "Flat"], ["3", "Downsloping"], ["", "Not recorded"]] },
+  { k: "noofmajorvessels", g: "ecg", label: "Major vessels (fluoroscopy)", help: "Vessels coloured by fluoroscopy, 0–3", options: { 0: "0", 1: "1", 2: "2", 3: "3" } },
 ];
 const DEFAULTS = { age: 50, gender: 1, chestpain: 0, restingBP: 130, serumcholestrol: "", fastingbloodsugar: 0, restingrelectro: 0, maxheartrate: 150, exerciseangia: 0, oldpeak: 1.0, slope: 1, noofmajorvessels: 0 };
 
 function renderPredictor() {
   const form = document.getElementById("predict-form");
-  form.innerHTML = FIELDS.map((f) => `<label class="field"><span class="flabel">${f.label}${f.optional ? " <i>optional</i>" : ""}</span>
-    ${f.options ? `<select name="${f.k}">${Object.entries(f.options).map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}</select>`
+  const field = (f) => `<label class="field"><span class="flabel">${f.label}${f.optional ? " <i>optional</i>" : ""}</span>
+    ${f.options ? `<select name="${f.k}">${(Array.isArray(f.options) ? f.options : Object.entries(f.options)).map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}</select>`
       : `<input name="${f.k}" type="number" inputmode="decimal" min="${f.min}" max="${f.max}" step="${f.step}" ${f.optional ? "" : "required"}>`}
-    <span class="fhelp">${f.help}</span></label>`).join("");
+    <span class="fhelp">${f.help}</span></label>`;
+  form.innerHTML = GROUPS.map(([g, title]) => `<fieldset class="fgroup"><legend>${title}</legend>
+    <div class="fgrid">${FIELDS.filter((f) => f.g === g).map(field).join("")}</div></fieldset>`).join("");
   setForm(DEFAULTS);
   form.addEventListener("submit", (e) => {
     if (e.submitter && e.submitter.id === "run-server") {
@@ -115,13 +125,19 @@ function renderPredictor() {
     e.preventDefault();
     runPrediction();
   });
-  form.addEventListener("input", () => { C.preset = null; document.getElementById("preset-note").textContent = ""; });
+  form.addEventListener("input", () => {
+    C.preset = null; document.getElementById("preset-note").textContent = ""; updateMonitor();
+    // A result on screen no longer matches the chart: mark it stale until the models run again.
+    const out = document.getElementById("predict-result");
+    if (out.querySelector(".verdict")) out.classList.add("stale");
+  });
   document.querySelectorAll("[data-preset]").forEach((b) => b.addEventListener("click", () => {
     const want = Number(b.dataset.preset);
     const pool = C.preds.filter((p) => p.actual === want);
     const p = pool[Math.floor(Math.random() * pool.length)];
     setForm(Object.fromEntries(FIELDS.map((f) => [f.k, p[f.k] == null ? "" : p[f.k]])));
     C.preset = p;
+    updateMonitor();
     document.getElementById("preset-note").innerHTML = `Filled from test patient <b>${p.patientid}</b> (actual: ${p.actual ? "heart disease" : "no heart disease"}). The models never saw this patient during training.`;
     runPrediction();
   }));
@@ -132,6 +148,40 @@ function setForm(v) {
   FIELDS.forEach((f) => { form.elements[f.k].value = v[f.k] ?? ""; });
   C.preset = null;
   document.getElementById("preset-note").textContent = "";
+  updateMonitor();
+}
+
+/* ---------------- Bedside monitor: mirrors the form; the ECG runs at the entered heart rate ---------------- */
+function ecgBeat(x0) {
+  return `L${x0 + 10} 60 Q${x0 + 16} 51 ${x0 + 22} 60 L${x0 + 30} 60 L${x0 + 33} 67 L${x0 + 37} 10 L${x0 + 41} 80 ` +
+    `L${x0 + 45} 60 L${x0 + 56} 60 Q${x0 + 64} 44 ${x0 + 72} 60 L${x0 + 100} 60`;
+}
+
+function initMonitor() {
+  const wave = document.getElementById("bs-wave");
+  if (!wave) return;
+  const d = `M0 60 ${[0, 100, 200, 300].map(ecgBeat).join(" ")}`;
+  wave.innerHTML = `<path d="${d}"></path><path d="${d}" transform="translate(400 0)"></path>`;
+}
+
+function updateMonitor() {
+  const form = document.getElementById("predict-form"), mon = document.getElementById("bedside");
+  if (!form || !mon || !form.elements.maxheartrate) return;
+  const val = (k) => form.elements[k].value.trim();
+  const num = (k, lo, hi) => { const n = Number(val(k)); return val(k) !== "" && Number.isFinite(n) && n >= lo && n <= hi ? n : null; };
+  const hr = num("maxheartrate", 60, 220), bp = num("restingBP", 80, 220), chol = num("serumcholestrol", 80, 700),
+    st = num("oldpeak", 0, 7), age = num("age", 18, 100);
+  const set = (id, v) => { document.getElementById(id).textContent = v; };
+  set("bs-hr", hr ?? "--"); set("bs-bp", bp ?? "--"); set("bs-chol", chol ?? "median");
+  set("bs-st", st == null ? "--" : st.toFixed(1)); set("bs-age", age ?? "--");
+  // Four beats scroll past per loop, so one loop lasts 4 x 60 / bpm seconds.
+  const bpm = hr || 72;
+  mon.style.setProperty("--loop", `${(4 * 60) / bpm}s`);
+  mon.style.setProperty("--beat", `${60 / bpm}s`);
+  mon.classList.toggle("flat", hr == null);
+  const sex = form.elements.gender.value === "1" ? "M" : "F";
+  set("bs-id", C.preset ? `Test patient ${C.preset.patientid} · ${age ?? "?"} ${sex}` : `Manual entry · ${age ?? "?"} ${sex}`);
+  document.getElementById("bs-id").classList.toggle("tagged", !!C.preset);
 }
 
 function validate() {
@@ -158,10 +208,13 @@ async function runPrediction() {
     return [f.k, raw === "" ? null : Number(raw)];
   }));
   const out = document.getElementById("predict-result");
+  out.classList.remove("stale");
   out.classList.add("busy");
   try {
     const j = C.mode === "api" ? await predictOnServer(body) : null;
     out.innerHTML = resultHtml(j || ModelRuntime.predict(await modelBundle(), body));
+    // On narrow screens the result sits below the long form, so bring it into view.
+    if (matchMedia("(max-width: 960px)").matches && !C.preset) out.scrollIntoView({ behavior: "smooth", block: "start" });
   } catch (e) {
     const offline = e instanceof TypeError && /fetch/i.test(e.message);
     out.innerHTML = `<div class="error-box">Prediction failed: ${offline
@@ -207,7 +260,7 @@ function resultHtml(j) {
     <div class="uncert"><b>${agree ? "The models agree." : "The models disagree."}</b>
       Mean probability ${pct(j.mean_probability)}, spread ${fmt(j.probability_spread * 100, 1)} points between the lowest and highest model.
       ${agree ? "Agreement only means three models fitted to the same data learned similar patterns; it does not make the result certain." : "Disagreement is a sign this record sits near the models' decision boundary."}
-      ${j.imputed_fields.length ? `<br>Imputed with the training median: ${j.imputed_fields.join(", ")}.` : ""}</div>
+      ${j.imputed_fields.length ? `<br>Not entered, so filled from the training data (median for numbers, most common value for categories): ${j.imputed_fields.join(", ")}.` : ""}</div>
     <p class="disc">${esc(j.disclaimer)}</p>
     ${C.mode === "static" ? `<p class="hint">Computed in your browser from the same three trained models (exported to static-api/models.json), because this site has no Python server.</p>` : ""}`;
 }

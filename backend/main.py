@@ -162,10 +162,11 @@ def data_quality():
 def predict_form(age: int = Form(...), gender: int = Form(...), chestpain: int = Form(...),
                  restingBP: float = Form(...), serumcholestrol: Optional[str] = Form(None),
                  fastingbloodsugar: int = Form(...), restingrelectro: int = Form(...), maxheartrate: float = Form(...),
-                 exerciseangia: int = Form(...), oldpeak: float = Form(...), slope: int = Form(...),
+                 exerciseangia: int = Form(...), oldpeak: float = Form(...), slope: Optional[str] = Form(None),
                  noofmajorvessels: int = Form(...)):
     """Same prediction as /api/predict, submitted as an HTML form and returned as a result page."""
     chol = float(serumcholestrol) if serumcholestrol not in (None, "") else None
+    slope = int(slope) if slope not in (None, "") else None  # not recorded: imputed like cholesterol
     try:
         p = PatientInput(age=age, gender=gender, chestpain=chestpain, restingBP=restingBP, serumcholestrol=chol,
                          fastingbloodsugar=fastingbloodsugar, restingrelectro=restingrelectro,
@@ -181,7 +182,8 @@ def predict_form(age: int = Form(...), gender: int = Form(...), chestpain: int =
     body = (f"<p class='lead'>{r['models_predicting_disease']} of 3 models indicate heart disease at the "
             f"{r['threshold']:.0%} threshold. Mean probability {r['mean_probability'] * 100:.1f}%, spread "
             f"{r['probability_spread'] * 100:.1f} points.</p>{rows}"
-            + (f"<p class='hint'>Imputed (training median): {', '.join(r['imputed_fields'])}</p>" if r["imputed_fields"] else "")
+            + (f"<p class='hint'>Not entered, filled from the training data (median for numbers, most common value for "
+               f"categories): {', '.join(r['imputed_fields'])}</p>" if r["imputed_fields"] else "")
             + f"<p class='disc'>{html.escape(r['disclaimer'])}</p>")
     return HTMLResponse(_page("Cardiovascular model result", body))
 

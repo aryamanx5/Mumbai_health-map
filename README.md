@@ -35,7 +35,7 @@ py -3 -m venv .venv
 ```
 
 * `run_pipeline.py` rebuilds all data, figures and models in about 2 minutes.
-* `pytest` runs 71 tests.
+* `pytest` runs 73 tests.
 
 Then open:
 * <http://localhost:8050/>: the landing page.

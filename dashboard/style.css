@@ -343,3 +343,90 @@ label.inline { display: inline-flex; align-items: center; gap: 8px; color: var(-
 .steps li { margin: 8px 0; }
 #ward-pick { margin: 4px 0 6px; }
 #page-overview .btn-run { margin-top: 6px; }
+
+/* =====================================================================================================
+   Hospital layer: cross mark, clinical-chart form, bedside monitor, wristband, alarm-style verdict.
+   Monitor green is the bedside-monitor trace colour and stays inside the monitor.
+   ===================================================================================================== */
+:root { --monitor: #0b0c0d; --trace: #3ddc84; --trace-soft: #8fb9a1; --cross: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M0 0h32v32H0z M13 6v7H6v6h7v7h6v-7h7v-6h-7V6z' fill-rule='evenodd'/%3E%3C/svg%3E"); }
+
+.brand h1 { display: inline-flex; align-items: center; gap: 12px; }
+.brand h1::before { content: ""; width: .9em; height: .9em; flex: none; background: var(--accent);
+  -webkit-mask: var(--cross) center / contain no-repeat; mask: var(--cross) center / contain no-repeat; }
+
+/* Module labels read like hospital wayfinding signs */
+.module-head .eyebrow { display: inline-block; background: var(--surface-2); color: var(--ink); padding: 7px 12px 6px;
+  border-left: 5px solid var(--accent); border-radius: 2px; letter-spacing: .06em; }
+
+/* ---------- patient chart (the form) ---------- */
+.pform { display: flex; flex-direction: column; gap: 14px; }
+.fgroup { border: 0; margin: 0; padding: 14px 16px 16px; background: var(--bg); border-radius: 6px; min-width: 0; }
+.fgroup legend { float: left; width: 100%; padding: 0 0 10px; font: 700 18px/1 var(--display); text-transform: uppercase;
+  letter-spacing: .03em; color: var(--ink); display: flex; align-items: center; gap: 8px; }
+.fgroup legend::before { content: ""; width: 14px; height: 14px; background: var(--accent);
+  -webkit-mask: var(--cross) center / contain no-repeat; mask: var(--cross) center / contain no-repeat; }
+.fgrid { clear: both; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 18px; }
+.fgroup .pform input, .fgroup input, .fgroup select { background: var(--surface-2); }
+
+/* ---------- bedside monitor ---------- */
+.bedside { --loop: 1.6s; --beat: .4s; background: var(--monitor); border-radius: 12px; padding: 14px 16px 16px; margin-bottom: 18px; color: #d7f5e3; }
+.bs-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.bs-title { font: 700 18px/1 var(--display); text-transform: uppercase; color: var(--trace); letter-spacing: .03em; }
+.bs-title::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--trace);
+  margin-right: 8px; vertical-align: 1px; animation: bs-blink 1.1s steps(2, start) infinite; }
+@keyframes bs-blink { to { visibility: hidden; } }
+.bs-id { font: 600 13px/1 var(--text); color: var(--trace-soft); background: #141917; padding: 7px 12px; border-radius: 999px; }
+.bs-id.tagged { background: #f2f3f4; color: #18191b; padding-left: 26px; position: relative; }
+.bs-id.tagged::before { content: ""; position: absolute; left: 10px; top: 50%; width: 9px; height: 9px; margin-top: -4.5px;
+  border-radius: 50%; background: var(--accent); }
+.bs-main { display: grid; grid-template-columns: 1fr 150px; gap: 14px; align-items: center; }
+.bs-ecg { height: 96px; overflow: hidden; border-radius: 4px; background: #0e1311; }
+.bs-ecg svg { width: 100%; height: 100%; display: block; }
+.bs-wave path { fill: none; stroke: var(--trace); stroke-width: 2.2; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.bs-wave { animation: bs-scroll var(--loop) linear infinite; }
+@keyframes bs-scroll { to { transform: translateX(-400px); } }
+.bedside.flat .bs-wave { animation: none; }
+.bs-hr { display: flex; flex-direction: column; gap: 2px; }
+.bs-lbl { font: 700 14px/1 var(--display); text-transform: uppercase; color: var(--trace-soft); letter-spacing: .04em; }
+.bs-heart { color: var(--trace); display: inline-block; animation: bs-pulse var(--beat) ease-out infinite; }
+@keyframes bs-pulse { 0% { transform: scale(1.35); } 40%, 100% { transform: scale(1); } }
+.bs-big { font: 700 64px/0.95 var(--display); color: var(--trace); font-variant-numeric: tabular-nums; }
+.bs-unit { font-size: 12px; color: var(--trace-soft); }
+.bs-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
+.bs-row > div { display: flex; flex-direction: column; gap: 2px; background: #121614; border-radius: 6px; padding: 8px 10px; }
+.bs-val { font: 700 30px/1 var(--display); color: #f2f3f4; font-variant-numeric: tabular-nums; }
+.bs-row > div:nth-child(1) .bs-val { color: #ffb37a; }
+.bs-row > div:nth-child(2) .bs-val { color: #f2d36b; }
+.bs-row > div:nth-child(3) .bs-val { color: #7fc8ff; }
+
+/* ---------- results: an alarm-style strip, channels like monitor rows ---------- */
+.verdict { padding: 10px 14px; border-radius: 6px; background: var(--surface-2); }
+.verdict.pos { background: rgba(230, 103, 103, .16); box-shadow: inset 5px 0 0 var(--red); }
+.verdict.neg { background: rgba(57, 135, 229, .14); box-shadow: inset 5px 0 0 var(--blue); }
+.verdict.pos .badge::before { content: "! "; }
+.mres { background: #1d1f22; }
+.mres-row .big { color: var(--ink); }
+.presult .mres { animation: rise .45s var(--ease-out) both; }
+.presult .mres:nth-of-type(2) { animation-delay: .06s; } .presult .mres:nth-of-type(3) { animation-delay: .12s; }
+
+@media (max-width: 560px) {
+  .fgrid { grid-template-columns: 1fr; }
+  .bs-main { grid-template-columns: 1fr; }
+  .bs-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bs-big { font-size: 52px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bs-wave, .bs-heart, .bs-title::before { animation: none !important; }
+}
+
+/* A result that no longer matches the entered values */
+.presult.stale { opacity: .45; position: relative; }
+.presult.stale::before { content: "Values changed. Run the models again to update this result."; display: block;
+  background: var(--surface-2); color: var(--ink); font: 600 14px/1.3 var(--text); padding: 10px 12px; border-radius: 6px;
+  border-left: 4px solid var(--accent); margin-bottom: 10px; }
+
+/* Overview: the predictor card carries a small running ECG in the card's ink colour */
+.mcard.cta .cta-ecg { width: 100%; height: 46px; margin-top: auto; padding-top: 10px; overflow: hidden; }
+.mcard.cta .cta-ecg .bs-wave { animation: bs-scroll 2.4s linear infinite; }
+.mcard.cta .cta-ecg path { fill: none; stroke: var(--accent-ink); stroke-width: 2.2; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+@media (prefers-reduced-motion: reduce) { .mcard.cta .cta-ecg .bs-wave { animation: none !important; } }

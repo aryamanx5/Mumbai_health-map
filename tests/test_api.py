@@ -29,6 +29,18 @@ def test_predict_unknown_cholesterol_is_imputed():
     assert j["imputed_fields"] == ["serumcholestrol"]
 
 
+def test_predict_unrecorded_slope_is_imputed():
+    """18% of the dataset has no slope (raw code 0); the API accepts it as missing, as for cholesterol."""
+    j = client.post("/api/predict", json={**PATIENT, "slope": None}).json()
+    assert j["imputed_fields"] == ["slope"] and len(j["predictions"]) == 3
+
+
+def test_server_form_accepts_unrecorded_slope():
+    form = {k: str(v) for k, v in PATIENT.items()} | {"slope": ""}
+    r = client.post("/predict", data=form)
+    assert r.status_code == 200 and "categories): slope" in r.text
+
+
 @pytest.mark.parametrize("field,value", [("age", 5), ("slope", 0), ("restingBP", 400), ("gender", 2)])
 def test_predict_rejects_invalid(field, value):
     assert client.post("/api/predict", json={**PATIENT, field: value}).status_code == 422

@@ -16,7 +16,7 @@ class PatientInput(BaseModel):
     maxheartrate: float = Field(..., ge=60, le=220, description="Maximum heart rate achieved, bpm")
     exerciseangia: Literal[0, 1] = Field(..., description="1 if exercise-induced angina")
     oldpeak: float = Field(..., ge=0, le=7, description="ST depression induced by exercise relative to rest")
-    slope: Literal[1, 2, 3] = Field(..., description="Slope of peak exercise ST segment: 1 up, 2 flat, 3 down")
+    slope: Optional[Literal[1, 2, 3]] = Field(None, description="Slope of peak exercise ST segment: 1 up, 2 flat, 3 down. Leave empty if not recorded (18% of the dataset): the training value is imputed")
     noofmajorvessels: Literal[0, 1, 2, 3] = Field(..., description="Major vessels coloured by fluoroscopy")
 
     model_config = {"json_schema_extra": {"example": {

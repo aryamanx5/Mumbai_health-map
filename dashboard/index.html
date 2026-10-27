@@ -7,7 +7,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=10">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23ff4a1f'/%3E%3Cpath d='M13 6h6v7h7v6h-7v7h-6v-7H6v-6h7z' fill='%2318191b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css?v=13">
 </head>
 <body>
 <div class="accent-bar"></div>
@@ -79,6 +80,20 @@
         <p class="hint err-text" id="form-error" role="alert"></p>
       </article>
       <article class="card" aria-live="polite">
+        <div class="bedside" id="bedside" data-ui role="group" aria-label="Bedside monitor showing the values entered in the form">
+          <div class="bs-top"><span class="bs-title">Bedside monitor</span><span class="bs-id" id="bs-id">Manual entry</span></div>
+          <div class="bs-main">
+            <div class="bs-ecg"><svg viewBox="0 0 400 90" preserveAspectRatio="none" aria-hidden="true"><g class="bs-wave" id="bs-wave"></g></svg></div>
+            <div class="bs-hr"><span class="bs-lbl"><span class="bs-heart" aria-hidden="true">♥</span> HR max</span>
+              <span class="bs-big" id="bs-hr">150</span><span class="bs-unit">bpm, exercise test</span></div>
+          </div>
+          <div class="bs-row">
+            <div><span class="bs-lbl">BP</span><span class="bs-val" id="bs-bp">130</span><span class="bs-unit">mmHg resting</span></div>
+            <div><span class="bs-lbl">Chol</span><span class="bs-val" id="bs-chol">median</span><span class="bs-unit">mg/dl</span></div>
+            <div><span class="bs-lbl">ST dep.</span><span class="bs-val" id="bs-st">1.0</span><span class="bs-unit">mm</span></div>
+            <div><span class="bs-lbl">Age</span><span class="bs-val" id="bs-age">50</span><span class="bs-unit">years</span></div>
+          </div>
+        </div>
         <span class="eyebrow">Live model assessment</span>
         <div id="predict-result" class="presult"><div class="empty">Enter the values, or pick a preset, and run the models.
           Each model returns the probability that this record belongs to the "heart disease" class.</div></div>
@@ -136,6 +151,6 @@
 <script src="powerbi-config.js?v=2"></script>
 <script src="app.js?v=11"></script>
 <script src="model-runtime.js?v=1"></script>
-<script src="clinical.js?v=5"></script>
+<script src="clinical.js?v=9"></script>
 </body>
 </html>
