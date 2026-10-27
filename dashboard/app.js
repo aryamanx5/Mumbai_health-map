@@ -185,4 +185,7 @@ document.getElementById("drawer-close").addEventListener("click", closeWard);
 document.getElementById("scrim").addEventListener("click", closeWard);
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeWard(); });
 
-init();
+// Start once every script has run: init() calls initExtra() from clinical.js, which loads after this file.
+// Starting immediately raced clinical.js when the data arrived first ("initExtra is not defined").
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+else init();

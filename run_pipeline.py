@@ -10,7 +10,7 @@ import json
 import time
 
 from src import (boundary_check, build_data, clinical_pipeline, exploratory_analysis, export_reporting,
-                 model_evaluation, powerbi_data, powerbi_project)
+                 model_evaluation, powerbi_data, powerbi_project, static_api)
 
 
 def main():
@@ -31,6 +31,7 @@ def main():
     clin = clinical_pipeline.run()
     print("[clinical] test ROC-AUC " + ", ".join(f"{m['short']} {m['test']['roc_auc']}" for m in clin["models"].values()))
     print(f"[powerbi] tables {json.dumps(powerbi_data.run())}; project: {powerbi_project.build()}")
+    print(f"[static api] files for hosts without the backend (GitHub Pages): {static_api.build()}")
     print(f"done in {time.time() - t0:.0f}s")
 
 

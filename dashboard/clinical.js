@@ -1,18 +1,38 @@
 /* Added: the model cards on the overview, the heart risk predictor and the hospitals list in the ward panel.
    Uses the helpers in app.js (S, fmt, esc, showPage, openWard, ...). Model results come from the FastAPI backend
-   (/api); the hospital list is read from the pipeline's files directly. Charts are in the Power BI report. */
+   (/api) when it is running. On a static host such as GitHub Pages there is no backend, so the same data is read
+   from static-api/ (written by src/static_api.py) and the three models run in the browser via model-runtime.js.
+   The hospital list is read from the pipeline's files directly. Charts are in the Power BI report. */
 "use strict";
 
 const API = "/api";
 const MODEL_KEYS = ["logistic_regression", "random_forest", "ann"];
 const MODEL_COLOR = { logistic_regression: SERIES[0], random_forest: SERIES[1], ann: SERIES[2] };
-const C = { overview: null, preds: [], hospitals: [], apiError: null };
+// GitHub Pages never has the backend, so skip probing it there (avoids 404s in the console).
+const C = { overview: null, preds: [], hospitals: [], apiError: null, bundle: null,
+  mode: location.hostname.endsWith("github.io") ? "static" : "api" };
+// Static copies of the GET endpoints the page uses, for hosts without the backend.
+const STATIC = { "/overview": "static-api/overview.json", "/clinical/test-predictions?limit=1000": "static-api/test-predictions.json" };
 const pct = (v, d = 1) => (v == null ? "–" : `${fmt(v * 100, d)}%`);
 
-async function getJson(path) {
-  const r = await fetch(API + path);
-  if (!r.ok) throw new Error(`${API}${path}: HTTP ${r.status}${r.status === 503 ? " (pipeline outputs missing)" : ""}`);
+async function fetchJson(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${url}: HTTP ${r.status}${r.status === 503 ? " (pipeline outputs missing)" : ""}`);
   return r.json();
+}
+
+// Backend first; if it is not there (404 on GitHub Pages, or no server), use the static copy.
+async function getJson(path) {
+  if (C.mode === "api") {
+    try { return await fetchJson(API + path); } catch (e) { C.mode = "static"; console.info(`No backend (${e.message}); using static files.`); }
+  }
+  if (!STATIC[path]) throw new Error(`${path} needs the FastAPI backend`);
+  return fetchJson(STATIC[path]);
+}
+
+async function modelBundle() {
+  if (!C.bundle) C.bundle = await fetchJson("static-api/models.json");
+  return C.bundle;
 }
 
 async function initExtra() {
@@ -28,6 +48,11 @@ async function initExtra() {
     console.error(e);
   }
   if (C.apiError) { showApiError(); return; }
+  if (C.mode === "static") {
+    // No server to post the plain HTML form to; the in-browser models replace it.
+    const srv = document.getElementById("run-server");
+    if (srv) srv.hidden = true;
+  }
   renderOverviewModels();
   renderPredictor();
 }
@@ -133,13 +158,23 @@ async function runPrediction() {
   const out = document.getElementById("predict-result");
   out.classList.add("busy");
   try {
-    const r = await fetch(`${API}/predict`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
-    const j = await r.json();
-    if (!r.ok) throw new Error(Array.isArray(j.detail) ? j.detail.map((d) => `${d.loc.at(-1)}: ${d.msg}`).join("; ") : j.detail);
-    out.innerHTML = resultHtml(j);
+    const j = C.mode === "api" ? await predictOnServer(body) : null;
+    out.innerHTML = resultHtml(j || ModelRuntime.predict(await modelBundle(), body));
   } catch (e) {
     out.innerHTML = `<div class="error-box">Prediction failed: ${esc(e.message)}</div>`;
   } finally { out.classList.remove("busy"); }
+}
+
+// Returns null when there is no backend to answer, so the caller can run the models in the browser instead.
+async function predictOnServer(body) {
+  let r;
+  try {
+    r = await fetch(`${API}/predict`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  } catch (e) { C.mode = "static"; return null; }
+  if ([404, 405, 501].includes(r.status)) { C.mode = "static"; return null; }
+  const j = await r.json();
+  if (!r.ok) throw new Error(Array.isArray(j.detail) ? j.detail.map((d) => `${d.loc.at(-1)}: ${d.msg}`).join("; ") : j.detail);
+  return j;
 }
 
 function resultHtml(j) {
@@ -161,7 +196,8 @@ function resultHtml(j) {
       Mean probability ${pct(j.mean_probability)}, spread ${fmt(j.probability_spread * 100, 1)} points between the lowest and highest model.
       ${agree ? "Agreement only means three models fitted to the same data learned similar patterns; it does not make the result certain." : "Disagreement is a sign this record sits near the models' decision boundary."}
       ${j.imputed_fields.length ? `<br>Imputed with the training median: ${j.imputed_fields.join(", ")}.` : ""}</div>
-    <p class="disc">${esc(j.disclaimer)}</p>`;
+    <p class="disc">${esc(j.disclaimer)}</p>
+    ${C.mode === "static" ? `<p class="hint">Computed in your browser from the same three trained models (exported to static-api/models.json), because this site has no Python server.</p>` : ""}`;
 }
 
 /* ---------------- Hospitals list (ward panel) ---------------- */

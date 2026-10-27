@@ -35,7 +35,7 @@ py -3 -m venv .venv
 ```
 
 * `run_pipeline.py` rebuilds all data, figures and models in about 2 minutes.
-* `pytest` runs 68 tests.
+* `pytest` runs 71 tests.
 
 Then open:
 * <http://localhost:8050/>: the landing page.
@@ -76,8 +76,11 @@ into the web app, see **[powerbi/POWERBI_GUIDE.md](powerbi/POWERBI_GUIDE.md)**.
 
 The models load once from `models/` and are never retrained per request.
 
-The old static-only mode (`python -m http.server 8050`) still serves the landing page and the dashboard overview. The
-predictor needs the FastAPI server.
+Static hosting also works, for example GitHub Pages or `python -m http.server 8050`. With no backend, the dashboard
+reads `dashboard/static-api/` and runs the same three trained models in the browser (`dashboard/model-runtime.js`), so
+the model cards and the predictor still work. Only the "Submit as server form" button and `/api/docs` need the FastAPI
+server. `src/static_api.py` writes those files at the end of `run_pipeline.py`, and `tests/test_static_api.py` checks
+that the browser probabilities match sklearn.
 
 ## Results (held-out test set, 200 patients)
 
