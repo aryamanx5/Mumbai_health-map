@@ -101,7 +101,7 @@ so only use it if you have not edited the report by hand.
 | Path | What it is |
 |---|---|
 | `MumbaiHealth.pbip` | Open this in Power BI Desktop |
-| `MumbaiHealth.SemanticModel/` | The data model in TMDL: 15 tables, 11 relationships, 35 DAX measures, and the `DataFolder` parameter |
+| `MumbaiHealth.SemanticModel/` | The data model in TMDL: 15 tables, 11 relationships, 36 DAX measures, and the `DataFolder` parameter |
 | `MumbaiHealth.Report/` | The five pages, in the PBIR format. Theme: `StaticResources/RegisteredResources/MumbaiHealthTheme.json` |
 | `data/*.csv` | The tables the report loads, written by `run_pipeline.py` |
 | `measures.dax` | All measures as text, for reading or copying |

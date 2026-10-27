@@ -55,11 +55,11 @@
                       "Entity": "model_metric"
                     }
                   },
-                  "Property": "CV Metric"
+                  "Property": "CV ROC-AUC"
                 }
               },
-              "queryRef": "model_metric.CV Metric",
-              "nativeQueryRef": "CV Metric"
+              "queryRef": "model_metric.CV ROC-AUC",
+              "nativeQueryRef": "CV ROC-AUC"
             }
           ]
         }
@@ -180,7 +180,7 @@
             }
           },
           "selector": {
-            "metadata": "model_metric.CV Metric"
+            "metadata": "model_metric.CV ROC-AUC"
           }
         }
       ]

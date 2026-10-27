@@ -74,6 +74,9 @@ Test Accuracy = CALCULATE ( [Test Metric], model_metric[metric] = "Accuracy" )
 Test ROC-AUC = CALCULATE ( [Test Metric], model_metric[metric] = "ROC-AUC" )
 
 // model_metric   format: 0.000
+CV ROC-AUC = CALCULATE ( [CV Metric], model_metric[metric] = "ROC-AUC" )
+
+// model_metric   format: 0.000
 Test F1 = CALCULATE ( [Test Metric], model_metric[metric] = "F1" )
 
 // model_metric   format: 0.0%
@@ -84,8 +87,7 @@ Best Test ROC-AUC = CALCULATE ( MAX ( model_metric[value] ), model_metric[set] =
 
 // model_metric
 Best Model = VAR scores = FILTER ( ALL ( model_metric ), model_metric[set] = "Test" && model_metric[metric] = "ROC-AUC" )
-VAR top = MAXX ( scores, model_metric[value] )
-RETURN MAXX ( FILTER ( scores, model_metric[value] = top ), model_metric[model] )
+RETURN CONCATENATEX ( TOPN ( 1, scores, model_metric[value], DESC ), model_metric[model], ", " )
 
 // model_confusion   format: #,0
 Confusion Patients = SUM ( model_confusion[patients] )

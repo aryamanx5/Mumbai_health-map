@@ -101,6 +101,8 @@ MEASURES = [
      "0.000"),
     ("model_metric", "Test Accuracy", "CALCULATE ( [Test Metric], model_metric[metric] = \"Accuracy\" )", "0.0%"),
     ("model_metric", "Test ROC-AUC", "CALCULATE ( [Test Metric], model_metric[metric] = \"ROC-AUC\" )", "0.000"),
+    # CV Metric alone averages every CV metric; the test-vs-CV chart needs ROC-AUC only.
+    ("model_metric", "CV ROC-AUC", "CALCULATE ( [CV Metric], model_metric[metric] = \"ROC-AUC\" )", "0.000"),
     ("model_metric", "Test F1", "CALCULATE ( [Test Metric], model_metric[metric] = \"F1\" )", "0.000"),
     ("model_metric", "Test Recall", "CALCULATE ( [Test Metric], model_metric[metric] = \"Recall\" )", "0.0%"),
     ("model_metric", "Best Test ROC-AUC",
@@ -108,8 +110,7 @@ MEASURES = [
      "0.000"),
     ("model_metric", "Best Model",
      "\nVAR scores = FILTER ( ALL ( model_metric ), model_metric[set] = \"Test\" && model_metric[metric] = \"ROC-AUC\" )"
-     "\nVAR top = MAXX ( scores, model_metric[value] )"
-     "\nRETURN MAXX ( FILTER ( scores, model_metric[value] = top ), model_metric[model] )", None),
+     "\nRETURN CONCATENATEX ( TOPN ( 1, scores, model_metric[value], DESC ), model_metric[model], \", \" )", None),
     ("model_confusion", "Confusion Patients", "SUM ( model_confusion[patients] )", "#,0"),
     ("model_roc", "True Positive Rate", "MAX ( model_roc[tpr] )", "0.00"),
     ("model_importance", "Permutation Importance", "AVERAGE ( model_importance[importance] )", "0.000"),
@@ -390,11 +391,15 @@ def chart(page, vtype, x, y, w, h, title, category, values, series=None, sort=No
 
 
 def table(page, vtype, x, y, w, h, title, roles):
-    return page.add(vtype, x, y, w, h, roles=roles, title=title, objects={
+    objects = {
         "columnHeaders": [_props(fontColor=_color("#FFFFFF"), backColor=_color(page.accent), fontSize=_num(10),
-                                 bold=_lit(True))],
+                                 bold=_lit(True), wordWrap=_lit(True))],
         "values": [_props(fontSize=_num(9))],
-        "grid": [_props(gridVertical=_lit(False), rowPadding=_num(3))]})
+        "grid": [_props(gridVertical=_lit(False), rowPadding=_num(3))]}
+    if vtype == "pivotTable":  # a "Total" across models or metrics is meaningless; wrap long model names to fit
+        objects["subTotals"] = [_props(rowSubtotals=_lit(False), columnSubtotals=_lit(False))]
+        objects["rowHeaders"] = [_props(fontSize=_num(9), wordWrap=_lit(True))]
+    return page.add(vtype, x, y, w, h, roles=roles, title=title, objects=objects)
 
 
 # ---------------------------------------------------------------- report pages --------------------------------------
@@ -492,7 +497,7 @@ def build_pages(facts):
           extra_objects={"categoryAxis": [_props(axisType=_lit("Scalar"), showAxisTitle=_lit(True),
                                                  titleText=_lit("False positive rate"), fontSize=_num(9))]})
     chart(p, "clusteredColumnChart", X0 + third + 12, 352, third, 352, "Test vs 5-fold CV ROC-AUC",
-          [col("dim_model", "model")], [meas(M, "Test ROC-AUC"), meas(M, "CV Metric")], labels=True,
+          [col("dim_model", "model")], [meas(M, "Test ROC-AUC"), meas(M, "CV ROC-AUC")], labels=True,
           measure_colors=[HEART, SKY], extra_objects={"legend": [_props(show=_lit(True), position=_lit("Top"))]})
     chart(p, "clusteredBarChart", X0 + 2 * (third + 12), 352, third, 352,
           "Permutation importance (drop in ROC-AUC)", [col("model_importance", "feature")],

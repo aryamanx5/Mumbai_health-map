@@ -17,6 +17,10 @@ table model_metric
 		formatString: 0.000
 		lineageTag: a83a71f5-ce3f-53df-87dd-d0af5830ae91
 
+	measure 'CV ROC-AUC' = CALCULATE ( [CV Metric], model_metric[metric] = "ROC-AUC" )
+		formatString: 0.000
+		lineageTag: 66a0b524-607b-51c4-92a2-3aa1355bb5cc
+
 	measure 'Test F1' = CALCULATE ( [Test Metric], model_metric[metric] = "F1" )
 		formatString: 0.000
 		lineageTag: 4cab4368-b236-5a6a-85fa-77f73411eaec
@@ -31,8 +35,7 @@ table model_metric
 
 	measure 'Best Model' =
 			VAR scores = FILTER ( ALL ( model_metric ), model_metric[set] = "Test" && model_metric[metric] = "ROC-AUC" )
-			VAR top = MAXX ( scores, model_metric[value] )
-			RETURN MAXX ( FILTER ( scores, model_metric[value] = top ), model_metric[model] )
+			RETURN CONCATENATEX ( TOPN ( 1, scores, model_metric[value], DESC ), model_metric[model], ", " )
 		lineageTag: 84975050-8261-5f8f-9c9b-f15478500037
 
 	column model

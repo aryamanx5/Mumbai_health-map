@@ -21,7 +21,7 @@ _Last updated: 2026-10-20_
 | Cardiovascular models | LR / RF / ANN on the Doppala & Bhattacharyya (2021) Indian dataset; test ROC-AUC 0.968 / 0.992 / 0.986; see `docs/ml_methodology.md` |
 | FastAPI backend | `backend/`; serves the site, `/api/*` and Swagger at `/api/docs` |
 | Dashboard | Overview (KPIs, model cards, ward lookup), Heart risk predictor, Power BI dashboard (embedded report). Charts and the map moved to Power BI |
-| Power BI report | `powerbi/MumbaiHealth.pbip`: 5 pages, 101 visuals, own navy/heart-red/teal theme, 15 tables, 35 measures. Passes Microsoft's TMDL parser and PBIR schemas; not yet opened in Desktop |
+| Power BI report | `powerbi/MumbaiHealth.pbip`: 5 pages, 101 visuals, own navy/heart-red/teal theme, 15 tables, 36 measures. Passes Microsoft's TMDL parser and PBIR schemas; not yet opened in Desktop |
 | Boundary cross-check | OpenCity wards vs `BMC_admin_wards.geojson`: median IoU 0.986 |
 
 ## Blockers and gaps
