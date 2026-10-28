@@ -56,6 +56,7 @@ async function initExtra() {
   }
   if (C.apiError) { showApiError(); return; }
   if (C.mode === "static") {
+    hideApiDocs();
     // No server to post the plain HTML form to; the in-browser models replace it.
     const srv = document.getElementById("run-server");
     if (srv) srv.hidden = true;
@@ -232,8 +233,12 @@ async function runPrediction() {
 }
 
 // The server went away (or never existed): run the models in the browser and hide the server-only form button.
+// The FastAPI docs page only exists when the Python server runs, so hide every link to it otherwise.
+function hideApiDocs() { document.querySelectorAll('a[href="/api/docs"]').forEach((a) => { a.hidden = true; }); }
+
 function goStatic() {
   C.mode = "static";
+  hideApiDocs();
   const srv = document.getElementById("run-server");
   if (srv) srv.hidden = true;
 }

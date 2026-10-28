@@ -267,3 +267,8 @@ fetch("dashboard/static-api/overview.json").then((r) => (r.ok ? r.json() : Promi
   $("#report-plain").textContent = `In plain words: tested on ${o.clinical.test} new patients, ${right[0].replace(/ (\d+)$/, " got $1 right")}, ` +
     `${right.slice(1).join(" and ")}.`;
 }).catch(() => { /* the static table in the page stays */ });
+
+/* The API docs link only works with the Python server; on a static host (GitHub Pages) it would be a 404. */
+if (location.hostname.endsWith("github.io")) {
+  document.querySelectorAll('a[href="/api/docs"]').forEach((a) => { (a.closest("li") || a).hidden = true; });
+}
